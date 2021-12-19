@@ -1,0 +1,166 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 61BF0603
+P 3000 3200
+F 0 "R?" V 2900 3200 50  0000 C CNN
+F 1 "10m" V 3000 3200 50  0000 C CNN
+F 2 "" V 2930 3200 50  0001 C CNN
+F 3 "~" H 3000 3200 50  0001 C CNN
+	1    3000 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 2500 3300 2500
+Wire Wire Line
+	2850 3200 2800 3200
+Wire Wire Line
+	3150 3200 3300 3200
+$Comp
+L Device:R R?
+U 1 1 61BF0C42
+P 3300 2650
+F 0 "R?" H 3350 2650 50  0000 L CNN
+F 1 "83K" V 3300 2550 50  0000 L CNN
+F 2 "" V 3230 2650 50  0001 C CNN
+F 3 "~" H 3300 2650 50  0001 C CNN
+	1    3300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61BF13FC
+P 3300 3050
+F 0 "R?" H 3350 3050 50  0000 L CNN
+F 1 "10K" V 3300 2950 50  0000 L CNN
+F 2 "" V 3230 3050 50  0001 C CNN
+F 3 "~" H 3300 3050 50  0001 C CNN
+	1    3300 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2900 3300 2850
+Wire Wire Line
+	3550 2900 3550 2850
+Wire Wire Line
+	3550 2850 3300 2850
+Connection ~ 3300 2850
+Wire Wire Line
+	3300 2850 3300 2800
+Wire Wire Line
+	3300 3200 3550 3200
+Connection ~ 3300 3200
+$Comp
+L Device:D_Zener D?
+U 1 1 61BF1B46
+P 3550 3050
+F 0 "D?" V 3504 3130 50  0000 L CNN
+F 1 "3v3 Zener" V 3595 3130 50  0000 L CNN
+F 2 "" H 3550 3050 50  0001 C CNN
+F 3 "~" H 3550 3050 50  0001 C CNN
+	1    3550 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61BF2764
+P 3300 3200
+F 0 "#PWR?" H 3300 2950 50  0001 C CNN
+F 1 "GND" H 3305 3027 50  0000 C CNN
+F 2 "" H 3300 3200 50  0001 C CNN
+F 3 "" H 3300 3200 50  0001 C CNN
+	1    3300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 61BF2EBA
+P 4150 2500
+F 0 "L?" V 4340 2500 50  0000 C CNN
+F 1 "L" V 4249 2500 50  0000 C CNN
+F 2 "" H 4150 2500 50  0001 C CNN
+F 3 "~" H 4150 2500 50  0001 C CNN
+	1    4150 2500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3300 2500
+$Comp
+L Transistor_FET:IRF8301M Q?
+U 1 1 61BF4723
+P 4350 2850
+F 0 "Q?" H 4554 2896 50  0000 L CNN
+F 1 "IRF8301M" H 4554 2805 50  0000 L CNN
+F 2 "Package_DirectFET:DirectFET_MT" H 4350 2850 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/irf8301mpbf.pdf?fileId=5546d462533600a40153560d0e7a1d58" H 4350 2850 50  0001 L CNN
+	1    4350 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2650 4450 2500
+Wire Wire Line
+	3300 2500 4000 2500
+Wire Wire Line
+	4300 2500 4450 2500
+Wire Wire Line
+	4450 3050 4450 3200
+Wire Wire Line
+	4450 3200 3550 3200
+Connection ~ 3550 3200
+$Comp
+L Device:D_Schottky D?
+U 1 1 61BF5CFA
+P 4700 2500
+F 0 "D?" H 4700 2283 50  0000 C CNN
+F 1 "D_Schottky" H 4700 2374 50  0000 C CNN
+F 2 "" H 4700 2500 50  0001 C CNN
+F 3 "~" H 4700 2500 50  0001 C CNN
+	1    4700 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 2500 4550 2500
+Connection ~ 4450 2500
+$Comp
+L Device:C C?
+U 1 1 61BF639D
+P 5050 2850
+F 0 "C?" H 5165 2896 50  0000 L CNN
+F 1 "C" H 5165 2805 50  0000 L CNN
+F 2 "" H 5088 2700 50  0001 C CNN
+F 3 "~" H 5050 2850 50  0001 C CNN
+	1    5050 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2700 5050 2500
+Wire Wire Line
+	5050 2500 4850 2500
+Wire Wire Line
+	4450 3200 5050 3200
+Wire Wire Line
+	5050 3200 5050 3000
+Connection ~ 4450 3200
+Wire Wire Line
+	5050 2500 5400 2500
+Connection ~ 5050 2500
+Text HLabel 5400 2500 2    50   Input ~ 0
+VOUT
+Text HLabel 2800 2500 0    50   Input ~ 0
+VIN
+Text HLabel 2800 3200 0    50   Input ~ 0
+RETURN
+$EndSCHEMATC
