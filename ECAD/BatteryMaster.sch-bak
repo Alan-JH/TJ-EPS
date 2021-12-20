@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 8
 Title ""
 Date ""
 Rev ""
@@ -14,15 +14,245 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 650  1200 2850 1250
+S 5100 1250 2850 1250
 U 61BCA83D
 F0 "Bat1" 50
 F1 "Cell.sch" 50
 $EndSheet
 $Sheet
-S 650  2800 2850 1250
+S 5100 2850 2850 1250
 U 61BCA8D8
 F0 "Bat2" 50
 F1 "Cell.sch" 50
 $EndSheet
+$Comp
+L Connector_Generic:Conn_02x26_Odd_Even H?
+U 1 1 61C08403
+P 1150 2600
+F 0 "H?" H 1200 4017 50  0000 C CNN
+F 1 "Stack Header 2" H 1200 3926 50  0000 C CNN
+F 2 "" H 1150 2600 50  0001 C CNN
+F 3 "~" H 1150 2600 50  0001 C CNN
+	1    1150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x26_Odd_Even H?
+U 1 1 61C08409
+P 2300 2600
+F 0 "H?" H 2350 4017 50  0000 C CNN
+F 1 "Stack Header 1" H 2350 3926 50  0000 C CNN
+F 2 "" H 2300 2600 50  0001 C CNN
+F 3 "~" H 2300 2600 50  0001 C CNN
+	1    2300 2600
+	1    0    0    -1  
+$EndComp
+Text Label 950  3400 2    50   ~ 0
+SDA
+Text Label 950  3500 2    50   ~ 0
+SCL
+Text GLabel 1450 2900 2    50   Input ~ 0
+VUSB
+Text GLabel 2100 1900 0    50   Input ~ 0
+SW3
+Text GLabel 2100 2000 0    50   Input ~ 0
+SW5
+Text GLabel 2100 2100 0    50   Input ~ 0
+SW6
+Text GLabel 2600 2100 2    50   Input ~ 0
+SW7
+Text GLabel 2600 1900 2    50   Input ~ 0
+SW4
+Text GLabel 2600 1700 2    50   Input ~ 0
+SW1
+Text GLabel 2600 1800 2    50   Input ~ 0
+SW2
+Text GLabel 2600 2200 2    50   Input ~ 0
+SW8
+Text GLabel 2100 2300 0    50   Input ~ 0
+SW9
+Text GLabel 2600 2300 2    50   Input ~ 0
+SW10
+$Comp
+L power:+12V #PWR?
+U 1 1 61C0841C
+P 2600 2500
+F 0 "#PWR?" H 2600 2350 50  0001 C CNN
+F 1 "+12V" V 2615 2628 50  0000 L CNN
+F 2 "" H 2600 2500 50  0001 C CNN
+F 3 "" H 2600 2500 50  0001 C CNN
+	1    2600 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 61C08422
+P 2100 2500
+F 0 "#PWR?" H 2100 2350 50  0001 C CNN
+F 1 "+12V" V 2115 2628 50  0000 L CNN
+F 2 "" H 2100 2500 50  0001 C CNN
+F 3 "" H 2100 2500 50  0001 C CNN
+	1    2100 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61C08428
+P 2100 2600
+F 0 "#PWR?" H 2100 2450 50  0001 C CNN
+F 1 "+5V" V 2115 2728 50  0000 L CNN
+F 2 "" H 2100 2600 50  0001 C CNN
+F 3 "" H 2100 2600 50  0001 C CNN
+	1    2100 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61C0842E
+P 2600 2600
+F 0 "#PWR?" H 2600 2450 50  0001 C CNN
+F 1 "+5V" V 2615 2728 50  0000 L CNN
+F 2 "" H 2600 2600 50  0001 C CNN
+F 3 "" H 2600 2600 50  0001 C CNN
+	1    2600 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61C08434
+P 2100 2700
+F 0 "#PWR?" H 2100 2550 50  0001 C CNN
+F 1 "+3V3" V 2115 2828 50  0000 L CNN
+F 2 "" H 2100 2700 50  0001 C CNN
+F 3 "" H 2100 2700 50  0001 C CNN
+	1    2100 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61C0843A
+P 2600 2700
+F 0 "#PWR?" H 2600 2550 50  0001 C CNN
+F 1 "+3V3" V 2615 2828 50  0000 L CNN
+F 2 "" H 2600 2700 50  0001 C CNN
+F 3 "" H 2600 2700 50  0001 C CNN
+	1    2600 2700
+	0    1    1    0   
+$EndComp
+Text GLabel 2600 3100 2    50   Input ~ 0
+PCM_IN
+Text GLabel 2100 3100 0    50   Input ~ 0
+PCM_IN
+Text GLabel 2600 3400 2    50   Input ~ 0
+BCR_OUT
+Text GLabel 2100 3400 0    50   Input ~ 0
+BCR_OUT
+Text GLabel 2600 3500 2    50   Input ~ 0
+BCR_OUT
+Text GLabel 2100 3500 0    50   Input ~ 0
+BCR_OUT
+$Comp
+L power:+BATT #PWR?
+U 1 1 61C08446
+P 2600 3600
+F 0 "#PWR?" H 2600 3450 50  0001 C CNN
+F 1 "+BATT" V 2615 3728 50  0000 L CNN
+F 2 "" H 2600 3600 50  0001 C CNN
+F 3 "" H 2600 3600 50  0001 C CNN
+	1    2600 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 61C0844C
+P 2100 3600
+F 0 "#PWR?" H 2100 3450 50  0001 C CNN
+F 1 "+BATT" V 2115 3728 50  0000 L CNN
+F 2 "" H 2100 3600 50  0001 C CNN
+F 3 "" H 2100 3600 50  0001 C CNN
+	1    2100 3600
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 2100 3800
+NoConn ~ 2100 3900
+NoConn ~ 2600 3800
+NoConn ~ 2600 3900
+NoConn ~ 2100 3200
+NoConn ~ 2100 3300
+NoConn ~ 2600 3200
+NoConn ~ 2600 3300
+NoConn ~ 2600 3000
+NoConn ~ 2100 3000
+NoConn ~ 2100 2900
+NoConn ~ 2100 1700
+NoConn ~ 2100 1600
+NoConn ~ 2100 1500
+NoConn ~ 2100 1400
+NoConn ~ 2600 1400
+NoConn ~ 2600 1500
+NoConn ~ 2600 1600
+Wire Wire Line
+	2100 3700 1700 3700
+Wire Wire Line
+	1700 2400 2100 2400
+Wire Wire Line
+	1700 2400 1700 2800
+Wire Wire Line
+	2100 2800 1700 2800
+Connection ~ 1700 2800
+Wire Wire Line
+	1700 2800 1700 3700
+Wire Wire Line
+	1700 2400 1700 2200
+Wire Wire Line
+	1700 1800 2100 1800
+Connection ~ 1700 2400
+Wire Wire Line
+	2100 2200 1700 2200
+Connection ~ 1700 2200
+Wire Wire Line
+	1700 2200 1700 1800
+Wire Wire Line
+	2600 3700 3000 3700
+Wire Wire Line
+	3000 2900 2600 2900
+Wire Wire Line
+	2600 2800 3000 2800
+Wire Wire Line
+	3000 2800 3000 2900
+Connection ~ 3000 2900
+Wire Wire Line
+	3000 2800 3000 2400
+Wire Wire Line
+	3000 2400 2600 2400
+Connection ~ 3000 2800
+Wire Wire Line
+	3000 2400 3000 2000
+Wire Wire Line
+	3000 2000 2600 2000
+Connection ~ 3000 2400
+Wire Wire Line
+	1700 3700 1700 3950
+Wire Wire Line
+	1700 3950 2350 3950
+Wire Wire Line
+	3000 2900 3000 3700
+Connection ~ 1700 3700
+Connection ~ 3000 3700
+Wire Wire Line
+	3000 3700 3000 3950
+$Comp
+L power:GND #PWR?
+U 1 1 61C08481
+P 2350 3950
+F 0 "#PWR?" H 2350 3700 50  0001 C CNN
+F 1 "GND" H 2355 3777 50  0000 C CNN
+F 2 "" H 2350 3950 50  0001 C CNN
+F 3 "" H 2350 3950 50  0001 C CNN
+	1    2350 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 2350 3950
+Wire Wire Line
+	2350 3950 3000 3950
 $EndSCHEMATC
