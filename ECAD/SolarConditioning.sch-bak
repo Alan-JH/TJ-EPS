@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 5 10
 Title ""
 Date ""
 Rev ""
@@ -184,12 +184,12 @@ $EndSheet
 $Comp
 L MCU_Microchip_ATtiny:ATtiny1604-SS U?
 U 1 1 61BFEAB5
-P 5650 4100
-F 0 "U?" H 5650 4981 50  0000 C CNN
-F 1 "ATtiny1604-SS" H 5650 4890 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5650 4100 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny804_1604-Data-Sheet-40002028A.pdf" H 5650 4100 50  0001 C CNN
-	1    5650 4100
+P 5100 3950
+F 0 "U?" H 5100 4831 50  0000 C CNN
+F 1 "ATtiny1604-SS" H 5100 4740 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5100 3950 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny804_1604-Data-Sheet-40002028A.pdf" H 5100 3950 50  0001 C CNN
+	1    5100 3950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
