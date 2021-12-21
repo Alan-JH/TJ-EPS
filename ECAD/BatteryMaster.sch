@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 10
+Sheet 2 14
 Title ""
 Date ""
 Rev ""
@@ -552,7 +552,7 @@ L Transistor_FET:IRF7404 Q?
 U 1 1 61CBAA03
 P 6100 950
 F 0 "Q?" V 6442 950 50  0000 C CNN
-F 1 "IRF7404" V 6351 950 50  0000 C CNN
+F 1 "IRF7425" V 6351 950 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6300 875 50  0001 L CIN
 F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" V 6100 950 50  0001 L CNN
 	1    6100 950 
@@ -921,4 +921,51 @@ Wire Notes Line
 	1600 550  5000 550 
 Text Notes 1650 650  0    50   ~ 0
 V and I Telemetry
+$Comp
+L MCU_ST_STM32F1:STM32F103C8Tx U?
+U 1 1 61EF7684
+P 9250 4800
+F 0 "U?" H 9200 3211 50  0000 C CNN
+F 1 "STM32F103C8Tx" H 9200 3120 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 8650 3400 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 9250 4800 50  0001 C CNN
+	1    9250 4800
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 3850 3450 1100 300 
+U 62041525
+F0 "HBAT2" 50
+F1 "Heater+Thermistor.sch" 50
+F2 "GATE_TOP" I L 3850 3550 50 
+F3 "GATE_BOTTOM" I L 3850 3650 50 
+F4 "TELEM_TBAT" I R 4950 3550 50 
+$EndSheet
+$Sheet
+S 3850 3950 1100 300 
+U 62045EF1
+F0 "HBAT3" 50
+F1 "Heater+Thermistor.sch" 50
+F2 "GATE_TOP" I L 3850 4050 50 
+F3 "GATE_BOTTOM" I L 3850 4150 50 
+F4 "TELEM_TBAT" I R 4950 4050 50 
+$EndSheet
+$Sheet
+S 3850 4450 1100 300 
+U 6204A8C5
+F0 "HBAT4" 50
+F1 "Heater+Thermistor.sch" 50
+F2 "GATE_TOP" I L 3850 4550 50 
+F3 "GATE_BOTTOM" I L 3850 4650 50 
+F4 "TELEM_TBAT" I R 4950 4550 50 
+$EndSheet
+$Sheet
+S 3850 2950 1100 300 
+U 62026259
+F0 "HBAT1" 50
+F1 "Heater+Thermistor.sch" 50
+F2 "GATE_TOP" I L 3850 3050 50 
+F3 "GATE_BOTTOM" I L 3850 3150 50 
+F4 "TELEM_TBAT" I R 4950 3050 50 
+$EndSheet
 $EndSCHEMATC
