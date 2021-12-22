@@ -48,8 +48,6 @@ $EndComp
 Wire Wire Line
 	4850 3700 4850 3950
 Wire Wire Line
-	4850 3950 5150 3950
-Wire Wire Line
 	5750 3950 5750 3850
 $Comp
 L Transistor_FET:Si4162DY Q?
@@ -154,17 +152,12 @@ AR Path="/61BD4B7D/61C444F3/61C42620" Ref="C?"  Part="1"
 AR Path="/61BD4B7D/61C44BC0/61C42620" Ref="C?"  Part="1" 
 AR Path="/61BD4B7D/61C44F8A/61C42620" Ref="C?"  Part="1" 
 F 0 "C?" H 5150 3500 50  0000 L CNN
-F 1 "0.1uF" H 5150 3300 50  0000 L CNN
+F 1 "0.22uF" H 5150 3300 50  0000 L CNN
 F 2 "" H 5188 3250 50  0001 C CNN
 F 3 "~" H 5150 3400 50  0001 C CNN
 	1    5150 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5150 3550 5150 3950
-Connection ~ 5150 3950
-Wire Wire Line
-	5150 3950 5750 3950
 Wire Wire Line
 	5150 3250 5750 3250
 Connection ~ 5150 3250
@@ -172,4 +165,27 @@ Text HLabel 7050 3950 2    50   Input ~ 0
 -
 Text HLabel 7050 3000 2    50   Input ~ 0
 +
+$Comp
+L Device:C C?
+U 1 1 61CA82AB
+P 5150 3700
+AR Path="/61BD4B7D/61CA82AB" Ref="C?"  Part="1" 
+AR Path="/61BD4B7D/61C40A6C/61CA82AB" Ref="C?"  Part="1" 
+AR Path="/61BD4B7D/61C444F3/61CA82AB" Ref="C?"  Part="1" 
+AR Path="/61BD4B7D/61C44BC0/61CA82AB" Ref="C?"  Part="1" 
+AR Path="/61BD4B7D/61C44F8A/61CA82AB" Ref="C?"  Part="1" 
+F 0 "C?" H 5150 3800 50  0000 L CNN
+F 1 "0.22uF" H 5150 3600 50  0000 L CNN
+F 2 "" H 5188 3550 50  0001 C CNN
+F 3 "~" H 5150 3700 50  0001 C CNN
+	1    5150 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3950 5150 3950
+Wire Wire Line
+	5150 3850 5150 3950
+Connection ~ 5150 3950
+Wire Wire Line
+	5150 3950 5750 3950
 $EndSCHEMATC

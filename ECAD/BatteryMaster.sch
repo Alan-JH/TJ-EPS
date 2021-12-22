@@ -314,17 +314,6 @@ Wire Wire Line
 Connection ~ 10350 1900
 Wire Wire Line
 	10350 1900 10550 1900
-$Comp
-L Device:C C?
-U 1 1 61C50B13
-P 9000 2150
-F 0 "C?" H 9115 2196 50  0000 L CNN
-F 1 "0.33uF" H 9115 2105 50  0000 L CNN
-F 2 "" H 9038 2000 50  0001 C CNN
-F 3 "~" H 9000 2150 50  0001 C CNN
-	1    9000 2150
-	1    0    0    -1  
-$EndComp
 Connection ~ 9000 2300
 Wire Wire Line
 	9000 2000 8900 2000
@@ -434,17 +423,6 @@ Connection ~ 8000 2000
 Wire Wire Line
 	8000 2000 8000 2300
 $Comp
-L Device:C C?
-U 1 1 61C614D1
-P 7650 1800
-F 0 "C?" H 7765 1846 50  0000 L CNN
-F 1 "0.1uF" H 7765 1755 50  0000 L CNN
-F 2 "" H 7688 1650 50  0001 C CNN
-F 3 "~" H 7650 1800 50  0001 C CNN
-	1    7650 1800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 61C6186E
 P 7650 1200
@@ -462,15 +440,10 @@ Wire Wire Line
 Wire Wire Line
 	7650 1350 7650 1500
 Wire Wire Line
-	7650 1950 7650 2300
-Wire Wire Line
 	7650 2300 8000 2300
 Connection ~ 8000 2300
 Wire Wire Line
 	7650 1500 8100 1500
-Connection ~ 7650 1500
-Wire Wire Line
-	7650 1500 7650 1650
 Connection ~ 7650 2300
 $Comp
 L Transistor_FET:Si4162DY Q?
@@ -968,4 +941,31 @@ F2 "GATE_TOP" I L 3850 3050 50
 F3 "GATE_BOTTOM" I L 3850 3150 50 
 F4 "TELEM_TBAT" I R 4950 3050 50 
 $EndSheet
+$Comp
+L Device:C C?
+U 1 1 61C50B13
+P 9000 2150
+F 0 "C?" H 9115 2196 50  0000 L CNN
+F 1 "0.33uF" H 9115 2105 50  0000 L CNN
+F 2 "" H 9038 2000 50  0001 C CNN
+F 3 "~" H 9000 2150 50  0001 C CNN
+	1    9000 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 1950 7650 2300
+Connection ~ 7650 1500
+Wire Wire Line
+	7650 1500 7650 1650
+$Comp
+L Device:C C?
+U 1 1 61C614D1
+P 7650 1800
+F 0 "C?" H 7765 1846 50  0000 L CNN
+F 1 "0.1uF" H 7765 1755 50  0000 L CNN
+F 2 "" H 7688 1650 50  0001 C CNN
+F 3 "~" H 7650 1800 50  0001 C CNN
+	1    7650 1800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
