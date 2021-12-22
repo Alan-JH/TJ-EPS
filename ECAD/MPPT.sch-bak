@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 14
+Sheet 13 15
 Title ""
 Date ""
 Rev ""
@@ -31,65 +31,6 @@ F 3 "~" H 1050 750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	900  750  850  750 
-$Comp
-L Device:R R?
-U 1 1 61C011C3
-P 8700 2000
-AR Path="/61BEC565/61BEC848/61C011C3" Ref="R?"  Part="1" 
-AR Path="/61BEC565/61BFB023/61C011C3" Ref="R?"  Part="1" 
-AR Path="/61BEC565/61BFCA72/61C011C3" Ref="R?"  Part="1" 
-AR Path="/61BEC565/61E10014/61C011C3" Ref="R?"  Part="1" 
-AR Path="/61BEC565/61E1083C/61C011C3" Ref="R?"  Part="1" 
-F 0 "R?" H 8750 2000 50  0000 L CNN
-F 1 "220K" V 8700 1900 50  0000 L CNN
-F 2 "" V 8630 2000 50  0001 C CNN
-F 3 "~" H 8700 2000 50  0001 C CNN
-	1    8700 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61C011C9
-P 8700 2400
-AR Path="/61BEC565/61BEC848/61C011C9" Ref="R?"  Part="1" 
-AR Path="/61BEC565/61BFB023/61C011C9" Ref="R?"  Part="1" 
-AR Path="/61BEC565/61BFCA72/61C011C9" Ref="R?"  Part="1" 
-AR Path="/61BEC565/61E10014/61C011C9" Ref="R?"  Part="1" 
-AR Path="/61BEC565/61E1083C/61C011C9" Ref="R?"  Part="1" 
-F 0 "R?" H 8750 2400 50  0000 L CNN
-F 1 "100K" V 8700 2300 50  0000 L CNN
-F 2 "" V 8630 2400 50  0001 C CNN
-F 3 "~" H 8700 2400 50  0001 C CNN
-	1    8700 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8700 2250 8700 2200
-Wire Wire Line
-	8950 2250 8950 2200
-Wire Wire Line
-	8950 2200 8700 2200
-Connection ~ 8700 2200
-Wire Wire Line
-	8700 2200 8700 2150
-$Comp
-L Device:D_Zener D?
-U 1 1 61C011D4
-P 8950 2400
-AR Path="/61BEC565/61BEC848/61C011D4" Ref="D?"  Part="1" 
-AR Path="/61BEC565/61BFB023/61C011D4" Ref="D?"  Part="1" 
-AR Path="/61BEC565/61BFCA72/61C011D4" Ref="D?"  Part="1" 
-AR Path="/61BEC565/61E10014/61C011D4" Ref="D?"  Part="1" 
-AR Path="/61BEC565/61E1083C/61C011D4" Ref="D?"  Part="1" 
-F 0 "D?" V 8904 2480 50  0000 L CNN
-F 1 "3v3 Zener" V 8995 2480 50  0000 L CNN
-F 2 "" H 8950 2400 50  0001 C CNN
-F 3 "~" H 8950 2400 50  0001 C CNN
-	1    8950 2400
-	0    1    1    0   
-$EndComp
-Text HLabel 8950 2200 2    50   Input ~ 0
-TELEM_VOUT
 Wire Wire Line
 	1200 750  1250 850 
 Wire Wire Line
@@ -781,8 +722,6 @@ Wire Wire Line
 Wire Wire Line
 	8600 1950 8600 1850
 Connection ~ 8100 1950
-Wire Wire Line
-	8600 1850 8700 1850
 Connection ~ 8600 1850
 $Comp
 L Device:C C?
@@ -821,12 +760,5 @@ Wire Notes Line
 Text Notes 5900 600  0    50   ~ 0
 Buck Converter and Charge Profile
 Wire Wire Line
-	8950 2550 8700 2550
-Connection ~ 8250 2550
-Connection ~ 8700 2550
-Wire Wire Line
-	8700 2550 8250 2550
-Wire Wire Line
-	8950 1850 8700 1850
-Connection ~ 8700 1850
+	8600 1850 8950 1850
 $EndSCHEMATC
