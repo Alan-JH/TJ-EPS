@@ -529,7 +529,7 @@ F 1 "IRF7425" V 6351 950 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6300 875 50  0001 L CIN
 F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" V 6100 950 50  0001 L CNN
 	1    6100 950 
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	5900 850  5650 850 

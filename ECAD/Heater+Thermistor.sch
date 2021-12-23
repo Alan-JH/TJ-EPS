@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 15
+Sheet 10 15
 Title ""
 Date ""
 Rev ""
@@ -91,7 +91,7 @@ F 1 "IRF7425" H 3955 2555 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3950 2525 50  0001 L CIN
 F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" V 3750 2600 50  0001 L CNN
 	1    3750 2600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:+5V #PWR?
