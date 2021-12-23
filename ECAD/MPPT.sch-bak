@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 15
+Sheet 12 15
 Title ""
 Date ""
 Rev ""
@@ -761,4 +761,6 @@ Text Notes 5900 600  0    50   ~ 0
 Buck Converter and Charge Profile
 Wire Wire Line
 	8600 1850 8950 1850
+Text Notes 8400 1500 0    50   ~ 0
+Imax = 0.1V/Rsense\nMaximum allowed is 2A\nTermination at C/10 = 0.2A
 $EndSCHEMATC
