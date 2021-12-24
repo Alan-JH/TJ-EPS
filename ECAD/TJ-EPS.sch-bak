@@ -24,42 +24,23 @@ F 3 "~" H 950 2150 50  0001 C CNN
 	1    950  2150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x26_Odd_Even H1
-U 1 1 61BBDB62
-P 2100 2150
-F 0 "H1" H 2150 3567 50  0000 C CNN
-F 1 "Stack Header 1" H 2150 3476 50  0000 C CNN
-F 2 "" H 2100 2150 50  0001 C CNN
-F 3 "~" H 2100 2150 50  0001 C CNN
-	1    2100 2150
-	1    0    0    -1  
-$EndComp
 Text Label 750  2950 2    50   ~ 0
 SDA
 Text Label 750  3050 2    50   ~ 0
 SCL
 Text GLabel 1250 2450 2    50   Input ~ 0
 VUSB
-Text GLabel 1900 1450 0    50   Input ~ 0
-SW3
-Text GLabel 1900 1550 0    50   Input ~ 0
-SW5
-Text GLabel 1900 1650 0    50   Input ~ 0
-SW6
-Text GLabel 2400 1650 2    50   Input ~ 0
-SW7
 Text GLabel 2400 1450 2    50   Input ~ 0
-SW4
-Text GLabel 2400 1250 2    50   Input ~ 0
-SW1
-Text GLabel 2400 1350 2    50   Input ~ 0
-SW2
-Text GLabel 2400 1750 2    50   Input ~ 0
+SW5
+Text GLabel 1900 1450 0    50   Input ~ 0
+SW6
+Text GLabel 2400 1550 2    50   Input ~ 0
+SW7
+Text GLabel 1900 1550 0    50   Input ~ 0
 SW8
-Text GLabel 1900 1850 0    50   Input ~ 0
+Text GLabel 2400 1650 2    50   Input ~ 0
 SW9
-Text GLabel 2400 1850 2    50   Input ~ 0
+Text GLabel 1900 1650 0    50   Input ~ 0
 SW10
 $Comp
 L power:+12V #PWR?
@@ -86,45 +67,45 @@ $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 61BC34F8
-P 1900 2150
-F 0 "#PWR?" H 1900 2000 50  0001 C CNN
-F 1 "+5V" V 1915 2278 50  0000 L CNN
-F 2 "" H 1900 2150 50  0001 C CNN
-F 3 "" H 1900 2150 50  0001 C CNN
-	1    1900 2150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 61BC3941
-P 2400 2150
-F 0 "#PWR?" H 2400 2000 50  0001 C CNN
-F 1 "+5V" V 2415 2278 50  0000 L CNN
-F 2 "" H 2400 2150 50  0001 C CNN
-F 3 "" H 2400 2150 50  0001 C CNN
-	1    2400 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 61BC3DF9
 P 1900 2250
 F 0 "#PWR?" H 1900 2100 50  0001 C CNN
-F 1 "+3V3" V 1915 2378 50  0000 L CNN
+F 1 "+5V" V 1915 2378 50  0000 L CNN
 F 2 "" H 1900 2250 50  0001 C CNN
 F 3 "" H 1900 2250 50  0001 C CNN
 	1    1900 2250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3V3 #PWR?
-U 1 1 61BC42A2
+L power:+5V #PWR?
+U 1 1 61BC3941
 P 2400 2250
 F 0 "#PWR?" H 2400 2100 50  0001 C CNN
-F 1 "+3V3" V 2415 2378 50  0000 L CNN
+F 1 "+5V" V 2415 2378 50  0000 L CNN
 F 2 "" H 2400 2250 50  0001 C CNN
 F 3 "" H 2400 2250 50  0001 C CNN
 	1    2400 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61BC3DF9
+P 1900 2350
+F 0 "#PWR?" H 1900 2200 50  0001 C CNN
+F 1 "+3V3" V 1915 2478 50  0000 L CNN
+F 2 "" H 1900 2350 50  0001 C CNN
+F 3 "" H 1900 2350 50  0001 C CNN
+	1    1900 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61BC42A2
+P 2400 2350
+F 0 "#PWR?" H 2400 2200 50  0001 C CNN
+F 1 "+3V3" V 2415 2478 50  0000 L CNN
+F 2 "" H 2400 2350 50  0001 C CNN
+F 3 "" H 2400 2350 50  0001 C CNN
+	1    2400 2350
 	0    1    1    0   
 $EndComp
 Text GLabel 2400 2650 2    50   Input ~ 0
@@ -142,23 +123,23 @@ BCR_OUT
 $Comp
 L power:+BATT #PWR?
 U 1 1 61BC5790
-P 2400 3150
-F 0 "#PWR?" H 2400 3000 50  0001 C CNN
-F 1 "+BATT" V 2415 3278 50  0000 L CNN
-F 2 "" H 2400 3150 50  0001 C CNN
-F 3 "" H 2400 3150 50  0001 C CNN
-	1    2400 3150
+P 2400 2150
+F 0 "#PWR?" H 2400 2000 50  0001 C CNN
+F 1 "+BATT" V 2415 2278 50  0000 L CNN
+F 2 "" H 2400 2150 50  0001 C CNN
+F 3 "" H 2400 2150 50  0001 C CNN
+	1    2400 2150
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+BATT #PWR?
 U 1 1 61BC64DC
-P 1900 3150
-F 0 "#PWR?" H 1900 3000 50  0001 C CNN
-F 1 "+BATT" V 1915 3278 50  0000 L CNN
-F 2 "" H 1900 3150 50  0001 C CNN
-F 3 "" H 1900 3150 50  0001 C CNN
-	1    1900 3150
+P 1900 2150
+F 0 "#PWR?" H 1900 2000 50  0001 C CNN
+F 1 "+BATT" V 1915 2278 50  0000 L CNN
+F 2 "" H 1900 2150 50  0001 C CNN
+F 3 "" H 1900 2150 50  0001 C CNN
+	1    1900 2150
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 1900 3350
@@ -171,64 +152,26 @@ NoConn ~ 2400 2750
 NoConn ~ 2400 2850
 NoConn ~ 2400 2550
 NoConn ~ 1900 2550
-NoConn ~ 1900 2450
-NoConn ~ 1900 1250
-NoConn ~ 1900 1150
 NoConn ~ 1900 1050
 NoConn ~ 1900 950 
 NoConn ~ 2400 950 
 NoConn ~ 2400 1050
-NoConn ~ 2400 1150
 Wire Wire Line
-	1900 3250 1500 3250
+	1900 3150 1500 3150
 Wire Wire Line
 	1500 1950 1900 1950
 Wire Wire Line
-	1500 1950 1500 2350
-Wire Wire Line
-	1900 2350 1500 2350
-Connection ~ 1500 2350
-Wire Wire Line
-	1500 2350 1500 3250
-Wire Wire Line
-	1500 1950 1500 1750
-Wire Wire Line
-	1500 1350 1900 1350
+	1900 2450 1500 2450
 Connection ~ 1500 1950
 Wire Wire Line
-	1900 1750 1500 1750
-Connection ~ 1500 1750
+	2400 3150 2800 3150
 Wire Wire Line
-	1500 1750 1500 1350
-Wire Wire Line
-	2400 3250 2800 3250
-Wire Wire Line
-	2800 2450 2400 2450
-Wire Wire Line
-	2400 2350 2800 2350
-Wire Wire Line
-	2800 2350 2800 2450
-Connection ~ 2800 2450
-Wire Wire Line
-	2800 2350 2800 1950
+	2400 2450 2800 2450
 Wire Wire Line
 	2800 1950 2400 1950
-Connection ~ 2800 2350
-Wire Wire Line
-	2800 1950 2800 1550
-Wire Wire Line
-	2800 1550 2400 1550
 Connection ~ 2800 1950
 Wire Wire Line
-	1500 3250 1500 3500
-Wire Wire Line
 	1500 3500 2150 3500
-Wire Wire Line
-	2800 2450 2800 3250
-Connection ~ 1500 3250
-Connection ~ 2800 3250
-Wire Wire Line
-	2800 3250 2800 3500
 $Comp
 L power:GND #PWR?
 U 1 1 61BCA925
@@ -255,7 +198,7 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 8800 3700 1800 750 
+S 6350 4750 1800 750 
 U 61BD4B7D
 F0 "Battery" 50
 F1 "BatteryMaster.sch" 50
@@ -267,15 +210,79 @@ F0 "SolarConditioning" 50
 F1 "SolarConditioning.sch" 50
 $EndSheet
 $Sheet
-S 7200 4400 1350 800 
+S 1550 5650 1350 800 
 U 61C9425D
 F0 "PowerConditioning" 50
 F1 "PowerConditioning.sch" 50
 $EndSheet
 $Sheet
-S 7150 5850 1850 550 
+S 3950 6350 1850 550 
 U 61E87E93
 F0 "PowerDistribution" 50
 F1 "PowerDistribution.sch" 50
 $EndSheet
+Text GLabel 2400 1350 2    50   Input ~ 0
+SW4
+Text GLabel 1900 1350 0    50   Input ~ 0
+SW3
+Text GLabel 2400 1250 2    50   Input ~ 0
+SW2
+Text GLabel 1900 1250 0    50   Input ~ 0
+SW1
+Text GLabel 2400 1750 2    50   Input ~ 0
+SW11
+Text GLabel 2400 1850 2    50   Input ~ 0
+SW13
+Text GLabel 1900 1750 0    50   Input ~ 0
+SW12
+Text GLabel 1900 1850 0    50   Input ~ 0
+SW14
+$Comp
+L Connector_Generic:Conn_02x26_Odd_Even H1
+U 1 1 61BBDB62
+P 2100 2150
+F 0 "H1" H 2150 3567 50  0000 C CNN
+F 1 "Stack Header 1" H 2150 3476 50  0000 C CNN
+F 2 "" H 2100 2150 50  0001 C CNN
+F 3 "~" H 2100 2150 50  0001 C CNN
+	1    2100 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 1150 2400 1150
+Wire Wire Line
+	2800 1150 2800 1950
+Wire Wire Line
+	1900 1150 1500 1150
+Wire Wire Line
+	1500 1150 1500 1950
+Connection ~ 1500 2450
+Wire Wire Line
+	1500 2450 1500 3150
+Wire Wire Line
+	1500 1950 1500 2450
+Connection ~ 2800 2450
+Wire Wire Line
+	2800 2450 2800 3150
+Wire Wire Line
+	2800 1950 2800 2450
+Connection ~ 2800 3150
+Wire Wire Line
+	2800 3150 2800 3500
+Connection ~ 1500 3150
+Wire Wire Line
+	1500 3150 1500 3500
+NoConn ~ 2400 3250
+NoConn ~ 1900 3250
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO?
+U 1 1 61C818E1
+P 10700 3550
+F 0 "#LOGO?" H 10700 3825 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 10700 3325 50  0001 C CNN
+F 2 "" H 10700 3550 50  0001 C CNN
+F 3 "~" H 10700 3550 50  0001 C CNN
+	1    10700 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
