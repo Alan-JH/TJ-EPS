@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 15
+Sheet 13 30
 Title ""
 Date ""
 Rev ""
@@ -279,22 +279,6 @@ $EndComp
 Text HLabel 3400 1900 2    50   Input ~ 0
 TELEM_VIN
 $Comp
-L Device:D_Zener D?
-U 1 1 61BF1B46
-P 3400 2200
-AR Path="/61BEC565/61BEC848/61BF1B46" Ref="D?"  Part="1" 
-AR Path="/61BEC565/61BFB023/61BF1B46" Ref="D?"  Part="1" 
-AR Path="/61BEC565/61BFCA72/61BF1B46" Ref="D?"  Part="1" 
-AR Path="/61BEC565/61E10014/61BF1B46" Ref="D?"  Part="1" 
-AR Path="/61BEC565/61E1083C/61BF1B46" Ref="D?"  Part="1" 
-F 0 "D?" V 3354 2280 50  0000 L CNN
-F 1 "3v3 Zener" V 3445 2280 50  0000 L CNN
-F 2 "" H 3400 2200 50  0001 C CNN
-F 3 "~" H 3400 2200 50  0001 C CNN
-	1    3400 2200
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 61BF13FC
 P 3150 2200
@@ -330,8 +314,6 @@ Wire Wire Line
 	3150 1750 3150 1900
 Wire Wire Line
 	3150 1900 3400 1900
-Wire Wire Line
-	3400 1900 3400 2050
 Connection ~ 3150 1900
 Wire Wire Line
 	3150 1900 3150 2050
@@ -582,13 +564,6 @@ Wire Wire Line
 	4000 1950 4000 2550
 Connection ~ 4000 2550
 Wire Wire Line
-	4000 2550 3400 2550
-Wire Wire Line
-	3400 2350 3400 2550
-Connection ~ 3400 2550
-Wire Wire Line
-	3400 2550 3150 2550
-Wire Wire Line
 	4450 2450 4450 2550
 Connection ~ 4450 2550
 Wire Wire Line
@@ -763,4 +738,6 @@ Wire Wire Line
 	8600 1850 8950 1850
 Text Notes 8400 1500 0    50   ~ 0
 Imax = 0.1V/Rsense\nMaximum allowed is 2A\nTermination at C/10 = 0.2A
+Wire Wire Line
+	3150 2550 4000 2550
 $EndSCHEMATC

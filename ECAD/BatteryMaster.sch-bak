@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 15
+Sheet 2 30
 Title ""
 Date ""
 Rev ""
@@ -666,28 +666,6 @@ F 3 "~" H 7400 2300 50  0001 C CNN
 $EndComp
 Text GLabel 2000 850  0    50   Input ~ 0
 BCR_OUT
-$Comp
-L Device:R R?
-U 1 1 61D60992
-P 3550 850
-F 0 "R?" V 3450 850 50  0000 C CNN
-F 1 "10m" V 3550 850 50  0000 C CNN
-F 2 "" V 3480 850 50  0001 C CNN
-F 3 "~" H 3550 850 50  0001 C CNN
-	1    3550 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Amplifier_Current:LT6106 U?
-U 1 1 61D62B56
-P 4050 1350
-F 0 "U?" H 4394 1396 50  0000 L CNN
-F 1 "LT6106" H 4394 1305 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4050 1350 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/6106fb.pdf" H 4100 1550 50  0001 C CNN
-	1    4050 1350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5500 1850 5500 1950
 Wire Wire Line
@@ -716,61 +694,11 @@ Wire Wire Line
 Wire Wire Line
 	6100 1750 5650 1400
 Wire Wire Line
-	3400 850  3350 950 
-Wire Wire Line
-	3350 950  3350 1050
-Wire Wire Line
-	3350 1050 3950 1050
-Connection ~ 3350 1050
-Wire Wire Line
-	3350 1050 3350 1450
-Wire Wire Line
-	3750 1250 3750 950 
-Wire Wire Line
-	3750 950  3700 850 
-$Comp
-L Device:R R?
-U 1 1 61DB450C
-P 4350 1500
-F 0 "R?" H 4400 1500 50  0000 L CNN
-F 1 "5K" V 4350 1450 50  0000 L CNN
-F 2 "" V 4280 1500 50  0001 C CNN
-F 3 "~" H 4350 1500 50  0001 C CNN
-	1    4350 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61DB77A8
-P 3600 1450
-F 0 "R?" V 3500 1450 50  0000 C CNN
-F 1 "50R" V 3600 1450 50  0000 C CNN
-F 2 "" V 3530 1450 50  0001 C CNN
-F 3 "~" H 3600 1450 50  0001 C CNN
-	1    3600 1450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3450 1450 3350 1450
-Wire Wire Line
 	3950 1650 4350 1650
-Connection ~ 4350 1350
-Text Label 4950 1350 2    50   ~ 0
-TELEM_IBAT
-Wire Wire Line
-	4350 1350 4950 1350
-Connection ~ 5500 850 
-Wire Wire Line
-	3700 850  5500 850 
-Connection ~ 3700 850 
 Wire Wire Line
 	3950 2300 3950 1650
 Wire Wire Line
 	3950 2300 5500 2300
-Connection ~ 3950 1650
-Wire Wire Line
-	3400 850  3300 850 
-Connection ~ 3400 850 
 Connection ~ 7100 2300
 Wire Wire Line
 	7100 2300 7250 2300
@@ -816,12 +744,6 @@ Wire Wire Line
 Wire Wire Line
 	3750 1900 3350 1900
 Wire Wire Line
-	3350 1900 3350 1450
-Connection ~ 3350 1450
-Connection ~ 3750 1250
-Wire Wire Line
-	3750 1250 3750 2100
-Wire Wire Line
 	4350 2000 4950 2000
 Text Label 4950 2000 2    50   ~ 0
 TELEM_IBATDIR
@@ -856,7 +778,6 @@ F 3 "~" H 2000 2000 50  0001 C CNN
 $EndComp
 Text Notes 3950 2250 0    30   ~ 0
 ROUTE CAREFULLY!\n0.15mV error is enough to be problematic
-Connection ~ 3300 850 
 Wire Wire Line
 	2000 850  2000 1000
 Wire Wire Line
@@ -968,4 +889,85 @@ F 3 "~" H 7650 1800 50  0001 C CNN
 	1    7650 1800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3350 1900 3350 1450
+Connection ~ 3300 850 
+Wire Wire Line
+	3400 850  3300 850 
+Connection ~ 5500 850 
+Wire Wire Line
+	3700 850  5500 850 
+Wire Wire Line
+	4350 1350 4950 1350
+Text Label 4950 1350 2    50   ~ 0
+TELEM_IBAT
+Wire Wire Line
+	3450 1450 3350 1450
+$Comp
+L Device:R R?
+U 1 1 61DB77A8
+P 3600 1450
+F 0 "R?" V 3500 1450 50  0000 C CNN
+F 1 "100R" V 3600 1450 50  0000 C CNN
+F 2 "" V 3530 1450 50  0001 C CNN
+F 3 "~" H 3600 1450 50  0001 C CNN
+	1    3600 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61DB450C
+P 4350 1500
+F 0 "R?" H 4400 1500 50  0000 L CNN
+F 1 "2K" V 4350 1450 50  0000 L CNN
+F 2 "" V 4280 1500 50  0001 C CNN
+F 3 "~" H 4350 1500 50  0001 C CNN
+	1    4350 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 950  3700 850 
+Connection ~ 3350 1450
+Wire Wire Line
+	3350 1050 3350 1450
+Wire Wire Line
+	3350 1050 3950 1050
+Connection ~ 3350 1050
+Wire Wire Line
+	3350 950  3350 1050
+Wire Wire Line
+	3400 850  3350 950 
+Wire Wire Line
+	3750 1250 3750 2100
+Wire Wire Line
+	3750 1250 3750 950 
+Connection ~ 3750 1250
+Connection ~ 3950 1650
+Connection ~ 4350 1350
+$Comp
+L Amplifier_Current:LT6106 U?
+U 1 1 61D62B56
+P 4050 1350
+F 0 "U?" H 4394 1396 50  0000 L CNN
+F 1 "LT6106" H 4394 1305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4050 1350 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/6106fb.pdf" H 4100 1550 50  0001 C CNN
+	1    4050 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 850 
+Connection ~ 3700 850 
+$Comp
+L Device:R R?
+U 1 1 61D60992
+P 3550 850
+F 0 "R?" V 3450 850 50  0000 C CNN
+F 1 "10m" V 3550 850 50  0000 C CNN
+F 2 "" V 3480 850 50  0001 C CNN
+F 3 "~" H 3550 850 50  0001 C CNN
+	1    3550 850 
+	0    1    1    0   
+$EndComp
+Text Notes 4550 1250 0    50   ~ 0
+200mV/A
 $EndSCHEMATC

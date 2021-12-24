@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 15
+Sheet 1 30
 Title ""
 Date ""
 Rev ""
@@ -271,5 +271,11 @@ S 7200 4400 1350 800
 U 61C9425D
 F0 "PowerConditioning" 50
 F1 "PowerConditioning.sch" 50
+$EndSheet
+$Sheet
+S 7150 5850 1850 550 
+U 61E87E93
+F0 "PowerDistribution" 50
+F1 "PowerDistribution.sch" 50
 $EndSheet
 $EndSCHEMATC
