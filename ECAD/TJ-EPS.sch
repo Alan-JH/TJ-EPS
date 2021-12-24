@@ -255,7 +255,7 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 8800 3700 1800 750 
+S 6350 4750 1800 750 
 U 61BD4B7D
 F0 "Battery" 50
 F1 "BatteryMaster.sch" 50
@@ -267,13 +267,13 @@ F0 "SolarConditioning" 50
 F1 "SolarConditioning.sch" 50
 $EndSheet
 $Sheet
-S 7200 4400 1350 800 
+S 1550 5650 1350 800 
 U 61C9425D
 F0 "PowerConditioning" 50
 F1 "PowerConditioning.sch" 50
 $EndSheet
 $Sheet
-S 7150 5850 1850 550 
+S 3950 6350 1850 550 
 U 61E87E93
 F0 "PowerDistribution" 50
 F1 "PowerDistribution.sch" 50
