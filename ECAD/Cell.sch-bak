@@ -29,22 +29,6 @@ F 3 "~" V 4850 3660 50  0001 C CNN
 	1    4850 3600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Battery_Management:AP9101CK U?
-U 1 1 61C425EF
-P 5750 3550
-AR Path="/61BD4B7D/61C425EF" Ref="U?"  Part="1" 
-AR Path="/61BD4B7D/61C40A6C/61C425EF" Ref="U?"  Part="1" 
-AR Path="/61BD4B7D/61C444F3/61C425EF" Ref="U?"  Part="1" 
-AR Path="/61BD4B7D/61C44BC0/61C425EF" Ref="U?"  Part="1" 
-AR Path="/61BD4B7D/61C44F8A/61C425EF" Ref="U?"  Part="1" 
-F 0 "U?" H 5750 4031 50  0000 C CNN
-F 1 "AP9101CK" H 5750 3940 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5700 3550 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP9101C.pdf" H 5750 3600 50  0001 C CNN
-	1    5750 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4850 3700 4850 3950
 Wire Wire Line
@@ -59,7 +43,7 @@ AR Path="/61BD4B7D/61C444F3/61C425F8" Ref="Q?"  Part="1"
 AR Path="/61BD4B7D/61C44BC0/61C425F8" Ref="Q?"  Part="1" 
 AR Path="/61BD4B7D/61C44F8A/61C425F8" Ref="Q?"  Part="1" 
 F 0 "Q?" V 6600 3850 50  0000 C CNN
-F 1 "Si4186DY" V 6500 3850 50  0000 C CNN
+F 1 "DMN2028USS" V 6500 3750 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6450 3750 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/68967/si4162dy.pdf" H 6250 3850 50  0001 L CNN
 	1    6250 3850
@@ -80,7 +64,7 @@ AR Path="/61BD4B7D/61C444F3/61C42601" Ref="Q?"  Part="1"
 AR Path="/61BD4B7D/61C44BC0/61C42601" Ref="Q?"  Part="1" 
 AR Path="/61BD4B7D/61C44F8A/61C42601" Ref="Q?"  Part="1" 
 F 0 "Q?" V 7000 3850 50  0000 C CNN
-F 1 "Si4186DY" V 6900 3850 50  0000 C CNN
+F 1 "DMN2028USS" V 6900 3750 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6850 3750 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/68967/si4162dy.pdf" H 6650 3850 50  0001 L CNN
 	1    6650 3850
@@ -90,10 +74,6 @@ Wire Wire Line
 	6650 3650 6650 3450
 Wire Wire Line
 	6650 3450 6150 3450
-Wire Wire Line
-	5350 3550 5350 3200
-Wire Wire Line
-	5350 3200 6900 3200
 $Comp
 L Device:R R?
 U 1 1 61C4260B
@@ -104,14 +84,12 @@ AR Path="/61BD4B7D/61C444F3/61C4260B" Ref="R?"  Part="1"
 AR Path="/61BD4B7D/61C44BC0/61C4260B" Ref="R?"  Part="1" 
 AR Path="/61BD4B7D/61C44F8A/61C4260B" Ref="R?"  Part="1" 
 F 0 "R?" H 6950 3700 50  0000 L CNN
-F 1 "2.7K" V 6900 3700 50  0000 C CNN
+F 1 "2.2K" V 6900 3700 50  0000 C CNN
 F 2 "" V 6830 3700 50  0001 C CNN
 F 3 "~" H 6900 3700 50  0001 C CNN
 	1    6900 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6900 3200 6900 3550
 Wire Wire Line
 	6900 3850 6900 3950
 Wire Wire Line
@@ -158,9 +136,6 @@ F 3 "~" H 5150 3400 50  0001 C CNN
 	1    5150 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5150 3250 5750 3250
-Connection ~ 5150 3250
 Text HLabel 7050 3950 2    50   Input ~ 0
 -
 Text HLabel 7050 3000 2    50   Input ~ 0
@@ -188,4 +163,30 @@ Wire Wire Line
 Connection ~ 5150 3950
 Wire Wire Line
 	5150 3950 5750 3950
+Text Notes 6100 4350 0    30   ~ 0
+Rds(on) = V(th) / (2 * I(max))
+$Comp
+L Battery_Management:BQ297xy U?
+U 1 1 61D7B95D
+P 5750 3550
+F 0 "U?" H 5750 3917 50  0000 C CNN
+F 1 "BQ29707" H 5750 3826 50  0000 C CNN
+F 2 "Package_SON:WSON-6_1.5x1.5mm_P0.5mm" H 5750 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/bq2970.pdf" H 5500 3750 50  0001 C CNN
+	1    5750 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3650 5300 3650
+Wire Wire Line
+	5300 3650 5300 3150
+Wire Wire Line
+	5300 3150 6900 3150
+Wire Wire Line
+	6900 3150 6900 3550
+Wire Wire Line
+	5350 3450 5350 3250
+Wire Wire Line
+	5350 3250 5150 3250
+Connection ~ 5150 3250
 $EndSCHEMATC
