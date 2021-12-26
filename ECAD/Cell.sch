@@ -191,4 +191,6 @@ Wire Wire Line
 Connection ~ 5150 3250
 Text Notes 5400 4450 0    30   ~ 0
 Specced Rds(on) is 11mOhm at 25C, 12.5mOhm at 85C. 4.1A and 3.6A current limits respectively
+Text Notes 3850 2900 0    50   ~ 0
+29707: Vmin 2.8V, Vmax 4.28V, Current thresholds 0.09V for both charge and discharge, 0.3V for short circuit
 $EndSCHEMATC
