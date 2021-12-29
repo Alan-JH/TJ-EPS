@@ -435,12 +435,12 @@ Connection ~ 7900 2250
 $Comp
 L Amplifier_Operational:LM358 U?
 U 2 1 61DFA6F3
-P 5300 1300
-F 0 "U?" H 5300 1667 50  0000 C CNN
-F 1 "LM358" H 5300 1576 50  0000 C CNN
-F 2 "" H 5300 1300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5300 1300 50  0001 C CNN
-	2    5300 1300
+P 5200 1300
+F 0 "U?" H 5200 1667 50  0000 C CNN
+F 1 "LM358" H 5200 1576 50  0000 C CNN
+F 2 "" H 5200 1300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5200 1300 50  0001 C CNN
+	2    5200 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1094,34 +1094,29 @@ Wire Wire Line
 Wire Wire Line
 	4400 1100 4400 800 
 Connection ~ 4400 1400
-Text Label 4600 1200 0    50   ~ 0
+Text Label 4500 1200 0    50   ~ 0
 TELEM_IBAT
 Wire Wire Line
-	4600 1200 5000 1200
+	4500 1200 4900 1200
 Wire Wire Line
-	4400 800  5400 800 
+	4400 800  5300 800 
 Wire Wire Line
 	6850 1100 6850 1200
 Connection ~ 6150 2250
 $Comp
 L Transistor_FET:IRF7404 Q?
 U 1 1 622A211E
-P 5600 900
-F 0 "Q?" V 5942 900 50  0000 C CNN
-F 1 "IRF7425" V 5851 900 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5800 825 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" V 5600 900 50  0001 L CNN
-	1    5600 900 
+P 5500 900
+F 0 "Q?" V 5842 900 50  0000 C CNN
+F 1 "IRF7425" V 5751 900 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5700 825 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" V 5500 900 50  0001 L CNN
+	1    5500 900 
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	4400 1400 5000 1400
 Connection ~ 4400 800 
 Wire Wire Line
-	5600 1300 5600 1100
-Wire Wire Line
-	5800 800  6150 800 
-Connection ~ 6150 800 
+	5500 1300 5500 1100
 Wire Wire Line
 	4400 2250 6150 2250
 Connection ~ 4400 2250
@@ -1135,4 +1130,25 @@ Wire Notes Line
 	3150 2550 500  2550
 Wire Notes Line
 	500  500  3150 500 
+$Comp
+L Transistor_FET:IRF7404 Q?
+U 1 1 61CCE42A
+P 5900 900
+F 0 "Q?" V 6242 900 50  0000 C CNN
+F 1 "IRF7425" V 6151 900 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6100 825 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" V 5900 900 50  0001 L CNN
+	1    5900 900 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 1400 4900 1400
+Wire Wire Line
+	5900 1100 5900 1300
+Wire Wire Line
+	5900 1300 5500 1300
+Connection ~ 5500 1300
+Wire Wire Line
+	6150 800  6100 800 
+Connection ~ 6150 800 
 $EndSCHEMATC
