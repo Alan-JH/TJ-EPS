@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLegal 14000 8500
 encoding utf-8
-Sheet 2 30
+Sheet 2 31
 Title ""
 Date ""
 Rev ""
@@ -1754,18 +1754,18 @@ Wire Wire Line
 Text Label 9200 3350 2    50   ~ 0
 BOOT0
 Wire Wire Line
-	8200 3350 7900 3350
-Text Label 7900 3350 0    50   ~ 0
+	8200 3250 7900 3250
+Text Label 7900 3250 0    50   ~ 0
 BOOT1
 $Comp
 L Device:R R?
 U 1 1 61D8C5EC
-P 8200 3500
-F 0 "R?" V 8100 3500 50  0000 C CNN
-F 1 "100K" V 8200 3500 50  0000 C CNN
-F 2 "" V 8130 3500 50  0001 C CNN
-F 3 "~" H 8200 3500 50  0001 C CNN
-	1    8200 3500
+P 8200 3400
+F 0 "R?" V 8100 3400 50  0000 C CNN
+F 1 "100K" V 8200 3400 50  0000 C CNN
+F 2 "" V 8130 3400 50  0001 C CNN
+F 3 "~" H 8200 3400 50  0001 C CNN
+	1    8200 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1796,8 +1796,6 @@ Wire Wire Line
 	8700 3250 8700 3150
 Wire Wire Line
 	8600 3450 8700 3450
-Wire Wire Line
-	8700 3450 8700 3550
 $Comp
 L power:+3V3 #PWR?
 U 1 1 61E560DB
@@ -1811,6 +1809,8 @@ F 3 "" H 8700 3150 50  0001 C CNN
 	1    8700 3150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8700 3450 8700 3550
 $Comp
 L power:GND #PWR?
 U 1 1 61E7AC27
@@ -1822,6 +1822,19 @@ F 1 "GND" H 8705 3377 50  0000 C CNN
 F 2 "" H 8700 3550 50  0001 C CNN
 F 3 "" H 8700 3550 50  0001 C CNN
 	1    8700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61EC69E9
+P 8200 3550
+AR Path="/61EC69E9" Ref="#PWR?"  Part="1" 
+AR Path="/61BD4B7D/61EC69E9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8200 3300 50  0001 C CNN
+F 1 "GND" H 8205 3377 50  0000 C CNN
+F 2 "" H 8200 3550 50  0001 C CNN
+F 3 "" H 8200 3550 50  0001 C CNN
+	1    8200 3550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

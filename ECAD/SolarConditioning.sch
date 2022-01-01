@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 30
+Sheet 11 31
 Title ""
 Date ""
 Rev ""
@@ -1004,4 +1004,182 @@ F 3 "~" H 1100 2350 50  0001 C CNN
 	1    1100 2350
 	-1   0    0    1   
 $EndComp
+$Sheet
+S 1950 5900 950  600 
+U 61D120A6
+F0 "MPPT4" 50
+F1 "Boost-BuckMPPT.sch" 50
+F2 "A_PWR" I L 1950 6000 50 
+F3 "TELEM_I_A" I R 2900 6100 50 
+F4 "B_PWR" I L 1950 6100 50 
+F5 "TELEM_I_B" I R 2900 6200 50 
+F6 "VOUT" I R 2900 6300 50 
+F7 "Vset" I L 1950 6200 50 
+F8 "TELEM_VIN" I R 2900 6000 50 
+$EndSheet
+Text GLabel 2900 6100 2    50   Input ~ 0
+I_SA4A
+Text GLabel 2900 6200 2    50   Input ~ 0
+I_SA4B
+Text GLabel 2900 6000 2    50   Input ~ 0
+V_SA4
+Wire Wire Line
+	1750 6200 1950 6200
+Text Label 1750 6200 0    50   ~ 0
+Vset4
+Text Label 11150 2450 2    50   ~ 0
+Vset4
+Wire Wire Line
+	10900 2450 11150 2450
+Text GLabel 9050 2050 2    50   Input ~ 0
+V_SA4
+Text GLabel 5550 2250 0    50   Input ~ 0
+I_SA4A
+Text GLabel 5550 2350 0    50   Input ~ 0
+I_SA4B
+Wire Wire Line
+	950  6300 750  6300
+Connection ~ 1450 6300
+Wire Wire Line
+	1450 6300 1250 6300
+Connection ~ 1450 5550
+Wire Wire Line
+	1250 5550 1450 5550
+Wire Wire Line
+	950  5550 750  5550
+$Comp
+L Device:D_Schottky D?
+U 1 1 61F2BCF3
+P 1100 6300
+AR Path="/61BEC565/61BEC848/61F2BCF3" Ref="D?"  Part="1" 
+AR Path="/61BEC565/61BFB023/61F2BCF3" Ref="D?"  Part="1" 
+AR Path="/61BEC565/61BFCA72/61F2BCF3" Ref="D?"  Part="1" 
+AR Path="/61BEC565/61E10014/61F2BCF3" Ref="D?"  Part="1" 
+AR Path="/61BEC565/61E1083C/61F2BCF3" Ref="D?"  Part="1" 
+AR Path="/61BEC565/61F2BCF3" Ref="D?"  Part="1" 
+F 0 "D?" H 1100 6517 50  0000 C CNN
+F 1 "CMSH3-40MA" H 1100 6426 50  0000 C CNN
+F 2 "" H 1100 6300 50  0001 C CNN
+F 3 "~" H 1100 6300 50  0001 C CNN
+	1    1100 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 61F2BCF9
+P 1100 5550
+AR Path="/61BEC565/61BEC848/61F2BCF9" Ref="D?"  Part="1" 
+AR Path="/61BEC565/61BFB023/61F2BCF9" Ref="D?"  Part="1" 
+AR Path="/61BEC565/61BFCA72/61F2BCF9" Ref="D?"  Part="1" 
+AR Path="/61BEC565/61E10014/61F2BCF9" Ref="D?"  Part="1" 
+AR Path="/61BEC565/61E1083C/61F2BCF9" Ref="D?"  Part="1" 
+AR Path="/61BEC565/61F2BCF9" Ref="D?"  Part="1" 
+F 0 "D?" H 1100 5767 50  0000 C CNN
+F 1 "CMSH3-40MA" H 1100 5676 50  0000 C CNN
+F 2 "" H 1100 5550 50  0001 C CNN
+F 3 "~" H 1100 5550 50  0001 C CNN
+	1    1100 5550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1650 6100 1950 6100
+Wire Wire Line
+	1450 5900 1450 6000
+Connection ~ 1450 5900
+Wire Wire Line
+	1450 5900 1850 5900
+Wire Wire Line
+	1450 5550 1650 5550
+Wire Wire Line
+	1450 5850 1450 5900
+$Comp
+L Device:D D?
+U 1 1 61F2BD07
+P 1450 6150
+F 0 "D?" V 1500 6200 50  0000 L CNN
+F 1 "1N4148" V 1400 6200 50  0000 L CNN
+F 2 "" H 1450 6150 50  0001 C CNN
+F 3 "~" H 1450 6150 50  0001 C CNN
+	1    1450 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61F2BD0D
+P 1450 5700
+F 0 "D?" V 1500 5650 50  0000 R CNN
+F 1 "1N4148" V 1400 5650 50  0000 R CNN
+F 2 "" H 1450 5700 50  0001 C CNN
+F 3 "~" H 1450 5700 50  0001 C CNN
+	1    1450 5700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 6300 1450 6300
+Wire Wire Line
+	1650 6100 1650 6300
+Wire Wire Line
+	1650 5550 1650 6000
+Wire Wire Line
+	850  6400 850  6600
+Connection ~ 850  6400
+Wire Wire Line
+	750  6400 850  6400
+Connection ~ 850  5850
+Wire Wire Line
+	850  5650 750  5650
+Wire Wire Line
+	850  5850 850  5650
+Wire Wire Line
+	850  5850 850  6400
+Wire Wire Line
+	850  5850 750  5850
+Connection ~ 850  6600
+Wire Wire Line
+	850  6600 750  6600
+Wire Wire Line
+	850  6750 850  6600
+$Comp
+L power:GND #PWR?
+U 1 1 61F2BD21
+P 850 6750
+F 0 "#PWR?" H 850 6500 50  0001 C CNN
+F 1 "GND" H 855 6577 50  0000 C CNN
+F 2 "" H 850 6750 50  0001 C CNN
+F 3 "" H 850 6750 50  0001 C CNN
+	1    850  6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Female J?
+U 1 1 61F2BD27
+P 550 6500
+F 0 "J?" H 442 6885 50  0000 C CNN
+F 1 "S4B" H 442 6794 50  0000 C CNN
+F 2 "" H 550 6500 50  0001 C CNN
+F 3 "~" H 550 6500 50  0001 C CNN
+	1    550  6500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Female J?
+U 1 1 61F2BD2D
+P 550 5750
+F 0 "J?" H 442 6135 50  0000 C CNN
+F 1 "S4A" H 442 6044 50  0000 C CNN
+F 2 "" H 550 5750 50  0001 C CNN
+F 3 "~" H 550 5750 50  0001 C CNN
+	1    550  5750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 6000 1950 6000
+Wire Wire Line
+	1850 5900 1850 4300
+Connection ~ 1850 4300
+Wire Wire Line
+	2900 6300 3100 6300
+Wire Wire Line
+	3100 6300 3100 4700
+Connection ~ 3100 4700
 $EndSCHEMATC
