@@ -1016,15 +1016,4 @@ F 3 "http://www.vishay.com/docs/68967/si4162dy.pdf" H 6550 1850 50  0001 L CNN
 	1    6550 1850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Power_Management:LTC4412xS6 U?
-U 1 1 61D94799
-P 4600 -850
-F 0 "U?" H 4600 -269 50  0000 C CNN
-F 1 "LTC4412xS6" H 4600 -360 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 5250 -1200 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf" H 6700 -1050 50  0001 C CNN
-	1    4600 -850
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
