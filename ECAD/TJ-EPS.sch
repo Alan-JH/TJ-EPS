@@ -718,4 +718,52 @@ F 3 "" H 5150 3000 50  0001 C CNN
 	1    5150 3000
 	1    0    0    -1  
 $EndComp
+Text Label 6300 2850 0    50   ~ 0
+SCL
+Text Label 6300 2950 0    50   ~ 0
+SDA
+$Comp
+L Device:R R?
+U 1 1 61D5720B
+P 6100 2700
+F 0 "R?" H 6150 2700 50  0000 L CNN
+F 1 "2.2K" V 6100 2700 50  0000 C CNN
+F 2 "" V 6030 2700 50  0001 C CNN
+F 3 "~" H 6100 2700 50  0001 C CNN
+	1    6100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61D57A6D
+P 5800 2800
+F 0 "R?" H 5850 2800 50  0000 L CNN
+F 1 "2.2K" V 5800 2800 50  0000 C CNN
+F 2 "" V 5730 2800 50  0001 C CNN
+F 3 "~" H 5800 2800 50  0001 C CNN
+	1    5800 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2850 6500 2850
+Wire Wire Line
+	5800 2950 6500 2950
+Wire Wire Line
+	5800 2650 5800 2550
+Wire Wire Line
+	5800 2550 6100 2550
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61D61EDB
+P 5800 2550
+AR Path="/61D61EDB" Ref="#PWR?"  Part="1" 
+AR Path="/61BD4B7D/61D61EDB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5800 2400 50  0001 C CNN
+F 1 "+3V3" V 5815 2678 50  0000 L CNN
+F 2 "" H 5800 2550 50  0001 C CNN
+F 3 "" H 5800 2550 50  0001 C CNN
+	1    5800 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 2550
 $EndSCHEMATC
