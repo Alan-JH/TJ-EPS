@@ -2041,4 +2041,8 @@ HANDSHAKE
 Text Label 9200 3400 0    50   ~ 0
 RESET
 Connection ~ 12950 3200
+Text Label 9250 4500 0    50   ~ 0
+HANDSHAKE
+Wire Wire Line
+	9250 4500 9700 4500
 $EndSCHEMATC
