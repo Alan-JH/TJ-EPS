@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 31
-Title ""
+Title "TJ Custom EPS"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Rev "0.1"
+Comp "TJHSST Nanosatellite Club"
+Comment1 "Cell Level Protection"
+Comment2 "Provides Loose Cell Level OCP/OVP/UVP/SCP"
+Comment3 "Generally Specced out for 3-3.6Ah 18650 cell"
+Comment4 "Engineer: Alan Hsu"
 $EndDescr
 $Comp
 L Device:Battery_Cell BT?

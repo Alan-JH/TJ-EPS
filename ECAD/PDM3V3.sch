@@ -3,15 +3,15 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 27 31
-Title ""
+Sheet 28 31
+Title "TJ Custom EPS"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Rev "0.1"
+Comp "TJHSST Nanosatellite Club"
+Comment1 "3V3 PDM"
+Comment2 "Provides Current and Voltage telemetry, and high side switch"
 Comment3 ""
-Comment4 ""
+Comment4 "Engineer: Alan Hsu"
 $EndDescr
 Text HLabel 3300 2500 0    50   Input ~ 0
 GATE

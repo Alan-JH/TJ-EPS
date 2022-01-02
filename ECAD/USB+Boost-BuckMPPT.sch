@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 15 31
-Title ""
+Title "TJ Custom EPS"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Rev "0.1"
+Comp "TJHSST Nanosatellite Club"
+Comment1 "Buck-Boost MPPT Converter"
+Comment2 "Boosts voltage by a factor of two before feeding into an MPPT buck IC"
 Comment3 ""
-Comment4 ""
+Comment4 "Engineer: Alan Hsu"
 $EndDescr
 $Comp
 L Device:R R?
@@ -1014,6 +1014,17 @@ F 1 "Si4186DY" H 6750 1800 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6750 1750 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/68967/si4162dy.pdf" H 6550 1850 50  0001 L CNN
 	1    6550 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Management:LTC4412xS6 U?
+U 1 1 61D94799
+P 4600 -850
+F 0 "U?" H 4600 -269 50  0000 C CNN
+F 1 "LTC4412xS6" H 4600 -360 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 5250 -1200 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf" H 6700 -1050 50  0001 C CNN
+	1    4600 -850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 17 31
-Title ""
+Title "TJ Custom EPS"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Rev "0.1"
+Comp "TJHSST Nanosatellite Club"
+Comment1 "Power Distribution Master Sheet"
+Comment2 "Provides Master Connections to PDMs"
 Comment3 ""
-Comment4 ""
+Comment4 "Engineer: Alan Hsu"
 $EndDescr
 $Sheet
 S 2400 1550 850  400 

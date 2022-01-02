@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 31
-Title ""
+Title "TJ Custom EPS"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Rev "0.1"
+Comp "TJHSST Nanosatellite Club"
+Comment1 "Solar Conditioning Master Sheet"
+Comment2 "Conditions solar power using MPPT tracking buck converters"
+Comment3 "Reads telemetry from solar panels, and uses a microcontroller to tune MPPT"
+Comment4 "Engineer: Alan Hsu"
 $EndDescr
 Wire Wire Line
 	950  4700 750  4700

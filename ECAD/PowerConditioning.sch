@@ -4,14 +4,14 @@ EELAYER END
 $Descr USLegal 14000 8500
 encoding utf-8
 Sheet 16 31
-Title ""
+Title "TJ Custom EPS"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Rev "0.1"
+Comp "TJHSST Nanosatellite Club"
+Comment1 "Power Conditioning Master Sheet"
+Comment2 "Uses buck and boost converters to produce 3V3, 5V, 12V. Also provides a constant 3.3V VCC"
+Comment3 "Provides UVP and OCP"
+Comment4 "Engineer: Alan Hsu"
 $EndDescr
 $Comp
 L symbols:MAX1626 U?

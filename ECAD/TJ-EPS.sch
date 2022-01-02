@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 31
-Title ""
+Title "TJ Custom EPS"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Rev "0.1"
+Comp "TJHSST Nanosatellite Club"
+Comment1 "Master Sheet"
+Comment2 "Contains TTC node uC, stack header, and data connections"
 Comment3 ""
-Comment4 ""
+Comment4 "Engineer: Alan Hsu"
 $EndDescr
 $Comp
 L Connector_Generic:Conn_02x26_Odd_Even H2

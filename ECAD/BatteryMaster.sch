@@ -4,14 +4,14 @@ EELAYER END
 $Descr USLegal 14000 8500
 encoding utf-8
 Sheet 2 31
-Title ""
+Title "TJ Custom EPS"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Rev "0.1"
+Comp "TJHSST Nanosatellite Club"
+Comment1 "Battery Master Sheet"
+Comment2 "Provides OCP, OVP, and charge balancing, as well as telemetry"
+Comment3 "Contains Battery TTC Node. Battery is intended to be a separate stack PCB"
+Comment4 "Engineer: Alan Hsu"
 $EndDescr
 $Sheet
 S 12000 1250 550  250 
@@ -1841,6 +1841,8 @@ $Comp
 L Mechanical:MountingHole_Pad MH?
 U 1 1 61D7C57B
 P 12800 5900
+AR Path="/61D7C57B" Ref="MH?"  Part="1" 
+AR Path="/61BD4B7D/61D7C57B" Ref="MH?"  Part="1" 
 F 0 "MH?" H 12900 5949 50  0000 L CNN
 F 1 "M3" H 12900 5858 50  0000 L CNN
 F 2 "" H 12800 5900 50  0001 C CNN
@@ -1852,6 +1854,8 @@ $Comp
 L Mechanical:MountingHole_Pad MH?
 U 1 1 61D7C581
 P 12800 6400
+AR Path="/61D7C581" Ref="MH?"  Part="1" 
+AR Path="/61BD4B7D/61D7C581" Ref="MH?"  Part="1" 
 F 0 "MH?" H 12900 6449 50  0000 L CNN
 F 1 "M3" H 12900 6358 50  0000 L CNN
 F 2 "" H 12800 6400 50  0001 C CNN
@@ -1863,6 +1867,8 @@ $Comp
 L Mechanical:MountingHole_Pad MH?
 U 1 1 61D7C587
 P 13250 5900
+AR Path="/61D7C587" Ref="MH?"  Part="1" 
+AR Path="/61BD4B7D/61D7C587" Ref="MH?"  Part="1" 
 F 0 "MH?" H 13350 5949 50  0000 L CNN
 F 1 "M3" H 13350 5858 50  0000 L CNN
 F 2 "" H 13250 5900 50  0001 C CNN
@@ -1874,6 +1880,8 @@ $Comp
 L Mechanical:MountingHole_Pad MH?
 U 1 1 61D7C58D
 P 13250 6400
+AR Path="/61D7C58D" Ref="MH?"  Part="1" 
+AR Path="/61BD4B7D/61D7C58D" Ref="MH?"  Part="1" 
 F 0 "MH?" H 13350 6449 50  0000 L CNN
 F 1 "M3" H 13350 6358 50  0000 L CNN
 F 2 "" H 13250 6400 50  0001 C CNN
@@ -1885,6 +1893,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 61D7C593
 P 12800 6000
+AR Path="/61D7C593" Ref="#PWR?"  Part="1" 
+AR Path="/61BD4B7D/61D7C593" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 12800 5750 50  0001 C CNN
 F 1 "GND" H 12805 5827 50  0000 C CNN
 F 2 "" H 12800 6000 50  0001 C CNN
@@ -1896,6 +1906,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 61D7C599
 P 13250 6000
+AR Path="/61D7C599" Ref="#PWR?"  Part="1" 
+AR Path="/61BD4B7D/61D7C599" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 13250 5750 50  0001 C CNN
 F 1 "GND" H 13255 5827 50  0000 C CNN
 F 2 "" H 13250 6000 50  0001 C CNN
@@ -1907,6 +1919,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 61D7C59F
 P 12800 6500
+AR Path="/61D7C59F" Ref="#PWR?"  Part="1" 
+AR Path="/61BD4B7D/61D7C59F" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 12800 6250 50  0001 C CNN
 F 1 "GND" H 12805 6327 50  0000 C CNN
 F 2 "" H 12800 6500 50  0001 C CNN
@@ -1918,6 +1932,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 61D7C5A5
 P 13250 6500
+AR Path="/61D7C5A5" Ref="#PWR?"  Part="1" 
+AR Path="/61BD4B7D/61D7C5A5" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 13250 6250 50  0001 C CNN
 F 1 "GND" H 13255 6327 50  0000 C CNN
 F 2 "" H 13250 6500 50  0001 C CNN
