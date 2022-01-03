@@ -1,0 +1,213 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 17 32
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Timer:LMC555xM U?
+U 1 1 61DD4707
+P 5650 2550
+F 0 "U?" H 5650 3000 50  0000 L CNN
+F 1 "LMC555xM" H 5650 2900 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6500 2150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmc555.pdf" H 6500 2150 50  0001 C CNN
+	1    5650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 61DD6209
+P 3800 1550
+F 0 "#PWR?" H 3800 1400 50  0001 C CNN
+F 1 "VCC" H 3815 1723 50  0000 C CNN
+F 2 "" H 3800 1550 50  0001 C CNN
+F 3 "" H 3800 1550 50  0001 C CNN
+	1    3800 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:IRF7404 Q?
+U 1 1 61DD680D
+P 3700 1750
+F 0 "Q?" H 3905 1704 50  0000 L CNN
+F 1 "IRF7425" H 3905 1795 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3900 1675 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" V 3700 1750 50  0001 L CNN
+	1    3700 1750
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3500 1750 3100 1750
+Text HLabel 3100 1750 0    50   Input ~ 0
+POWER_GATE
+$Comp
+L Device:R R?
+U 1 1 61DE485D
+P 4200 2100
+F 0 "R?" H 4250 2100 50  0000 L CNN
+F 1 "R" V 4200 2100 50  0000 C CNN
+F 2 "" V 4130 2100 50  0001 C CNN
+F 3 "~" H 4200 2100 50  0001 C CNN
+	1    4200 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61DE4F86
+P 4200 2500
+F 0 "R?" H 4250 2500 50  0000 L CNN
+F 1 "R" V 4200 2500 50  0000 C CNN
+F 2 "" V 4130 2500 50  0001 C CNN
+F 3 "~" H 4200 2500 50  0001 C CNN
+	1    4200 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2750 5150 2750
+$Comp
+L Device:C C?
+U 1 1 61DE54A6
+P 4750 2800
+F 0 "C?" H 4865 2846 50  0000 L CNN
+F 1 "0.01uF" H 4865 2755 50  0000 L CNN
+F 2 "" H 4788 2650 50  0001 C CNN
+F 3 "~" H 4750 2800 50  0001 C CNN
+	1    4750 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2550 4750 2650
+Wire Wire Line
+	5650 3050 5650 2950
+Wire Wire Line
+	6150 2750 6150 3000
+Wire Wire Line
+	6150 3000 4600 3000
+$Comp
+L Device:C C?
+U 1 1 61DEA269
+P 4200 2900
+F 0 "C?" H 4315 2946 50  0000 L CNN
+F 1 "0.01uF" H 4315 2855 50  0000 L CNN
+F 2 "" H 4238 2750 50  0001 C CNN
+F 3 "~" H 4200 2900 50  0001 C CNN
+	1    4200 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2250 4200 2300
+Wire Wire Line
+	6150 2550 6200 2550
+$Comp
+L Device:C C?
+U 1 1 61DEDF96
+P 3800 2200
+F 0 "C?" H 3915 2246 50  0000 L CNN
+F 1 "0.1uF" H 3915 2155 50  0000 L CNN
+F 2 "" H 3838 2050 50  0001 C CNN
+F 3 "~" H 3800 2200 50  0001 C CNN
+	1    3800 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2350 3800 3050
+Wire Wire Line
+	4600 2350 4600 2700
+Wire Wire Line
+	5650 1950 5650 2150
+Wire Wire Line
+	3800 2050 3800 1950
+Wire Wire Line
+	5150 2050 5150 2300
+Connection ~ 4200 2300
+Wire Wire Line
+	4200 2300 4200 2350
+Wire Wire Line
+	6200 2050 6200 2550
+Connection ~ 4600 2700
+Wire Wire Line
+	4600 2700 4600 3000
+Wire Wire Line
+	5100 2750 5100 1950
+Connection ~ 5100 1950
+Wire Wire Line
+	4750 2550 5150 2550
+Wire Wire Line
+	4750 2950 4750 3050
+Connection ~ 4750 3050
+Wire Wire Line
+	4600 2350 5150 2350
+Wire Wire Line
+	4200 2650 4200 2700
+Wire Wire Line
+	4200 2700 4600 2700
+Connection ~ 4200 2700
+Wire Wire Line
+	4200 2700 4200 2750
+Wire Wire Line
+	4200 1950 5100 1950
+Wire Wire Line
+	4200 3050 4750 3050
+Wire Wire Line
+	5100 1950 5650 1950
+Wire Wire Line
+	4750 3050 5650 3050
+Wire Wire Line
+	5150 2050 6200 2050
+Wire Wire Line
+	4200 2300 5150 2300
+Wire Wire Line
+	3800 1950 4200 1950
+Connection ~ 4200 1950
+Wire Wire Line
+	3800 3050 4200 3050
+Connection ~ 4200 3050
+Connection ~ 3800 1950
+$Comp
+L power:GND #PWR?
+U 1 1 61E036B5
+P 5650 3050
+F 0 "#PWR?" H 5650 2800 50  0001 C CNN
+F 1 "GND" H 5655 2877 50  0000 C CNN
+F 2 "" H 5650 3050 50  0001 C CNN
+F 3 "" H 5650 3050 50  0001 C CNN
+	1    5650 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 3050
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 61E093AE
+P 6550 2350
+F 0 "Q?" H 6754 2396 50  0000 L CNN
+F 1 "2N7002" H 6754 2305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6750 2275 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 6550 2350 50  0001 L CNN
+	1    6550 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 2350 6150 2350
+Wire Wire Line
+	6650 2550 6650 3050
+Wire Wire Line
+	6650 3050 5650 3050
+Wire Wire Line
+	6650 2150 6650 1950
+Wire Wire Line
+	6650 1950 7050 1950
+Text HLabel 7050 1950 2    50   Input ~ 0
+OUT
+Text Notes 4600 1100 0    50   ~ 0
+idk this is bad redo this
+$EndSCHEMATC
