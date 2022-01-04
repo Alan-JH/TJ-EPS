@@ -1056,16 +1056,18 @@ F 3 "" H 6800 4000 50  0001 C CNN
 	1    6800 4000
 	1    0    0    -1  
 $EndComp
+Connection ~ 7100 2450
 $Comp
-L power:VDD #PWR?
-U 1 1 62B78D72
+L power:+3V3 #PWR?
+U 1 1 61D61EDB
 P 7100 2450
+AR Path="/61D61EDB" Ref="#PWR?"  Part="1" 
+AR Path="/61BD4B7D/61D61EDB" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 7100 2300 50  0001 C CNN
-F 1 "VDD" H 7115 2623 50  0000 C CNN
+F 1 "+3V3" V 7115 2578 50  0000 L CNN
 F 2 "" H 7100 2450 50  0001 C CNN
 F 3 "" H 7100 2450 50  0001 C CNN
 	1    7100 2450
 	1    0    0    -1  
 $EndComp
-Connection ~ 7100 2450
 $EndSCHEMATC

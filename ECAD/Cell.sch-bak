@@ -96,10 +96,6 @@ Wire Wire Line
 	6900 3950 6850 3950
 Connection ~ 6900 3950
 Wire Wire Line
-	4850 3000 7050 3000
-Wire Wire Line
-	6900 3950 7050 3950
-Wire Wire Line
 	4850 3000 4850 3250
 $Comp
 L Device:R R?
@@ -136,9 +132,9 @@ F 3 "~" H 5150 3400 50  0001 C CNN
 	1    5150 3400
 	1    0    0    -1  
 $EndComp
-Text HLabel 7050 3950 2    50   Input ~ 0
+Text HLabel 7450 3950 2    50   Input ~ 0
 -
-Text HLabel 7050 3000 2    50   Input ~ 0
+Text HLabel 7450 3000 2    50   Input ~ 0
 +
 $Comp
 L Device:C C?
@@ -197,4 +193,36 @@ Text Notes 5400 4450 0    30   ~ 0
 Specced Rds(on) is 11mOhm at 25C, 12.5mOhm at 85C. 4.1A and 3.6A current limits respectively
 Text Notes 3850 2900 0    50   ~ 0
 29707: Vmin 2.8V, Vmax 4.28V, Current thresholds 0.09V for both charge and discharge, 0.3V for short circuit
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 61D78E3E
+P 7350 3100
+F 0 "H?" H 7450 3149 50  0000 L CNN
+F 1 "Contact" H 7450 3058 50  0000 L CNN
+F 2 "" H 7350 3100 50  0001 C CNN
+F 3 "~" H 7350 3100 50  0001 C CNN
+	1    7350 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 3000 7350 3000
+Connection ~ 7350 3000
+Wire Wire Line
+	7350 3000 7450 3000
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 61D7A980
+P 7350 3850
+F 0 "H?" H 7250 3900 50  0000 R CNN
+F 1 "Contact" H 7250 3800 50  0000 R CNN
+F 2 "" H 7350 3850 50  0001 C CNN
+F 3 "~" H 7350 3850 50  0001 C CNN
+	1    7350 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3950 7350 3950
+Connection ~ 7350 3950
+Wire Wire Line
+	7350 3950 7450 3950
 $EndSCHEMATC
