@@ -3,14 +3,14 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 35
+Sheet 6 35
 Title "TJ Custom EPS"
 Date ""
 Rev "0.1"
 Comp "TJHSST Nanosatellite Club"
 Comment1 "Cell Level Protection"
 Comment2 "Provides Loose Cell Level OCP/OVP/UVP/SCP"
-Comment3 "Generally Specced out for 3-3.6Ah 18650 cell"
+Comment3 "Generally Specced out for 3-3.6Ah 18650 cell, exists on a separate board"
 Comment4 "Engineer: Alan Hsu"
 $EndDescr
 $Comp
@@ -197,6 +197,10 @@ $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 61D78E3E
 P 7350 3100
+AR Path="/61BD4B7D/61C44F8A/61D78E3E" Ref="H?"  Part="1" 
+AR Path="/61BD4B7D/61C40A6C/61D78E3E" Ref="H?"  Part="1" 
+AR Path="/61BD4B7D/61C444F3/61D78E3E" Ref="H?"  Part="1" 
+AR Path="/61BD4B7D/61C44BC0/61D78E3E" Ref="H?"  Part="1" 
 F 0 "H?" H 7450 3149 50  0000 L CNN
 F 1 "Contact" H 7450 3058 50  0000 L CNN
 F 2 "" H 7350 3100 50  0001 C CNN
@@ -213,6 +217,10 @@ $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 61D7A980
 P 7350 3850
+AR Path="/61BD4B7D/61C44F8A/61D7A980" Ref="H?"  Part="1" 
+AR Path="/61BD4B7D/61C40A6C/61D7A980" Ref="H?"  Part="1" 
+AR Path="/61BD4B7D/61C444F3/61D7A980" Ref="H?"  Part="1" 
+AR Path="/61BD4B7D/61C44BC0/61D7A980" Ref="H?"  Part="1" 
 F 0 "H?" H 7250 3900 50  0000 R CNN
 F 1 "Contact" H 7250 3800 50  0000 R CNN
 F 2 "" H 7350 3850 50  0001 C CNN

@@ -1,4 +1,4 @@
-update=12/23/2021 11:19:35 PM
+update=1/4/2022 12:42:52 PM
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=TJ-EPS
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
