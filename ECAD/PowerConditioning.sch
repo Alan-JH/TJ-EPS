@@ -1174,8 +1174,6 @@ F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	9650 1850 10000 1850
-Wire Wire Line
 	9200 1650 9200 1600
 $Comp
 L Device:R R?
@@ -1210,8 +1208,6 @@ F 3 "~" H 9500 1700 50  0001 C CNN
 	1    9500 1700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9650 2100 9650 1850
 $Comp
 L power:VCC #PWR?
 U 1 1 61D68F2B
@@ -2143,7 +2139,6 @@ $EndComp
 Wire Wire Line
 	4300 650  4700 650 
 Connection ~ 4700 650 
-Connection ~ 9650 1850
 Connection ~ 10400 2400
 Wire Wire Line
 	9200 2400 9650 2400
@@ -2161,8 +2156,6 @@ Wire Wire Line
 Wire Wire Line
 	9650 1700 9850 1700
 Connection ~ 9650 1700
-Wire Wire Line
-	9650 1700 9650 1850
 Wire Wire Line
 	9400 1250 10250 1250
 Wire Wire Line
@@ -2200,4 +2193,9 @@ F1 "RetryTimer.sch" 50
 F2 "OUT" I R 10600 6400 50 
 F3 "IN" I L 9800 6400 50 
 $EndSheet
+Wire Wire Line
+	9650 1700 9650 2100
+Wire Wire Line
+	9500 1850 10000 1850
+Connection ~ 9500 1850
 $EndSCHEMATC
