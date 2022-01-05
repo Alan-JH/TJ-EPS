@@ -1,0 +1,399 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 19 35
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:VCC #PWR?
+U 1 1 61DD6209
+P 2950 1150
+AR Path="/61C9425D/61DD1DB6/61DD6209" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/61DAECDC/61DD6209" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/61DC440E/61DD6209" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/61DD9B5B/61DD6209" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/62429382/61DD6209" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/62734C35/61DD6209" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/6278B84C/61DD6209" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/6286FCFD/61DD6209" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2950 1000 50  0001 C CNN
+F 1 "VCC" H 2965 1323 50  0000 C CNN
+F 2 "" H 2950 1150 50  0001 C CNN
+F 3 "" H 2950 1150 50  0001 C CNN
+	1    2950 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61DE485D
+P 2100 1300
+AR Path="/61C9425D/61DD1DB6/61DE485D" Ref="R?"  Part="1" 
+AR Path="/61C9425D/61DAECDC/61DE485D" Ref="R?"  Part="1" 
+AR Path="/61C9425D/61DC440E/61DE485D" Ref="R?"  Part="1" 
+AR Path="/61C9425D/61DD9B5B/61DE485D" Ref="R?"  Part="1" 
+AR Path="/61C9425D/62429382/61DE485D" Ref="R?"  Part="1" 
+AR Path="/61C9425D/62734C35/61DE485D" Ref="R?"  Part="1" 
+AR Path="/61C9425D/6278B84C/61DE485D" Ref="R?"  Part="1" 
+AR Path="/61C9425D/6286FCFD/61DE485D" Ref="R?"  Part="1" 
+F 0 "R?" H 2150 1300 50  0000 L CNN
+F 1 "2.5M" V 2100 1300 50  0000 C CNN
+F 2 "" V 2030 1300 50  0001 C CNN
+F 3 "~" H 2100 1300 50  0001 C CNN
+	1    2100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61DEA269
+P 2100 1700
+AR Path="/61C9425D/61DD1DB6/61DEA269" Ref="C?"  Part="1" 
+AR Path="/61C9425D/61DAECDC/61DEA269" Ref="C?"  Part="1" 
+AR Path="/61C9425D/61DC440E/61DEA269" Ref="C?"  Part="1" 
+AR Path="/61C9425D/61DD9B5B/61DEA269" Ref="C?"  Part="1" 
+AR Path="/61C9425D/62429382/61DEA269" Ref="C?"  Part="1" 
+AR Path="/61C9425D/62734C35/61DEA269" Ref="C?"  Part="1" 
+AR Path="/61C9425D/6278B84C/61DEA269" Ref="C?"  Part="1" 
+AR Path="/61C9425D/6286FCFD/61DEA269" Ref="C?"  Part="1" 
+F 0 "C?" H 2215 1746 50  0000 L CNN
+F 1 "22uF" H 2215 1655 50  0000 L CNN
+F 2 "" H 2138 1550 50  0001 C CNN
+F 3 "~" H 2100 1700 50  0001 C CNN
+	1    2100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61E036B5
+P 2950 2050
+AR Path="/61C9425D/61DD1DB6/61E036B5" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/61DAECDC/61E036B5" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/61DC440E/61E036B5" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/61DD9B5B/61E036B5" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/62429382/61E036B5" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/62734C35/61E036B5" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/6278B84C/61E036B5" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/6286FCFD/61E036B5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2950 1800 50  0001 C CNN
+F 1 "GND" H 2955 1877 50  0000 C CNN
+F 2 "" H 2950 2050 50  0001 C CNN
+F 3 "" H 2950 2050 50  0001 C CNN
+	1    2950 2050
+	1    0    0    -1  
+$EndComp
+Text HLabel 4100 1400 2    50   Input ~ 0
+RTOUT
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 61D5F929
+P 1500 1700
+AR Path="/61C9425D/61DD1DB6/61D5F929" Ref="Q?"  Part="1" 
+AR Path="/61C9425D/61DAECDC/61D5F929" Ref="Q?"  Part="1" 
+AR Path="/61C9425D/61DC440E/61D5F929" Ref="Q?"  Part="1" 
+AR Path="/61C9425D/61DD9B5B/61D5F929" Ref="Q?"  Part="1" 
+AR Path="/61C9425D/62429382/61D5F929" Ref="Q?"  Part="1" 
+AR Path="/61C9425D/62734C35/61D5F929" Ref="Q?"  Part="1" 
+AR Path="/61C9425D/6278B84C/61D5F929" Ref="Q?"  Part="1" 
+AR Path="/61C9425D/6286FCFD/61D5F929" Ref="Q?"  Part="1" 
+F 0 "Q?" H 1704 1746 50  0000 L CNN
+F 1 "2N7002" H 1704 1655 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1700 1625 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 1500 1700 50  0001 L CNN
+	1    1500 1700
+	1    0    0    -1  
+$EndComp
+Text HLabel 1300 1700 0    50   Input ~ 0
+RTIN
+$Comp
+L Amplifier_Operational:AD8603 U?
+U 1 1 61D6733E
+P 3050 1600
+AR Path="/61C9425D/61DD1DB6/61D6733E" Ref="U?"  Part="1" 
+AR Path="/61C9425D/61DAECDC/61D6733E" Ref="U?"  Part="1" 
+AR Path="/61C9425D/61DC440E/61D6733E" Ref="U?"  Part="1" 
+AR Path="/61C9425D/61DD9B5B/61D6733E" Ref="U?"  Part="1" 
+AR Path="/61C9425D/62429382/61D6733E" Ref="U?"  Part="1" 
+AR Path="/61C9425D/62734C35/61D6733E" Ref="U?"  Part="1" 
+AR Path="/61C9425D/6278B84C/61D6733E" Ref="U?"  Part="1" 
+AR Path="/61C9425D/6286FCFD/61D6733E" Ref="U?"  Part="1" 
+F 0 "U?" H 3394 1646 50  0000 L CNN
+F 1 "AD8603" H 3394 1555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 3050 1600 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8603_8607_8609.pdf" H 3050 1800 50  0001 C CNN
+	1    3050 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1500 2100 1500
+Wire Wire Line
+	2100 1500 2100 1450
+Wire Wire Line
+	2100 1500 2100 1550
+Connection ~ 2100 1500
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 61D73526
+P 3900 1600
+AR Path="/61C9425D/61DD1DB6/61D73526" Ref="Q?"  Part="1" 
+AR Path="/61C9425D/61DAECDC/61D73526" Ref="Q?"  Part="1" 
+AR Path="/61C9425D/61DC440E/61D73526" Ref="Q?"  Part="1" 
+AR Path="/61C9425D/61DD9B5B/61D73526" Ref="Q?"  Part="1" 
+AR Path="/61C9425D/62429382/61D73526" Ref="Q?"  Part="1" 
+AR Path="/61C9425D/62734C35/61D73526" Ref="Q?"  Part="1" 
+AR Path="/61C9425D/6278B84C/61D73526" Ref="Q?"  Part="1" 
+AR Path="/61C9425D/6286FCFD/61D73526" Ref="Q?"  Part="1" 
+F 0 "Q?" H 4104 1646 50  0000 L CNN
+F 1 "2N7002" H 4104 1555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4100 1525 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 3900 1600 50  0001 L CNN
+	1    3900 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 1400 4000 1400
+Wire Wire Line
+	3700 1600 3350 1600
+Wire Wire Line
+	4000 2050 2950 2050
+$Comp
+L Device:R R?
+U 1 1 61D792CF
+P 2450 1300
+AR Path="/61C9425D/61DD1DB6/61D792CF" Ref="R?"  Part="1" 
+AR Path="/61C9425D/61DAECDC/61D792CF" Ref="R?"  Part="1" 
+AR Path="/61C9425D/61DC440E/61D792CF" Ref="R?"  Part="1" 
+AR Path="/61C9425D/61DD9B5B/61D792CF" Ref="R?"  Part="1" 
+AR Path="/61C9425D/62429382/61D792CF" Ref="R?"  Part="1" 
+AR Path="/61C9425D/62734C35/61D792CF" Ref="R?"  Part="1" 
+AR Path="/61C9425D/6278B84C/61D792CF" Ref="R?"  Part="1" 
+AR Path="/61C9425D/6286FCFD/61D792CF" Ref="R?"  Part="1" 
+F 0 "R?" H 2500 1300 50  0000 L CNN
+F 1 "10K" V 2450 1300 50  0000 C CNN
+F 2 "" V 2380 1300 50  0001 C CNN
+F 3 "~" H 2450 1300 50  0001 C CNN
+	1    2450 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61D79DBB
+P 2450 1900
+AR Path="/61C9425D/61DD1DB6/61D79DBB" Ref="R?"  Part="1" 
+AR Path="/61C9425D/61DAECDC/61D79DBB" Ref="R?"  Part="1" 
+AR Path="/61C9425D/61DC440E/61D79DBB" Ref="R?"  Part="1" 
+AR Path="/61C9425D/61DD9B5B/61D79DBB" Ref="R?"  Part="1" 
+AR Path="/61C9425D/62429382/61D79DBB" Ref="R?"  Part="1" 
+AR Path="/61C9425D/62734C35/61D79DBB" Ref="R?"  Part="1" 
+AR Path="/61C9425D/6278B84C/61D79DBB" Ref="R?"  Part="1" 
+AR Path="/61C9425D/6286FCFD/61D79DBB" Ref="R?"  Part="1" 
+F 0 "R?" H 2500 1900 50  0000 L CNN
+F 1 "20K" V 2450 1900 50  0000 C CNN
+F 2 "" V 2380 1900 50  0001 C CNN
+F 3 "~" H 2450 1900 50  0001 C CNN
+	1    2450 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1700 2750 1700
+Connection ~ 2450 1700
+Wire Wire Line
+	2450 1700 2450 1750
+Wire Wire Line
+	2450 1450 2450 1700
+Wire Wire Line
+	2100 1500 2750 1500
+Wire Wire Line
+	2450 2050 2950 2050
+Wire Wire Line
+	2950 1900 2950 2050
+Connection ~ 2950 2050
+Wire Wire Line
+	4000 1800 4000 2050
+Wire Wire Line
+	1600 2050 2100 2050
+Connection ~ 2450 2050
+Wire Wire Line
+	2100 1850 2100 2050
+Connection ~ 2100 2050
+Wire Wire Line
+	2100 2050 2450 2050
+Wire Wire Line
+	1600 1900 1600 2050
+Wire Wire Line
+	2100 1150 2450 1150
+Connection ~ 2450 1150
+Wire Wire Line
+	2450 1150 2950 1150
+Wire Wire Line
+	2950 1300 2950 1150
+Connection ~ 2950 1150
+Text Notes 1450 1050 0    50   ~ 0
+t=1.1RC\nNominal 60s between retries
+$Comp
+L Timer:LTC6993xS6-4 U?
+U 1 1 628E3A19
+P 6350 1700
+AR Path="/61C9425D/61E3DE76/628E3A19" Ref="U?"  Part="1" 
+AR Path="/61C9425D/628E3A19" Ref="U?"  Part="1" 
+AR Path="/61C9425D/6278B84C/628E3A19" Ref="U?"  Part="1" 
+F 0 "U?" H 6600 1800 50  0000 L CNN
+F 1 "LTC6993xS6-4" H 6600 1600 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 6350 1300 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/69931234fc.pdf" H 6400 1800 50  0001 C CNN
+	1    6350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 628E3A1F
+P 6350 1300
+AR Path="/61C9425D/628E3A1F" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/6278B84C/628E3A1F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6350 1150 50  0001 C CNN
+F 1 "VCC" H 6365 1473 50  0000 C CNN
+F 2 "" H 6350 1300 50  0001 C CNN
+F 3 "" H 6350 1300 50  0001 C CNN
+	1    6350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 628E3A25
+P 5650 1900
+AR Path="/61C9425D/628E3A25" Ref="R?"  Part="1" 
+AR Path="/61C9425D/6278B84C/628E3A25" Ref="R?"  Part="1" 
+F 0 "R?" H 5700 1900 50  0000 L CNN
+F 1 "1K" V 5650 1900 50  0000 C CNN
+F 2 "" V 5580 1900 50  0001 C CNN
+F 3 "~" H 5650 1900 50  0001 C CNN
+	1    5650 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 628E3A2B
+P 5650 1450
+AR Path="/61C9425D/628E3A2B" Ref="R?"  Part="1" 
+AR Path="/61C9425D/6278B84C/628E3A2B" Ref="R?"  Part="1" 
+F 0 "R?" H 5700 1450 50  0000 L CNN
+F 1 "523R" V 5650 1450 50  0000 C CNN
+F 2 "" V 5580 1450 50  0001 C CNN
+F 3 "~" H 5650 1450 50  0001 C CNN
+	1    5650 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 1600 5650 1750
+Wire Wire Line
+	5650 1300 5850 1300
+Wire Wire Line
+	6350 1300 6350 1400
+Connection ~ 6350 1300
+Wire Wire Line
+	5950 1600 5650 1600
+Wire Wire Line
+	5650 2100 5950 2100
+Connection ~ 5650 1600
+Wire Wire Line
+	5950 1700 5850 1700
+$Comp
+L Device:R R?
+U 1 1 628E3A39
+P 5950 1950
+AR Path="/61C9425D/628E3A39" Ref="R?"  Part="1" 
+AR Path="/61C9425D/6278B84C/628E3A39" Ref="R?"  Part="1" 
+F 0 "R?" H 6000 1950 50  0000 L CNN
+F 1 "760K" V 5950 1950 50  0000 C CNN
+F 2 "" V 5880 1950 50  0001 C CNN
+F 3 "~" H 5950 1950 50  0001 C CNN
+	1    5950 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 5950 2100
+Wire Wire Line
+	5950 2100 6350 2100
+$Comp
+L Device:C C?
+U 1 1 628E3A41
+P 5200 1450
+AR Path="/61C9425D/628E3A41" Ref="C?"  Part="1" 
+AR Path="/61C9425D/6278B84C/628E3A41" Ref="C?"  Part="1" 
+F 0 "C?" H 5315 1496 50  0000 L CNN
+F 1 "0.1uF" H 5315 1405 50  0000 L CNN
+F 2 "" H 5238 1300 50  0001 C CNN
+F 3 "~" H 5200 1450 50  0001 C CNN
+	1    5200 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2100 5650 2050
+Wire Wire Line
+	6350 2000 6350 2100
+Wire Wire Line
+	5650 2100 5200 2100
+Wire Wire Line
+	5200 2100 5200 1600
+Connection ~ 5650 2100
+Wire Wire Line
+	5200 1300 5650 1300
+Connection ~ 5650 1300
+$Comp
+L Device:R R?
+U 1 1 628E3A4F
+P 5850 1500
+AR Path="/61C9425D/628E3A4F" Ref="R?"  Part="1" 
+AR Path="/61C9425D/6278B84C/628E3A4F" Ref="R?"  Part="1" 
+F 0 "R?" H 5900 1500 50  0000 L CNN
+F 1 "10K" V 5850 1500 50  0000 C CNN
+F 2 "" V 5780 1500 50  0001 C CNN
+F 3 "~" H 5850 1500 50  0001 C CNN
+	1    5850 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 1350 5850 1300
+Connection ~ 5850 1300
+Wire Wire Line
+	5850 1300 6350 1300
+Wire Wire Line
+	5850 1650 5850 1700
+Connection ~ 5850 1700
+Wire Wire Line
+	5850 1700 5550 1700
+Wire Wire Line
+	6750 1700 7150 1700
+Text HLabel 5550 1700 0    50   Input ~ 0
+PLSIN
+Text HLabel 7150 1700 2    50   Input ~ 0
+PLSOUT
+$Comp
+L power:GND #PWR?
+U 1 1 628E8E71
+P 6350 2100
+AR Path="/61C9425D/61DD1DB6/628E8E71" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/61DAECDC/628E8E71" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/61DC440E/628E8E71" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/61DD9B5B/628E8E71" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/62429382/628E8E71" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/62734C35/628E8E71" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/6278B84C/628E8E71" Ref="#PWR?"  Part="1" 
+AR Path="/61C9425D/6286FCFD/628E8E71" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6350 1850 50  0001 C CNN
+F 1 "GND" H 6355 1927 50  0000 C CNN
+F 2 "" H 6350 2100 50  0001 C CNN
+F 3 "" H 6350 2100 50  0001 C CNN
+	1    6350 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 2100
+Text Notes 5050 1050 0    50   ~ 0
+See datasheet\nSet to 0.49152s, Active low output, falling edge input
+$EndSCHEMATC

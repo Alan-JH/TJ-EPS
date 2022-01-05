@@ -887,62 +887,52 @@ PCM_FILT
 $Comp
 L Regulator_Linear:LM1117-3.3 U?
 U 1 1 61FCD4A7
-P 1300 3550
-F 0 "U?" H 1300 3792 50  0000 C CNN
-F 1 "LM1117-3.3" H 1300 3701 50  0000 C CNN
-F 2 "" H 1300 3550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 1300 3550 50  0001 C CNN
-	1    1300 3550
+P 1500 3550
+F 0 "U?" H 1500 3792 50  0000 C CNN
+F 1 "LM1117-3.3" H 1500 3701 50  0000 C CNN
+F 2 "" H 1500 3550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 1500 3550 50  0001 C CNN
+	1    1500 3550
 	1    0    0    -1  
 $EndComp
 Text Label 650  3550 0    50   ~ 0
 PCM_FILT
-Wire Wire Line
-	650  3550 800  3550
 $Comp
 L Device:C C?
 U 1 1 61FF4C3B
-P 800 3700
-F 0 "C?" H 915 3746 50  0000 L CNN
-F 1 "10uF" H 915 3655 50  0000 L CNN
-F 2 "" H 838 3550 50  0001 C CNN
-F 3 "~" H 800 3700 50  0001 C CNN
-	1    800  3700
+P 1000 3700
+F 0 "C?" H 1115 3746 50  0000 L CNN
+F 1 "10uF" H 1115 3655 50  0000 L CNN
+F 2 "" H 1038 3550 50  0001 C CNN
+F 3 "~" H 1000 3700 50  0001 C CNN
+	1    1000 3700
 	1    0    0    -1  
 $EndComp
-Connection ~ 800  3550
-Wire Wire Line
-	800  3550 1000 3550
 $Comp
 L Device:C C?
 U 1 1 61FF62C4
-P 1750 3700
-F 0 "C?" H 1865 3746 50  0000 L CNN
-F 1 "10uF" H 1865 3655 50  0000 L CNN
-F 2 "" H 1788 3550 50  0001 C CNN
-F 3 "~" H 1750 3700 50  0001 C CNN
-	1    1750 3700
+P 1950 3700
+F 0 "C?" H 2065 3746 50  0000 L CNN
+F 1 "10uF" H 2065 3655 50  0000 L CNN
+F 2 "" H 1988 3550 50  0001 C CNN
+F 3 "~" H 1950 3700 50  0001 C CNN
+	1    1950 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1600 3550 1750 3550
-Connection ~ 1750 3550
+	1000 3850 1500 3850
+Connection ~ 1500 3850
 Wire Wire Line
-	1750 3550 1850 3550
-Wire Wire Line
-	800  3850 1300 3850
-Connection ~ 1300 3850
-Wire Wire Line
-	1300 3850 1750 3850
+	1500 3850 1950 3850
 $Comp
 L power:GND #PWR?
 U 1 1 62032DCD
-P 1300 3850
-F 0 "#PWR?" H 1300 3600 50  0001 C CNN
-F 1 "GND" H 1305 3677 50  0000 C CNN
-F 2 "" H 1300 3850 50  0001 C CNN
-F 3 "" H 1300 3850 50  0001 C CNN
-	1    1300 3850
+P 1500 3850
+F 0 "#PWR?" H 1500 3600 50  0001 C CNN
+F 1 "GND" H 1505 3677 50  0000 C CNN
+F 2 "" H 1500 3850 50  0001 C CNN
+F 3 "" H 1500 3850 50  0001 C CNN
+	1    1500 3850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -970,12 +960,12 @@ $EndComp
 $Comp
 L power:VCC #PWR?
 U 1 1 620C392A
-P 1850 3550
-F 0 "#PWR?" H 1850 3400 50  0001 C CNN
-F 1 "VCC" H 1865 3723 50  0000 C CNN
-F 2 "" H 1850 3550 50  0001 C CNN
-F 3 "" H 1850 3550 50  0001 C CNN
-	1    1850 3550
+P 1950 3550
+F 0 "#PWR?" H 1950 3400 50  0001 C CNN
+F 1 "VCC" H 1965 3723 50  0000 C CNN
+F 2 "" H 1950 3550 50  0001 C CNN
+F 3 "" H 1950 3550 50  0001 C CNN
+	1    1950 3550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1038,30 +1028,6 @@ Wire Wire Line
 Connection ~ 1400 6150
 Wire Wire Line
 	1400 6150 3000 6150
-$Sheet
-S 7400 3550 800  250 
-U 61DAECDC
-F0 "RetryTimerBATV" 50
-F1 "RetryTimer.sch" 50
-F2 "OUT" I R 8200 3650 50 
-F3 "IN" I L 7400 3650 50 
-$EndSheet
-$Sheet
-S 7800 5700 800  250 
-U 61DC440E
-F0 "RetryTimer5V" 50
-F1 "RetryTimer.sch" 50
-F2 "OUT" I R 8600 5800 50 
-F3 "IN" I L 7800 5800 50 
-$EndSheet
-$Sheet
-S 7800 7400 800  250 
-U 61DD9B5B
-F0 "RetryTimer3V3" 50
-F1 "RetryTimer.sch" 50
-F2 "OUT" I R 8600 7500 50 
-F3 "IN" I L 7800 7500 50 
-$EndSheet
 $Comp
 L Transistor_FET:2N7002 Q?
 U 1 1 6203DE5E
@@ -1106,8 +1072,6 @@ Wire Wire Line
 Connection ~ 5150 3150
 Wire Wire Line
 	5150 3150 5150 3100
-Wire Wire Line
-	5150 3600 5150 3950
 $Comp
 L Device:R R?
 U 1 1 6203DE77
@@ -1139,10 +1103,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 2800 6200 2800
 Wire Wire Line
-	6350 3950 6800 3950
-Wire Wire Line
-	6800 3950 6800 3900
-Connection ~ 6350 3950
+	6350 4000 6800 4000
 Connection ~ 6500 2800
 Wire Wire Line
 	6500 2800 7000 2800
@@ -1152,12 +1113,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 6203DE97
-P 6350 3950
-F 0 "#PWR?" H 6350 3700 50  0001 C CNN
-F 1 "GND" H 6355 3777 50  0000 C CNN
-F 2 "" H 6350 3950 50  0001 C CNN
-F 3 "" H 6350 3950 50  0001 C CNN
-	1    6350 3950
+P 6350 4000
+F 0 "#PWR?" H 6350 3750 50  0001 C CNN
+F 1 "GND" H 6355 3827 50  0000 C CNN
+F 2 "" H 6350 4000 50  0001 C CNN
+F 3 "" H 6350 4000 50  0001 C CNN
+	1    6350 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1249,7 +1210,7 @@ Connection ~ 5800 3100
 Wire Wire Line
 	5800 3100 5950 3100
 Wire Wire Line
-	5150 3950 6350 3950
+	5150 4000 6350 4000
 $Comp
 L power:GND #PWR?
 U 1 1 6203DECF
@@ -1270,16 +1231,11 @@ Wire Wire Line
 	5650 3100 5800 3100
 Text Label 5500 3400 0    50   ~ 0
 GATEBATV
-Text Label 5450 3700 0    50   ~ 0
-RSTBATV
+Text Label 5300 3700 0    50   ~ 0
+RSTBATVOCP
 Connection ~ 5450 3400
-Wire Wire Line
-	5450 3700 5800 3700
-Connection ~ 5800 3700
-Text Label 8550 3650 2    50   ~ 0
-RSTBATV
-Wire Wire Line
-	8550 3650 8200 3650
+Text Label 8700 3650 2    50   ~ 0
+RSTBATVOCP
 Text Label 7050 3650 0    50   ~ 0
 GATEBATV
 Wire Wire Line
@@ -1313,8 +1269,6 @@ Wire Wire Line
 Connection ~ 5650 5300
 Wire Wire Line
 	5650 5300 5650 5250
-Wire Wire Line
-	5650 5750 5650 6100
 $Comp
 L Device:R R?
 U 1 1 6226132B
@@ -1343,10 +1297,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 4950 6700 4950
 Wire Wire Line
-	6850 6100 7300 6100
-Wire Wire Line
-	7300 6100 7300 6050
-Connection ~ 6850 6100
+	6850 6150 7300 6150
 Connection ~ 7000 4950
 Wire Wire Line
 	7000 4950 7500 4950
@@ -1356,12 +1307,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 62261341
-P 6850 6100
-F 0 "#PWR?" H 6850 5850 50  0001 C CNN
-F 1 "GND" H 6855 5927 50  0000 C CNN
-F 2 "" H 6850 6100 50  0001 C CNN
-F 3 "" H 6850 6100 50  0001 C CNN
-	1    6850 6100
+P 6850 6150
+F 0 "#PWR?" H 6850 5900 50  0001 C CNN
+F 1 "GND" H 6855 5977 50  0000 C CNN
+F 2 "" H 6850 6150 50  0001 C CNN
+F 3 "" H 6850 6150 50  0001 C CNN
+	1    6850 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1454,7 +1405,7 @@ Connection ~ 6300 5250
 Wire Wire Line
 	6300 5250 6450 5250
 Wire Wire Line
-	5650 6100 6850 6100
+	5650 6150 6850 6150
 $Comp
 L power:GND #PWR?
 U 1 1 62261379
@@ -1475,12 +1426,9 @@ Wire Wire Line
 	6150 5250 6300 5250
 Text Label 6000 5550 0    50   ~ 0
 GATE5V
-Text Label 5950 5850 0    50   ~ 0
-RST5V
+Text Label 5900 5850 0    50   ~ 0
+RST5VOCP
 Connection ~ 5950 5550
-Wire Wire Line
-	5950 5850 6300 5850
-Connection ~ 6300 5850
 $Comp
 L Device:R R?
 U 1 1 6227A94E
@@ -1500,14 +1448,12 @@ Wire Wire Line
 Connection ~ 5350 4950
 Wire Wire Line
 	5350 4950 5450 4950
-Text Label 7500 5800 0    50   ~ 0
+Text Label 7550 5800 0    50   ~ 0
 GATE5V
 Wire Wire Line
-	7500 5800 7800 5800
-Text Label 8950 5800 2    50   ~ 0
-RST5V
-Wire Wire Line
-	8950 5800 8600 5800
+	7550 5800 7850 5800
+Text Label 9050 5800 2    50   ~ 0
+RST5VOCP
 $Comp
 L Transistor_FET:2N7002 Q?
 U 1 1 6244A1D9
@@ -1537,8 +1483,6 @@ Wire Wire Line
 Connection ~ 5650 7000
 Wire Wire Line
 	5650 7000 5650 6950
-Wire Wire Line
-	5650 7450 5650 7800
 $Comp
 L Device:R R?
 U 1 1 6244A1EA
@@ -1567,10 +1511,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 6650 6700 6650
 Wire Wire Line
-	6850 7800 7300 7800
-Wire Wire Line
-	7300 7800 7300 7750
-Connection ~ 6850 7800
+	6850 7850 7300 7850
 Connection ~ 7000 6650
 Wire Wire Line
 	7000 6650 7500 6650
@@ -1580,12 +1521,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 6244A200
-P 6850 7800
-F 0 "#PWR?" H 6850 7550 50  0001 C CNN
-F 1 "GND" H 6855 7627 50  0000 C CNN
-F 2 "" H 6850 7800 50  0001 C CNN
-F 3 "" H 6850 7800 50  0001 C CNN
-	1    6850 7800
+P 6850 7850
+F 0 "#PWR?" H 6850 7600 50  0001 C CNN
+F 1 "GND" H 6950 7750 50  0000 C CNN
+F 2 "" H 6850 7850 50  0001 C CNN
+F 3 "" H 6850 7850 50  0001 C CNN
+	1    6850 7850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1678,7 +1619,7 @@ Connection ~ 6300 6950
 Wire Wire Line
 	6300 6950 6450 6950
 Wire Wire Line
-	5650 7800 6850 7800
+	5650 7850 6850 7850
 $Comp
 L power:GND #PWR?
 U 1 1 6244A238
@@ -1699,12 +1640,9 @@ Wire Wire Line
 	6150 6950 6300 6950
 Text Label 6000 7250 0    50   ~ 0
 GATE3V3
-Text Label 5950 7550 0    50   ~ 0
-RST3V3
+Text Label 5850 7550 0    50   ~ 0
+RST3V3OCP
 Connection ~ 5950 7250
-Wire Wire Line
-	5950 7550 6300 7550
-Connection ~ 6300 7550
 $Comp
 L Device:R R?
 U 1 1 6244A247
@@ -1726,54 +1664,34 @@ Wire Wire Line
 Connection ~ 5150 6650
 Text Label 7500 7500 0    50   ~ 0
 GATE3V3
-Wire Wire Line
-	7500 7500 7800 7500
-Text Label 8950 7500 2    50   ~ 0
-RST3V3
-Wire Wire Line
-	8950 7500 8600 7500
+Text Label 9100 7500 2    50   ~ 0
+RST3V3OCP
 Connection ~ 6800 3600
 Text Notes 550  4350 0    50   ~ 0
 5V and 3V3 Buck PCMs
 Wire Notes Line
-	500  8000 9050 8000
-Wire Notes Line
-	9050 4250 500  4250
-Wire Notes Line
 	500  4250 500  8000
 Wire Notes Line
-	9050 4250 9050 8000
+	9150 4250 9150 8000
 Wire Notes Line
 	500  3100 500  4200
 Wire Notes Line
-	500  4200 2150 4200
-Wire Notes Line
-	2150 4200 2150 3100
-Wire Notes Line
-	2150 3100 500  3100
+	2300 4200 2300 3100
 Text Notes 550  3200 0    50   ~ 0
 Always On Regulator
 Wire Notes Line
 	4300 4200 4300 2500
 Wire Notes Line
-	4300 2500 8600 2500
-Wire Notes Line
-	8600 2500 8600 4200
-Wire Notes Line
-	8600 4200 4300 4200
+	8750 2500 8750 4200
 Wire Wire Line
-	12500 2200 12200 2200
-Wire Wire Line
-	11050 2200 11400 2200
-Text Label 11050 2200 0    50   ~ 0
+	11100 2200 11450 2200
+Text Label 11100 2200 0    50   ~ 0
 GATE12V
-Text Label 12500 2200 2    50   ~ 0
-RST12V
+Text Label 12700 2200 2    50   ~ 0
+RST12VOCP
 Connection ~ 9900 2250
-Wire Wire Line
-	9600 2250 9900 2250
-Text Label 9600 2250 0    50   ~ 0
-RST12V
+Text Label 9450 2250 0    50   ~ 0
+RST12VOCP
 Text Label 9600 1950 0    50   ~ 0
 GATE12V
 Wire Wire Line
@@ -1795,7 +1713,7 @@ F 3 "" H 9900 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 2500 10450 2500
+	9250 2550 10450 2550
 Wire Wire Line
 	9900 1650 10050 1650
 Connection ~ 9900 1650
@@ -1803,8 +1721,6 @@ Wire Wire Line
 	9900 1650 9900 1900
 Wire Wire Line
 	9550 1650 9750 1650
-Wire Wire Line
-	10050 1650 10050 1800
 $Comp
 L symbols:MAX4373F U?
 U 1 1 62204B6C
@@ -1827,10 +1743,6 @@ F 3 "~" H 10450 1350 50  0001 C CNN
 	1    10450 1350
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	10300 1450 10300 1350
-Wire Wire Line
-	10600 1450 10600 1350
 Connection ~ 10300 1350
 $Comp
 L Device:C C?
@@ -1888,12 +1800,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 61DD5506
-P 10450 2500
-F 0 "#PWR?" H 10450 2250 50  0001 C CNN
-F 1 "GND" H 10455 2327 50  0000 C CNN
-F 2 "" H 10450 2500 50  0001 C CNN
-F 3 "" H 10450 2500 50  0001 C CNN
-	1    10450 2500
+P 10450 2550
+F 0 "#PWR?" H 10450 2300 50  0001 C CNN
+F 1 "GND" H 10455 2377 50  0000 C CNN
+F 2 "" H 10450 2550 50  0001 C CNN
+F 3 "" H 10450 2550 50  0001 C CNN
+	1    10450 2550
 	1    0    0    -1  
 $EndComp
 Text GLabel 11000 1850 2    50   Input ~ 0
@@ -1915,25 +1827,14 @@ F 3 "" H 11100 1350 50  0001 C CNN
 	1    11100 1350
 	1    0    0    -1  
 $EndComp
-Connection ~ 10450 2500
 Wire Wire Line
-	10900 2500 10900 2450
-Wire Wire Line
-	10450 2500 10900 2500
+	10450 2550 10900 2550
 Wire Wire Line
 	9450 1350 10300 1350
 Wire Wire Line
 	9550 1950 10050 1950
 Connection ~ 9550 1650
 Connection ~ 9550 1950
-$Sheet
-S 11400 2100 800  250 
-U 61DD1DB6
-F0 "RetryTimer12V" 50
-F1 "RetryTimer.sch" 50
-F2 "OUT" I R 12200 2200 50 
-F3 "IN" I L 11400 2200 50 
-$EndSheet
 Connection ~ 4750 750 
 Wire Wire Line
 	4350 750  4750 750 
@@ -1976,8 +1877,6 @@ F 3 "~" H 9550 1800 50  0001 C CNN
 	1    9550 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9250 2150 9250 2500
 Wire Wire Line
 	9250 1700 9250 1650
 Connection ~ 9250 1700
@@ -2286,15 +2185,9 @@ Wire Wire Line
 Wire Notes Line
 	4300 500  4300 2450
 Wire Notes Line
-	4300 2450 8650 2450
+	8800 2450 8800 2750
 Wire Notes Line
-	8650 2450 8650 2750
-Wire Notes Line
-	8650 2750 12650 2750
-Wire Notes Line
-	12650 500  4300 500 
-Wire Notes Line
-	12650 500  12650 2750
+	12750 500  12750 2750
 Text Notes 4350 2600 0    50   ~ 0
 BATV PCM (OCP)
 Text Notes 4350 600  0    50   ~ 0
@@ -2310,4 +2203,201 @@ F 3 "~" H 6200 1900 50  0001 C CNN
 	1    6200 1900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	650  3550 1000 3550
+Wire Wire Line
+	1800 3550 1950 3550
+Connection ~ 1950 3550
+Wire Wire Line
+	1200 3550 1000 3550
+Connection ~ 1000 3550
+Wire Notes Line
+	500  4200 2300 4200
+Wire Notes Line
+	500  3100 2300 3100
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 620A95F7
+P 9150 2350
+F 0 "Q?" H 9355 2396 50  0000 L CNN
+F 1 "2N7002" H 9355 2305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9350 2275 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9150 2350 50  0001 L CNN
+	1    9150 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 10450 2550
+Wire Wire Line
+	10050 1650 10050 1800
+Wire Wire Line
+	10300 1350 10300 1450
+Wire Wire Line
+	10600 1350 10600 1450
+Wire Wire Line
+	10900 2450 10900 2550
+Wire Wire Line
+	10450 2550 10450 2500
+Wire Wire Line
+	9450 2250 9900 2250
+Wire Wire Line
+	12250 2200 12700 2200
+Wire Wire Line
+	5300 3700 5800 3700
+Connection ~ 5800 3700
+Wire Wire Line
+	8200 3650 8700 3650
+Wire Wire Line
+	5900 5850 6300 5850
+Connection ~ 6300 5850
+Wire Wire Line
+	8650 5800 9050 5800
+Wire Wire Line
+	5850 7550 6300 7550
+Connection ~ 6300 7550
+Wire Wire Line
+	8650 7500 9100 7500
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 62405B6F
+P 5050 3800
+F 0 "Q?" H 5255 3846 50  0000 L CNN
+F 1 "2N7002" H 5255 3755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5250 3725 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5050 3800 50  0001 L CNN
+	1    5050 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 4000
+Wire Wire Line
+	6800 3900 6800 4000
+Wire Wire Line
+	6350 3950 6350 4000
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 62507D0F
+P 5550 5950
+F 0 "Q?" H 5755 5996 50  0000 L CNN
+F 1 "2N7002" H 5755 5905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5750 5875 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5550 5950 50  0001 L CNN
+	1    5550 5950
+	1    0    0    -1  
+$EndComp
+Connection ~ 6850 6150
+Wire Wire Line
+	6850 6100 6850 6150
+Wire Wire Line
+	7300 6050 7300 6150
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 62627B13
+P 5550 7650
+F 0 "Q?" H 5755 7696 50  0000 L CNN
+F 1 "2N7002" H 5755 7605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5750 7575 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5550 7650 50  0001 L CNN
+	1    5550 7650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6850 7850
+Wire Wire Line
+	6850 7800 6850 7850
+Wire Wire Line
+	7300 7750 7300 7850
+$Sheet
+S 11450 2100 800  300 
+U 61DD1DB6
+F0 "Timer12V" 50
+F1 "Pulse+RetryTimer.sch" 50
+F2 "RTOUT" I R 12250 2200 50 
+F3 "RTIN" I L 11450 2200 50 
+F4 "PLSIN" I L 11450 2300 50 
+F5 "PLSOUT" I R 12250 2300 50 
+$EndSheet
+$Sheet
+S 7400 3550 800  300 
+U 62734C35
+F0 "TimerBATV" 50
+F1 "Pulse+RetryTimer.sch" 50
+F2 "RTOUT" I R 8200 3650 50 
+F3 "RTIN" I L 7400 3650 50 
+F4 "PLSIN" I L 7400 3750 50 
+F5 "PLSOUT" I R 8200 3750 50 
+$EndSheet
+$Sheet
+S 7850 5700 800  300 
+U 6278B84C
+F0 "Timer5V" 50
+F1 "Pulse+RetryTimer.sch" 50
+F2 "RTOUT" I R 8650 5800 50 
+F3 "RTIN" I L 7850 5800 50 
+F4 "PLSIN" I L 7850 5900 50 
+F5 "PLSOUT" I R 8650 5900 50 
+$EndSheet
+$Sheet
+S 7850 7400 800  300 
+U 6286FCFD
+F0 "Timer3V3" 50
+F1 "Pulse+RetryTimer.sch" 50
+F2 "RTOUT" I R 8650 7500 50 
+F3 "RTIN" I L 7850 7500 50 
+F4 "PLSIN" I L 7850 7600 50 
+F5 "PLSOUT" I R 8650 7600 50 
+$EndSheet
+Text GLabel 11450 2300 0    50   Input ~ 0
+RST12V
+Wire Notes Line
+	8800 2750 12900 2750
+Wire Notes Line
+	4300 500  12750 500 
+Wire Wire Line
+	12250 2300 12700 2300
+Text Label 12700 2300 2    50   ~ 0
+RST12VPLS
+Wire Wire Line
+	8950 2350 8500 2350
+Text Label 8500 2350 0    50   ~ 0
+RST12VPLS
+Text GLabel 7400 3750 0    50   Input ~ 0
+RSTBATV
+Wire Notes Line
+	4300 2450 8800 2450
+Wire Notes Line
+	4300 2500 8750 2500
+Wire Notes Line
+	4300 4200 8750 4200
+Text Label 8700 3750 2    50   ~ 0
+RSTBATVPLS
+Wire Wire Line
+	8200 3750 8700 3750
+Text Label 4350 3800 0    50   ~ 0
+RSTBATVPLS
+Wire Wire Line
+	4850 3800 4350 3800
+Text GLabel 7850 5900 0    50   Input ~ 0
+RST5V
+Text Label 9050 5900 2    50   ~ 0
+RST5VPLS
+Wire Wire Line
+	8650 5900 9050 5900
+Text GLabel 7850 7600 0    50   Input ~ 0
+RST3V3
+Text Label 9100 7600 2    50   ~ 0
+RST3V3PLS
+Wire Wire Line
+	8650 7600 9100 7600
+Wire Notes Line
+	500  8000 9150 8000
+Wire Notes Line
+	500  4250 9150 4250
+Wire Wire Line
+	7500 7500 7850 7500
+Text Label 4950 5950 0    50   ~ 0
+RST5VPLS
+Wire Wire Line
+	5350 5950 4950 5950
+Text Label 4900 7650 0    50   ~ 0
+RST3V3PLS
+Wire Wire Line
+	5350 7650 4900 7650
 $EndSCHEMATC
