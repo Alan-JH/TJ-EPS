@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 35
+Sheet 5 35
 Title "TJ Custom EPS"
 Date ""
 Rev "0.1"
@@ -119,43 +119,25 @@ Wire Wire Line
 $Comp
 L Device:C C?
 U 1 1 61C42620
-P 5150 3400
+P 5150 3600
 AR Path="/61BD4B7D/61C42620" Ref="C?"  Part="1" 
 AR Path="/61BD4B7D/61C40A6C/61C42620" Ref="C?"  Part="1" 
 AR Path="/61BD4B7D/61C444F3/61C42620" Ref="C?"  Part="1" 
 AR Path="/61BD4B7D/61C44BC0/61C42620" Ref="C?"  Part="1" 
 AR Path="/61BD4B7D/61C44F8A/61C42620" Ref="C?"  Part="1" 
-F 0 "C?" H 5150 3500 50  0000 L CNN
-F 1 "0.22uF" H 5150 3300 50  0000 L CNN
-F 2 "" H 5188 3250 50  0001 C CNN
-F 3 "~" H 5150 3400 50  0001 C CNN
-	1    5150 3400
+F 0 "C?" H 5150 3700 50  0000 L CNN
+F 1 "0.1uF" H 5150 3500 50  0000 L CNN
+F 2 "" H 5188 3450 50  0001 C CNN
+F 3 "~" H 5150 3600 50  0001 C CNN
+	1    5150 3600
 	1    0    0    -1  
 $EndComp
 Text HLabel 7450 3950 2    50   Input ~ 0
 -
 Text HLabel 7450 3000 2    50   Input ~ 0
 +
-$Comp
-L Device:C C?
-U 1 1 61CA82AB
-P 5150 3700
-AR Path="/61BD4B7D/61CA82AB" Ref="C?"  Part="1" 
-AR Path="/61BD4B7D/61C40A6C/61CA82AB" Ref="C?"  Part="1" 
-AR Path="/61BD4B7D/61C444F3/61CA82AB" Ref="C?"  Part="1" 
-AR Path="/61BD4B7D/61C44BC0/61CA82AB" Ref="C?"  Part="1" 
-AR Path="/61BD4B7D/61C44F8A/61CA82AB" Ref="C?"  Part="1" 
-F 0 "C?" H 5150 3800 50  0000 L CNN
-F 1 "0.22uF" H 5150 3600 50  0000 L CNN
-F 2 "" H 5188 3550 50  0001 C CNN
-F 3 "~" H 5150 3700 50  0001 C CNN
-	1    5150 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4850 3950 5150 3950
-Wire Wire Line
-	5150 3850 5150 3950
 Connection ~ 5150 3950
 Wire Wire Line
 	5150 3950 5750 3950
@@ -188,7 +170,6 @@ Wire Wire Line
 	5350 3450 5350 3250
 Wire Wire Line
 	5350 3250 5150 3250
-Connection ~ 5150 3250
 Text Notes 5400 4450 0    30   ~ 0
 Specced Rds(on) is 11mOhm at 25C, 12.5mOhm at 85C. 4.1A and 3.6A current limits respectively
 Text Notes 3850 2900 0    50   ~ 0
@@ -233,4 +214,9 @@ Wire Wire Line
 Connection ~ 7350 3950
 Wire Wire Line
 	7350 3950 7450 3950
+Wire Wire Line
+	5150 3750 5150 3950
+Wire Wire Line
+	5150 3450 5150 3250
+Connection ~ 5150 3250
 $EndSCHEMATC

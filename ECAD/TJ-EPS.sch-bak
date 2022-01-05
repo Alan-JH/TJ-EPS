@@ -24,9 +24,9 @@ F 3 "~" H 950 2150 50  0001 C CNN
 	1    950  2150
 	1    0    0    -1  
 $EndComp
-Text Label 750  2950 2    50   ~ 0
+Text Label 550  2950 0    50   ~ 0
 SDA
-Text Label 750  3050 2    50   ~ 0
+Text Label 550  3050 0    50   ~ 0
 SCL
 Text GLabel 1250 2450 2    50   Input ~ 0
 VUSB
@@ -263,13 +263,13 @@ Wire Wire Line
 	1500 3150 1500 3500
 NoConn ~ 2400 3250
 NoConn ~ 1900 3250
-Text Label 750  2350 2    50   ~ 0
+Text Label 550  2350 0    50   ~ 0
 SCK
-Text Label 750  2450 2    50   ~ 0
+Text Label 550  2450 0    50   ~ 0
 MISO
-Text Label 750  2550 2    50   ~ 0
+Text Label 550  2550 0    50   ~ 0
 MOSI
-Text Label 750  2650 2    50   ~ 0
+Text Label 550  2650 0    50   ~ 0
 SS
 Wire Wire Line
 	7000 3350 7300 3350
@@ -1070,4 +1070,16 @@ F 3 "" H 7100 2450 50  0001 C CNN
 	1    7100 2450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	550  2350 750  2350
+Wire Wire Line
+	550  2450 750  2450
+Wire Wire Line
+	550  2550 750  2550
+Wire Wire Line
+	550  2650 750  2650
+Wire Wire Line
+	550  2950 750  2950
+Wire Wire Line
+	550  3050 750  3050
 $EndSCHEMATC
