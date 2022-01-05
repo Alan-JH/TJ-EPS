@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLegal 14000 8500
 encoding utf-8
-Sheet 2 35
+Sheet 2 36
 Title "TJ Custom EPS"
 Date ""
 Rev "0.1"
@@ -438,10 +438,6 @@ F 3 "~" H 1050 5650 50  0001 C CNN
 	1    1050 5650
 	1    0    0    -1  
 $EndComp
-Text Label 850  6450 2    50   ~ 0
-SDA
-Text Label 850  6550 2    50   ~ 0
-SCL
 Text GLabel 1350 5950 2    50   Input ~ 0
 VUSB
 Text GLabel 2500 4950 2    50   Input ~ 0
@@ -1181,14 +1177,6 @@ Wire Notes Line
 	500  2600 3350 2600
 Wire Wire Line
 	11150 4800 11600 4800
-Text Label 850  5850 2    50   ~ 0
-SCK
-Text Label 850  5950 2    50   ~ 0
-MISO
-Text Label 850  6050 2    50   ~ 0
-MOSI
-Text Label 850  6150 2    50   ~ 0
-SS
 Text Label 9650 4700 0    50   ~ 0
 SCK
 Text Label 11300 5900 2    50   ~ 0
@@ -2177,4 +2165,28 @@ F 3 "" H 8850 6250 50  0001 C CNN
 	1    8850 6250
 	1    0    0    -1  
 $EndComp
+Text Label 650  6450 0    50   ~ 0
+SDA
+Text Label 650  6550 0    50   ~ 0
+SCL
+Text Label 650  5850 0    50   ~ 0
+SCK
+Text Label 650  5950 0    50   ~ 0
+MISO
+Text Label 650  6050 0    50   ~ 0
+MOSI
+Text Label 650  6150 0    50   ~ 0
+SS
+Wire Wire Line
+	650  5850 850  5850
+Wire Wire Line
+	650  5950 850  5950
+Wire Wire Line
+	650  6050 850  6050
+Wire Wire Line
+	650  6150 850  6150
+Wire Wire Line
+	650  6450 850  6450
+Wire Wire Line
+	650  6550 850  6550
 $EndSCHEMATC

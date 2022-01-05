@@ -3,15 +3,15 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 35
-Title ""
+Sheet 19 36
+Title "TJ Custom EPS"
 Date ""
-Rev ""
-Comp ""
+Rev "0.1"
+Comp "TJHSST Nanosatellite Club"
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Engineer: Alan Hsu"
 $EndDescr
 $Comp
 L power:VCC #PWR?
