@@ -365,18 +365,10 @@ F 3 "~" H 6300 4100 50  0001 C CNN
 	1    6300 4100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6500 4100 6800 4100
-Wire Wire Line
-	6500 4200 6800 4200
 Text Label 6800 4100 2    50   ~ 0
 SWDIO
 Text Label 6800 4200 2    50   ~ 0
 SWDCLK
-Wire Wire Line
-	6800 4000 6500 4000
-Wire Wire Line
-	6800 4300 6500 4300
 $Comp
 L power:GND #PWR?
 U 1 1 61DD0707
@@ -611,8 +603,8 @@ Wire Wire Line
 Wire Wire Line
 	8300 750  8300 850 
 Wire Wire Line
-	7350 2150 7800 2150
-Text Label 7350 2150 0    50   ~ 0
+	7350 3350 7800 3350
+Text Label 7350 3350 0    50   ~ 0
 HANDSHAKE
 Text Label 7500 1050 0    50   ~ 0
 RESET
@@ -1085,57 +1077,57 @@ Wire Wire Line
 $Comp
 L 74xx:CD74HC4067SM U?
 U 1 1 61D924A0
-P 4350 5850
-F 0 "U?" H 4350 7031 50  0000 C CNN
-F 1 "CD74HC4067SM" H 4350 6940 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 5400 4850 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 4000 6700 50  0001 C CNN
-	1    4350 5850
+P 3650 5850
+F 0 "U?" H 3650 7031 50  0000 C CNN
+F 1 "CD74HC4067SM" H 3650 6940 50  0000 C CNN
+F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 4700 4850 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 3300 6700 50  0001 C CNN
+	1    3650 5850
 	-1   0    0    -1  
 $EndComp
-Text GLabel 3850 5250 0    50   Input ~ 0
+Text GLabel 3150 5250 0    50   Input ~ 0
 I_SA1A
-Text GLabel 3850 5550 0    50   Input ~ 0
+Text GLabel 3150 5550 0    50   Input ~ 0
 I_SA2A
-Text GLabel 3850 5650 0    50   Input ~ 0
+Text GLabel 3150 5650 0    50   Input ~ 0
 I_SA2B
-Text GLabel 3850 5850 0    50   Input ~ 0
+Text GLabel 3150 5850 0    50   Input ~ 0
 I_SA3A
-Text GLabel 3850 5950 0    50   Input ~ 0
+Text GLabel 3150 5950 0    50   Input ~ 0
 I_SA3B
-Text GLabel 3850 6150 0    50   Input ~ 0
+Text GLabel 3150 6150 0    50   Input ~ 0
 I_SA4A
-Text GLabel 3850 6250 0    50   Input ~ 0
+Text GLabel 3150 6250 0    50   Input ~ 0
 I_SA4B
-Text GLabel 3850 5350 0    50   Input ~ 0
+Text GLabel 3150 5350 0    50   Input ~ 0
 I_SA1B
-Text GLabel 3850 5150 0    50   Input ~ 0
+Text GLabel 3150 5150 0    50   Input ~ 0
 V_SA1
-Text GLabel 3850 5450 0    50   Input ~ 0
+Text GLabel 3150 5450 0    50   Input ~ 0
 V_SA2
-Text GLabel 3850 5750 0    50   Input ~ 0
+Text GLabel 3150 5750 0    50   Input ~ 0
 V_SA3
-Text GLabel 3850 6050 0    50   Input ~ 0
+Text GLabel 3150 6050 0    50   Input ~ 0
 V_SA4
-Text GLabel 3850 6350 0    50   Input ~ 0
+Text GLabel 3150 6350 0    50   Input ~ 0
 TELEM_VBCROUT
-Text GLabel 3850 6450 0    50   Input ~ 0
+Text GLabel 3150 6450 0    50   Input ~ 0
 TELEM_IBCROUT
-Text GLabel 6000 5150 0    50   Input ~ 0
+Text GLabel 5350 5150 0    50   Input ~ 0
 TELEM_I12V
-Text GLabel 6000 5250 0    50   Input ~ 0
+Text GLabel 5350 5250 0    50   Input ~ 0
 TELEM_IBATV
-Text GLabel 6000 5350 0    50   Input ~ 0
+Text GLabel 5350 5350 0    50   Input ~ 0
 TELEM_I5V
-Text GLabel 6000 5450 0    50   Input ~ 0
+Text GLabel 5350 5450 0    50   Input ~ 0
 TELEM_I3V3
-Text GLabel 6000 5550 0    50   Input ~ 0
+Text GLabel 5350 5550 0    50   Input ~ 0
 TELEM_V12V
-Text GLabel 6000 5650 0    50   Input ~ 0
+Text GLabel 5350 5650 0    50   Input ~ 0
 TELEM_VBATV
-Text GLabel 6000 5750 0    50   Input ~ 0
+Text GLabel 5350 5750 0    50   Input ~ 0
 TELEM_V5V
-Text GLabel 6000 5850 0    50   Input ~ 0
+Text GLabel 5350 5850 0    50   Input ~ 0
 TELEM_V3V3
 $Comp
 L Device:R R?
@@ -1230,15 +1222,15 @@ $EndComp
 $Comp
 L 74xx:CD74HC4067SM U?
 U 1 1 622718CA
-P 6500 5850
-F 0 "U?" H 6500 7031 50  0000 C CNN
-F 1 "CD74HC4067SM" H 6500 6940 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 7550 4850 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 6150 6700 50  0001 C CNN
-	1    6500 5850
+P 5850 5850
+F 0 "U?" H 5850 7031 50  0000 C CNN
+F 1 "CD74HC4067SM" H 5850 6940 50  0000 C CNN
+F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 6900 4850 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 5500 6700 50  0001 C CNN
+	1    5850 5850
 	-1   0    0    -1  
 $EndComp
-Text GLabel 6000 5950 0    50   Input ~ 0
+Text GLabel 5350 5950 0    50   Input ~ 0
 TELEM_TBRD
 Text GLabel 7800 3450 0    50   Input ~ 0
 SOLAR_SCK
@@ -1246,12 +1238,176 @@ Text GLabel 7800 3550 0    50   Input ~ 0
 SOLAR_MISO
 Text GLabel 7800 3650 0    50   Input ~ 0
 SOLAR_MOSI
-Text GLabel 7800 3350 0    50   Input ~ 0
+Text GLabel 7800 2150 0    50   Input ~ 0
 SOLAR_CS0
-Text GLabel 7800 3250 0    50   Input ~ 0
+Text GLabel 7800 2250 0    50   Input ~ 0
 SOLAR_CS1
-Text GLabel 4850 5350 2    50   Input ~ 0
+Text GLabel 4350 5350 2    50   Input ~ 0
 MUX0OUT
-Text GLabel 7000 5350 2    50   Input ~ 0
+Text GLabel 6550 5350 2    50   Input ~ 0
 MUX1OUT
+$Comp
+L power:+3V3 #PWR?
+U 1 1 622F7B78
+P 4750 4850
+AR Path="/622F7B78" Ref="#PWR?"  Part="1" 
+AR Path="/61BD4B7D/622F7B78" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4750 4700 50  0001 C CNN
+F 1 "+3V3" V 4765 4978 50  0000 L CNN
+F 2 "" H 4750 4850 50  0001 C CNN
+F 3 "" H 4750 4850 50  0001 C CNN
+	1    4750 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 4850 4750 4850
+Connection ~ 4750 4850
+Wire Wire Line
+	3650 6950 4150 6950
+Wire Wire Line
+	4150 6450 4150 6950
+Connection ~ 4150 6950
+Wire Wire Line
+	4150 6950 4350 6950
+Wire Wire Line
+	6350 6450 6350 6950
+Wire Wire Line
+	6350 6950 5850 6950
+Connection ~ 5850 6950
+$Comp
+L power:GND #PWR?
+U 1 1 6231C048
+P 4750 6950
+AR Path="/6231C048" Ref="#PWR?"  Part="1" 
+AR Path="/61BD4B7D/6231C048" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4750 6700 50  0001 C CNN
+F 1 "GND" H 4755 6777 50  0000 C CNN
+F 2 "" H 4750 6950 50  0001 C CNN
+F 3 "" H 4750 6950 50  0001 C CNN
+	1    4750 6950
+	1    0    0    -1  
+$EndComp
+Connection ~ 4750 6950
+Wire Wire Line
+	4750 6950 5850 6950
+$Comp
+L Device:C C?
+U 1 1 6233297F
+P 4750 5000
+AR Path="/61BD4B7D/6233297F" Ref="C?"  Part="1" 
+AR Path="/6233297F" Ref="C?"  Part="1" 
+F 0 "C?" H 4865 5046 50  0000 L CNN
+F 1 "0.1uF" H 4865 4955 50  0000 L CNN
+F 2 "" H 4788 4850 50  0001 C CNN
+F 3 "~" H 4750 5000 50  0001 C CNN
+	1    4750 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 5150 4750 6950
+$Comp
+L Device:C C?
+U 1 1 62347F05
+P 2500 5000
+AR Path="/61BD4B7D/62347F05" Ref="C?"  Part="1" 
+AR Path="/62347F05" Ref="C?"  Part="1" 
+F 0 "C?" H 2615 5046 50  0000 L CNN
+F 1 "0.1uF" H 2615 4955 50  0000 L CNN
+F 2 "" H 2538 4850 50  0001 C CNN
+F 3 "~" H 2500 5000 50  0001 C CNN
+	1    2500 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 5150 2500 6950
+Wire Wire Line
+	3650 4850 2500 4850
+Wire Wire Line
+	2500 6950 3650 6950
+Connection ~ 3650 6950
+Text GLabel 6350 5750 2    50   Input ~ 0
+S0
+Text GLabel 6350 5850 2    50   Input ~ 0
+S1
+Text GLabel 6350 5950 2    50   Input ~ 0
+S2
+Text GLabel 6350 6050 2    50   Input ~ 0
+S3
+Text GLabel 4150 5750 2    50   Input ~ 0
+S0
+Text GLabel 4150 5850 2    50   Input ~ 0
+S1
+Text GLabel 4150 5950 2    50   Input ~ 0
+S2
+Text GLabel 4150 6050 2    50   Input ~ 0
+S3
+$Comp
+L Device:C C?
+U 1 1 62390119
+P 4350 5500
+AR Path="/61BD4B7D/62390119" Ref="C?"  Part="1" 
+AR Path="/62390119" Ref="C?"  Part="1" 
+F 0 "C?" H 4465 5546 50  0000 L CNN
+F 1 "0.01uF" H 4465 5455 50  0000 L CNN
+F 2 "" H 4388 5350 50  0001 C CNN
+F 3 "~" H 4350 5500 50  0001 C CNN
+	1    4350 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 5650 4350 6950
+Wire Wire Line
+	4150 5350 4350 5350
+$Comp
+L Device:C C?
+U 1 1 623AB59B
+P 6550 5500
+AR Path="/61BD4B7D/623AB59B" Ref="C?"  Part="1" 
+AR Path="/623AB59B" Ref="C?"  Part="1" 
+F 0 "C?" H 6665 5546 50  0000 L CNN
+F 1 "0.01uF" H 6665 5455 50  0000 L CNN
+F 2 "" H 6588 5350 50  0001 C CNN
+F 3 "~" H 6550 5500 50  0001 C CNN
+	1    6550 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 5650 6550 6950
+Wire Wire Line
+	6350 6950 6550 6950
+Connection ~ 6350 6950
+Wire Wire Line
+	6550 5350 6350 5350
+Wire Wire Line
+	3650 4850 4750 4850
+Connection ~ 3650 4850
+Wire Wire Line
+	4350 6950 4750 6950
+Connection ~ 4350 6950
+Text GLabel 7800 3050 0    50   Input ~ 0
+S1
+Text GLabel 7800 3150 0    50   Input ~ 0
+S2
+Text GLabel 7800 3250 0    50   Input ~ 0
+S3
+Text GLabel 7800 2950 0    50   Input ~ 0
+S0
+Wire Wire Line
+	6500 4100 6800 4100
+Wire Wire Line
+	6500 4200 6800 4200
+Wire Wire Line
+	6500 4000 6800 4000
+Wire Wire Line
+	6500 4300 6800 4300
+Text GLabel 9100 2150 2    50   Input ~ 0
+MUX0OUT
+Text GLabel 9100 2250 2    50   Input ~ 0
+MUX1OUT
+Text GLabel 9100 2350 2    50   Input ~ 0
+MUX2OUT
+Text GLabel 9100 2450 2    50   Input ~ 0
+MUX3OUT
+Text GLabel 9100 3150 2    50   Input ~ 0
+RST12V
 $EndSCHEMATC
