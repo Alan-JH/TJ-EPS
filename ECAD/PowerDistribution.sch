@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 21 44
+Sheet 30 44
 Title "TJ Custom EPS"
 Date ""
 Rev "0.1"
@@ -273,4 +273,90 @@ Text Notes 1600 3650 0    50   ~ 0
 5V PDMs
 Text Notes 1500 4400 0    50   ~ 0
 3.3V PDMs
+$Comp
+L 74xx:CD74HC4067SM U?
+U 1 1 61D9F1B4
+P 3400 6150
+AR Path="/61D9F1B4" Ref="U?"  Part="1" 
+AR Path="/61E87E93/61D9F1B4" Ref="U?"  Part="1" 
+F 0 "U?" H 3400 7331 50  0000 C CNN
+F 1 "CD74HC4067SM" H 3400 7240 50  0000 C CNN
+F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 4450 5150 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 3050 7000 50  0001 C CNN
+	1    3400 6150
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2900 5450 0    50   Input ~ 0
+TELEM_VSW1
+Text GLabel 2900 5550 0    50   Input ~ 0
+TELEM_VSW2
+Text GLabel 2900 5650 0    50   Input ~ 0
+TELEM_VSW3
+Text GLabel 2900 5750 0    50   Input ~ 0
+TELEM_VSW4
+Text GLabel 2900 5850 0    50   Input ~ 0
+TELEM_VSW5
+Text GLabel 2900 5950 0    50   Input ~ 0
+TELEM_VSW6
+Text GLabel 2900 6050 0    50   Input ~ 0
+TELEM_VSW7
+Text GLabel 2900 6150 0    50   Input ~ 0
+TELEM_VSW8
+Text GLabel 2900 6250 0    50   Input ~ 0
+TELEM_VSW9
+Text GLabel 2900 6350 0    50   Input ~ 0
+TELEM_VSW10
+Text GLabel 2900 6450 0    50   Input ~ 0
+TELEM_VSW11
+Text GLabel 2900 6550 0    50   Input ~ 0
+TELEM_VSW12
+Text GLabel 2900 6650 0    50   Input ~ 0
+TELEM_VSW13
+Text GLabel 2900 6750 0    50   Input ~ 0
+TELEM_VSW14
+$Comp
+L 74xx:CD74HC4067SM U?
+U 1 1 61DC574F
+P 5850 6150
+AR Path="/61DC574F" Ref="U?"  Part="1" 
+AR Path="/61E87E93/61DC574F" Ref="U?"  Part="1" 
+F 0 "U?" H 5850 7331 50  0000 C CNN
+F 1 "CD74HC4067SM" H 5850 7240 50  0000 C CNN
+F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 6900 5150 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 5500 7000 50  0001 C CNN
+	1    5850 6150
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5350 5450 0    50   Input ~ 0
+TELEM_ISW1
+Text GLabel 5350 5550 0    50   Input ~ 0
+TELEM_ISW2
+Text GLabel 5350 5650 0    50   Input ~ 0
+TELEM_ISW3
+Text GLabel 5350 5750 0    50   Input ~ 0
+TELEM_ISW4
+Text GLabel 5350 5850 0    50   Input ~ 0
+TELEM_ISW5
+Text GLabel 5350 5950 0    50   Input ~ 0
+TELEM_ISW6
+Text GLabel 5350 6050 0    50   Input ~ 0
+TELEM_ISW7
+Text GLabel 5350 6150 0    50   Input ~ 0
+TELEM_ISW8
+Text GLabel 5350 6250 0    50   Input ~ 0
+TELEM_ISW9
+Text GLabel 5350 6350 0    50   Input ~ 0
+TELEM_ISW10
+Text GLabel 5350 6450 0    50   Input ~ 0
+TELEM_ISW11
+Text GLabel 5350 6550 0    50   Input ~ 0
+TELEM_ISW12
+Text GLabel 5350 6650 0    50   Input ~ 0
+TELEM_ISW13
+Text GLabel 5350 6750 0    50   Input ~ 0
+TELEM_ISW14
+Text GLabel 3900 5650 2    50   Input ~ 0
+MUX2OUT
+Text GLabel 6350 5650 2    50   Input ~ 0
+MUX3OUT
 $EndSCHEMATC

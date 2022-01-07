@@ -1082,4 +1082,176 @@ Wire Wire Line
 	550  2950 750  2950
 Wire Wire Line
 	550  3050 750  3050
+$Comp
+L 74xx:CD74HC4067SM U?
+U 1 1 61D924A0
+P 4350 5850
+F 0 "U?" H 4350 7031 50  0000 C CNN
+F 1 "CD74HC4067SM" H 4350 6940 50  0000 C CNN
+F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 5400 4850 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 4000 6700 50  0001 C CNN
+	1    4350 5850
+	-1   0    0    -1  
+$EndComp
+Text GLabel 3850 5250 0    50   Input ~ 0
+I_SA1A
+Text GLabel 3850 5550 0    50   Input ~ 0
+I_SA2A
+Text GLabel 3850 5650 0    50   Input ~ 0
+I_SA2B
+Text GLabel 3850 5850 0    50   Input ~ 0
+I_SA3A
+Text GLabel 3850 5950 0    50   Input ~ 0
+I_SA3B
+Text GLabel 3850 6150 0    50   Input ~ 0
+I_SA4A
+Text GLabel 3850 6250 0    50   Input ~ 0
+I_SA4B
+Text GLabel 3850 5350 0    50   Input ~ 0
+I_SA1B
+Text GLabel 3850 5150 0    50   Input ~ 0
+V_SA1
+Text GLabel 3850 5450 0    50   Input ~ 0
+V_SA2
+Text GLabel 3850 5750 0    50   Input ~ 0
+V_SA3
+Text GLabel 3850 6050 0    50   Input ~ 0
+V_SA4
+Text GLabel 3850 6350 0    50   Input ~ 0
+TELEM_VBCROUT
+Text GLabel 3850 6450 0    50   Input ~ 0
+TELEM_IBCROUT
+Text GLabel 6000 5150 0    50   Input ~ 0
+TELEM_I12V
+Text GLabel 6000 5250 0    50   Input ~ 0
+TELEM_IBATV
+Text GLabel 6000 5350 0    50   Input ~ 0
+TELEM_I5V
+Text GLabel 6000 5450 0    50   Input ~ 0
+TELEM_I3V3
+Text GLabel 6000 5550 0    50   Input ~ 0
+TELEM_V12V
+Text GLabel 6000 5650 0    50   Input ~ 0
+TELEM_VBATV
+Text GLabel 6000 5750 0    50   Input ~ 0
+TELEM_V5V
+Text GLabel 6000 5850 0    50   Input ~ 0
+TELEM_V3V3
+$Comp
+L Device:R R?
+U 1 1 6225F84D
+P 4150 3050
+AR Path="/61BD4B7D/62026259/6225F84D" Ref="R?"  Part="1" 
+AR Path="/61BD4B7D/62041525/6225F84D" Ref="R?"  Part="1" 
+AR Path="/61BD4B7D/62045EF1/6225F84D" Ref="R?"  Part="1" 
+AR Path="/61BD4B7D/6204A8C5/6225F84D" Ref="R?"  Part="1" 
+AR Path="/6225F84D" Ref="R?"  Part="1" 
+F 0 "R?" H 4200 3050 50  0000 L CNN
+F 1 "270K" V 4150 2950 50  0000 L CNN
+F 2 "" V 4080 3050 50  0001 C CNN
+F 3 "~" H 4150 3050 50  0001 C CNN
+	1    4150 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Thermistor_NTC TH?
+U 1 1 6225F853
+P 4150 3350
+AR Path="/61BD4B7D/62026259/6225F853" Ref="TH?"  Part="1" 
+AR Path="/61BD4B7D/62041525/6225F853" Ref="TH?"  Part="1" 
+AR Path="/61BD4B7D/62045EF1/6225F853" Ref="TH?"  Part="1" 
+AR Path="/61BD4B7D/6204A8C5/6225F853" Ref="TH?"  Part="1" 
+AR Path="/6225F853" Ref="TH?"  Part="1" 
+F 0 "TH?" H 4248 3396 50  0000 L CNN
+F 1 "100K NTC" H 4248 3305 50  0000 L CNN
+F 2 "" H 4150 3400 50  0001 C CNN
+F 3 "~" H 4150 3400 50  0001 C CNN
+	1    4150 3350
+	1    0    0    -1  
+$EndComp
+Text Notes 3350 2600 0    50   ~ 0
+Top resistor selected for 5C center operating temperature
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6225F85A
+P 4150 2900
+AR Path="/61BD4B7D/62026259/6225F85A" Ref="#PWR?"  Part="1" 
+AR Path="/61BD4B7D/62041525/6225F85A" Ref="#PWR?"  Part="1" 
+AR Path="/61BD4B7D/62045EF1/6225F85A" Ref="#PWR?"  Part="1" 
+AR Path="/61BD4B7D/6204A8C5/6225F85A" Ref="#PWR?"  Part="1" 
+AR Path="/6225F85A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4150 2750 50  0001 C CNN
+F 1 "+3V3" H 4165 3073 50  0000 C CNN
+F 2 "" H 4150 2900 50  0001 C CNN
+F 3 "" H 4150 2900 50  0001 C CNN
+	1    4150 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3200 4750 3200
+Connection ~ 4150 3200
+$Comp
+L power:GND #PWR?
+U 1 1 6225F863
+P 4150 3500
+AR Path="/61BD4B7D/62026259/6225F863" Ref="#PWR?"  Part="1" 
+AR Path="/61BD4B7D/62041525/6225F863" Ref="#PWR?"  Part="1" 
+AR Path="/61BD4B7D/62045EF1/6225F863" Ref="#PWR?"  Part="1" 
+AR Path="/61BD4B7D/6204A8C5/6225F863" Ref="#PWR?"  Part="1" 
+AR Path="/6225F863" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4150 3250 50  0001 C CNN
+F 1 "GND" H 4155 3327 50  0000 C CNN
+F 2 "" H 4150 3500 50  0001 C CNN
+F 3 "" H 4150 3500 50  0001 C CNN
+	1    4150 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 4750 3200 2    50   Input ~ 0
+TELEM_TBRD
+Connection ~ 4150 3500
+Wire Wire Line
+	4150 3500 4750 3500
+$Comp
+L Device:C C?
+U 1 1 6225F847
+P 4750 3350
+AR Path="/61BD4B7D/62026259/6225F847" Ref="C?"  Part="1" 
+AR Path="/61BD4B7D/62041525/6225F847" Ref="C?"  Part="1" 
+AR Path="/61BD4B7D/62045EF1/6225F847" Ref="C?"  Part="1" 
+AR Path="/61BD4B7D/6204A8C5/6225F847" Ref="C?"  Part="1" 
+AR Path="/6225F847" Ref="C?"  Part="1" 
+F 0 "C?" H 4865 3396 50  0000 L CNN
+F 1 "0.1uF" H 4865 3305 50  0000 L CNN
+F 2 "" H 4788 3200 50  0001 C CNN
+F 3 "~" H 4750 3350 50  0001 C CNN
+	1    4750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:CD74HC4067SM U?
+U 1 1 622718CA
+P 6500 5850
+F 0 "U?" H 6500 7031 50  0000 C CNN
+F 1 "CD74HC4067SM" H 6500 6940 50  0000 C CNN
+F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 7550 4850 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 6150 6700 50  0001 C CNN
+	1    6500 5850
+	-1   0    0    -1  
+$EndComp
+Text GLabel 6000 5950 0    50   Input ~ 0
+TELEM_TBRD
+Text GLabel 7800 3450 0    50   Input ~ 0
+SOLAR_SCK
+Text GLabel 7800 3550 0    50   Input ~ 0
+SOLAR_MISO
+Text GLabel 7800 3650 0    50   Input ~ 0
+SOLAR_MOSI
+Text GLabel 7800 3350 0    50   Input ~ 0
+SOLAR_CS0
+Text GLabel 7800 3250 0    50   Input ~ 0
+SOLAR_CS1
+Text GLabel 4850 5350 2    50   Input ~ 0
+MUX0OUT
+Text GLabel 7000 5350 2    50   Input ~ 0
+MUX1OUT
 $EndSCHEMATC

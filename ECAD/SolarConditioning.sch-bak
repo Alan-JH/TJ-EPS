@@ -705,18 +705,6 @@ Text GLabel 3400 4250 2    50   Input ~ 0
 I_SA3B
 Text GLabel 3400 4050 2    50   Input ~ 0
 V_SA3
-Text GLabel 4300 3950 0    50   Input ~ 0
-I_SA1A
-Text GLabel 4300 4050 0    50   Input ~ 0
-I_SA1B
-Text GLabel 4300 4150 0    50   Input ~ 0
-I_SA2A
-Text GLabel 4300 4250 0    50   Input ~ 0
-I_SA2B
-Text GLabel 4300 4350 0    50   Input ~ 0
-I_SA3A
-Text GLabel 4300 4450 0    50   Input ~ 0
-I_SA3B
 Text GLabel 7800 4050 2    50   Input ~ 0
 V_SA1
 Text GLabel 7800 4150 2    50   Input ~ 0
@@ -780,10 +768,6 @@ Wire Wire Line
 	9650 4750 9900 4750
 Text GLabel 7800 4350 2    50   Input ~ 0
 V_SA4
-Text GLabel 4300 4550 0    50   Input ~ 0
-I_SA4A
-Text GLabel 4300 4650 0    50   Input ~ 0
-I_SA4B
 $Comp
 L Device:D_Schottky D?
 U 1 1 61F2BCF3
@@ -1512,6 +1496,7 @@ AR Path="/61BEC565/636144E9/61DD4557/61EA435C" Ref="#PWR?"  Part="1"
 AR Path="/61BEC565/636144E9/61DD520E/61EA435C" Ref="#PWR?"  Part="1" 
 AR Path="/61BEC565/636144E9/61DD5214/61EA435C" Ref="#PWR?"  Part="1" 
 AR Path="/61BEC565/636144E9/61EA435C" Ref="#PWR?"  Part="1" 
+AR Path="/61BEC565/61EA435C" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 8850 1500 50  0001 C CNN
 F 1 "GND" H 8855 1577 50  0000 C CNN
 F 2 "" H 8850 1750 50  0001 C CNN
@@ -1544,4 +1529,20 @@ Text GLabel 8750 1550 2    50   Input ~ 0
 SOLAR_CS0
 Text GLabel 8750 1650 2    50   Input ~ 0
 SOLAR_CS1
+Text GLabel 4300 3950 0    50   Input ~ 0
+I_SA1A
+Text GLabel 4300 4050 0    50   Input ~ 0
+I_SA1B
+Text GLabel 4300 4150 0    50   Input ~ 0
+I_SA2A
+Text GLabel 4300 4250 0    50   Input ~ 0
+I_SA2B
+Text GLabel 4300 4350 0    50   Input ~ 0
+I_SA3A
+Text GLabel 4300 4450 0    50   Input ~ 0
+I_SA3B
+Text GLabel 4300 4550 0    50   Input ~ 0
+I_SA4A
+Text GLabel 4300 4650 0    50   Input ~ 0
+I_SA4B
 $EndSCHEMATC
