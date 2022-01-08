@@ -360,23 +360,23 @@ MUX3OUT
 $Comp
 L 74xx:74HC595 U?
 U 1 1 622C9B64
-P 8400 1900
-F 0 "U?" H 8400 2681 50  0000 C CNN
-F 1 "74HC595" H 8400 2590 50  0000 C CNN
-F 2 "" H 8400 1900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 8400 1900 50  0001 C CNN
-	1    8400 1900
+P 8750 1750
+F 0 "U?" H 8750 2531 50  0000 C CNN
+F 1 "74HC595" H 8750 2440 50  0000 C CNN
+F 2 "" H 8750 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 8750 1750 50  0001 C CNN
+	1    8750 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74HC595 U?
 U 1 1 622C9F3C
-P 9550 1900
-F 0 "U?" H 9550 2681 50  0000 C CNN
-F 1 "74HC595" H 9550 2590 50  0000 C CNN
-F 2 "" H 9550 1900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 9550 1900 50  0001 C CNN
-	1    9550 1900
+P 10500 1750
+F 0 "U?" H 10500 2531 50  0000 C CNN
+F 1 "74HC595" H 10500 2440 50  0000 C CNN
+F 2 "" H 10500 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 10500 1750 50  0001 C CNN
+	1    10500 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -525,4 +525,161 @@ Wire Wire Line
 Wire Wire Line
 	5400 7300 5200 7300
 Connection ~ 5200 7300
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61DA7D11
+P 9550 1150
+AR Path="/61DA7D11" Ref="#PWR?"  Part="1" 
+AR Path="/61BD4B7D/61DA7D11" Ref="#PWR?"  Part="1" 
+AR Path="/61E87E93/61DA7D11" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9550 1000 50  0001 C CNN
+F 1 "+3V3" V 9565 1278 50  0000 L CNN
+F 2 "" H 9550 1150 50  0001 C CNN
+F 3 "" H 9550 1150 50  0001 C CNN
+	1    9550 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61DA8643
+P 9550 2450
+AR Path="/61DA8643" Ref="#PWR?"  Part="1" 
+AR Path="/61BD4B7D/61DA8643" Ref="#PWR?"  Part="1" 
+AR Path="/61E87E93/61DA8643" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9550 2200 50  0001 C CNN
+F 1 "GND" H 9555 2277 50  0000 C CNN
+F 2 "" H 9550 2450 50  0001 C CNN
+F 3 "" H 9550 2450 50  0001 C CNN
+	1    9550 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61DA8C08
+P 9550 1300
+F 0 "C?" H 9665 1346 50  0000 L CNN
+F 1 "0.1uF" H 9665 1255 50  0000 L CNN
+F 2 "" H 9588 1150 50  0001 C CNN
+F 3 "~" H 9550 1300 50  0001 C CNN
+	1    9550 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61DA9C99
+P 7750 1300
+F 0 "C?" H 7865 1346 50  0000 L CNN
+F 1 "0.1uF" H 7865 1255 50  0000 L CNN
+F 2 "" H 7788 1150 50  0001 C CNN
+F 3 "~" H 7750 1300 50  0001 C CNN
+	1    7750 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 1150 10000 1150
+Connection ~ 8750 1150
+Wire Wire Line
+	8750 1150 8250 1150
+Wire Wire Line
+	7750 1450 7750 2450
+Wire Wire Line
+	8750 2450 9550 2450
+Connection ~ 8750 2450
+Wire Wire Line
+	8350 1650 8250 1650
+Wire Wire Line
+	8250 1650 8250 1150
+Connection ~ 8250 1150
+Wire Wire Line
+	10100 1650 10000 1650
+Wire Wire Line
+	10000 1650 10000 1150
+Connection ~ 10000 1150
+Wire Wire Line
+	8350 1950 8250 1950
+Text Notes 8600 700  0    50   ~ 0
+74hc595 are rising edge clock
+Wire Wire Line
+	10050 1350 10050 2250
+Wire Wire Line
+	10100 1950 10000 1950
+Wire Wire Line
+	10000 1950 10000 2450
+Connection ~ 10000 2450
+Wire Wire Line
+	10000 2450 10500 2450
+Wire Wire Line
+	8250 1950 8250 2450
+Connection ~ 8250 2450
+Wire Wire Line
+	8250 2450 8750 2450
+Wire Wire Line
+	10050 1350 10100 1350
+Wire Wire Line
+	9150 2250 10050 2250
+Wire Wire Line
+	8350 1350 8350 1050
+Wire Wire Line
+	8350 1050 8050 1050
+Wire Wire Line
+	8350 1850 8200 1850
+Wire Wire Line
+	8350 1550 8200 1550
+Wire Wire Line
+	10100 1550 9950 1550
+Wire Wire Line
+	10100 1850 9950 1850
+Text GLabel 8200 1550 0    50   Input ~ 0
+SRCLK
+Text GLabel 9950 1550 0    50   Input ~ 0
+SRCLK
+Text GLabel 8200 1850 0    50   Input ~ 0
+SRLCH
+Text GLabel 9950 1850 0    50   Input ~ 0
+SRLCH
+Text GLabel 8050 1050 0    50   Input ~ 0
+SRSERIN
+Text GLabel 9150 1350 2    50   Input ~ 0
+SW1
+Text GLabel 9150 1450 2    50   Input ~ 0
+SW2
+Text GLabel 9150 1550 2    50   Input ~ 0
+SW3
+Text GLabel 9150 1650 2    50   Input ~ 0
+SW4
+Text GLabel 9150 1750 2    50   Input ~ 0
+SW5
+Text GLabel 9150 1850 2    50   Input ~ 0
+SW6
+Text GLabel 9150 1950 2    50   Input ~ 0
+SW7
+Text GLabel 9150 2050 2    50   Input ~ 0
+SW8
+Text GLabel 10900 1350 2    50   Input ~ 0
+SW9
+Text GLabel 10900 1450 2    50   Input ~ 0
+SW10
+Text GLabel 10900 1550 2    50   Input ~ 0
+SW11
+Text GLabel 10900 1650 2    50   Input ~ 0
+SW12
+Text GLabel 10900 1750 2    50   Input ~ 0
+SW13
+Text GLabel 10900 1850 2    50   Input ~ 0
+SW14
+Connection ~ 9550 1150
+Wire Wire Line
+	9550 1150 8750 1150
+Connection ~ 9550 2450
+Wire Wire Line
+	9550 2450 10000 2450
+Wire Wire Line
+	9550 1450 9550 2450
+Wire Wire Line
+	9550 1150 10000 1150
+NoConn ~ 10900 2250
+Wire Wire Line
+	7750 1150 8250 1150
+Wire Wire Line
+	7750 2450 8250 2450
 $EndSCHEMATC

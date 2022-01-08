@@ -1416,4 +1416,10 @@ Text GLabel 9100 2950 2    50   Input ~ 0
 RST5V
 Text GLabel 9100 2850 2    50   Input ~ 0
 RST3V3
+Text GLabel 9100 2550 2    50   Input ~ 0
+SRCLK
+Text GLabel 9100 2650 2    50   Input ~ 0
+SRLCH
+Text GLabel 9100 2750 2    50   Input ~ 0
+SRSERIN
 $EndSCHEMATC

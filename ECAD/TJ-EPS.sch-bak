@@ -1410,4 +1410,10 @@ Text GLabel 9100 2450 2    50   Input ~ 0
 MUX3OUT
 Text GLabel 9100 3150 2    50   Input ~ 0
 RST12V
+Text GLabel 9100 3050 2    50   Input ~ 0
+RSTBATV
+Text GLabel 9100 2950 2    50   Input ~ 0
+RST5V
+Text GLabel 9100 2850 2    50   Input ~ 0
+RST3V3
 $EndSCHEMATC
