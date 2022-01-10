@@ -94,7 +94,7 @@ AR Path="/61BEC565/61BEC848/61CBF3BD" Ref="U?"  Part="1"
 AR Path="/61BEC565/61CBF3BD" Ref="U21"  Part="1" 
 F 0 "U21" H 9250 5000 50  0000 C CNN
 F 1 "MCP4812" H 9350 4900 50  0000 C CNN
-F 2 "" H 9950 4250 50  0001 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 9950 4250 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf" H 9950 4250 50  0001 C CNN
 	1    9150 4550
 	1    0    0    -1  
@@ -107,7 +107,7 @@ AR Path="/61BEC565/61BEC848/61CBF3C3" Ref="U?"  Part="1"
 AR Path="/61BEC565/61CBF3C3" Ref="U20"  Part="1" 
 F 0 "U20" H 9250 3800 50  0000 C CNN
 F 1 "MCP4812" H 9350 3700 50  0000 C CNN
-F 2 "" H 9950 3050 50  0001 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 9950 3050 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf" H 9950 3050 50  0001 C CNN
 	1    9150 3350
 	1    0    0    -1  
@@ -560,7 +560,7 @@ U 1 1 61D76426
 P 4900 4250
 F 0 "U16" H 4900 4931 50  0000 C CNN
 F 1 "MCP3208" H 4900 4840 50  0000 C CNN
-F 2 "" H 5000 4350 50  0001 C CNN
+F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5000 4350 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf" H 5000 4350 50  0001 C CNN
 	1    4900 4250
 	1    0    0    -1  

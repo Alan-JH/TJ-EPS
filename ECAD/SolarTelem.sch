@@ -407,7 +407,7 @@ U 1 1 61DF1A1E
 P 4200 2600
 F 0 "U39" H 4200 3281 50  0000 C CNN
 F 1 "MCP3208" H 4200 3190 50  0000 C CNN
-F 2 "" H 4300 2700 50  0001 C CNN
+F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 4300 2700 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf" H 4300 2700 50  0001 C CNN
 	1    4200 2600
 	1    0    0    -1  
@@ -418,7 +418,7 @@ U 1 1 61DF4003
 P 4200 4350
 F 0 "U40" H 4200 5031 50  0000 C CNN
 F 1 "MCP3208" H 4200 4940 50  0000 C CNN
-F 2 "" H 4300 4450 50  0001 C CNN
+F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 4300 4450 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf" H 4300 4450 50  0001 C CNN
 	1    4200 4350
 	1    0    0    -1  
