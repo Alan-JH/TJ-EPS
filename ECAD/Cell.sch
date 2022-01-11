@@ -9,8 +9,8 @@ Date ""
 Rev "0.1"
 Comp "TJHSST Nanosatellite Club"
 Comment1 "Cell Level Protection"
-Comment2 "Provides Loose Cell Level OCP/OVP/UVP/SCP"
-Comment3 "Generally Specced out for 3-3.6Ah 18650 cell, exists on a separate board"
+Comment2 "Provides Loose Cell Level OCP/OVP/UVP/SCP, should be secondary to protection integrated into the cell"
+Comment3 "Generally Specced out for 3-3.6Ah 18650 cell"
 Comment4 "Engineer: Alan Hsu"
 $EndDescr
 $Comp
@@ -174,49 +174,13 @@ Text Notes 5400 4450 0    30   ~ 0
 Specced Rds(on) is 11mOhm at 25C, 12.5mOhm at 85C. 4.1A and 3.6A current limits respectively
 Text Notes 3850 2900 0    50   ~ 0
 29707: Vmin 2.8V, Vmax 4.28V, Current thresholds 0.09V for both charge and discharge, 0.3V for short circuit
-$Comp
-L Mechanical:MountingHole_Pad H11
-U 1 1 61D78E3E
-P 7350 3100
-AR Path="/61BD4B7D/61C44F8A/61D78E3E" Ref="H11"  Part="1" 
-AR Path="/61BD4B7D/61C40A6C/61D78E3E" Ref="H5"  Part="1" 
-AR Path="/61BD4B7D/61C444F3/61D78E3E" Ref="H7"  Part="1" 
-AR Path="/61BD4B7D/61C44BC0/61D78E3E" Ref="H9"  Part="1" 
-F 0 "H5" H 7450 3149 50  0000 L CNN
-F 1 "Contact" H 7450 3058 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 7350 3100 50  0001 C CNN
-F 3 "~" H 7350 3100 50  0001 C CNN
-	1    7350 3100
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4850 3000 7350 3000
-Connection ~ 7350 3000
-Wire Wire Line
-	7350 3000 7450 3000
-$Comp
-L Mechanical:MountingHole_Pad H12
-U 1 1 61D7A980
-P 7350 3850
-AR Path="/61BD4B7D/61C44F8A/61D7A980" Ref="H12"  Part="1" 
-AR Path="/61BD4B7D/61C40A6C/61D7A980" Ref="H6"  Part="1" 
-AR Path="/61BD4B7D/61C444F3/61D7A980" Ref="H8"  Part="1" 
-AR Path="/61BD4B7D/61C44BC0/61D7A980" Ref="H10"  Part="1" 
-F 0 "H6" H 7250 3900 50  0000 R CNN
-F 1 "Contact" H 7250 3800 50  0000 R CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 7350 3850 50  0001 C CNN
-F 3 "~" H 7350 3850 50  0001 C CNN
-	1    7350 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6900 3950 7350 3950
-Connection ~ 7350 3950
-Wire Wire Line
-	7350 3950 7450 3950
 Wire Wire Line
 	5150 3750 5150 3950
 Wire Wire Line
 	5150 3450 5150 3250
 Connection ~ 5150 3250
+Wire Wire Line
+	6900 3950 7450 3950
+Wire Wire Line
+	4850 3000 7450 3000
 $EndSCHEMATC
