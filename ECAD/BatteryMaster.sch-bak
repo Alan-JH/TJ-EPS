@@ -798,7 +798,7 @@ U 1 1 61D60992
 P 1900 850
 F 0 "R12" V 1800 850 50  0000 C CNN
 F 1 "10m" V 1900 850 50  0000 C CNN
-F 2 "" V 1830 850 50  0001 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric" V 1830 850 50  0001 C CNN
 F 3 "~" H 1900 850 50  0001 C CNN
 	1    1900 850 
 	0    1    1    0   
@@ -2213,4 +2213,6 @@ Wire Wire Line
 Connection ~ 5650 2300
 Wire Wire Line
 	5650 2300 5950 2300
+Text Notes 7350 2550 0    50   ~ 0
+8.4V rising/7.98V falling OVP \n(0.5V OV rising threshold,\n0.475V OV falling threshold)
 $EndSCHEMATC
