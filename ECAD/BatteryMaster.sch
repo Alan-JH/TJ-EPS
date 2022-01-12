@@ -13,54 +13,6 @@ Comment2 "Provides OCP, OVP, and charge balancing, as well as telemetry"
 Comment3 "Contains Battery TTC Node. Battery is intended to be a separate stack PCB"
 Comment4 "Engineer: Alan Hsu"
 $EndDescr
-$Sheet
-S 12000 1250 550  250 
-U 61C40A6C
-F0 "Cell1" 50
-F1 "Cell.sch" 50
-F2 "-" I R 12550 1400 50 
-F3 "+" I R 12550 1300 50 
-$EndSheet
-$Sheet
-S 12950 1250 550  250 
-U 61C444F3
-F0 "Cell2" 50
-F1 "Cell.sch" 50
-F2 "-" I L 12950 1400 50 
-F3 "+" I L 12950 1300 50 
-$EndSheet
-$Sheet
-S 12000 1750 550  250 
-U 61C44BC0
-F0 "Cell3" 50
-F1 "Cell.sch" 50
-F2 "-" I R 12550 1900 50 
-F3 "+" I R 12550 1800 50 
-$EndSheet
-$Sheet
-S 12950 1750 550  250 
-U 61C44F8A
-F0 "Cell4" 50
-F1 "Cell.sch" 50
-F2 "-" I L 12950 1900 50 
-F3 "+" I L 12950 1800 50 
-$EndSheet
-Wire Wire Line
-	12550 1300 12750 1300
-Wire Wire Line
-	12550 1400 12750 1400
-Wire Wire Line
-	12550 1800 12750 1800
-Wire Wire Line
-	12550 1900 12750 1900
-Wire Wire Line
-	12750 1400 12750 1600
-Connection ~ 12750 1400
-Wire Wire Line
-	12750 1400 12950 1400
-Connection ~ 12750 1800
-Wire Wire Line
-	12750 1800 12950 1800
 $Comp
 L symbols:BQ2920 U10
 U 1 1 61C4D2D4
@@ -73,25 +25,12 @@ F 3 "" H 10900 1150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	12750 1300 12750 1150
-Connection ~ 12750 1300
-Wire Wire Line
-	12750 1300 12950 1300
-Wire Wire Line
 	12750 2300 11400 2300
-Wire Wire Line
-	12750 1900 12750 2300
-Connection ~ 12750 1900
-Wire Wire Line
-	12750 1900 12950 1900
 Connection ~ 11400 2300
 Wire Wire Line
 	11400 2000 11300 2000
 Wire Wire Line
-	11900 1600 12750 1600
-Connection ~ 12750 1600
-Wire Wire Line
-	12750 1600 12750 1800
+	11900 1600 12500 1600
 $Comp
 L Device:R R36
 U 1 1 61C52C21
@@ -1343,8 +1282,7 @@ NoConn ~ 9000 1550
 Wire Wire Line
 	11900 1250 11900 1150
 Wire Wire Line
-	11900 1150 12750 1150
-Connection ~ 12750 1150
+	11900 1150 12500 1150
 Wire Wire Line
 	12750 1150 12750 850 
 Wire Wire Line
@@ -2215,4 +2153,97 @@ Wire Wire Line
 	5650 2300 5950 2300
 Text Notes 7350 2550 0    50   ~ 0
 8.4V rising/7.98V falling OVP \n(0.5V OV rising threshold,\n0.475V OV falling threshold)
+$Comp
+L Device:Battery_Cell BT2
+U 1 1 61F160CF
+P 13000 1400
+AR Path="/61BD4B7D/61F160CF" Ref="BT2"  Part="1" 
+AR Path="/61BD4B7D/61C40A6C/61F160CF" Ref="BT?"  Part="1" 
+AR Path="/61BD4B7D/61C444F3/61F160CF" Ref="BT?"  Part="1" 
+AR Path="/61BD4B7D/61C44BC0/61F160CF" Ref="BT?"  Part="1" 
+AR Path="/61BD4B7D/61C44F8A/61F160CF" Ref="BT?"  Part="1" 
+F 0 "BT2" H 13100 1500 50  0000 L CNN
+F 1 "18650" H 13100 1400 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_1042_1x18650" V 13000 1460 50  0001 C CNN
+F 3 "~" V 13000 1460 50  0001 C CNN
+	1    13000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 61F47C03
+P 12500 1400
+AR Path="/61BD4B7D/61F47C03" Ref="BT1"  Part="1" 
+AR Path="/61BD4B7D/61C40A6C/61F47C03" Ref="BT?"  Part="1" 
+AR Path="/61BD4B7D/61C444F3/61F47C03" Ref="BT?"  Part="1" 
+AR Path="/61BD4B7D/61C44BC0/61F47C03" Ref="BT?"  Part="1" 
+AR Path="/61BD4B7D/61C44F8A/61F47C03" Ref="BT?"  Part="1" 
+F 0 "BT1" H 12250 1500 50  0000 L CNN
+F 1 "18650" H 12150 1400 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_1042_1x18650" V 12500 1460 50  0001 C CNN
+F 3 "~" V 12500 1460 50  0001 C CNN
+	1    12500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT4
+U 1 1 61F8C9F9
+P 13000 1900
+AR Path="/61BD4B7D/61F8C9F9" Ref="BT4"  Part="1" 
+AR Path="/61BD4B7D/61C40A6C/61F8C9F9" Ref="BT?"  Part="1" 
+AR Path="/61BD4B7D/61C444F3/61F8C9F9" Ref="BT?"  Part="1" 
+AR Path="/61BD4B7D/61C44BC0/61F8C9F9" Ref="BT?"  Part="1" 
+AR Path="/61BD4B7D/61C44F8A/61F8C9F9" Ref="BT?"  Part="1" 
+F 0 "BT4" H 13100 2000 50  0000 L CNN
+F 1 "18650" H 13100 1900 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_1042_1x18650" V 13000 1960 50  0001 C CNN
+F 3 "~" V 13000 1960 50  0001 C CNN
+	1    13000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT3
+U 1 1 61F8C9FF
+P 12500 1900
+AR Path="/61BD4B7D/61F8C9FF" Ref="BT3"  Part="1" 
+AR Path="/61BD4B7D/61C40A6C/61F8C9FF" Ref="BT?"  Part="1" 
+AR Path="/61BD4B7D/61C444F3/61F8C9FF" Ref="BT?"  Part="1" 
+AR Path="/61BD4B7D/61C44BC0/61F8C9FF" Ref="BT?"  Part="1" 
+AR Path="/61BD4B7D/61C44F8A/61F8C9FF" Ref="BT?"  Part="1" 
+F 0 "BT3" H 12250 2000 50  0000 L CNN
+F 1 "18650" H 12150 1900 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_1042_1x18650" V 12500 1960 50  0001 C CNN
+F 3 "~" V 12500 1960 50  0001 C CNN
+	1    12500 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12500 2000 12750 2000
+Connection ~ 12750 2000
+Wire Wire Line
+	12750 2000 12750 2300
+Wire Wire Line
+	12750 2000 13000 2000
+Wire Wire Line
+	12500 1700 12500 1600
+Connection ~ 12500 1600
+Wire Wire Line
+	13000 1600 13000 1500
+Wire Wire Line
+	12500 1600 13000 1600
+Wire Wire Line
+	13000 1600 13000 1700
+Connection ~ 13000 1600
+Wire Wire Line
+	12500 1600 12500 1500
+Wire Wire Line
+	12500 1200 12500 1150
+Connection ~ 12500 1150
+Wire Wire Line
+	12500 1150 12750 1150
+Wire Wire Line
+	12750 1150 13000 1150
+Wire Wire Line
+	13000 1150 13000 1200
+Connection ~ 12750 1150
 $EndSCHEMATC
