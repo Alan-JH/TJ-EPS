@@ -157,25 +157,25 @@ Connection ~ 2150 3500
 Wire Wire Line
 	2150 3500 2800 3500
 $Sheet
-S 750  5900 1100 250 
+S 9100 5150 1100 250 
 U 61BD4B7D
 F0 "Battery" 50
 F1 "BatteryMaster.sch" 50
 $EndSheet
 $Sheet
-S 750  5450 1100 250 
+S 9100 4700 1100 250 
 U 61BEC565
 F0 "SolarConditioning" 50
 F1 "SolarConditioning.sch" 50
 $EndSheet
 $Sheet
-S 750  6350 1100 250 
+S 9100 5600 1100 250 
 U 61C9425D
 F0 "PowerConditioning" 50
 F1 "PowerConditioning.sch" 50
 $EndSheet
 $Sheet
-S 750  6800 1100 250 
+S 9100 6050 1100 250 
 U 61E87E93
 F0 "PowerDistribution" 50
 F1 "PowerDistribution.sch" 50
@@ -1016,54 +1016,42 @@ Wire Wire Line
 $Comp
 L 74xx:CD74HC4067SM U1
 U 1 1 61D924A0
-P 3650 5850
-F 0 "U1" H 3650 7031 50  0000 C CNN
-F 1 "CD74HC4067SM" H 3650 6940 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 4700 4850 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 3300 6700 50  0001 C CNN
-	1    3650 5850
+P 1700 5650
+F 0 "U1" H 1700 6850 50  0000 C CNN
+F 1 "CD74HC4067SM" H 1700 6750 50  0000 C CNN
+F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 2750 4650 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 1350 6500 50  0001 C CNN
+	1    1700 5650
 	-1   0    0    -1  
 $EndComp
-Text GLabel 3150 5250 0    50   Input ~ 0
+Text GLabel 1200 5050 0    50   Input ~ 0
 I_SA1A
-Text GLabel 3150 5550 0    50   Input ~ 0
+Text GLabel 1200 5350 0    50   Input ~ 0
 I_SA2A
-Text GLabel 3150 5650 0    50   Input ~ 0
+Text GLabel 1200 5450 0    50   Input ~ 0
 I_SA2B
-Text GLabel 3150 5850 0    50   Input ~ 0
+Text GLabel 1200 5650 0    50   Input ~ 0
 I_SA3A
-Text GLabel 3150 5950 0    50   Input ~ 0
+Text GLabel 1200 5750 0    50   Input ~ 0
 I_SA3B
-Text GLabel 3150 6150 0    50   Input ~ 0
+Text GLabel 1200 5950 0    50   Input ~ 0
 I_SA4A
-Text GLabel 3150 6250 0    50   Input ~ 0
+Text GLabel 1200 6050 0    50   Input ~ 0
 I_SA4B
-Text GLabel 3150 5350 0    50   Input ~ 0
+Text GLabel 1200 5150 0    50   Input ~ 0
 I_SA1B
-Text GLabel 3150 5150 0    50   Input ~ 0
+Text GLabel 1200 4950 0    50   Input ~ 0
 V_SA1
-Text GLabel 3150 5450 0    50   Input ~ 0
+Text GLabel 1200 5250 0    50   Input ~ 0
 V_SA2
-Text GLabel 3150 5750 0    50   Input ~ 0
+Text GLabel 1200 5550 0    50   Input ~ 0
 V_SA3
-Text GLabel 3150 6050 0    50   Input ~ 0
+Text GLabel 1200 5850 0    50   Input ~ 0
 V_SA4
-Text GLabel 3150 6350 0    50   Input ~ 0
+Text GLabel 1200 6150 0    50   Input ~ 0
 TELEM_VBCROUT
-Text GLabel 3150 6450 0    50   Input ~ 0
+Text GLabel 1200 6250 0    50   Input ~ 0
 TELEM_IBCROUT
-Text GLabel 5350 5150 0    50   Input ~ 0
-TELEM_IBATV
-Text GLabel 5350 5250 0    50   Input ~ 0
-TELEM_I5V
-Text GLabel 5350 5350 0    50   Input ~ 0
-TELEM_I3V3
-Text GLabel 5350 5450 0    50   Input ~ 0
-TELEM_VBATV
-Text GLabel 5350 5550 0    50   Input ~ 0
-TELEM_V5V
-Text GLabel 5350 5650 0    50   Input ~ 0
-TELEM_V3V3
 $Comp
 L Device:R R?
 U 1 1 6225F84D
@@ -1154,19 +1142,6 @@ F 3 "~" H 4750 3350 50  0001 C CNN
 	1    4750 3350
 	1    0    0    -1  
 $EndComp
-$Comp
-L 74xx:CD74HC4067SM U3
-U 1 1 622718CA
-P 5850 5850
-F 0 "U3" H 5850 7031 50  0000 C CNN
-F 1 "CD74HC4067SM" H 5850 6940 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 6900 4850 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 5500 6700 50  0001 C CNN
-	1    5850 5850
-	-1   0    0    -1  
-$EndComp
-Text GLabel 5350 5750 0    50   Input ~ 0
-TELEM_TBRD
 Text GLabel 7800 3450 0    50   Input ~ 0
 SOLAR_SCK
 Text GLabel 7800 3550 0    50   Input ~ 0
@@ -1177,148 +1152,60 @@ Text GLabel 7800 2150 0    50   Input ~ 0
 SOLAR_CS0
 Text GLabel 7800 2250 0    50   Input ~ 0
 SOLAR_CS1
-Text GLabel 4350 5350 2    50   Input ~ 0
+Text GLabel 2400 5150 2    50   Input ~ 0
 MUX0OUT
-Text GLabel 6550 5350 2    50   Input ~ 0
-MUX1OUT
-$Comp
-L power:+3V3 #PWR010
-U 1 1 622F7B78
-P 4750 4850
-AR Path="/622F7B78" Ref="#PWR010"  Part="1" 
-AR Path="/61BD4B7D/622F7B78" Ref="#PWR?"  Part="1" 
-F 0 "#PWR010" H 4750 4700 50  0001 C CNN
-F 1 "+3V3" V 4765 4978 50  0000 L CNN
-F 2 "" H 4750 4850 50  0001 C CNN
-F 3 "" H 4750 4850 50  0001 C CNN
-	1    4750 4850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5850 4850 4750 4850
-Connection ~ 4750 4850
+	1700 6750 2200 6750
 Wire Wire Line
-	3650 6950 4150 6950
+	2200 6250 2200 6750
+Connection ~ 2200 6750
 Wire Wire Line
-	4150 6450 4150 6950
-Connection ~ 4150 6950
-Wire Wire Line
-	4150 6950 4350 6950
-Wire Wire Line
-	6350 6450 6350 6950
-Wire Wire Line
-	6350 6950 5850 6950
-Connection ~ 5850 6950
-$Comp
-L power:GND #PWR011
-U 1 1 6231C048
-P 4750 6950
-AR Path="/6231C048" Ref="#PWR011"  Part="1" 
-AR Path="/61BD4B7D/6231C048" Ref="#PWR?"  Part="1" 
-F 0 "#PWR011" H 4750 6700 50  0001 C CNN
-F 1 "GND" H 4755 6777 50  0000 C CNN
-F 2 "" H 4750 6950 50  0001 C CNN
-F 3 "" H 4750 6950 50  0001 C CNN
-	1    4750 6950
-	1    0    0    -1  
-$EndComp
-Connection ~ 4750 6950
-Wire Wire Line
-	4750 6950 5850 6950
-$Comp
-L Device:C C?
-U 1 1 6233297F
-P 4750 5000
-AR Path="/61BD4B7D/6233297F" Ref="C?"  Part="1" 
-AR Path="/6233297F" Ref="C5"  Part="1" 
-F 0 "C5" H 4865 5046 50  0000 L CNN
-F 1 "0.1uF" H 4865 4955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4788 4850 50  0001 C CNN
-F 3 "~" H 4750 5000 50  0001 C CNN
-	1    4750 5000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 5150 4750 6950
+	2200 6750 2400 6750
 $Comp
 L Device:C C?
 U 1 1 62347F05
-P 2500 5000
+P 550 4800
 AR Path="/61BD4B7D/62347F05" Ref="C?"  Part="1" 
 AR Path="/62347F05" Ref="C1"  Part="1" 
-F 0 "C1" H 2615 5046 50  0000 L CNN
-F 1 "0.1uF" H 2615 4955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2538 4850 50  0001 C CNN
-F 3 "~" H 2500 5000 50  0001 C CNN
-	1    2500 5000
+F 0 "C1" H 665 4846 50  0000 L CNN
+F 1 "0.1uF" H 665 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 588 4650 50  0001 C CNN
+F 3 "~" H 550 4800 50  0001 C CNN
+	1    550  4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 5150 2500 6950
+	550  4950 550  6750
 Wire Wire Line
-	3650 4850 2500 4850
+	1700 4650 550  4650
 Wire Wire Line
-	2500 6950 3650 6950
-Connection ~ 3650 6950
-Text GLabel 6350 5750 2    50   Input ~ 0
+	550  6750 1700 6750
+Connection ~ 1700 6750
+Text GLabel 2200 5550 2    50   Input ~ 0
 S0
-Text GLabel 6350 5850 2    50   Input ~ 0
+Text GLabel 2200 5650 2    50   Input ~ 0
 S1
-Text GLabel 6350 5950 2    50   Input ~ 0
+Text GLabel 2200 5750 2    50   Input ~ 0
 S2
-Text GLabel 6350 6050 2    50   Input ~ 0
-S3
-Text GLabel 4150 5750 2    50   Input ~ 0
-S0
-Text GLabel 4150 5850 2    50   Input ~ 0
-S1
-Text GLabel 4150 5950 2    50   Input ~ 0
-S2
-Text GLabel 4150 6050 2    50   Input ~ 0
+Text GLabel 2200 5850 2    50   Input ~ 0
 S3
 $Comp
 L Device:C C?
 U 1 1 62390119
-P 4350 5500
+P 2400 5300
 AR Path="/61BD4B7D/62390119" Ref="C?"  Part="1" 
 AR Path="/62390119" Ref="C3"  Part="1" 
-F 0 "C3" H 4465 5546 50  0000 L CNN
-F 1 "0.01uF" H 4465 5455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4388 5350 50  0001 C CNN
-F 3 "~" H 4350 5500 50  0001 C CNN
-	1    4350 5500
+F 0 "C3" H 2515 5346 50  0000 L CNN
+F 1 "0.01uF" H 2515 5255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2438 5150 50  0001 C CNN
+F 3 "~" H 2400 5300 50  0001 C CNN
+	1    2400 5300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 5650 4350 6950
+	2400 5450 2400 6750
 Wire Wire Line
-	4150 5350 4350 5350
-$Comp
-L Device:C C?
-U 1 1 623AB59B
-P 6550 5500
-AR Path="/61BD4B7D/623AB59B" Ref="C?"  Part="1" 
-AR Path="/623AB59B" Ref="C6"  Part="1" 
-F 0 "C6" H 6665 5546 50  0000 L CNN
-F 1 "0.01uF" H 6665 5455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6588 5350 50  0001 C CNN
-F 3 "~" H 6550 5500 50  0001 C CNN
-	1    6550 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6550 5650 6550 6950
-Wire Wire Line
-	6350 6950 6550 6950
-Connection ~ 6350 6950
-Wire Wire Line
-	6550 5350 6350 5350
-Wire Wire Line
-	3650 4850 4750 4850
-Connection ~ 3650 4850
-Wire Wire Line
-	4350 6950 4750 6950
-Connection ~ 4350 6950
+	2200 5150 2400 5150
 Text GLabel 7800 3050 0    50   Input ~ 0
 S1
 Text GLabel 7800 3150 0    50   Input ~ 0
@@ -1343,11 +1230,11 @@ Text GLabel 9100 2350 2    50   Input ~ 0
 MUX2OUT
 Text GLabel 9100 2450 2    50   Input ~ 0
 MUX3OUT
-Text GLabel 9100 3050 2    50   Input ~ 0
+Text GLabel 9100 3150 2    50   Input ~ 0
 RSTBATV
-Text GLabel 9100 2950 2    50   Input ~ 0
+Text GLabel 9100 3050 2    50   Input ~ 0
 RST5V
-Text GLabel 9100 2850 2    50   Input ~ 0
+Text GLabel 9100 2950 2    50   Input ~ 0
 RST3V3
 Text GLabel 9100 2550 2    50   Input ~ 0
 SRCLK
@@ -1394,4 +1281,250 @@ Wire Wire Line
 NoConn ~ 1900 3250
 NoConn ~ 2400 3250
 NoConn ~ 2400 1250
+Text GLabel 1200 6450 0    50   Input ~ 0
+TELEM_TBRD
+$Comp
+L 74xx:CD74HC4067SM U3
+U 1 1 61EACF05
+P 4000 5650
+AR Path="/61EACF05" Ref="U3"  Part="1" 
+AR Path="/61E87E93/61EACF05" Ref="U?"  Part="1" 
+F 0 "U3" H 4000 6850 50  0000 C CNN
+F 1 "CD74HC4067SM" H 4000 6750 50  0000 C CNN
+F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 5050 4650 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 3650 6500 50  0001 C CNN
+	1    4000 5650
+	-1   0    0    -1  
+$EndComp
+Text GLabel 3500 4950 0    50   Input ~ 0
+TELEM_VSW1
+Text GLabel 3500 5050 0    50   Input ~ 0
+TELEM_VSW2
+Text GLabel 3500 5150 0    50   Input ~ 0
+TELEM_VSW3
+Text GLabel 3500 5250 0    50   Input ~ 0
+TELEM_VSW4
+Text GLabel 3500 5350 0    50   Input ~ 0
+TELEM_VSW5
+Text GLabel 3500 5450 0    50   Input ~ 0
+TELEM_VSW6
+Text GLabel 3500 5550 0    50   Input ~ 0
+TELEM_VSW7
+Text GLabel 3500 5650 0    50   Input ~ 0
+TELEM_VSW8
+Text GLabel 3500 5750 0    50   Input ~ 0
+TELEM_VSW9
+Text GLabel 3500 5850 0    50   Input ~ 0
+TELEM_VSW10
+Text GLabel 3500 5950 0    50   Input ~ 0
+TELEM_VSW11
+Text GLabel 3500 6050 0    50   Input ~ 0
+TELEM_VSW12
+$Comp
+L 74xx:CD74HC4067SM U60
+U 1 1 61EACF17
+P 6200 5650
+AR Path="/61EACF17" Ref="U60"  Part="1" 
+AR Path="/61E87E93/61EACF17" Ref="U?"  Part="1" 
+F 0 "U60" H 6200 6850 50  0000 C CNN
+F 1 "CD74HC4067SM" H 6200 6750 50  0000 C CNN
+F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 7250 4650 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 5850 6500 50  0001 C CNN
+	1    6200 5650
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5700 4950 0    50   Input ~ 0
+TELEM_ISW1
+Text GLabel 5700 5050 0    50   Input ~ 0
+TELEM_ISW2
+Text GLabel 5700 5150 0    50   Input ~ 0
+TELEM_ISW3
+Text GLabel 5700 5250 0    50   Input ~ 0
+TELEM_ISW4
+Text GLabel 5700 5350 0    50   Input ~ 0
+TELEM_ISW5
+Text GLabel 5700 5450 0    50   Input ~ 0
+TELEM_ISW6
+Text GLabel 5700 5550 0    50   Input ~ 0
+TELEM_ISW7
+Text GLabel 5700 5650 0    50   Input ~ 0
+TELEM_ISW8
+Text GLabel 5700 5750 0    50   Input ~ 0
+TELEM_ISW9
+Text GLabel 5700 5850 0    50   Input ~ 0
+TELEM_ISW10
+Text GLabel 5700 5950 0    50   Input ~ 0
+TELEM_ISW11
+Text GLabel 5700 6050 0    50   Input ~ 0
+TELEM_ISW12
+Text GLabel 6900 5150 2    50   Input ~ 0
+MUX2OUT
+$Comp
+L power:+3V3 #PWR010
+U 1 1 61EACF2A
+P 5100 4650
+AR Path="/61EACF2A" Ref="#PWR010"  Part="1" 
+AR Path="/61BD4B7D/61EACF2A" Ref="#PWR?"  Part="1" 
+AR Path="/61E87E93/61EACF2A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR010" H 5100 4500 50  0001 C CNN
+F 1 "+3V3" V 5115 4778 50  0000 L CNN
+F 2 "" H 5100 4650 50  0001 C CNN
+F 3 "" H 5100 4650 50  0001 C CNN
+	1    5100 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4650 5100 4650
+Connection ~ 5100 4650
+Wire Wire Line
+	4500 6750 4700 6750
+$Comp
+L power:GND #PWR011
+U 1 1 61EACF33
+P 5100 6750
+AR Path="/61EACF33" Ref="#PWR011"  Part="1" 
+AR Path="/61BD4B7D/61EACF33" Ref="#PWR?"  Part="1" 
+AR Path="/61E87E93/61EACF33" Ref="#PWR?"  Part="1" 
+F 0 "#PWR011" H 5100 6500 50  0001 C CNN
+F 1 "GND" H 5105 6577 50  0000 C CNN
+F 2 "" H 5100 6750 50  0001 C CNN
+F 3 "" H 5100 6750 50  0001 C CNN
+	1    5100 6750
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 6750
+Wire Wire Line
+	5100 6750 6200 6750
+$Comp
+L Device:C C?
+U 1 1 61EACF3B
+P 5100 4800
+AR Path="/61BD4B7D/61EACF3B" Ref="C?"  Part="1" 
+AR Path="/61EACF3B" Ref="C93"  Part="1" 
+AR Path="/61E87E93/61EACF3B" Ref="C?"  Part="1" 
+F 0 "C93" H 5215 4846 50  0000 L CNN
+F 1 "0.1uF" H 5215 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5138 4650 50  0001 C CNN
+F 3 "~" H 5100 4800 50  0001 C CNN
+	1    5100 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4950 5100 6750
+Wire Wire Line
+	4500 6250 4500 6750
+Wire Wire Line
+	4500 6750 4000 6750
+Connection ~ 4500 6750
+Wire Wire Line
+	6200 6750 6700 6750
+Wire Wire Line
+	6700 6750 6700 6250
+Connection ~ 6200 6750
+$Comp
+L Device:C C?
+U 1 1 61EACF48
+P 2900 4800
+AR Path="/61BD4B7D/61EACF48" Ref="C?"  Part="1" 
+AR Path="/61EACF48" Ref="C5"  Part="1" 
+AR Path="/61E87E93/61EACF48" Ref="C?"  Part="1" 
+F 0 "C5" H 3015 4846 50  0000 L CNN
+F 1 "0.1uF" H 3015 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2938 4650 50  0001 C CNN
+F 3 "~" H 2900 4800 50  0001 C CNN
+	1    2900 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4950 2900 6750
+Wire Wire Line
+	2900 4650 4000 4650
+Wire Wire Line
+	2900 6750 4000 6750
+Connection ~ 4000 6750
+Text GLabel 4500 5550 2    50   Input ~ 0
+S0
+Text GLabel 4500 5650 2    50   Input ~ 0
+S1
+Text GLabel 4500 5750 2    50   Input ~ 0
+S2
+Text GLabel 4500 5850 2    50   Input ~ 0
+S3
+Text GLabel 6700 5550 2    50   Input ~ 0
+S0
+Text GLabel 6700 5650 2    50   Input ~ 0
+S1
+Text GLabel 6700 5750 2    50   Input ~ 0
+S2
+Text GLabel 6700 5850 2    50   Input ~ 0
+S3
+Text GLabel 4700 5150 2    50   Input ~ 0
+MUX1OUT
+$Comp
+L Device:C C?
+U 1 1 61EACF5B
+P 4700 5300
+AR Path="/61BD4B7D/61EACF5B" Ref="C?"  Part="1" 
+AR Path="/61EACF5B" Ref="C6"  Part="1" 
+AR Path="/61E87E93/61EACF5B" Ref="C?"  Part="1" 
+F 0 "C6" H 4815 5346 50  0000 L CNN
+F 1 "0.01uF" H 4815 5255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4738 5150 50  0001 C CNN
+F 3 "~" H 4700 5300 50  0001 C CNN
+	1    4700 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 5450 4700 6750
+Wire Wire Line
+	4500 5150 4700 5150
+Wire Wire Line
+	4700 6750 5100 6750
+Connection ~ 4700 6750
+Wire Wire Line
+	4000 4650 5100 4650
+Connection ~ 4000 4650
+$Comp
+L Device:C C?
+U 1 1 61EACF67
+P 6900 5300
+AR Path="/61BD4B7D/61EACF67" Ref="C?"  Part="1" 
+AR Path="/61EACF67" Ref="C94"  Part="1" 
+AR Path="/61E87E93/61EACF67" Ref="C?"  Part="1" 
+F 0 "C94" H 7015 5346 50  0000 L CNN
+F 1 "0.01uF" H 7015 5255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6938 5150 50  0001 C CNN
+F 3 "~" H 6900 5300 50  0001 C CNN
+	1    6900 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 5450 6900 6750
+Wire Wire Line
+	6700 5150 6900 5150
+Wire Wire Line
+	6900 6750 6700 6750
+Connection ~ 6700 6750
+Text GLabel 5700 6150 0    50   Input ~ 0
+TELEM_IBATV
+Text GLabel 5700 6250 0    50   Input ~ 0
+TELEM_I5V
+Text GLabel 5700 6350 0    50   Input ~ 0
+TELEM_I3V3
+Text GLabel 3500 6150 0    50   Input ~ 0
+TELEM_VBATV
+Text GLabel 3500 6250 0    50   Input ~ 0
+TELEM_V5V
+Text GLabel 3500 6350 0    50   Input ~ 0
+TELEM_V3V3
+Wire Wire Line
+	2900 6750 2400 6750
+Connection ~ 2900 6750
+Connection ~ 2400 6750
+Wire Wire Line
+	1700 4650 2900 4650
+Connection ~ 1700 4650
+Connection ~ 2900 4650
+Text GLabel 9100 2850 2    50   Input ~ 0
+PDMRST
 $EndSCHEMATC
