@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLegal 14000 8500
 encoding utf-8
-Sheet 2 44
+Sheet 2 37
 Title "TJ Custom EPS"
 Date ""
 Rev "0.1"
@@ -381,32 +381,6 @@ SW9
 Text GLabel 2000 5150 0    50   Input ~ 0
 SW10
 $Comp
-L power:+12V #PWR?
-U 1 1 61C799ED
-P 2500 5550
-AR Path="/61C799ED" Ref="#PWR?"  Part="1" 
-AR Path="/61BD4B7D/61C799ED" Ref="#PWR0113"  Part="1" 
-F 0 "#PWR0113" H 2500 5400 50  0001 C CNN
-F 1 "+12V" V 2515 5678 50  0000 L CNN
-F 2 "" H 2500 5550 50  0001 C CNN
-F 3 "" H 2500 5550 50  0001 C CNN
-	1    2500 5550
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+12V #PWR?
-U 1 1 61C799F3
-P 2000 5550
-AR Path="/61C799F3" Ref="#PWR?"  Part="1" 
-AR Path="/61BD4B7D/61C799F3" Ref="#PWR0114"  Part="1" 
-F 0 "#PWR0114" H 2000 5400 50  0001 C CNN
-F 1 "+12V" V 2015 5678 50  0000 L CNN
-F 2 "" H 2000 5550 50  0001 C CNN
-F 3 "" H 2000 5550 50  0001 C CNN
-	1    2000 5550
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 61C799F9
 P 2000 5750
@@ -583,12 +557,12 @@ Connection ~ 1600 5950
 Wire Wire Line
 	1600 5950 1600 6650
 Wire Wire Line
-	1600 5450 1600 5950
+	1600 5450 1600 5550
 Connection ~ 2900 5950
 Wire Wire Line
 	2900 5950 2900 6650
 Wire Wire Line
-	2900 5450 2900 5950
+	2900 5450 2900 5550
 Connection ~ 2900 6650
 Wire Wire Line
 	2900 6650 2900 7000
@@ -2154,15 +2128,15 @@ Wire Wire Line
 Text Notes 7350 2550 0    50   ~ 0
 8.4V rising/7.98V falling OVP \n(0.5V OV rising threshold,\n0.475V OV falling threshold)
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT2
 U 1 1 61F160CF
 P 13000 1400
-AR Path="/61BD4B7D/61F160CF" Ref="BT?"  Part="1" 
+AR Path="/61BD4B7D/61F160CF" Ref="BT2"  Part="1" 
 AR Path="/61BD4B7D/61C40A6C/61F160CF" Ref="BT?"  Part="1" 
 AR Path="/61BD4B7D/61C444F3/61F160CF" Ref="BT?"  Part="1" 
 AR Path="/61BD4B7D/61C44BC0/61F160CF" Ref="BT?"  Part="1" 
 AR Path="/61BD4B7D/61C44F8A/61F160CF" Ref="BT?"  Part="1" 
-F 0 "BT?" H 13100 1500 50  0000 L CNN
+F 0 "BT2" H 13100 1500 50  0000 L CNN
 F 1 "18650" H 13100 1400 50  0000 L CNN
 F 2 "Battery:BatteryHolder_Keystone_1042_1x18650" V 13000 1460 50  0001 C CNN
 F 3 "~" V 13000 1460 50  0001 C CNN
@@ -2170,15 +2144,15 @@ F 3 "~" V 13000 1460 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT1
 U 1 1 61F47C03
 P 12500 1400
-AR Path="/61BD4B7D/61F47C03" Ref="BT?"  Part="1" 
+AR Path="/61BD4B7D/61F47C03" Ref="BT1"  Part="1" 
 AR Path="/61BD4B7D/61C40A6C/61F47C03" Ref="BT?"  Part="1" 
 AR Path="/61BD4B7D/61C444F3/61F47C03" Ref="BT?"  Part="1" 
 AR Path="/61BD4B7D/61C44BC0/61F47C03" Ref="BT?"  Part="1" 
 AR Path="/61BD4B7D/61C44F8A/61F47C03" Ref="BT?"  Part="1" 
-F 0 "BT?" H 12250 1500 50  0000 L CNN
+F 0 "BT1" H 12250 1500 50  0000 L CNN
 F 1 "18650" H 12150 1400 50  0000 L CNN
 F 2 "Battery:BatteryHolder_Keystone_1042_1x18650" V 12500 1460 50  0001 C CNN
 F 3 "~" V 12500 1460 50  0001 C CNN
@@ -2186,15 +2160,15 @@ F 3 "~" V 12500 1460 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT4
 U 1 1 61F8C9F9
 P 13000 1900
-AR Path="/61BD4B7D/61F8C9F9" Ref="BT?"  Part="1" 
+AR Path="/61BD4B7D/61F8C9F9" Ref="BT4"  Part="1" 
 AR Path="/61BD4B7D/61C40A6C/61F8C9F9" Ref="BT?"  Part="1" 
 AR Path="/61BD4B7D/61C444F3/61F8C9F9" Ref="BT?"  Part="1" 
 AR Path="/61BD4B7D/61C44BC0/61F8C9F9" Ref="BT?"  Part="1" 
 AR Path="/61BD4B7D/61C44F8A/61F8C9F9" Ref="BT?"  Part="1" 
-F 0 "BT?" H 13100 2000 50  0000 L CNN
+F 0 "BT4" H 13100 2000 50  0000 L CNN
 F 1 "18650" H 13100 1900 50  0000 L CNN
 F 2 "Battery:BatteryHolder_Keystone_1042_1x18650" V 13000 1960 50  0001 C CNN
 F 3 "~" V 13000 1960 50  0001 C CNN
@@ -2202,15 +2176,15 @@ F 3 "~" V 13000 1960 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT3
 U 1 1 61F8C9FF
 P 12500 1900
-AR Path="/61BD4B7D/61F8C9FF" Ref="BT?"  Part="1" 
+AR Path="/61BD4B7D/61F8C9FF" Ref="BT3"  Part="1" 
 AR Path="/61BD4B7D/61C40A6C/61F8C9FF" Ref="BT?"  Part="1" 
 AR Path="/61BD4B7D/61C444F3/61F8C9FF" Ref="BT?"  Part="1" 
 AR Path="/61BD4B7D/61C44BC0/61F8C9FF" Ref="BT?"  Part="1" 
 AR Path="/61BD4B7D/61C44F8A/61F8C9FF" Ref="BT?"  Part="1" 
-F 0 "BT?" H 12250 2000 50  0000 L CNN
+F 0 "BT3" H 12250 2000 50  0000 L CNN
 F 1 "18650" H 12150 1900 50  0000 L CNN
 F 2 "Battery:BatteryHolder_Keystone_1042_1x18650" V 12500 1960 50  0001 C CNN
 F 3 "~" V 12500 1960 50  0001 C CNN
@@ -2246,4 +2220,14 @@ Wire Wire Line
 Wire Wire Line
 	13000 1150 13000 1200
 Connection ~ 12750 1150
+Wire Wire Line
+	2500 5550 2900 5550
+Connection ~ 2900 5550
+Wire Wire Line
+	2900 5550 2900 5950
+Wire Wire Line
+	2000 5550 1600 5550
+Connection ~ 1600 5550
+Wire Wire Line
+	1600 5550 1600 5950
 $EndSCHEMATC
