@@ -411,18 +411,12 @@ F 3 "" H 10850 3250 50  0001 C CNN
 $EndComp
 Text Label 3750 1400 0    50   ~ 0
 HANDSHAKE
-Connection ~ 4050 1400
-Wire Wire Line
-	4050 1400 3750 1400
 Wire Wire Line
 	3650 1100 4350 1100
 Wire Wire Line
 	3650 1600 3650 1100
 Wire Wire Line
-	3650 2100 4050 2100
-Wire Wire Line
 	3650 2100 3650 1900
-Connection ~ 4050 2100
 Connection ~ 4350 1100
 $Comp
 L Device:C C2
@@ -437,24 +431,20 @@ F 3 "~" H 3650 1750 50  0001 C CNN
 $EndComp
 Connection ~ 4800 2100
 Wire Wire Line
-	4050 1900 4050 2100
+	4200 1900 4200 2100
 Wire Wire Line
-	4050 2100 4800 2100
-Wire Wire Line
-	4050 1400 4400 1400
-Wire Wire Line
-	4050 1600 4050 1400
+	4200 1600 4200 1400
 $Comp
 L Device:R R?
 U 1 1 6202394E
-P 4050 1750
+P 4200 1750
 AR Path="/61BD4B7D/6202394E" Ref="R?"  Part="1" 
 AR Path="/6202394E" Ref="R1"  Part="1" 
-F 0 "R1" H 4100 1750 50  0000 L CNN
-F 1 "50K" V 4050 1750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3980 1750 50  0001 C CNN
-F 3 "~" H 4050 1750 50  0001 C CNN
-	1    4050 1750
+F 0 "R1" H 4250 1750 50  0000 L CNN
+F 1 "50K" V 4200 1750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4130 1750 50  0001 C CNN
+F 3 "~" H 4200 1750 50  0001 C CNN
+	1    4200 1750
 	1    0    0    -1  
 $EndComp
 Connection ~ 4800 1100
@@ -1527,4 +1517,14 @@ Connection ~ 1700 4650
 Connection ~ 2900 4650
 Text GLabel 9100 2850 2    50   Input ~ 0
 PDMRST
+Connection ~ 4200 1400
+Wire Wire Line
+	4200 1400 4400 1400
+Connection ~ 4200 2100
+Wire Wire Line
+	4200 2100 4800 2100
+Wire Wire Line
+	3750 1400 4200 1400
+Wire Wire Line
+	3650 2100 4200 2100
 $EndSCHEMATC
