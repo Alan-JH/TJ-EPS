@@ -1,9 +1,9 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
-Sheet 9 37
+Sheet 6 37
 Title "TJ Custom EPS"
 Date ""
 Rev "0.1"

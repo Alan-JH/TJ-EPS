@@ -224,8 +224,6 @@ Wire Wire Line
 Connection ~ 5900 4100
 Wire Wire Line
 	4250 4900 4150 4900
-Text Notes 4500 3650 0    50   ~ 0
-74hc595 are rising edge clock
 Wire Wire Line
 	5950 4300 5950 5200
 Wire Wire Line
@@ -426,4 +424,14 @@ Wire Wire Line
 Connection ~ 4150 4600
 Text GLabel 4100 4600 0    50   Input ~ 0
 PDMRST
+Text Notes 3550 3800 0    50   ~ 0
+PDM Control SRs
+Wire Notes Line
+	3500 3700 3500 5650
+Wire Notes Line
+	3500 5650 7250 5650
+Wire Notes Line
+	7250 5650 7250 3700
+Wire Notes Line
+	7250 3700 3500 3700
 $EndSCHEMATC
