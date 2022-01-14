@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLegal 14000 8500
 encoding utf-8
-Sheet 1 37
+Sheet 1 32
 Title "TJ Custom EPS"
 Date ""
 Rev "0.1"
@@ -158,12 +158,6 @@ Wire Wire Line
 	2300 3500 2950 3500
 $Sheet
 S 10400 2550 1100 250 
-U 61BD4B7D
-F0 "Battery" 50
-F1 "BatteryMaster.sch" 50
-$EndSheet
-$Sheet
-S 10400 2100 1100 250 
 U 61BEC565
 F0 "SolarConditioning" 50
 F1 "SolarConditioning.sch" 50
@@ -1077,8 +1071,6 @@ Text GLabel 8650 2350 2    50   Input ~ 0
 MUX1OUT
 Text GLabel 8650 2450 2    50   Input ~ 0
 MUX2OUT
-Text GLabel 8650 2550 2    50   Input ~ 0
-MUX3OUT
 Text GLabel 8650 3250 2    50   Input ~ 0
 RSTBATV
 Text GLabel 8650 3150 2    50   Input ~ 0

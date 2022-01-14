@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 7 37
+Sheet 2 32
 Title "TJ Custom EPS"
 Date ""
 Rev "0.1"
@@ -1334,12 +1334,6 @@ Wire Wire Line
 Connection ~ 2150 5750
 Wire Wire Line
 	2150 5750 2150 6400
-$Sheet
-S 9400 1200 1000 500 
-U 636144E9
-F0 "SolarTelem" 50
-F1 "SolarTelem.sch" 50
-$EndSheet
 $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 61DE3A90
