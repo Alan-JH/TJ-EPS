@@ -284,8 +284,6 @@ F 3 "~" H 900 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	900  850  900  900 
-Wire Wire Line
 	900  2150 900  2300
 Text Label 1550 1550 2    50   ~ 0
 TELEM_VBAT
@@ -1859,10 +1857,10 @@ AR Path="/61BD4B7D/61C40A6C/61F160CF" Ref="BT?"  Part="1"
 AR Path="/61BD4B7D/61C444F3/61F160CF" Ref="BT?"  Part="1" 
 AR Path="/61BD4B7D/61C44BC0/61F160CF" Ref="BT?"  Part="1" 
 AR Path="/61BD4B7D/61C44F8A/61F160CF" Ref="BT?"  Part="1" 
-AR Path="/61F160CF" Ref="BT3"  Part="1" 
-F 0 "BT3" H 13100 1500 50  0000 L CNN
+AR Path="/61F160CF" Ref="BT2"  Part="1" 
+F 0 "BT2" H 13100 1500 50  0000 L CNN
 F 1 "18650" H 13100 1400 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_1042_1x18650" V 13000 1460 50  0001 C CNN
+F 2 "Battery:BatteryHolder_MPD_BH-18650-PC2" V 13000 1460 50  0001 C CNN
 F 3 "~" V 13000 1460 50  0001 C CNN
 	1    13000 1400
 	1    0    0    -1  
@@ -1879,7 +1877,7 @@ AR Path="/61BD4B7D/61C44F8A/61F47C03" Ref="BT?"  Part="1"
 AR Path="/61F47C03" Ref="BT1"  Part="1" 
 F 0 "BT1" H 12250 1500 50  0000 L CNN
 F 1 "18650" H 12150 1400 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_1042_1x18650" V 12500 1460 50  0001 C CNN
+F 2 "Battery:BatteryHolder_MPD_BH-18650-PC2" V 12500 1460 50  0001 C CNN
 F 3 "~" V 12500 1460 50  0001 C CNN
 	1    12500 1400
 	1    0    0    -1  
@@ -1896,7 +1894,7 @@ AR Path="/61BD4B7D/61C44F8A/61F8C9F9" Ref="BT?"  Part="1"
 AR Path="/61F8C9F9" Ref="BT4"  Part="1" 
 F 0 "BT4" H 13100 2000 50  0000 L CNN
 F 1 "18650" H 13100 1900 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_1042_1x18650" V 13000 1960 50  0001 C CNN
+F 2 "Battery:BatteryHolder_MPD_BH-18650-PC2" V 13000 1960 50  0001 C CNN
 F 3 "~" V 13000 1960 50  0001 C CNN
 	1    13000 1900
 	1    0    0    -1  
@@ -1910,10 +1908,10 @@ AR Path="/61BD4B7D/61C40A6C/61F8C9FF" Ref="BT?"  Part="1"
 AR Path="/61BD4B7D/61C444F3/61F8C9FF" Ref="BT?"  Part="1" 
 AR Path="/61BD4B7D/61C44BC0/61F8C9FF" Ref="BT?"  Part="1" 
 AR Path="/61BD4B7D/61C44F8A/61F8C9FF" Ref="BT?"  Part="1" 
-AR Path="/61F8C9FF" Ref="BT2"  Part="1" 
-F 0 "BT2" H 12250 2000 50  0000 L CNN
+AR Path="/61F8C9FF" Ref="BT3"  Part="1" 
+F 0 "BT3" H 12250 2000 50  0000 L CNN
 F 1 "18650" H 12150 1900 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_1042_1x18650" V 12500 1960 50  0001 C CNN
+F 2 "Battery:BatteryHolder_MPD_BH-18650-PC2" V 12500 1960 50  0001 C CNN
 F 3 "~" V 12500 1960 50  0001 C CNN
 	1    12500 1900
 	1    0    0    -1  
@@ -1948,247 +1946,247 @@ Wire Wire Line
 	13000 1150 13000 1200
 Connection ~ 12750 1150
 $Comp
-L Connector_Generic:Conn_02x26_Odd_Even H1
+L Connector_Generic:Conn_02x26_Odd_Even H2
 U 1 1 6209174D
-P 950 4200
-AR Path="/6209174D" Ref="H1"  Part="1" 
+P 2300 4250
+AR Path="/6209174D" Ref="H2"  Part="1" 
 AR Path="/61BD4B7D/6209174D" Ref="H?"  Part="1" 
-F 0 "H1" H 1000 5617 50  0000 C CNN
-F 1 "Stack Header 2" H 1000 5526 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x26_P2.54mm_Vertical" H 950 4200 50  0001 C CNN
-F 3 "~" H 950 4200 50  0001 C CNN
-	1    950  4200
+F 0 "H2" H 2350 5667 50  0000 C CNN
+F 1 "Stack Header 2" H 2350 5576 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x26_P2.54mm_Vertical" H 2300 4250 50  0001 C CNN
+F 3 "~" H 2300 4250 50  0001 C CNN
+	1    2300 4250
 	1    0    0    -1  
 $EndComp
-Text Label 550  5000 0    50   ~ 0
+Text Label 2800 5050 2    50   ~ 0
 SDA
-Text Label 550  5100 0    50   ~ 0
+Text Label 2800 5150 2    50   ~ 0
 SCL
-Text GLabel 2400 5200 2    50   Input ~ 0
+Text GLabel 1500 5250 2    50   Input ~ 0
 VUSB
-Text GLabel 2400 3700 2    50   Input ~ 0
+Text GLabel 1500 3750 2    50   Input ~ 0
 SW5
-Text GLabel 1900 3700 0    50   Input ~ 0
+Text GLabel 1000 3750 0    50   Input ~ 0
 SW6
-Text GLabel 2400 3800 2    50   Input ~ 0
+Text GLabel 1500 3850 2    50   Input ~ 0
 SW7
-Text GLabel 1900 3800 0    50   Input ~ 0
+Text GLabel 1000 3850 0    50   Input ~ 0
 SW8
-Text GLabel 2400 3900 2    50   Input ~ 0
+Text GLabel 1500 3950 2    50   Input ~ 0
 SW9
-Text GLabel 1900 3900 0    50   Input ~ 0
+Text GLabel 1000 3950 0    50   Input ~ 0
 SW10
 $Comp
 L power:+5V #PWR03
 U 1 1 6209175C
-P 1900 4300
+P 1000 4350
 AR Path="/6209175C" Ref="#PWR03"  Part="1" 
 AR Path="/61BD4B7D/6209175C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR03" H 1900 4150 50  0001 C CNN
-F 1 "+5V" V 1915 4428 50  0000 L CNN
-F 2 "" H 1900 4300 50  0001 C CNN
-F 3 "" H 1900 4300 50  0001 C CNN
-	1    1900 4300
+F 0 "#PWR03" H 1000 4200 50  0001 C CNN
+F 1 "+5V" V 1015 4478 50  0000 L CNN
+F 2 "" H 1000 4350 50  0001 C CNN
+F 3 "" H 1000 4350 50  0001 C CNN
+	1    1000 4350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+5V #PWR07
 U 1 1 62091762
-P 2400 4300
+P 1500 4350
 AR Path="/62091762" Ref="#PWR07"  Part="1" 
 AR Path="/61BD4B7D/62091762" Ref="#PWR?"  Part="1" 
-F 0 "#PWR07" H 2400 4150 50  0001 C CNN
-F 1 "+5V" V 2415 4428 50  0000 L CNN
-F 2 "" H 2400 4300 50  0001 C CNN
-F 3 "" H 2400 4300 50  0001 C CNN
-	1    2400 4300
+F 0 "#PWR07" H 1500 4200 50  0001 C CNN
+F 1 "+5V" V 1515 4478 50  0000 L CNN
+F 2 "" H 1500 4350 50  0001 C CNN
+F 3 "" H 1500 4350 50  0001 C CNN
+	1    1500 4350
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+3V3 #PWR04
 U 1 1 62091768
-P 1900 4400
+P 1000 4450
 AR Path="/62091768" Ref="#PWR04"  Part="1" 
 AR Path="/61BD4B7D/62091768" Ref="#PWR?"  Part="1" 
-F 0 "#PWR04" H 1900 4250 50  0001 C CNN
-F 1 "+3V3" V 1915 4528 50  0000 L CNN
-F 2 "" H 1900 4400 50  0001 C CNN
-F 3 "" H 1900 4400 50  0001 C CNN
-	1    1900 4400
+F 0 "#PWR04" H 1000 4300 50  0001 C CNN
+F 1 "+3V3" V 1015 4578 50  0000 L CNN
+F 2 "" H 1000 4450 50  0001 C CNN
+F 3 "" H 1000 4450 50  0001 C CNN
+	1    1000 4450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3V3 #PWR08
 U 1 1 6209176E
-P 2400 4400
+P 1500 4450
 AR Path="/6209176E" Ref="#PWR08"  Part="1" 
 AR Path="/61BD4B7D/6209176E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR08" H 2400 4250 50  0001 C CNN
-F 1 "+3V3" V 2415 4528 50  0000 L CNN
-F 2 "" H 2400 4400 50  0001 C CNN
-F 3 "" H 2400 4400 50  0001 C CNN
-	1    2400 4400
+F 0 "#PWR08" H 1500 4300 50  0001 C CNN
+F 1 "+3V3" V 1515 4578 50  0000 L CNN
+F 2 "" H 1500 4450 50  0001 C CNN
+F 3 "" H 1500 4450 50  0001 C CNN
+	1    1500 4450
 	0    1    1    0   
 $EndComp
-Text GLabel 2400 4700 2    50   Input ~ 0
+Text GLabel 1500 4750 2    50   Input ~ 0
 PCM_IN
-Text GLabel 1900 4700 0    50   Input ~ 0
+Text GLabel 1000 4750 0    50   Input ~ 0
 PCM_IN
-Text GLabel 2400 4900 2    50   Input ~ 0
+Text GLabel 1500 4950 2    50   Input ~ 0
 BCR_OUT
-Text GLabel 1900 4900 0    50   Input ~ 0
+Text GLabel 1000 4950 0    50   Input ~ 0
 BCR_OUT
-Text GLabel 2400 5000 2    50   Input ~ 0
+Text GLabel 1500 5050 2    50   Input ~ 0
 BCR_OUT
-Text GLabel 1900 5000 0    50   Input ~ 0
+Text GLabel 1000 5050 0    50   Input ~ 0
 BCR_OUT
 $Comp
 L power:+BATT #PWR06
 U 1 1 6209177A
-P 2400 4200
+P 1500 4250
 AR Path="/6209177A" Ref="#PWR06"  Part="1" 
 AR Path="/61BD4B7D/6209177A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR06" H 2400 4050 50  0001 C CNN
-F 1 "+BATT" V 2415 4328 50  0000 L CNN
-F 2 "" H 2400 4200 50  0001 C CNN
-F 3 "" H 2400 4200 50  0001 C CNN
-	1    2400 4200
+F 0 "#PWR06" H 1500 4100 50  0001 C CNN
+F 1 "+BATT" V 1515 4378 50  0000 L CNN
+F 2 "" H 1500 4250 50  0001 C CNN
+F 3 "" H 1500 4250 50  0001 C CNN
+	1    1500 4250
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+BATT #PWR02
 U 1 1 62091780
-P 1900 4200
+P 1000 4250
 AR Path="/62091780" Ref="#PWR02"  Part="1" 
 AR Path="/61BD4B7D/62091780" Ref="#PWR?"  Part="1" 
-F 0 "#PWR02" H 1900 4050 50  0001 C CNN
-F 1 "+BATT" V 1915 4328 50  0000 L CNN
-F 2 "" H 1900 4200 50  0001 C CNN
-F 3 "" H 1900 4200 50  0001 C CNN
-	1    1900 4200
+F 0 "#PWR02" H 1000 4100 50  0001 C CNN
+F 1 "+BATT" V 1015 4378 50  0000 L CNN
+F 2 "" H 1000 4250 50  0001 C CNN
+F 3 "" H 1000 4250 50  0001 C CNN
+	1    1000 4250
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 1900 5400
-NoConn ~ 1900 5500
-NoConn ~ 2400 5400
-NoConn ~ 2400 5500
-NoConn ~ 1900 4800
-NoConn ~ 2400 4800
-NoConn ~ 2400 4600
-NoConn ~ 1900 4600
-NoConn ~ 1900 3100
-NoConn ~ 1900 3000
-NoConn ~ 2400 3000
-NoConn ~ 2400 3100
+NoConn ~ 1000 5450
+NoConn ~ 1000 5550
+NoConn ~ 1500 5450
+NoConn ~ 1500 5550
+NoConn ~ 1000 4850
+NoConn ~ 1500 4850
+NoConn ~ 1500 4650
+NoConn ~ 1000 4650
+NoConn ~ 1000 3150
+NoConn ~ 1000 3050
+NoConn ~ 1500 3050
+NoConn ~ 1500 3150
 Wire Wire Line
-	1900 5100 1500 5100
+	1000 5150 600  5150
 Wire Wire Line
-	1900 4500 1500 4500
+	1000 4550 600  4550
 Wire Wire Line
-	2400 5100 2800 5100
+	1500 5150 1900 5150
 Wire Wire Line
-	2400 4500 2800 4500
+	1500 4550 1900 4550
 Wire Wire Line
-	1500 5550 2150 5550
+	600  5600 1250 5600
 $Comp
 L power:GND #PWR05
 U 1 1 62091797
-P 2150 5550
+P 1250 5600
 AR Path="/62091797" Ref="#PWR05"  Part="1" 
 AR Path="/61BD4B7D/62091797" Ref="#PWR?"  Part="1" 
-F 0 "#PWR05" H 2150 5300 50  0001 C CNN
-F 1 "GND" H 2155 5377 50  0000 C CNN
-F 2 "" H 2150 5550 50  0001 C CNN
-F 3 "" H 2150 5550 50  0001 C CNN
-	1    2150 5550
+F 0 "#PWR05" H 1250 5350 50  0001 C CNN
+F 1 "GND" H 1255 5427 50  0000 C CNN
+F 2 "" H 1250 5600 50  0001 C CNN
+F 3 "" H 1250 5600 50  0001 C CNN
+	1    1250 5600
 	1    0    0    -1  
 $EndComp
-Connection ~ 2150 5550
+Connection ~ 1250 5600
 Wire Wire Line
-	2150 5550 2800 5550
-Text GLabel 2400 3600 2    50   Input ~ 0
+	1250 5600 1900 5600
+Text GLabel 1500 3650 2    50   Input ~ 0
 SW4
-Text GLabel 1900 3600 0    50   Input ~ 0
+Text GLabel 1000 3650 0    50   Input ~ 0
 SW3
-Text GLabel 2400 3500 2    50   Input ~ 0
+Text GLabel 1500 3550 2    50   Input ~ 0
 SW2
-Text GLabel 1900 3500 0    50   Input ~ 0
+Text GLabel 1000 3550 0    50   Input ~ 0
 SW1
-Text GLabel 2400 4000 2    50   Input ~ 0
+Text GLabel 1500 4050 2    50   Input ~ 0
 SW11
-Text GLabel 1900 4000 0    50   Input ~ 0
+Text GLabel 1000 4050 0    50   Input ~ 0
 SW12
 Wire Wire Line
-	2800 3400 2400 3400
+	1900 3450 1500 3450
 Wire Wire Line
-	1900 3400 1500 3400
-Connection ~ 1500 4500
+	1000 3450 600  3450
+Connection ~ 600  4550
 Wire Wire Line
-	1500 4500 1500 5100
-Connection ~ 2800 4500
+	600  4550 600  5150
+Connection ~ 1900 4550
 Wire Wire Line
-	2800 4500 2800 5100
-Text Label 550  4400 0    50   ~ 0
+	1900 4550 1900 5150
+Text Label 2800 4450 2    50   ~ 0
 SCK
-Text Label 550  4500 0    50   ~ 0
+Text Label 2800 4550 2    50   ~ 0
 MISO
-Text Label 550  4600 0    50   ~ 0
+Text Label 2800 4650 2    50   ~ 0
 MOSI
-Text Label 550  4700 0    50   ~ 0
+Text Label 2800 4750 2    50   ~ 0
 SS
 Wire Wire Line
-	550  4400 750  4400
+	2600 4450 2800 4450
 Wire Wire Line
-	550  4500 750  4500
+	2600 4550 2800 4550
 Wire Wire Line
-	550  4600 750  4600
+	2600 4650 2800 4650
 Wire Wire Line
-	550  4700 750  4700
+	2600 4750 2800 4750
 Wire Wire Line
-	550  5000 750  5000
+	2600 5050 2800 5050
 Wire Wire Line
-	550  5100 750  5100
+	2600 5150 2800 5150
 Wire Wire Line
-	2400 4100 2800 4100
+	1500 4150 1900 4150
 Wire Wire Line
-	1900 4100 1500 4100
-Connection ~ 1500 4100
+	1000 4150 600  4150
+Connection ~ 600  4150
 Wire Wire Line
-	1500 4100 1500 4500
+	600  4150 600  4550
 Wire Wire Line
-	1500 3400 1500 4100
-Connection ~ 2800 4100
+	600  3450 600  4150
+Connection ~ 1900 4150
 Wire Wire Line
-	2800 4100 2800 4500
+	1900 4150 1900 4550
 Wire Wire Line
-	2800 3400 2800 4100
-Text GLabel 1900 5200 0    50   Input ~ 0
+	1900 3450 1900 4150
+Text GLabel 1000 5250 0    50   Input ~ 0
 VUSB
-NoConn ~ 1900 3200
-NoConn ~ 2400 3200
-NoConn ~ 1900 3300
+NoConn ~ 1000 3250
+NoConn ~ 1500 3250
+NoConn ~ 1000 3350
 $Comp
-L Connector_Generic:Conn_02x26_Odd_Even H2
+L Connector_Generic:Conn_02x26_Odd_Even H1
 U 1 1 620917C1
-P 2100 4200
-AR Path="/620917C1" Ref="H2"  Part="1" 
+P 1200 4250
+AR Path="/620917C1" Ref="H1"  Part="1" 
 AR Path="/61BD4B7D/620917C1" Ref="H?"  Part="1" 
-F 0 "H2" H 2150 5617 50  0000 C CNN
-F 1 "Stack Header 1" H 2150 5526 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x26_P2.54mm_Vertical" H 2100 4200 50  0001 C CNN
-F 3 "~" H 2100 4200 50  0001 C CNN
-	1    2100 4200
+F 0 "H1" H 1250 5667 50  0000 C CNN
+F 1 "Stack Header 1" H 1250 5576 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x26_P2.54mm_Vertical" H 1200 4250 50  0001 C CNN
+F 3 "~" H 1200 4250 50  0001 C CNN
+	1    1200 4250
 	1    0    0    -1  
 $EndComp
-Connection ~ 1500 5100
+Connection ~ 600  5150
 Wire Wire Line
-	1500 5100 1500 5550
-Connection ~ 2800 5100
+	600  5150 600  5600
+Connection ~ 1900 5150
 Wire Wire Line
-	2800 5100 2800 5550
-NoConn ~ 1900 5300
-NoConn ~ 2400 5300
-NoConn ~ 2400 3300
+	1900 5150 1900 5600
+NoConn ~ 1000 5350
+NoConn ~ 1500 5350
+NoConn ~ 1500 3350
 Connection ~ 5750 3400
 Wire Wire Line
 	5750 3400 5950 3400
@@ -2253,4 +2251,6 @@ Wire Notes Line
 	8350 6500 12050 6500
 Text Notes 8400 2750 0    50   ~ 0
 uC
+Wire Wire Line
+	900  850  900  1000
 $EndSCHEMATC
