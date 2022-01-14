@@ -1077,8 +1077,6 @@ Text GLabel 8650 2350 2    50   Input ~ 0
 MUX1OUT
 Text GLabel 8650 2450 2    50   Input ~ 0
 MUX2OUT
-Text GLabel 8650 2550 2    50   Input ~ 0
-MUX3OUT
 Text GLabel 8650 3250 2    50   Input ~ 0
 RSTBATV
 Text GLabel 8650 3150 2    50   Input ~ 0
