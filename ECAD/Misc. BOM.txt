@@ -6,3 +6,11 @@
 
 22uF Metal Frame MLCC: https://www.mouser.com/ProductDetail/Murata-Electronics/KCM55WR71J226MH01K?qs=TpyF2b7C1Q829k%2F%252BTQ3rqg%3D%3D
 47uF Metal Frame MLCC: https://www.mouser.com/ProductDetail/TDK/CKG45NX7S1C476M500JH?qs=JKNpNUTpikTDBKdo2g%2FJLw%3D%3D
+
+22uH Primary: https://www.mouser.com/ProductDetail/Bourns/SRP7028A-220M?qs=6oMev5NRZMEpuJrEYxE%2FaA%3D%3D
+22uH Alternate (Requires a footprint reassignment): https://www.mouser.com/ProductDetail/Vishay-Dale/IHLP2525CZER220M11?qs=sy7P%252B1cA09hqmhD2Kelr6g%3D%3D
+
+47uH: https://www.mouser.com/ProductDetail/Bourns/SRR1260-470M?qs=uD%2FoUDWqfvTgmKMYAHWd1A%3D%3D
+
+82uH: https://www.mouser.com/ProductDetail/Wurth-Elektronik/74435588200?qs=BXmE%252BJ0Y7xY%2FDYhqu%2FlrXg%3D%3D
+Alternate 68uH: https://www.mouser.com/ProductDetail/Wurth-Elektronik/74435586800?qs=BXmE%252BJ0Y7xZ8bh7sYsopHQ%3D%3D

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 37
+Sheet 10 37
 Title "TJ Custom EPS"
 Date ""
 Rev "0.1"
@@ -655,7 +655,7 @@ AR Path="/61BEC565/61E10014/61DBC37B" Ref="L2"  Part="1"
 AR Path="/61BEC565/61E1083C/61DBC37B" Ref="L1"  Part="1" 
 F 0 "L3" H 8303 1696 50  0000 L CNN
 F 1 "22uH" H 8300 1600 50  0000 L CNN
-F 2 "" H 8250 1650 50  0001 C CNN
+F 2 "Inductor_SMD:L_Bourns_SRP7028A_7.3x6.6mm" H 8250 1650 50  0001 C CNN
 F 3 "~" H 8250 1650 50  0001 C CNN
 	1    8250 1650
 	1    0    0    -1  
