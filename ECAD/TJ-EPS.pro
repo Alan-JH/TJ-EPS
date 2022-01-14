@@ -1,4 +1,4 @@
-update=1/5/2022 10:33:15 PM
+update=1/13/2022 8:06:22 PM
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=CorrectComments.kicad_wks
-PlotDirectoryName=TJ-EPS
+PlotDirectoryName=C:/Users/Alan/Desktop/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
