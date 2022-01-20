@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLegal 14000 8500
 encoding utf-8
-Sheet 1 23
+Sheet 1 22
 Title "TJ Custom EPS"
 Date ""
 Rev "0.1"
@@ -885,10 +885,6 @@ Text GLabel 1450 6550 0    50   Input ~ 0
 I_SA3A
 Text GLabel 1450 6650 0    50   Input ~ 0
 I_SA3B
-Text GLabel 1450 6850 0    50   Input ~ 0
-I_SA4A
-Text GLabel 1450 6950 0    50   Input ~ 0
-I_SA4B
 Text GLabel 1450 6050 0    50   Input ~ 0
 I_SA1B
 Text GLabel 1450 5850 0    50   Input ~ 0
@@ -898,10 +894,8 @@ V_SA2
 Text GLabel 1450 6450 0    50   Input ~ 0
 V_SA3
 Text GLabel 1450 6750 0    50   Input ~ 0
-V_SA4
-Text GLabel 1450 7050 0    50   Input ~ 0
 TELEM_VBCROUT
-Text GLabel 1450 7150 0    50   Input ~ 0
+Text GLabel 1450 6850 0    50   Input ~ 0
 TELEM_IBCROUT
 $Comp
 L Device:R R?

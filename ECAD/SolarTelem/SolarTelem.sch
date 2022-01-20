@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 9
+Sheet 1 7
 Title "TJ Custom EPS"
 Date ""
 Rev "0.1"
@@ -97,34 +97,6 @@ F 3 "~" H 1000 5050 50  0001 C CNN
 	1    1000 5050
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x04_Female J?
-U 1 1 6361E56D
-P 1000 5800
-AR Path="/61BEC565/6361E56D" Ref="J?"  Part="1" 
-AR Path="/61BEC565/636144E9/6361E56D" Ref="J?"  Part="1" 
-AR Path="/6361E56D" Ref="J7"  Part="1" 
-F 0 "J7" H 892 6085 50  0000 C CNN
-F 1 "S4A" H 892 5994 50  0000 C CNN
-F 2 "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical" H 1000 5800 50  0001 C CNN
-F 3 "~" H 1000 5800 50  0001 C CNN
-	1    1000 5800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Female J?
-U 1 1 6361E573
-P 1000 6500
-AR Path="/61BEC565/6361E573" Ref="J?"  Part="1" 
-AR Path="/61BEC565/636144E9/6361E573" Ref="J?"  Part="1" 
-AR Path="/6361E573" Ref="J8"  Part="1" 
-F 0 "J8" H 892 6785 50  0000 C CNN
-F 1 "S4B" H 892 6694 50  0000 C CNN
-F 2 "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical" H 1000 6500 50  0001 C CNN
-F 3 "~" H 1000 6500 50  0001 C CNN
-	1    1000 6500
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	1200 1350 1250 1350
 Wire Wire Line
@@ -159,18 +131,6 @@ Wire Wire Line
 	1250 4950 1250 5250
 Wire Wire Line
 	1250 5250 1200 5250
-Wire Wire Line
-	1200 5700 1250 5700
-Wire Wire Line
-	1250 5700 1250 6000
-Wire Wire Line
-	1250 6000 1200 6000
-Wire Wire Line
-	1200 6400 1250 6400
-Wire Wire Line
-	1250 6400 1250 6700
-Wire Wire Line
-	1250 6700 1200 6700
 Wire Wire Line
 	1250 1350 1250 1650
 Wire Wire Line
@@ -257,34 +217,6 @@ Wire Wire Line
 	1650 5050 1200 5050
 Wire Wire Line
 	1200 5150 1650 5150
-Wire Wire Line
-	1200 5800 1650 5800
-Wire Wire Line
-	1200 5900 1650 5900
-$Sheet
-S 1650 5700 950  300 
-U 61DD520E
-F0 "S4ATelem" 50
-F1 "Temp+Light.sch" 50
-F2 "TEMPIN" I L 1650 5800 50 
-F3 "PHOTOIN" I L 1650 5900 50 
-F4 "TEMPOUT" I R 2600 5800 50 
-F5 "PHOTOOUT" I R 2600 5900 50 
-$EndSheet
-$Sheet
-S 1650 6400 950  300 
-U 61DD5214
-F0 "S4BTelem" 50
-F1 "Temp+Light.sch" 50
-F2 "TEMPIN" I L 1650 6500 50 
-F3 "PHOTOIN" I L 1650 6600 50 
-F4 "TEMPOUT" I R 2600 6500 50 
-F5 "PHOTOOUT" I R 2600 6600 50 
-$EndSheet
-Wire Wire Line
-	1650 6500 1200 6500
-Wire Wire Line
-	1200 6600 1650 6600
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 61DDA086
@@ -644,30 +576,6 @@ Wire Wire Line
 	3000 5150 3000 4350
 Wire Wire Line
 	3000 4350 3600 4350
-Wire Wire Line
-	2600 5800 3100 5800
-Wire Wire Line
-	3100 5800 3100 4450
-Wire Wire Line
-	3100 4450 3600 4450
-Wire Wire Line
-	2600 5900 3200 5900
-Wire Wire Line
-	3200 5900 3200 4550
-Wire Wire Line
-	3200 4550 3600 4550
-Wire Wire Line
-	2600 6500 3300 6500
-Wire Wire Line
-	3300 6500 3300 4650
-Wire Wire Line
-	3300 4650 3600 4650
-Wire Wire Line
-	3600 4750 3400 4750
-Wire Wire Line
-	3400 4750 3400 6600
-Wire Wire Line
-	3400 6600 2600 6600
 $Comp
 L Connector:Conn_01x07_Female J9
 U 1 1 61E3C003

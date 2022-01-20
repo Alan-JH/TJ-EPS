@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 23
+Sheet 2 22
 Title "TJ Custom EPS"
 Date ""
 Rev "0.1"
@@ -13,40 +13,6 @@ Comment2 "Conditions solar power using MPPT tracking buck converters"
 Comment3 "Reads telemetry from solar panels, and uses a microcontroller to tune MPPT"
 Comment4 "Engineer: Alan Hsu"
 $EndDescr
-$Comp
-L Device:D_Schottky D?
-U 1 1 61CF3D0F
-P 1200 4300
-AR Path="/61BEC565/61BEC848/61CF3D0F" Ref="D?"  Part="1" 
-AR Path="/61BEC565/61BFB023/61CF3D0F" Ref="D?"  Part="1" 
-AR Path="/61BEC565/61BFCA72/61CF3D0F" Ref="D?"  Part="1" 
-AR Path="/61BEC565/61E10014/61CF3D0F" Ref="D?"  Part="1" 
-AR Path="/61BEC565/61E1083C/61CF3D0F" Ref="D?"  Part="1" 
-AR Path="/61BEC565/61CF3D0F" Ref="D6"  Part="1" 
-F 0 "D6" H 1200 4100 50  0000 C CNN
-F 1 "CMSH3-40MA" H 1200 4200 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 1200 4300 50  0001 C CNN
-F 3 "~" H 1200 4300 50  0001 C CNN
-	1    1200 4300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D_Schottky D?
-U 1 1 61CEDFEB
-P 1200 3600
-AR Path="/61BEC565/61BEC848/61CEDFEB" Ref="D?"  Part="1" 
-AR Path="/61BEC565/61BFB023/61CEDFEB" Ref="D?"  Part="1" 
-AR Path="/61BEC565/61BFCA72/61CEDFEB" Ref="D?"  Part="1" 
-AR Path="/61BEC565/61E10014/61CEDFEB" Ref="D?"  Part="1" 
-AR Path="/61BEC565/61E1083C/61CEDFEB" Ref="D?"  Part="1" 
-AR Path="/61BEC565/61CEDFEB" Ref="D5"  Part="1" 
-F 0 "D5" H 1200 3817 50  0000 C CNN
-F 1 "CMSH3-40MA" H 1200 3726 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 1200 3600 50  0001 C CNN
-F 3 "~" H 1200 3600 50  0001 C CNN
-	1    1200 3600
-	-1   0    0    1   
-$EndComp
 $Comp
 L Regulator_Linear:L78L33_SO8 U16
 U 1 1 61F55731
@@ -58,8 +24,6 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e
 	1    7450 3150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2150 4150 2450 4150
 Text Notes 3950 2900 0    50   ~ 0
 MPPT Setpoint Controller
 Wire Wire Line
@@ -236,47 +200,6 @@ F 3 "~" H 6850 3300 50  0001 C CNN
 	1    6850 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D D14
-U 1 1 61E2D6B1
-P 1750 4150
-F 0 "D14" V 1800 4200 50  0000 L CNN
-F 1 "1N4004" V 1700 4200 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 1750 4150 50  0001 C CNN
-F 3 "~" H 1750 4150 50  0001 C CNN
-	1    1750 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D13
-U 1 1 61E2D6AB
-P 1750 3750
-F 0 "D13" V 1800 3700 50  0000 R CNN
-F 1 "1N4004" V 1700 3700 50  0000 R CNN
-F 2 "Diode_SMD:D_SMA" H 1750 3750 50  0001 C CNN
-F 3 "~" H 1750 3750 50  0001 C CNN
-	1    1750 3750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2150 4150 2150 4300
-Wire Wire Line
-	2150 3600 2150 4050
-$Sheet
-S 2450 3950 950  600 
-U 61E1083C
-F0 "MPPT3" 50
-F1 "MPPT.sch" 50
-F2 "A_PWR" I L 2450 4050 50 
-F3 "Vset" I L 2450 4250 50 
-F4 "TELEM_I_A" I R 3400 4150 50 
-F5 "TELEM_VIN" I R 3400 4050 50 
-F6 "B_PWR" I L 2450 4150 50 
-F7 "TELEM_I_B" I R 3400 4250 50 
-F8 "VOUT" I R 3400 4350 50 
-$EndSheet
-Wire Wire Line
-	2150 4050 2450 4050
 Text GLabel 5200 1800 2    50   Input ~ 0
 TELEM_VBCROUT
 $Comp
@@ -752,94 +675,74 @@ F 3 "~" H 1200 2150 50  0001 C CNN
 	1    1200 2150
 	-1   0    0    1   
 $EndComp
-Text GLabel 3400 5600 2    50   Input ~ 0
-I_SA4A
-Text GLabel 3400 5700 2    50   Input ~ 0
-I_SA4B
-Text GLabel 3400 5500 2    50   Input ~ 0
-V_SA4
-Wire Wire Line
-	2250 5700 2450 5700
-Text Label 2250 5700 0    50   ~ 0
-Vset4
-Text Label 9900 4750 2    50   ~ 0
-Vset4
-Wire Wire Line
-	9650 4750 9900 4750
-Text GLabel 7800 4350 2    50   Input ~ 0
-V_SA4
 $Comp
 L Device:D_Schottky D?
 U 1 1 61F2BCF3
-P 1200 5750
+P 1200 4300
 AR Path="/61BEC565/61BEC848/61F2BCF3" Ref="D?"  Part="1" 
 AR Path="/61BEC565/61BFB023/61F2BCF3" Ref="D?"  Part="1" 
 AR Path="/61BEC565/61BFCA72/61F2BCF3" Ref="D?"  Part="1" 
 AR Path="/61BEC565/61E10014/61F2BCF3" Ref="D?"  Part="1" 
 AR Path="/61BEC565/61E1083C/61F2BCF3" Ref="D?"  Part="1" 
-AR Path="/61BEC565/61F2BCF3" Ref="D8"  Part="1" 
-F 0 "D8" H 1200 5550 50  0000 C CNN
-F 1 "CMSH3-40MA" H 1200 5650 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 1200 5750 50  0001 C CNN
-F 3 "~" H 1200 5750 50  0001 C CNN
-	1    1200 5750
+AR Path="/61BEC565/61F2BCF3" Ref="D6"  Part="1" 
+F 0 "D6" H 1200 4100 50  0000 C CNN
+F 1 "CMSH3-40MA" H 1200 4200 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 1200 4300 50  0001 C CNN
+F 3 "~" H 1200 4300 50  0001 C CNN
+	1    1200 4300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Schottky D?
 U 1 1 61F2BCF9
-P 1200 5050
+P 1200 3600
 AR Path="/61BEC565/61BEC848/61F2BCF9" Ref="D?"  Part="1" 
 AR Path="/61BEC565/61BFB023/61F2BCF9" Ref="D?"  Part="1" 
 AR Path="/61BEC565/61BFCA72/61F2BCF9" Ref="D?"  Part="1" 
 AR Path="/61BEC565/61E10014/61F2BCF9" Ref="D?"  Part="1" 
 AR Path="/61BEC565/61E1083C/61F2BCF9" Ref="D?"  Part="1" 
-AR Path="/61BEC565/61F2BCF9" Ref="D7"  Part="1" 
-F 0 "D7" H 1200 5267 50  0000 C CNN
-F 1 "CMSH3-40MA" H 1200 5176 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 1200 5050 50  0001 C CNN
-F 3 "~" H 1200 5050 50  0001 C CNN
-	1    1200 5050
+AR Path="/61BEC565/61F2BCF9" Ref="D5"  Part="1" 
+F 0 "D5" H 1200 3817 50  0000 C CNN
+F 1 "CMSH3-40MA" H 1200 3726 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 1200 3600 50  0001 C CNN
+F 3 "~" H 1200 3600 50  0001 C CNN
+	1    1200 3600
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2150 5600 2450 5600
+	2150 4150 2450 4150
 $Comp
-L Device:D D16
+L Device:D D14
 U 1 1 61F2BD07
-P 1750 5600
-F 0 "D16" V 1800 5650 50  0000 L CNN
-F 1 "1N4004" V 1700 5650 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 1750 5600 50  0001 C CNN
-F 3 "~" H 1750 5600 50  0001 C CNN
-	1    1750 5600
+P 1750 4150
+F 0 "D14" V 1800 4200 50  0000 L CNN
+F 1 "1N4004" V 1700 4200 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 1750 4150 50  0001 C CNN
+F 3 "~" H 1750 4150 50  0001 C CNN
+	1    1750 4150
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D15
+L Device:D D13
 U 1 1 61F2BD0D
-P 1750 5200
-F 0 "D15" V 1800 5150 50  0000 R CNN
-F 1 "1N4004" V 1700 5150 50  0000 R CNN
-F 2 "Diode_SMD:D_SMA" H 1750 5200 50  0001 C CNN
-F 3 "~" H 1750 5200 50  0001 C CNN
-	1    1750 5200
+P 1750 3750
+F 0 "D13" V 1800 3700 50  0000 R CNN
+F 1 "1N4004" V 1700 3700 50  0000 R CNN
+F 2 "Diode_SMD:D_SMA" H 1750 3750 50  0001 C CNN
+F 3 "~" H 1750 3750 50  0001 C CNN
+	1    1750 3750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2150 5050 2150 5500
+	2150 3600 2150 4050
 Wire Wire Line
-	2150 5500 2450 5500
-Wire Wire Line
-	2200 5400 2200 3950
+	2150 4050 2450 4050
 Wire Wire Line
 	3400 1450 3750 1450
 Wire Wire Line
 	3400 2900 3750 2900
 Wire Wire Line
 	3400 4350 3750 4350
-Wire Wire Line
-	3400 5800 3750 5800
 Wire Wire Line
 	4450 2150 4300 2150
 Wire Wire Line
@@ -947,13 +850,11 @@ F 3 "" H 6500 2250 50  0001 C CNN
 $EndComp
 Connection ~ 6500 2250
 Wire Wire Line
-	1750 3900 1750 3950
-Wire Wire Line
 	1750 1000 1750 1050
 Wire Wire Line
 	1750 2450 1750 2500
 Wire Wire Line
-	1750 5350 1750 5400
+	1750 3900 1750 3950
 Wire Wire Line
 	1750 700  2150 700 
 Connection ~ 1750 700 
@@ -981,76 +882,67 @@ Connection ~ 1750 3950
 Wire Wire Line
 	1750 4300 2150 4300
 Connection ~ 1750 4300
-Wire Wire Line
-	1750 5050 2150 5050
-Connection ~ 1750 5050
-Wire Wire Line
-	1750 5400 2200 5400
-Connection ~ 1750 5400
-Wire Wire Line
-	1750 5750 2150 5750
-Connection ~ 1750 5750
 Connection ~ 2200 2000
 $Sheet
-S 2450 5400 950  600 
+S 2450 3950 950  600 
 U 61D120A6
 F0 "MPPT4" 50
 F1 "Boost-BuckMPPT.sch" 50
-F2 "A_PWR" I L 2450 5500 50 
-F3 "TELEM_I_A" I R 3400 5600 50 
-F4 "B_PWR" I L 2450 5600 50 
-F5 "TELEM_I_B" I R 3400 5700 50 
-F6 "VOUT" I R 3400 5800 50 
-F7 "Vset" I L 2450 5700 50 
-F8 "TELEM_VIN" I R 3400 5500 50 
+F2 "A_PWR" I L 2450 4050 50 
+F3 "TELEM_I_A" I R 3400 4150 50 
+F4 "B_PWR" I L 2450 4150 50 
+F5 "TELEM_I_B" I R 3400 4250 50 
+F6 "VOUT" I R 3400 4350 50 
+F7 "Vset" I L 2450 4250 50 
+F8 "TELEM_VIN" I R 3400 4050 50 
 $EndSheet
 $Comp
 L Power_Management:LTC4412xS6 U?
 U 1 1 61DC5377
-P 1650 7100
+P 1650 5650
 AR Path="/61BEC565/61D120A6/61DC5377" Ref="U?"  Part="1" 
 AR Path="/61BEC565/61DC5377" Ref="U12"  Part="1" 
-F 0 "U12" H 1650 7550 50  0000 L CNN
-F 1 "LTC4412xS6" H 1650 7450 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 2300 6750 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf" H 3750 6900 50  0001 C CNN
-	1    1650 7100
+F 0 "U12" H 1650 6100 50  0000 L CNN
+F 1 "LTC4412xS6" H 1650 6000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 2300 5300 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf" H 3750 5450 50  0001 C CNN
+	1    1650 5650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_FET:IRF7404 Q25
 U 1 1 61E1DED6
-P 1650 6500
-F 0 "Q25" V 2000 6500 50  0000 C CNN
-F 1 "IRF7425" V 1900 6500 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1850 6425 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" V 1650 6500 50  0001 L CNN
-	1    1650 6500
+P 1650 5050
+F 0 "Q25" V 2000 5050 50  0000 C CNN
+F 1 "IRF7425" V 1900 5050 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1850 4975 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" V 1650 5050 50  0001 L CNN
+	1    1650 5050
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1250 7200 1250 7500
+	1250 5750 1250 6050
 Wire Wire Line
-	1250 7500 1650 7500
+	1250 6050 1650 6050
 Wire Wire Line
-	1250 7000 1250 6400
+	1250 5550 1250 4950
 Wire Wire Line
-	1250 6400 1450 6400
-Text GLabel 1250 6400 0    50   Input ~ 0
+	1250 4950 1450 4950
+Text GLabel 1250 4950 0    50   Input ~ 0
 VUSB
 $Comp
 L power:GND #PWR080
 U 1 1 61E9D016
-P 1650 7500
-F 0 "#PWR080" H 1650 7250 50  0001 C CNN
-F 1 "GND" H 1650 7350 50  0000 C CNN
-F 2 "" H 1650 7500 50  0001 C CNN
-F 3 "" H 1650 7500 50  0001 C CNN
-	1    1650 7500
+P 1650 6050
+F 0 "#PWR080" H 1650 5800 50  0001 C CNN
+F 1 "GND" H 1650 5900 50  0000 C CNN
+F 2 "" H 1650 6050 50  0001 C CNN
+F 3 "" H 1650 6050 50  0001 C CNN
+	1    1650 6050
 	1    0    0    -1  
 $EndComp
-Connection ~ 1650 7500
-NoConn ~ 2050 7200
+Connection ~ 1650 6050
+NoConn ~ 2050 5750
 Wire Wire Line
 	750  700  1050 700 
 Wire Wire Line
@@ -1064,14 +956,6 @@ Wire Wire Line
 Wire Wire Line
 	750  4300 1050 4300
 Wire Wire Line
-	750  5050 1050 5050
-Wire Wire Line
-	750  5750 1050 5750
-Wire Wire Line
-	1350 5750 1750 5750
-Wire Wire Line
-	1350 5050 1750 5050
-Wire Wire Line
 	1350 4300 1750 4300
 Wire Wire Line
 	1350 3600 1750 3600
@@ -1084,12 +968,12 @@ Wire Wire Line
 Wire Wire Line
 	1350 700  1750 700 
 Wire Wire Line
-	2050 7000 2150 7000
+	2050 5550 2150 5550
 Wire Wire Line
-	2150 7000 2150 6400
-Connection ~ 2150 6400
+	2150 5550 2150 4950
+Connection ~ 2150 4950
 Wire Wire Line
-	1850 6400 2150 6400
+	1850 4950 2150 4950
 $Comp
 L Connector:Conn_01x04_Female J5
 U 1 1 632F11B3
@@ -1199,13 +1083,11 @@ F 3 "" H 800 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 800  3150
-Wire Wire Line
-	1750 3950 1750 4000
 $Comp
-L Connector:Conn_01x04_Female J9
-U 1 1 634A69BB
+L Connector:Conn_01x04_Female J11
+U 1 1 635040B9
 P 550 3700
-F 0 "J9" H 442 3985 50  0000 C CNN
+F 0 "J11" H 442 3985 50  0000 C CNN
 F 1 "S3A" H 442 3894 50  0000 C CNN
 F 2 "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical" H 550 3700 50  0001 C CNN
 F 3 "~" H 550 3700 50  0001 C CNN
@@ -1213,16 +1095,18 @@ F 3 "~" H 550 3700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Female J10
-U 1 1 634A69C1
+L Connector:Conn_01x04_Female J12
+U 1 1 635040BF
 P 550 4400
-F 0 "J10" H 442 4685 50  0000 C CNN
+F 0 "J12" H 442 4685 50  0000 C CNN
 F 1 "S3B" H 442 4594 50  0000 C CNN
 F 2 "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical" H 550 4400 50  0001 C CNN
 F 3 "~" H 550 4400 50  0001 C CNN
 	1    550  4400
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	1750 3950 1750 4000
 Wire Wire Line
 	750  3700 750  3600
 Connection ~ 750  3600
@@ -1246,10 +1130,10 @@ Connection ~ 800  4500
 Wire Wire Line
 	800  4500 800  4600
 $Comp
-L power:GND #PWR078
-U 1 1 634EB2BD
+L power:GND #PWR079
+U 1 1 63575944
 P 800 4600
-F 0 "#PWR078" H 800 4350 50  0001 C CNN
+F 0 "#PWR079" H 800 4350 50  0001 C CNN
 F 1 "GND" H 805 4427 50  0000 C CNN
 F 2 "" H 800 4600 50  0001 C CNN
 F 3 "" H 800 4600 50  0001 C CNN
@@ -1257,83 +1141,20 @@ F 3 "" H 800 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 800  4600
-$Comp
-L Connector:Conn_01x04_Female J11
-U 1 1 635040B9
-P 550 5150
-F 0 "J11" H 442 5435 50  0000 C CNN
-F 1 "S4A" H 442 5344 50  0000 C CNN
-F 2 "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical" H 550 5150 50  0001 C CNN
-F 3 "~" H 550 5150 50  0001 C CNN
-	1    550  5150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Female J12
-U 1 1 635040BF
-P 550 5850
-F 0 "J12" H 442 6135 50  0000 C CNN
-F 1 "S4B" H 442 6044 50  0000 C CNN
-F 2 "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical" H 550 5850 50  0001 C CNN
-F 3 "~" H 550 5850 50  0001 C CNN
-	1    550  5850
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	1750 5400 1750 5450
-Wire Wire Line
-	750  5150 750  5050
-Connection ~ 750  5050
-Wire Wire Line
-	750  5850 750  5750
-Connection ~ 750  5750
-Wire Wire Line
-	750  5350 800  5350
-Wire Wire Line
-	800  5350 800  5250
-Wire Wire Line
-	800  5250 750  5250
-Wire Wire Line
-	800  5350 800  5950
-Wire Wire Line
-	800  6050 750  6050
-Connection ~ 800  5350
-Wire Wire Line
-	750  5950 800  5950
-Connection ~ 800  5950
-Wire Wire Line
-	800  5950 800  6050
-$Comp
-L power:GND #PWR079
-U 1 1 63575944
-P 800 6050
-F 0 "#PWR079" H 800 5800 50  0001 C CNN
-F 1 "GND" H 805 5877 50  0000 C CNN
-F 2 "" H 800 6050 50  0001 C CNN
-F 3 "" H 800 6050 50  0001 C CNN
-	1    800  6050
-	1    0    0    -1  
-$EndComp
-Connection ~ 800  6050
 Wire Wire Line
 	2200 1050 2200 2000
 Connection ~ 3750 2900
 Wire Wire Line
 	3750 2900 3750 4350
-Connection ~ 2200 2500
-Connection ~ 3750 4350
 Wire Wire Line
 	2200 2000 2200 2500
 Wire Wire Line
-	3750 4350 3750 5800
-Connection ~ 2200 3950
-Wire Wire Line
 	2200 2500 2200 3950
 Wire Wire Line
-	2150 5600 2150 5750
-Connection ~ 2150 5750
+	2150 4150 2150 4300
+Connection ~ 2150 4300
 Wire Wire Line
-	2150 5750 2150 6400
+	2150 4300 2150 4950
 $Comp
 L Mechanical:MountingHole_Pad H?
 U 1 1 61DE3A90
@@ -1535,8 +1356,5 @@ Text GLabel 4300 4350 0    50   Input ~ 0
 I_SA3A
 Text GLabel 4300 4450 0    50   Input ~ 0
 I_SA3B
-Text GLabel 4300 4550 0    50   Input ~ 0
-I_SA4A
-Text GLabel 4300 4650 0    50   Input ~ 0
-I_SA4B
+Connection ~ 2200 2500
 $EndSCHEMATC
