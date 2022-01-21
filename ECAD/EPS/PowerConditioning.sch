@@ -1978,48 +1978,30 @@ F 3 "~" H 5700 4100 50  0001 C CNN
 	1    5700 4100
 	0    1    1    0   
 $EndComp
-Connection ~ 1450 1100
 $Comp
 L Device:R R?
 U 1 1 61ECA4CA
-P 1450 1250
+P 1050 950
 AR Path="/61BEC565/61ECA4CA" Ref="R?"  Part="1" 
 AR Path="/61C9425D/61ECA4CA" Ref="R64"  Part="1" 
-F 0 "R64" H 1500 1250 50  0000 L CNN
-F 1 "100R" V 1450 1150 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 1380 1250 50  0001 C CNN
-F 3 "~" H 1450 1250 50  0001 C CNN
-	1    1450 1250
+F 0 "R64" H 1100 950 50  0000 L CNN
+F 1 "100R" V 1050 950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 980 950 50  0001 C CNN
+F 3 "~" H 1050 950 50  0001 C CNN
+	1    1050 950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_SPST SW?
-U 1 1 61ECA4D0
-P 1450 1850
-AR Path="/61BEC565/61ECA4D0" Ref="SW?"  Part="1" 
-AR Path="/61C9425D/61ECA4D0" Ref="SW3"  Part="1" 
-F 0 "SW3" V 1500 1950 50  0000 L CNN
-F 1 "INHIBIT 3" V 1400 1950 50  0000 L CNN
-F 2 "Connector_Hirose:Hirose_DF13-02P-1.25DSA_1x02_P1.25mm_Vertical" H 1450 1850 50  0001 C CNN
-F 3 "~" H 1450 1850 50  0001 C CNN
-	1    1450 1850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1100 1100 1450 1100
-Wire Wire Line
-	1250 800  1100 800 
-$Comp
 L Device:R R?
 U 1 1 61ECA4D8
-P 1100 950
+P 1450 1700
 AR Path="/61BEC565/61ECA4D8" Ref="R?"  Part="1" 
 AR Path="/61C9425D/61ECA4D8" Ref="R63"  Part="1" 
-F 0 "R63" H 1150 950 50  0000 L CNN
-F 1 "10K" V 1100 950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 1030 950 50  0001 C CNN
-F 3 "~" H 1100 950 50  0001 C CNN
-	1    1100 950 
+F 0 "R63" H 1500 1700 50  0000 L CNN
+F 1 "100K" V 1450 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1380 1700 50  0001 C CNN
+F 3 "~" H 1450 1700 50  0001 C CNN
+	1    1450 1700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2036,15 +2018,8 @@ F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	900  800  1100 800 
-Connection ~ 1100 800 
-Wire Wire Line
-	1450 1400 1450 1650
-Wire Wire Line
 	1650 800  2800 800 
 Connection ~ 2800 800 
-Wire Wire Line
-	1450 2050 1450 2400
 Wire Wire Line
 	1450 2400 1900 2400
 Connection ~ 1900 2400
@@ -2059,4 +2034,31 @@ Wire Notes Line
 	5500 2650 5500 500 
 Wire Notes Line
 	500  500  5500 500 
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 61ECA4D0
+P 1250 1250
+AR Path="/61BEC565/61ECA4D0" Ref="SW?"  Part="1" 
+AR Path="/61C9425D/61ECA4D0" Ref="SW3"  Part="1" 
+F 0 "SW3" H 1250 1150 50  0000 C CNN
+F 1 "INHIBIT 3" H 1250 1050 50  0000 C CNN
+F 2 "Connector_Hirose:Hirose_DF13-02P-1.25DSA_1x02_P1.25mm_Vertical" H 1250 1250 50  0001 C CNN
+F 3 "~" H 1250 1250 50  0001 C CNN
+	1    1250 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  800  1050 800 
+Connection ~ 1050 800 
+Wire Wire Line
+	1050 800  1250 800 
+Wire Wire Line
+	1450 1550 1450 1250
+Connection ~ 1450 1250
+Wire Wire Line
+	1450 1250 1450 1100
+Wire Wire Line
+	1050 1100 1050 1250
+Wire Wire Line
+	1450 1850 1450 2400
 $EndSCHEMATC
