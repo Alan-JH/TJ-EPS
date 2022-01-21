@@ -1800,37 +1800,37 @@ F 3 "http://www.ti.com/lit/ds/symlink/ina181.pdf" H 3150 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14500 -1750 14500 -1600
-Connection ~ 14500 -300
+	14300 -1750 14300 -1600
+Connection ~ 14300 -300
 Wire Notes Line
 	500  2600 3350 2600
 Wire Notes Line
 	500  550  3350 550 
 Wire Wire Line
-	14700 -750 14700 -300
+	14500 -750 14500 -300
 Wire Wire Line
-	14700 -1050 15150 -1050
+	14500 -1050 14950 -1050
 Wire Wire Line
-	14500 -1050 14700 -1050
-Connection ~ 14700 -1050
+	14300 -1050 14500 -1050
+Connection ~ 14500 -1050
 $Comp
 L Device:C C1
 U 1 1 61F04E2E
-P 14700 -900
-F 0 "C1" H 14815 -854 50  0000 L CNN
-F 1 "0.1uF" H 14815 -945 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 14738 -1050 50  0001 C CNN
-F 3 "~" H 14700 -900 50  0001 C CNN
-	1    14700 -900
+P 14500 -900
+F 0 "C1" H 14615 -854 50  0000 L CNN
+F 1 "0.1uF" H 14615 -945 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 14538 -1050 50  0001 C CNN
+F 3 "~" H 14500 -900 50  0001 C CNN
+	1    14500 -900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14500 -300 14700 -300
+	14300 -300 14500 -300
 Wire Wire Line
-	14500 -1050 14500 -750
-Connection ~ 14500 -1050
+	14300 -1050 14300 -750
+Connection ~ 14300 -1050
 Wire Wire Line
-	14500 -1300 14500 -1050
+	14300 -1300 14300 -1050
 Wire Wire Line
 	3300 1900 3900 1900
 Text Label 3900 1900 2    50   ~ 0
@@ -1856,31 +1856,31 @@ V and I Telemetry
 Wire Notes Line
 	500  2600 500  550 
 Wire Notes Line
-	17150 -2050 17150 0   
-Text Label 15150 -1050 2    50   ~ 0
+	16950 -2050 16950 0   
+Text Label 14950 -1050 2    50   ~ 0
 TELEM_VBAT
 Wire Wire Line
-	14500 -450 14500 -300
+	14300 -450 14300 -300
 $Comp
 L Device:R R2
 U 1 1 61E782F8
-P 14500 -600
-F 0 "R2" H 14550 -600 50  0000 L CNN
-F 1 "10K" V 14500 -600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 14430 -600 50  0001 C CNN
-F 3 "~" H 14500 -600 50  0001 C CNN
-	1    14500 -600
+P 14300 -600
+F 0 "R2" H 14350 -600 50  0000 L CNN
+F 1 "10K" V 14300 -600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 14230 -600 50  0001 C CNN
+F 3 "~" H 14300 -600 50  0001 C CNN
+	1    14300 -600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 61E77D83
-P 14500 -1450
-F 0 "R1" H 14550 -1450 50  0000 L CNN
-F 1 "22K" V 14500 -1450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 14430 -1450 50  0001 C CNN
-F 3 "~" H 14500 -1450 50  0001 C CNN
-	1    14500 -1450
+P 14300 -1450
+F 0 "R1" H 14350 -1450 50  0000 L CNN
+F 1 "22K" V 14300 -1450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 14230 -1450 50  0001 C CNN
+F 3 "~" H 14300 -1450 50  0001 C CNN
+	1    14300 -1450
 	1    0    0    -1  
 $EndComp
 Text GLabel 900  850  0    50   Input ~ 0
@@ -1888,12 +1888,12 @@ BCR_OUT
 $Comp
 L power:GND #PWR01
 U 1 1 61CB5F66
-P 14500 -300
-F 0 "#PWR01" H 14500 -550 50  0001 C CNN
-F 1 "GND" H 14505 -473 50  0000 C CNN
-F 2 "" H 14500 -300 50  0001 C CNN
-F 3 "" H 14500 -300 50  0001 C CNN
-	1    14500 -300
+P 14300 -300
+F 0 "#PWR01" H 14300 -550 50  0001 C CNN
+F 1 "GND" H 14305 -473 50  0000 C CNN
+F 2 "" H 14300 -300 50  0001 C CNN
+F 3 "" H 14300 -300 50  0001 C CNN
+	1    14300 -300
 	1    0    0    -1  
 $EndComp
 Connection ~ 22850 -300
@@ -1907,11 +1907,7 @@ Wire Notes Line
 Wire Notes Line
 	19100 -2050 19100 0   
 Wire Notes Line
-	17200 -2050 17200 0   
-Wire Notes Line
-	17200 -2050 19050 -2050
-Wire Notes Line
-	17200 0    19050 0   
+	17000 -2050 17000 0   
 $Comp
 L Transistor_FET:IRF7404 Q1
 U 1 1 61CBAA03
@@ -1927,7 +1923,6 @@ Wire Notes Line
 	19050 0    19050 -2050
 Wire Wire Line
 	18550 -800 18550 -600
-Connection ~ 18550 -800
 Wire Wire Line
 	18500 -800 18550 -800
 Wire Wire Line
@@ -1939,8 +1934,6 @@ Wire Wire Line
 	18000 -800 18000 -650
 Wire Wire Line
 	18100 -800 18000 -800
-Wire Wire Line
-	18550 -1400 18550 -800
 Wire Wire Line
 	17700 -300 18000 -300
 Wire Wire Line
@@ -1959,9 +1952,6 @@ Connection ~ 18550 -1750
 Connection ~ 18250 -1750
 Wire Wire Line
 	18250 -1750 18550 -1750
-Wire Wire Line
-	17700 -1250 17700 -650
-Connection ~ 17700 -1250
 Wire Wire Line
 	18550 -600 18800 -600
 Connection ~ 18550 -600
@@ -1994,8 +1984,8 @@ $Comp
 L Transistor_FET:Si4162DY Q2
 U 1 1 61CA8657
 P 17450 -400
-F 0 "Q2" V 17700 -400 50  0000 C CNN
-F 1 "Si4186DY" V 17800 -400 50  0000 C CNN
+F 0 "Q2" V 17100 -400 50  0000 C CNN
+F 1 "Si4186DY" V 17200 -400 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 17650 -500 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/68967/si4162dy.pdf" H 17450 -400 50  0001 L CNN
 	1    17450 -400
@@ -2005,8 +1995,8 @@ $Comp
 L Transistor_FET:Si4162DY Q4
 U 1 1 61FF38CA
 P 18800 -400
-F 0 "Q4" V 19050 -400 50  0000 C CNN
-F 1 "Si4186DY" V 19150 -400 50  0000 C CNN
+F 0 "Q4" V 18450 -400 50  0000 C CNN
+F 1 "Si4186DY" V 18550 -400 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 19000 -500 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/68967/si4162dy.pdf" H 18800 -400 50  0001 L CNN
 	1    18800 -400
@@ -2081,7 +2071,7 @@ F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5
 	1    18800 -1650
 	0    1    -1   0   
 $EndComp
-Text Notes 17250 -1950 0    50   ~ 0
+Text Notes 17050 -1950 0    50   ~ 0
 Inhibit (A)
 $Comp
 L Device:R R7
@@ -2124,104 +2114,100 @@ Connection ~ 19600 -300
 $Comp
 L Transistor_FET:IRF7404 Q?
 U 1 1 62541DA2
-P 15700 -1650
-F 0 "Q?" V 15900 -1900 50  0000 C CNN
-F 1 "IRF7458" V 15950 -1650 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 15900 -1725 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" V 15700 -1650 50  0001 L CNN
-	1    15700 -1650
+P 15500 -1650
+F 0 "Q?" V 15700 -1900 50  0000 C CNN
+F 1 "IRF7458" V 15750 -1650 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 15700 -1725 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" V 15500 -1650 50  0001 L CNN
+	1    15500 -1650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	15950 -1250 15950 -650
-Connection ~ 15950 -1250
+	15750 -1250 15750 -650
+Connection ~ 15750 -1250
 Wire Wire Line
-	16000 -1250 15950 -1250
+	15800 -1250 15750 -1250
 Wire Wire Line
-	16400 -1250 16500 -1250
+	16200 -1250 16300 -1250
 Wire Wire Line
-	16500 -1250 16500 -1400
+	16300 -1250 16300 -1400
 Wire Wire Line
-	16500 -1700 16500 -1750
+	16300 -1700 16300 -1750
 Wire Wire Line
-	15950 -1450 15950 -1250
+	15750 -1450 15750 -1250
 Wire Wire Line
-	16100 -1750 16500 -1750
+	15900 -1750 16300 -1750
 Wire Wire Line
-	15950 -1450 16100 -1450
-Connection ~ 15950 -1450
+	15750 -1450 15900 -1450
+Connection ~ 15750 -1450
 Wire Wire Line
-	15900 -1750 16100 -1750
+	15700 -1750 15900 -1750
 $Comp
 L Switch:SW_SPST SW?
 U 1 1 62541DC1
-P 16200 -1250
-F 0 "SW?" H 16200 -1100 50  0000 C CNN
-F 1 "INHIBIT4" H 16200 -1400 50  0000 C CNN
-F 2 "Connector_Hirose:Hirose_DF13-02P-1.25DSA_1x02_P1.25mm_Vertical" H 16200 -1250 50  0001 C CNN
-F 3 "~" H 16200 -1250 50  0001 C CNN
-	1    16200 -1250
+P 16000 -1250
+F 0 "SW?" H 16000 -1100 50  0000 C CNN
+F 1 "INHIBIT4" H 16000 -1400 50  0000 C CNN
+F 2 "Connector_Hirose:Hirose_DF13-02P-1.25DSA_1x02_P1.25mm_Vertical" H 16000 -1250 50  0001 C CNN
+F 3 "~" H 16000 -1250 50  0001 C CNN
+	1    16000 -1250
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	15700 -1450 15950 -1450
-Connection ~ 16100 -1750
+	15500 -1450 15750 -1450
+Connection ~ 15900 -1750
 $Comp
 L Device:C C?
 U 1 1 62541DC9
-P 16100 -1600
-F 0 "C?" H 16200 -1550 50  0000 L CNN
-F 1 "0.1uF" H 16200 -1650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 16138 -1750 50  0001 C CNN
-F 3 "~" H 16100 -1600 50  0001 C CNN
-	1    16100 -1600
+P 15900 -1600
+F 0 "C?" H 16000 -1550 50  0000 L CNN
+F 1 "0.1uF" H 16000 -1650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 15938 -1750 50  0001 C CNN
+F 3 "~" H 15900 -1600 50  0001 C CNN
+	1    15900 -1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_FET:IRF7404 Q?
 U 1 1 62541DCF
-P 16850 -1650
-F 0 "Q?" V 17192 -1650 50  0000 C CNN
-F 1 "IRF7458" V 17101 -1650 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 17050 -1725 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" V 16850 -1650 50  0001 L CNN
-	1    16850 -1650
+P 16650 -1650
+F 0 "Q?" V 16992 -1650 50  0000 C CNN
+F 1 "IRF7458" V 16901 -1650 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 16850 -1725 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" V 16650 -1650 50  0001 L CNN
+	1    16650 -1650
 	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 62541DD5
-P 16500 -1550
-F 0 "R?" H 16600 -1550 50  0000 C CNN
-F 1 "100R" V 16500 -1550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 16430 -1550 50  0001 C CNN
-F 3 "~" H 16500 -1550 50  0001 C CNN
-	1    16500 -1550
+P 16300 -1550
+F 0 "R?" H 16400 -1550 50  0000 C CNN
+F 1 "100R" V 16300 -1550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 16230 -1550 50  0001 C CNN
+F 3 "~" H 16300 -1550 50  0001 C CNN
+	1    16300 -1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 62558A87
-P 15950 -500
-F 0 "R?" H 16000 -500 50  0000 L CNN
-F 1 "100K" V 15950 -500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 15880 -500 50  0001 C CNN
-F 3 "~" H 15950 -500 50  0001 C CNN
-	1    15950 -500
+P 15750 -500
+F 0 "R?" H 15800 -500 50  0000 L CNN
+F 1 "100K" V 15750 -500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 15680 -500 50  0001 C CNN
+F 3 "~" H 15750 -500 50  0001 C CNN
+	1    15750 -500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	17250 -300 15950 -300
-Wire Wire Line
-	15950 -300 15950 -350
-Wire Wire Line
-	17250 -1750 17050 -1750
+	15750 -300 15750 -350
 Wire Notes Line
-	15250 -2050 15250 0   
+	15050 -2050 15050 0   
 Wire Notes Line
-	15250 0    17150 0   
+	15050 0    16950 0   
 Wire Notes Line
-	17150 -2050 15250 -2050
+	16950 -2050 15050 -2050
 $Comp
 L Regulator_Linear:LM1117-3.3 U?
 U 1 1 6262F66B
@@ -2240,27 +2226,68 @@ Wire Wire Line
 Wire Notes Line
 	8350 6500 12050 6500
 Wire Notes Line
-	15200 -2050 15200 0   
+	15000 -2050 15000 0   
 Wire Notes Line
-	15200 0    14350 0   
+	15000 0    14150 0   
 Wire Notes Line
-	14350 0    14350 -2050
+	14150 0    14150 -2050
 Wire Notes Line
-	14350 -2050 15200 -2050
-Text Notes 14400 -1950 0    50   ~ 0
+	14150 -2050 15000 -2050
+Text Notes 14200 -1950 0    50   ~ 0
 V TELEM
 Wire Wire Line
-	16500 -1750 16650 -1750
-Connection ~ 16500 -1750
+	16300 -1750 16450 -1750
+Connection ~ 16300 -1750
 Wire Wire Line
-	16100 -1450 16850 -1450
-Connection ~ 16100 -1450
-Text Notes 15300 -1950 0    50   ~ 0
+	15900 -1450 16650 -1450
+Connection ~ 15900 -1450
+Text Notes 15100 -1950 0    50   ~ 0
 Inhibit (B)
-Connection ~ 15950 -300
-Connection ~ 14700 -300
+Connection ~ 15750 -300
+Connection ~ 14500 -300
 Wire Wire Line
-	14700 -300 15950 -300
+	14500 -300 15750 -300
 Wire Wire Line
-	14500 -1750 15500 -1750
+	14300 -1750 15300 -1750
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 61EBBF22
+P 18550 -1050
+F 0 "JP?" V 18504 -976 50  0000 L CNN
+F 1 "LTDIS" V 18595 -976 50  0000 L CNN
+F 2 "" H 18550 -1050 50  0001 C CNN
+F 3 "~" H 18550 -1050 50  0001 C CNN
+	1    18550 -1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	18550 -1150 18550 -1400
+Wire Wire Line
+	18550 -950 18550 -800
+Connection ~ 18550 -800
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 61F2DD7D
+P 17700 -900
+F 0 "JP?" V 17654 -826 50  0000 L CNN
+F 1 "LTDIS" V 17745 -826 50  0000 L CNN
+F 2 "" H 17700 -900 50  0001 C CNN
+F 3 "~" H 17700 -900 50  0001 C CNN
+	1    17700 -900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17700 -1000 17700 -1250
+Wire Wire Line
+	17700 -800 17700 -650
+Text Notes 17000 0    0    30   ~ 0
+LTDIS jumpers should be normally shorted\nExcept for when the battery is to be stored for a long period of time without charging\nOpening jumpers reduces quiescant current from ~~160uA to 3uA\nEnsure inhibits 5 and 6 are shorted if the jumpers are to be opened
+Wire Notes Line
+	17000 -2050 19050 -2050
+Wire Wire Line
+	16850 -1750 17250 -1750
+Wire Wire Line
+	15750 -300 17250 -300
+Wire Notes Line
+	17000 0    19050 0   
 $EndSCHEMATC
