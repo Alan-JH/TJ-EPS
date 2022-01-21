@@ -1,7 +1,6 @@
-10mOhm shunts: https://www.mouser.com/ProductDetail/Vishay-Dale/WSLP2010R0100FEA?qs=cnul8MTbHBZ8BaElk1MUZg%3D%3D
+4mOhm shunts: https://www.mouser.com/ProductDetail/Bourns/CRF1206-FZ-R004ELF?qs=gZXFycFWdAN%2FT6jGuTa9mg%3D%3D
+10mOhm shunts: https://www.mouser.com/ProductDetail/Bourns/CFN1206-FZ-R010ELF?qs=iLbezkQI%252Bsgl3d6vPYbl2w%3D%3D https://www.mouser.com/ProductDetail/Bourns/CFN1206-FX-R010ELF?qs=gZXFycFWdAOqgEnFCcgqrQ%3D%3D
 15mOhm shunts: https://www.mouser.com/ProductDetail/Vishay-Dale/WSLP2010R0150FEA?qs=sGAEpiMZZMv0NwlthflBi1K0F1noGd87C9chHCWC2to%3D
-20mOhm shunts: https://www.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/TLRP3A30DR020FTE?qs=QNEnbhJQKvYsM8ygZpzaZg%3D%3D
-25mOhm shunts: https://www.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/TLRP3A30DR025FTE?qs=QNEnbhJQKvb0BhRgpXxfzA%3D%3D
 50mOhm shunts: https://www.mouser.com/ProductDetail/Bourns/CRA2512-FZ-R050ELF?qs=y%2FafN2TeCup4WcOFvohA0Q%3D%3D
 
 22uF Metal Frame MLCC: https://www.mouser.com/ProductDetail/Murata-Electronics/KCM55WR71J226MH01K?qs=TpyF2b7C1Q829k%2F%252BTQ3rqg%3D%3D
