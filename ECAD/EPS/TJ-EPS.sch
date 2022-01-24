@@ -16,146 +16,140 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_02x26_Odd_Even H2
 U 1 1 61BB9DA8
-P 2450 2150
-F 0 "H2" H 2500 3567 50  0000 C CNN
-F 1 "Stack Header 2" H 2500 3476 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x26_P2.54mm_Vertical" H 2450 2150 50  0001 C CNN
-F 3 "~" H 2450 2150 50  0001 C CNN
-	1    2450 2150
+P 1100 2250
+F 0 "H2" H 1150 3667 50  0000 C CNN
+F 1 "Stack Header 2" H 1150 3576 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x26_P2.54mm_Vertical" H 1100 2250 50  0001 C CNN
+F 3 "~" H 1100 2250 50  0001 C CNN
+	1    1100 2250
 	1    0    0    -1  
 $EndComp
-Text Label 2950 2950 2    50   ~ 0
+Text Label 700  3050 0    50   ~ 0
 SDA
-Text Label 2950 3050 2    50   ~ 0
+Text Label 700  3150 0    50   ~ 0
 SCL
-Text GLabel 1600 3150 2    50   Input ~ 0
-VUSB
-Text GLabel 1600 1650 2    50   Input ~ 0
+Text GLabel 2100 1650 0    50   Input ~ 0
 SW5
-Text GLabel 1100 1650 0    50   Input ~ 0
+Text GLabel 2600 1650 2    50   Input ~ 0
 SW6
-Text GLabel 1600 1750 2    50   Input ~ 0
+Text GLabel 2100 1750 0    50   Input ~ 0
 SW7
-Text GLabel 1100 1750 0    50   Input ~ 0
+Text GLabel 2600 1750 2    50   Input ~ 0
 SW8
-Text GLabel 1600 1850 2    50   Input ~ 0
+Text GLabel 2100 1850 0    50   Input ~ 0
 SW9
-Text GLabel 1100 1850 0    50   Input ~ 0
+Text GLabel 2600 1850 2    50   Input ~ 0
 SW10
 $Comp
 L power:+5V #PWR04
 U 1 1 61BC34F8
-P 1100 2250
-F 0 "#PWR04" H 1100 2100 50  0001 C CNN
-F 1 "+5V" V 1115 2378 50  0000 L CNN
-F 2 "" H 1100 2250 50  0001 C CNN
-F 3 "" H 1100 2250 50  0001 C CNN
-	1    1100 2250
+P 2100 2250
+F 0 "#PWR04" H 2100 2100 50  0001 C CNN
+F 1 "+5V" V 2115 2378 50  0000 L CNN
+F 2 "" H 2100 2250 50  0001 C CNN
+F 3 "" H 2100 2250 50  0001 C CNN
+	1    2100 2250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+5V #PWR08
 U 1 1 61BC3941
-P 1600 2250
-F 0 "#PWR08" H 1600 2100 50  0001 C CNN
-F 1 "+5V" V 1615 2378 50  0000 L CNN
-F 2 "" H 1600 2250 50  0001 C CNN
-F 3 "" H 1600 2250 50  0001 C CNN
-	1    1600 2250
+P 2600 2250
+F 0 "#PWR08" H 2600 2100 50  0001 C CNN
+F 1 "+5V" V 2615 2378 50  0000 L CNN
+F 2 "" H 2600 2250 50  0001 C CNN
+F 3 "" H 2600 2250 50  0001 C CNN
+	1    2600 2250
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+3V3 #PWR05
 U 1 1 61BC3DF9
-P 1100 2350
-F 0 "#PWR05" H 1100 2200 50  0001 C CNN
-F 1 "+3V3" V 1115 2478 50  0000 L CNN
-F 2 "" H 1100 2350 50  0001 C CNN
-F 3 "" H 1100 2350 50  0001 C CNN
-	1    1100 2350
+P 2100 2350
+F 0 "#PWR05" H 2100 2200 50  0001 C CNN
+F 1 "+3V3" V 2115 2478 50  0000 L CNN
+F 2 "" H 2100 2350 50  0001 C CNN
+F 3 "" H 2100 2350 50  0001 C CNN
+	1    2100 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3V3 #PWR09
 U 1 1 61BC42A2
-P 1600 2350
-F 0 "#PWR09" H 1600 2200 50  0001 C CNN
-F 1 "+3V3" V 1615 2478 50  0000 L CNN
-F 2 "" H 1600 2350 50  0001 C CNN
-F 3 "" H 1600 2350 50  0001 C CNN
-	1    1600 2350
+P 2600 2350
+F 0 "#PWR09" H 2600 2200 50  0001 C CNN
+F 1 "+3V3" V 2615 2478 50  0000 L CNN
+F 2 "" H 2600 2350 50  0001 C CNN
+F 3 "" H 2600 2350 50  0001 C CNN
+	1    2600 2350
 	0    1    1    0   
 $EndComp
-Text GLabel 1600 2650 2    50   Input ~ 0
+Text GLabel 2600 2750 2    50   Input ~ 0
 PCM_IN
-Text GLabel 1100 2650 0    50   Input ~ 0
+Text GLabel 2100 2750 0    50   Input ~ 0
 PCM_IN
-Text GLabel 1600 2850 2    50   Input ~ 0
+Text GLabel 2600 3050 2    50   Input ~ 0
 BCR_OUT
-Text GLabel 1100 2850 0    50   Input ~ 0
+Text GLabel 2100 3050 0    50   Input ~ 0
 BCR_OUT
-Text GLabel 1600 2950 2    50   Input ~ 0
+Text GLabel 2600 3150 2    50   Input ~ 0
 BCR_OUT
-Text GLabel 1100 2950 0    50   Input ~ 0
+Text GLabel 2100 3150 0    50   Input ~ 0
 BCR_OUT
 $Comp
 L power:+BATT #PWR07
 U 1 1 61BC5790
-P 1600 2150
-F 0 "#PWR07" H 1600 2000 50  0001 C CNN
-F 1 "+BATT" V 1615 2278 50  0000 L CNN
-F 2 "" H 1600 2150 50  0001 C CNN
-F 3 "" H 1600 2150 50  0001 C CNN
-	1    1600 2150
+P 2600 3250
+F 0 "#PWR07" H 2600 3100 50  0001 C CNN
+F 1 "+BATT" V 2600 3350 50  0000 L CNN
+F 2 "" H 2600 3250 50  0001 C CNN
+F 3 "" H 2600 3250 50  0001 C CNN
+	1    2600 3250
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+BATT #PWR03
 U 1 1 61BC64DC
-P 1100 2150
-F 0 "#PWR03" H 1100 2000 50  0001 C CNN
-F 1 "+BATT" V 1115 2278 50  0000 L CNN
-F 2 "" H 1100 2150 50  0001 C CNN
-F 3 "" H 1100 2150 50  0001 C CNN
-	1    1100 2150
+P 2100 3250
+F 0 "#PWR03" H 2100 3100 50  0001 C CNN
+F 1 "+BATT" V 2100 3350 50  0000 L CNN
+F 2 "" H 2100 3250 50  0001 C CNN
+F 3 "" H 2100 3250 50  0001 C CNN
+	1    2100 3250
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 1100 3350
-NoConn ~ 1100 3450
-NoConn ~ 1600 3350
-NoConn ~ 1600 3450
-NoConn ~ 1100 2750
-NoConn ~ 1600 2750
-NoConn ~ 1600 2550
-NoConn ~ 1100 2550
-NoConn ~ 1100 1050
-NoConn ~ 1100 950 
-NoConn ~ 1600 950 
-NoConn ~ 1600 1050
+NoConn ~ 2100 3450
+NoConn ~ 2100 3550
+NoConn ~ 2600 3450
+NoConn ~ 2600 3550
+NoConn ~ 2100 2850
+NoConn ~ 2600 2850
+NoConn ~ 2600 2650
+NoConn ~ 2100 2650
+NoConn ~ 2100 1150
+NoConn ~ 2100 1050
+NoConn ~ 2600 1050
+NoConn ~ 2600 1150
 Wire Wire Line
-	1100 3050 700  3050
+	2100 2550 1700 2550
 Wire Wire Line
-	1100 2450 700  2450
+	2600 2550 3000 2550
 Wire Wire Line
-	1600 3050 2000 3050
-Wire Wire Line
-	1600 2450 2000 2450
-Wire Wire Line
-	700  3500 1350 3500
+	1700 3600 2350 3600
 $Comp
 L power:GND #PWR06
 U 1 1 61BCA925
-P 1350 3500
-F 0 "#PWR06" H 1350 3250 50  0001 C CNN
-F 1 "GND" H 1355 3327 50  0000 C CNN
-F 2 "" H 1350 3500 50  0001 C CNN
-F 3 "" H 1350 3500 50  0001 C CNN
-	1    1350 3500
+P 2350 3600
+F 0 "#PWR06" H 2350 3350 50  0001 C CNN
+F 1 "GND" H 2355 3427 50  0000 C CNN
+F 2 "" H 2350 3600 50  0001 C CNN
+F 3 "" H 2350 3600 50  0001 C CNN
+	1    2350 3600
 	1    0    0    -1  
 $EndComp
-Connection ~ 1350 3500
+Connection ~ 2350 3600
 Wire Wire Line
-	1350 3500 2000 3500
+	2350 3600 3000 3600
 $Sheet
 S 10400 2550 1100 250 
 U 61BEC565
@@ -174,36 +168,20 @@ U 61E87E93
 F0 "PowerDistribution" 50
 F1 "PowerDistribution.sch" 50
 $EndSheet
-Text GLabel 1600 1550 2    50   Input ~ 0
+Text GLabel 2600 1550 2    50   Input ~ 0
 SW4
-Text GLabel 1100 1550 0    50   Input ~ 0
+Text GLabel 2100 1550 0    50   Input ~ 0
 SW3
-Text GLabel 1600 1450 2    50   Input ~ 0
+Text GLabel 2600 1450 2    50   Input ~ 0
 SW2
-Text GLabel 1100 1450 0    50   Input ~ 0
+Text GLabel 2100 1450 0    50   Input ~ 0
 SW1
-Text GLabel 1600 1950 2    50   Input ~ 0
+Text GLabel 2100 1950 0    50   Input ~ 0
 SW11
-Text GLabel 1100 1950 0    50   Input ~ 0
+Text GLabel 2600 1950 2    50   Input ~ 0
 SW12
-Wire Wire Line
-	2000 1350 1600 1350
-Wire Wire Line
-	1100 1350 700  1350
-Connection ~ 700  2450
-Wire Wire Line
-	700  2450 700  3050
-Connection ~ 2000 2450
-Wire Wire Line
-	2000 2450 2000 3050
-Text Label 2950 2350 2    50   ~ 0
-SCK
-Text Label 2950 2450 2    50   ~ 0
-MISO
-Text Label 2950 2550 2    50   ~ 0
-MOSI
-Text Label 2950 2650 2    50   ~ 0
-SS
+Connection ~ 1700 2550
+Connection ~ 3000 2550
 $Comp
 L Mechanical:MountingHole_Pad MH1
 U 1 1 61D688E3
@@ -853,17 +831,9 @@ F 3 "" H 6650 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2750 2350 2950 2350
+	700  3050 900  3050
 Wire Wire Line
-	2750 2450 2950 2450
-Wire Wire Line
-	2750 2550 2950 2550
-Wire Wire Line
-	2750 2650 2950 2650
-Wire Wire Line
-	2750 2950 2950 2950
-Wire Wire Line
-	2950 3050 2750 3050
+	900  3150 700  3150
 $Comp
 L 74xx:CD74HC4067SM U1
 U 1 1 61D924A0
@@ -1078,44 +1048,26 @@ SRLCH
 Text GLabel 8650 2850 2    50   Input ~ 0
 SRSERIN
 Wire Wire Line
-	1600 2050 2000 2050
+	2600 2050 3000 2050
 Wire Wire Line
-	1100 2050 700  2050
-Connection ~ 700  2050
-Wire Wire Line
-	700  2050 700  2450
-Wire Wire Line
-	700  1350 700  2050
-Connection ~ 2000 2050
-Wire Wire Line
-	2000 2050 2000 2450
-Wire Wire Line
-	2000 1350 2000 2050
-Text GLabel 1100 3150 0    50   Input ~ 0
-VUSB
-NoConn ~ 1100 1150
-NoConn ~ 1600 1150
-NoConn ~ 1100 1250
+	2100 2050 1700 2050
+NoConn ~ 2100 1250
+NoConn ~ 2600 1250
+NoConn ~ 2100 1350
 $Comp
 L Connector_Generic:Conn_02x26_Odd_Even H1
 U 1 1 61BBDB62
-P 1300 2150
-F 0 "H1" H 1350 3567 50  0000 C CNN
-F 1 "Stack Header 1" H 1350 3476 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x26_P2.54mm_Vertical" H 1300 2150 50  0001 C CNN
-F 3 "~" H 1300 2150 50  0001 C CNN
-	1    1300 2150
+P 2300 2250
+F 0 "H1" H 2350 3667 50  0000 C CNN
+F 1 "Stack Header 1" H 2350 3576 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x26_P2.54mm_Vertical" H 2300 2250 50  0001 C CNN
+F 3 "~" H 2300 2250 50  0001 C CNN
+	1    2300 2250
 	1    0    0    -1  
 $EndComp
-Connection ~ 700  3050
-Wire Wire Line
-	700  3050 700  3500
-Connection ~ 2000 3050
-Wire Wire Line
-	2000 3050 2000 3500
-NoConn ~ 1100 3250
-NoConn ~ 1600 3250
-NoConn ~ 1600 1250
+NoConn ~ 2100 3350
+NoConn ~ 2600 3350
+NoConn ~ 2600 1350
 Text GLabel 1450 7350 0    50   Input ~ 0
 TELEM_TBRD
 $Comp
@@ -1573,4 +1525,44 @@ Wire Notes Line
 	6350 600  3100 600 
 Wire Notes Line
 	3100 600  3100 2200
+Wire Wire Line
+	1700 2050 1700 2450
+Wire Wire Line
+	3000 2050 3000 2450
+Wire Wire Line
+	700  2950 900  2950
+Wire Wire Line
+	700  2850 900  2850
+Wire Wire Line
+	700  2750 900  2750
+Wire Wire Line
+	700  2650 900  2650
+Text Label 700  2950 0    50   ~ 0
+SS
+Text Label 700  2850 0    50   ~ 0
+MOSI
+Text Label 700  2750 0    50   ~ 0
+MISO
+Text Label 700  2650 0    50   ~ 0
+SCK
+Text GLabel 1400 2550 2    50   Input ~ 0
+VUSB
+Wire Wire Line
+	1700 2550 1700 3600
+Wire Wire Line
+	3000 2550 3000 3600
+NoConn ~ 2100 2950
+NoConn ~ 2600 2950
+Wire Wire Line
+	2600 2450 3000 2450
+Connection ~ 3000 2450
+Wire Wire Line
+	3000 2450 3000 2550
+Wire Wire Line
+	2100 2450 1700 2450
+Connection ~ 1700 2450
+Wire Wire Line
+	1700 2450 1700 2550
+NoConn ~ 2100 2150
+NoConn ~ 2600 2150
 $EndSCHEMATC
