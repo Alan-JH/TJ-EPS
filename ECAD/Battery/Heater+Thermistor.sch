@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 6 5
+Sheet 2 5
 Title "TJ Custom EPS"
 Date ""
 Rev "0.1"
@@ -13,26 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 "Engineer: Alan Hsu"
 $EndDescr
-$Comp
-L Transistor_FET:Si4162DY Q?
-U 1 1 620332F7
-P 3750 3300
-AR Path="/61BD4B7D/620332F7" Ref="Q?"  Part="1" 
-AR Path="/61BD4B7D/62026259/620332F7" Ref="Q?"  Part="1" 
-AR Path="/61BD4B7D/62041525/620332F7" Ref="Q?"  Part="1" 
-AR Path="/61BD4B7D/62045EF1/620332F7" Ref="Q?"  Part="1" 
-AR Path="/61BD4B7D/6204A8C5/620332F7" Ref="Q?"  Part="1" 
-AR Path="/62041525/620332F7" Ref="Q15"  Part="1" 
-AR Path="/62045EF1/620332F7" Ref="Q18"  Part="1" 
-AR Path="/6204A8C5/620332F7" Ref="Q21"  Part="1" 
-AR Path="/62026259/620332F7" Ref="Q24"  Part="1" 
-F 0 "Q24" H 3955 3346 50  0000 L CNN
-F 1 "Si4186DY" H 3955 3255 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3950 3200 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/68967/si4162dy.pdf" H 3750 3300 50  0001 L CNN
-	1    3750 3300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 620332FD
@@ -92,26 +72,6 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V 3780 2950 50 
 F 3 "~" H 3850 2950 50  0001 C CNN
 	1    3850 2950
 	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:IRF7404 Q?
-U 1 1 6203330F
-P 3750 2600
-AR Path="/61BD4B7D/6203330F" Ref="Q?"  Part="1" 
-AR Path="/61BD4B7D/62026259/6203330F" Ref="Q?"  Part="1" 
-AR Path="/61BD4B7D/62041525/6203330F" Ref="Q?"  Part="1" 
-AR Path="/61BD4B7D/62045EF1/6203330F" Ref="Q?"  Part="1" 
-AR Path="/61BD4B7D/6204A8C5/6203330F" Ref="Q?"  Part="1" 
-AR Path="/62041525/6203330F" Ref="Q14"  Part="1" 
-AR Path="/62045EF1/6203330F" Ref="Q17"  Part="1" 
-AR Path="/6204A8C5/6203330F" Ref="Q20"  Part="1" 
-AR Path="/62026259/6203330F" Ref="Q23"  Part="1" 
-F 0 "Q23" H 3955 2646 50  0000 L CNN
-F 1 "IRF7458" H 3955 2555 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3950 2525 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" V 3750 2600 50  0001 L CNN
-	1    3750 2600
-	1    0    0    1   
 $EndComp
 $Comp
 L power:+5V #PWR?
@@ -376,4 +336,34 @@ $EndComp
 Connection ~ 5350 3600
 Text HLabel 5950 3300 2    50   Input ~ 0
 TELEM_TBAT
+$Comp
+L Transistor_FET:BSN20 Q24
+U 1 1 61F204F1
+P 3750 3300
+AR Path="/62026259/61F204F1" Ref="Q24"  Part="1" 
+AR Path="/62041525/61F204F1" Ref="Q15"  Part="1" 
+AR Path="/62045EF1/61F204F1" Ref="Q18"  Part="1" 
+AR Path="/6204A8C5/61F204F1" Ref="Q21"  Part="1" 
+F 0 "Q24" H 3955 3346 50  0000 L CNN
+F 1 "BSN20" H 3955 3255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3950 3225 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/ds31898.pdf" H 3750 3300 50  0001 L CNN
+	1    3750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS83P Q23
+U 1 1 61F25B8B
+P 3750 2600
+AR Path="/62026259/61F25B8B" Ref="Q23"  Part="1" 
+AR Path="/62041525/61F25B8B" Ref="Q14"  Part="1" 
+AR Path="/62045EF1/61F25B8B" Ref="Q17"  Part="1" 
+AR Path="/6204A8C5/61F25B8B" Ref="Q20"  Part="1" 
+F 0 "Q23" H 3954 2554 50  0000 L CNN
+F 1 "BSS83P" H 3954 2645 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3950 2525 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/1835997.pdf" H 3750 2600 50  0001 L CNN
+	1    3750 2600
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
