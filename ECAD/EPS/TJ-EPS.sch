@@ -19,7 +19,7 @@ U 1 1 61BB9DA8
 P 1100 2250
 F 0 "H2" H 1150 3667 50  0000 C CNN
 F 1 "Stack Header 2" H 1150 3576 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x26_P2.54mm_Vertical" H 1100 2250 50  0001 C CNN
+F 2 "footprints:PinSocket_2x26_P2.54mm_Vertical" H 1100 2250 50  0001 C CNN
 F 3 "~" H 1100 2250 50  0001 C CNN
 	1    1100 2250
 	1    0    0    -1  
@@ -1060,7 +1060,7 @@ U 1 1 61BBDB62
 P 2300 2250
 F 0 "H1" H 2350 3667 50  0000 C CNN
 F 1 "Stack Header 1" H 2350 3576 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x26_P2.54mm_Vertical" H 2300 2250 50  0001 C CNN
+F 2 "footprints:PinSocket_2x26_P2.54mm_Vertical" H 2300 2250 50  0001 C CNN
 F 3 "~" H 2300 2250 50  0001 C CNN
 	1    2300 2250
 	1    0    0    -1  
