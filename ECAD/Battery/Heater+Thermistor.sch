@@ -283,7 +283,7 @@ AR Path="/6204A8C5/62035C98" Ref="TH3"  Part="1"
 AR Path="/62026259/62035C98" Ref="TH4"  Part="1" 
 F 0 "TH4" H 5448 3496 50  0000 L CNN
 F 1 "100K NTC" H 5448 3405 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5350 3500 50  0001 C CNN
+F 2 "Connector_Hirose:Hirose_DF13-02P-1.25DSA_1x02_P1.25mm_Vertical" H 5350 3500 50  0001 C CNN
 F 3 "~" H 5350 3500 50  0001 C CNN
 	1    5350 3450
 	1    0    0    -1  

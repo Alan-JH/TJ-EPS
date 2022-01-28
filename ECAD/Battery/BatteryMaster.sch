@@ -2272,8 +2272,6 @@ Wire Wire Line
 Wire Wire Line
 	1800 3550 2200 3550
 Connection ~ 2050 2950
-Wire Wire Line
-	1500 3750 1500 4400
 $Comp
 L Transistor_FET:Si4162DY Q1
 U 1 1 61C81D99
@@ -2564,4 +2562,22 @@ Wire Wire Line
 	7500 5250 7650 5250
 Wire Wire Line
 	7500 5350 7650 5350
+$Comp
+L Transistor_FET:Si4162DY Q26
+U 1 1 61F5EB95
+P 1600 3950
+F 0 "Q26" H 1805 3996 50  0000 L CNN
+F 1 "Si4186DY" H 1805 3905 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1800 3850 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/68967/si4162dy.pdf" H 1600 3950 50  0001 L CNN
+	1    1600 3950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 4400 1500 4150
+Wire Wire Line
+	1800 3950 1800 3550
+Connection ~ 1800 3550
+Text Notes 1150 4500 0    50   ~ 0
+Redundant mosfets
 $EndSCHEMATC
