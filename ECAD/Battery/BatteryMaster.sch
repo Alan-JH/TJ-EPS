@@ -1108,12 +1108,12 @@ Connection ~ 3250 6600
 Wire Wire Line
 	3250 6600 3250 6700
 $Comp
-L Connector_Generic:Conn_02x26_Odd_Even H1
+L Connector_Generic:Conn_02x26_Odd_Even H2
 U 1 1 6209174D
 P 1350 6400
-AR Path="/6209174D" Ref="H1"  Part="1" 
+AR Path="/6209174D" Ref="H2"  Part="1" 
 AR Path="/61BD4B7D/6209174D" Ref="H?"  Part="1" 
-F 0 "H1" H 1400 7817 50  0000 C CNN
+F 0 "H2" H 1400 7817 50  0000 C CNN
 F 1 "Stack Header 2" H 1400 7726 50  0000 C CNN
 F 2 "footprints:PinSocket_2x26_P2.54mm_Vertical" H 1350 6400 50  0001 C CNN
 F 3 "~" H 1350 6400 50  0001 C CNN
@@ -1121,12 +1121,12 @@ F 3 "~" H 1350 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x26_Odd_Even H2
+L Connector_Generic:Conn_02x26_Odd_Even H1
 U 1 1 620917C1
 P 2550 6400
-AR Path="/620917C1" Ref="H2"  Part="1" 
+AR Path="/620917C1" Ref="H1"  Part="1" 
 AR Path="/61BD4B7D/620917C1" Ref="H?"  Part="1" 
-F 0 "H2" H 2600 7817 50  0000 C CNN
+F 0 "H1" H 2600 7817 50  0000 C CNN
 F 1 "Stack Header 1" H 2600 7726 50  0000 C CNN
 F 2 "footprints:PinSocket_2x26_P2.54mm_Vertical" H 2550 6400 50  0001 C CNN
 F 3 "~" H 2550 6400 50  0001 C CNN
