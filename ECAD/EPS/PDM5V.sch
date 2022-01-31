@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 22
+Sheet 18 22
 Title "TJ Custom EPS"
 Date ""
 Rev "0.1"
@@ -15,7 +15,7 @@ Comment4 "Engineer: Alan Hsu"
 $EndDescr
 Text HLabel 3300 2500 0    50   Input ~ 0
 GATE
-Text HLabel 6000 2350 2    50   Input ~ 0
+Text HLabel 7500 2350 2    50   Input ~ 0
 VOUT
 Text HLabel 6900 2850 2    50   Input ~ 0
 TELEM_IOUT
@@ -102,7 +102,7 @@ Wire Wire Line
 $Comp
 L Device:D D?
 U 1 1 61EF1EB7
-P 4650 2550
+P 7500 2500
 AR Path="/61E87E93/61E898DE/61EF1EB7" Ref="D?"  Part="1" 
 AR Path="/61E87E93/61ED0AEF/61EF1EB7" Ref="D?"  Part="1" 
 AR Path="/61E87E93/61EE54AF/61EF1EB7" Ref="D?"  Part="1" 
@@ -115,15 +115,13 @@ AR Path="/61E87E93/61EF1A6E/61EF1EB7" Ref="D28"  Part="1"
 AR Path="/61E87E93/61EF1C19/61EF1EB7" Ref="D27"  Part="1" 
 AR Path="/61E87E93/61EF1CFC/61EF1EB7" Ref="D26"  Part="1" 
 AR Path="/61E87E93/61EF1E50/61EF1EB7" Ref="D?"  Part="1" 
-F 0 "D29" V 4604 2630 50  0000 L CNN
-F 1 "1N4004" V 4695 2630 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 4650 2550 50  0001 C CNN
-F 3 "~" H 4650 2550 50  0001 C CNN
-	1    4650 2550
+F 0 "D29" V 7454 2580 50  0000 L CNN
+F 1 "RR264MM" V 7545 2580 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 7500 2500 50  0001 C CNN
+F 3 "~" H 7500 2500 50  0001 C CNN
+	1    7500 2500
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4650 2350 4650 2400
 $Comp
 L Device:R R?
 U 1 1 61EF1EB8
@@ -317,8 +315,6 @@ Wire Wire Line
 	6550 2850 6900 2850
 Connection ~ 6550 2850
 Connection ~ 5600 2350
-Wire Wire Line
-	6000 2350 5900 2350
 Connection ~ 5900 2350
 Text Notes 7000 2750 0    50   ~ 0
 200mV/A
@@ -373,8 +369,6 @@ Wire Wire Line
 Connection ~ 6150 3150
 Connection ~ 4650 3150
 Wire Wire Line
-	4650 2700 4650 3150
-Wire Wire Line
 	4200 2700 4200 3150
 Connection ~ 4200 3150
 Wire Wire Line
@@ -383,7 +377,6 @@ Wire Wire Line
 	3800 2800 3800 3150
 Wire Wire Line
 	4650 2350 5100 2350
-Connection ~ 4650 2350
 Wire Wire Line
 	5100 2400 5100 2350
 Wire Wire Line
@@ -422,4 +415,11 @@ F 3 "" H 4650 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4650 1700
+Wire Wire Line
+	7500 3150 6550 3150
+Connection ~ 6550 3150
+Wire Wire Line
+	5900 2350 7500 2350
+Wire Wire Line
+	7500 2650 7500 3150
 $EndSCHEMATC
