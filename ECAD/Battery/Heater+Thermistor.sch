@@ -290,28 +290,8 @@ F 3 "~" H 5350 3500 50  0001 C CNN
 $EndComp
 Text Notes 4550 2700 0    50   ~ 0
 Top resistor selected for 5C center operating temperature
-$Comp
-L power:+3V3 #PWR?
-U 1 1 6203964D
-P 5350 3000
-AR Path="/61BD4B7D/62026259/6203964D" Ref="#PWR?"  Part="1" 
-AR Path="/61BD4B7D/62041525/6203964D" Ref="#PWR?"  Part="1" 
-AR Path="/61BD4B7D/62045EF1/6203964D" Ref="#PWR?"  Part="1" 
-AR Path="/61BD4B7D/6204A8C5/6203964D" Ref="#PWR?"  Part="1" 
-AR Path="/62041525/6203964D" Ref="#PWR038"  Part="1" 
-AR Path="/62045EF1/6203964D" Ref="#PWR042"  Part="1" 
-AR Path="/6204A8C5/6203964D" Ref="#PWR046"  Part="1" 
-AR Path="/62026259/6203964D" Ref="#PWR050"  Part="1" 
-F 0 "#PWR050" H 5350 2850 50  0001 C CNN
-F 1 "+3V3" H 5365 3173 50  0000 C CNN
-F 2 "" H 5350 3000 50  0001 C CNN
-F 3 "" H 5350 3000 50  0001 C CNN
-	1    5350 3000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5350 3300 5950 3300
-Connection ~ 5350 3300
 Wire Wire Line
 	5350 3600 5950 3600
 $Comp
@@ -366,4 +346,16 @@ F 3 "http://www.farnell.com/datasheets/1835997.pdf" H 3750 2600 50  0001 L CNN
 	1    3750 2600
 	1    0    0    1   
 $EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 61FDBD41
+P 5350 3000
+F 0 "#PWR?" H 5350 2850 50  0001 C CNN
+F 1 "VDD" H 5365 3173 50  0000 C CNN
+F 2 "" H 5350 3000 50  0001 C CNN
+F 3 "" H 5350 3000 50  0001 C CNN
+	1    5350 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 5350 3300
 $EndSCHEMATC

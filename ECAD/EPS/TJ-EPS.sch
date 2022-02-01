@@ -816,20 +816,6 @@ Wire Wire Line
 Wire Wire Line
 	8650 850  8650 1400
 Connection ~ 8800 1400
-Connection ~ 6650 2550
-$Comp
-L power:+3V3 #PWR022
-U 1 1 61D61EDB
-P 6650 2550
-AR Path="/61D61EDB" Ref="#PWR022"  Part="1" 
-AR Path="/61BD4B7D/61D61EDB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR022" H 6650 2400 50  0001 C CNN
-F 1 "+3V3" V 6665 2678 50  0000 L CNN
-F 2 "" H 6650 2550 50  0001 C CNN
-F 3 "" H 6650 2550 50  0001 C CNN
-	1    6650 2550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	700  3050 900  3050
 Wire Wire Line
@@ -1146,20 +1132,6 @@ Text GLabel 5950 6950 0    50   Input ~ 0
 TELEM_ISW12
 Text GLabel 7150 6050 2    50   Input ~ 0
 MUX2OUT
-$Comp
-L power:+3V3 #PWR013
-U 1 1 61EACF2A
-P 5350 5550
-AR Path="/61EACF2A" Ref="#PWR013"  Part="1" 
-AR Path="/61BD4B7D/61EACF2A" Ref="#PWR?"  Part="1" 
-AR Path="/61E87E93/61EACF2A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR013" H 5350 5400 50  0001 C CNN
-F 1 "+3V3" V 5365 5678 50  0000 L CNN
-F 2 "" H 5350 5550 50  0001 C CNN
-F 3 "" H 5350 5550 50  0001 C CNN
-	1    5350 5550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6450 5550 5350 5550
 Connection ~ 5350 5550
@@ -1268,8 +1240,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 7650 5350 7650
 Connection ~ 4950 7650
-Wire Wire Line
-	4250 5550 5350 5550
 Connection ~ 4250 5550
 $Comp
 L Device:C C?
@@ -1573,4 +1543,29 @@ Text Label 8850 3350 2    50   ~ 0
 D-
 Text Label 8850 3450 2    50   ~ 0
 D+
+$Comp
+L power:VDD #PWR?
+U 1 1 61FB25F1
+P 6650 2550
+F 0 "#PWR?" H 6650 2400 50  0001 C CNN
+F 1 "VDD" H 6665 2723 50  0000 C CNN
+F 2 "" H 6650 2550 50  0001 C CNN
+F 3 "" H 6650 2550 50  0001 C CNN
+	1    6650 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 6650 2550
+$Comp
+L power:VDD #PWR?
+U 1 1 61FCB802
+P 5350 5550
+F 0 "#PWR?" H 5350 5400 50  0001 C CNN
+F 1 "VDD" H 5365 5723 50  0000 C CNN
+F 2 "" H 5350 5550 50  0001 C CNN
+F 3 "" H 5350 5550 50  0001 C CNN
+	1    5350 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 5550 5350 5550
 $EndSCHEMATC

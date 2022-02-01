@@ -158,20 +158,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 6400 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
-U 1 1 61DA7D11
-P 5450 4100
-AR Path="/61DA7D11" Ref="#PWR?"  Part="1" 
-AR Path="/61BD4B7D/61DA7D11" Ref="#PWR?"  Part="1" 
-AR Path="/61E87E93/61DA7D11" Ref="#PWR0112"  Part="1" 
-F 0 "#PWR0112" H 5450 3950 50  0001 C CNN
-F 1 "+3V3" V 5465 4228 50  0000 L CNN
-F 2 "" H 5450 4100 50  0001 C CNN
-F 3 "" H 5450 4100 50  0001 C CNN
-	1    5450 4100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 61DA8643
 P 5450 5400
@@ -434,4 +420,15 @@ Wire Notes Line
 	7250 5650 7250 3700
 Wire Notes Line
 	7250 3700 3500 3700
+$Comp
+L power:VDD #PWR?
+U 1 1 61FC1BD8
+P 5450 4100
+F 0 "#PWR?" H 5450 3950 50  0001 C CNN
+F 1 "VDD" H 5465 4273 50  0000 C CNN
+F 2 "" H 5450 4100 50  0001 C CNN
+F 3 "" H 5450 4100 50  0001 C CNN
+	1    5450 4100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
