@@ -149,37 +149,37 @@ $EndComp
 $Comp
 L 74xx:74HC595 U41
 U 1 1 622C9F3C
-P 6400 4700
-F 0 "U41" H 6400 5481 50  0000 C CNN
-F 1 "74HC595" H 6400 5390 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 6400 4700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 6400 4700 50  0001 C CNN
-	1    6400 4700
+P 6550 4700
+F 0 "U41" H 6550 5481 50  0000 C CNN
+F 1 "74HC595" H 6550 5390 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 6550 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 6550 4700 50  0001 C CNN
+	1    6550 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 61DA8643
-P 5450 5400
+P 5600 5400
 AR Path="/61DA8643" Ref="#PWR?"  Part="1" 
 AR Path="/61BD4B7D/61DA8643" Ref="#PWR?"  Part="1" 
 AR Path="/61E87E93/61DA8643" Ref="#PWR0113"  Part="1" 
-F 0 "#PWR0113" H 5450 5150 50  0001 C CNN
-F 1 "GND" H 5455 5227 50  0000 C CNN
-F 2 "" H 5450 5400 50  0001 C CNN
-F 3 "" H 5450 5400 50  0001 C CNN
-	1    5450 5400
+F 0 "#PWR0113" H 5600 5150 50  0001 C CNN
+F 1 "GND" H 5605 5227 50  0000 C CNN
+F 2 "" H 5600 5400 50  0001 C CNN
+F 3 "" H 5600 5400 50  0001 C CNN
+	1    5600 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C77
 U 1 1 61DA8C08
-P 5450 4250
-F 0 "C77" H 5565 4296 50  0000 L CNN
-F 1 "0.1uF" H 5565 4205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5488 4100 50  0001 C CNN
-F 3 "~" H 5450 4250 50  0001 C CNN
-	1    5450 4250
+P 5600 4250
+F 0 "C77" H 5715 4296 50  0000 L CNN
+F 1 "0.1uF" H 5715 4205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5638 4100 50  0001 C CNN
+F 3 "~" H 5600 4250 50  0001 C CNN
+	1    5600 4250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -194,40 +194,34 @@ F 3 "~" H 3650 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 4100 5900 4100
-Connection ~ 4650 4100
+	6550 4100 6050 4100
 Wire Wire Line
 	3650 4400 3650 5400
 Wire Wire Line
-	4650 5400 5450 5400
-Connection ~ 4650 5400
-Wire Wire Line
 	4250 4600 4150 4600
 Wire Wire Line
-	6000 4600 5900 4600
+	6150 4600 6050 4600
 Wire Wire Line
-	5900 4600 5900 4100
-Connection ~ 5900 4100
+	6050 4600 6050 4100
+Connection ~ 6050 4100
 Wire Wire Line
 	4250 4900 4150 4900
 Wire Wire Line
-	5950 4300 5950 5200
+	6100 4300 6100 5200
 Wire Wire Line
-	6000 4900 5900 4900
+	6150 4900 6050 4900
 Wire Wire Line
-	5900 4900 5900 5400
-Connection ~ 5900 5400
+	6050 4900 6050 5400
+Connection ~ 6050 5400
 Wire Wire Line
-	5900 5400 6400 5400
+	6050 5400 6550 5400
 Wire Wire Line
 	4150 4900 4150 5400
 Connection ~ 4150 5400
 Wire Wire Line
 	4150 5400 4650 5400
 Wire Wire Line
-	5950 4300 6000 4300
-Wire Wire Line
-	5050 5200 5950 5200
+	6100 4300 6150 4300
 Wire Wire Line
 	4250 4300 4250 4000
 Wire Wire Line
@@ -237,54 +231,50 @@ Wire Wire Line
 Wire Wire Line
 	4250 4500 4100 4500
 Wire Wire Line
-	6000 4500 5850 4500
+	6150 4500 6000 4500
 Wire Wire Line
-	6000 4800 5850 4800
+	6150 4800 6000 4800
 Text GLabel 4100 4500 0    50   Input ~ 0
 SRCLK
-Text GLabel 5850 4500 0    50   Input ~ 0
+Text GLabel 6000 4500 0    50   Input ~ 0
 SRCLK
 Text GLabel 4100 4800 0    50   Input ~ 0
 SRLCH
-Text GLabel 5850 4800 0    50   Input ~ 0
+Text GLabel 6000 4800 0    50   Input ~ 0
 SRLCH
 Text GLabel 3950 4000 0    50   Input ~ 0
 SRSERIN
 Text GLabel 5050 4300 2    50   Input ~ 0
-SW1
+SW1GATE
 Text GLabel 5050 4400 2    50   Input ~ 0
-SW2
+SW2GATE
 Text GLabel 5050 4500 2    50   Input ~ 0
-SW3
+SW3GATE
 Text GLabel 5050 4600 2    50   Input ~ 0
-SW4
+SW4GATE
 Text GLabel 5050 4700 2    50   Input ~ 0
-SW5
+SW5GATE
 Text GLabel 5050 4800 2    50   Input ~ 0
-SW6
+SW6GATE
 Text GLabel 5050 4900 2    50   Input ~ 0
-SW7
+SW7GATE
 Text GLabel 5050 5000 2    50   Input ~ 0
-SW8
-Text GLabel 6800 4300 2    50   Input ~ 0
-SW9
-Text GLabel 6800 4400 2    50   Input ~ 0
-SW10
-Text GLabel 6800 4500 2    50   Input ~ 0
-SW11
-Text GLabel 6800 4600 2    50   Input ~ 0
-SW12
-Connection ~ 5450 4100
+SW8GATE
+Text GLabel 6950 4300 2    50   Input ~ 0
+SW9GATE
+Text GLabel 6950 4400 2    50   Input ~ 0
+SW10GATE
+Text GLabel 6950 4500 2    50   Input ~ 0
+SW11GATE
+Connection ~ 5600 4100
+Connection ~ 5600 5400
 Wire Wire Line
-	5450 4100 4650 4100
-Connection ~ 5450 5400
+	5600 5400 6050 5400
 Wire Wire Line
-	5450 5400 5900 5400
+	5600 4400 5600 5400
 Wire Wire Line
-	5450 4400 5450 5400
-Wire Wire Line
-	5450 4100 5900 4100
-NoConn ~ 6800 5200
+	5600 4100 6050 4100
+NoConn ~ 6950 5200
 Wire Wire Line
 	3650 5400 4150 5400
 $Sheet
@@ -415,20 +405,30 @@ PDM Control SRs
 Wire Notes Line
 	3500 3700 3500 5650
 Wire Notes Line
-	3500 5650 7250 5650
-Wire Notes Line
-	7250 5650 7250 3700
-Wire Notes Line
-	7250 3700 3500 3700
+	7400 5650 7400 3700
 $Comp
-L power:VDD #PWR?
+L power:VDD #PWR0155
 U 1 1 61FC1BD8
-P 5450 4100
-F 0 "#PWR?" H 5450 3950 50  0001 C CNN
-F 1 "VDD" H 5465 4273 50  0000 C CNN
-F 2 "" H 5450 4100 50  0001 C CNN
-F 3 "" H 5450 4100 50  0001 C CNN
-	1    5450 4100
+P 5600 4100
+F 0 "#PWR0155" H 5600 3950 50  0001 C CNN
+F 1 "VDD" H 5615 4273 50  0000 C CNN
+F 2 "" H 5600 4100 50  0001 C CNN
+F 3 "" H 5600 4100 50  0001 C CNN
+	1    5600 4100
 	1    0    0    -1  
 $EndComp
+Text GLabel 6950 4600 2    50   Input ~ 0
+SW12GATE
+Wire Notes Line
+	3500 3700 7400 3700
+Wire Notes Line
+	3500 5650 7400 5650
+Wire Wire Line
+	4650 4100 5600 4100
+Connection ~ 4650 4100
+Wire Wire Line
+	4650 5400 5600 5400
+Connection ~ 4650 5400
+Wire Wire Line
+	5050 5200 6100 5200
 $EndSCHEMATC
