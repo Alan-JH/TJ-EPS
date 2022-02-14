@@ -410,15 +410,6 @@ F 3 "~" H 4900 4200 50  0001 C CNN
 	1    4900 4200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1400 5000 950  5000
-Connection ~ 1400 5000
-Wire Wire Line
-	1400 4900 1400 5000
-Wire Wire Line
-	950  4400 950  5000
-Wire Wire Line
-	2950 5000 2000 5000
 Connection ~ 2950 5000
 Wire Wire Line
 	2950 4100 2950 5000
@@ -432,8 +423,6 @@ Wire Wire Line
 Connection ~ 3850 5000
 Wire Wire Line
 	3850 4800 3850 5000
-Wire Wire Line
-	2000 5000 1400 5000
 Connection ~ 2000 5000
 Wire Wire Line
 	4750 5000 3850 5000
@@ -498,11 +487,6 @@ F 3 "~" H 4550 4700 50  0001 C CNN
 	1    4550 4700
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2750 4200 3350 4200
-Connection ~ 2150 3800
-Wire Wire Line
-	2150 3800 2950 3800
 Text Notes 600  3050 0    50   ~ 0
 Vmp Setpoint
 Wire Notes Line
@@ -553,109 +537,91 @@ F 3 "" H 2000 5000 50  0001 C CNN
 	1    2000 5000
 	1    0    0    -1  
 $EndComp
-Connection ~ 1400 4600
-Wire Wire Line
-	1400 4600 1400 4400
-Wire Wire Line
-	1550 4600 1400 4600
-Connection ~ 2000 4300
-Wire Wire Line
-	1850 4600 2000 4600
-Wire Wire Line
-	2000 4600 2000 4300
 $Comp
 L Device:R R?
 U 1 1 61D7BAE9
-P 1400 4750
+P 2000 4800
 AR Path="/61BEC565/61BEC848/61D7BAE9" Ref="R?"  Part="1" 
 AR Path="/61BEC565/61BFB023/61D7BAE9" Ref="R?"  Part="1" 
 AR Path="/61BEC565/61BFCA72/61D7BAE9" Ref="R?"  Part="1" 
 AR Path="/61BEC565/61E10014/61D7BAE9" Ref="R?"  Part="1" 
 AR Path="/61BEC565/61E1083C/61D7BAE9" Ref="R?"  Part="1" 
 AR Path="/61BEC565/61D120A6/61D7BAE9" Ref="R39"  Part="1" 
-F 0 "R39" H 1450 4750 50  0000 L CNN
-F 1 "1K" V 1400 4750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 1330 4750 50  0001 C CNN
-F 3 "~" H 1400 4750 50  0001 C CNN
-	1    1400 4750
+F 0 "R39" H 2050 4800 50  0000 L CNN
+F 1 "10K" V 2000 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1930 4800 50  0001 C CNN
+F 3 "~" H 2000 4800 50  0001 C CNN
+	1    2000 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 61D7BAE3
-P 1700 4600
+P 2000 4000
 AR Path="/61BEC565/61BEC848/61D7BAE3" Ref="R?"  Part="1" 
 AR Path="/61BEC565/61BFB023/61D7BAE3" Ref="R?"  Part="1" 
 AR Path="/61BEC565/61BFCA72/61D7BAE3" Ref="R?"  Part="1" 
 AR Path="/61BEC565/61E10014/61D7BAE3" Ref="R?"  Part="1" 
 AR Path="/61BEC565/61E1083C/61D7BAE3" Ref="R?"  Part="1" 
 AR Path="/61BEC565/61D120A6/61D7BAE3" Ref="R40"  Part="1" 
-F 0 "R40" V 1800 4600 50  0000 C CNN
-F 1 "7.5K" V 1700 4600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 1630 4600 50  0001 C CNN
-F 3 "~" H 1700 4600 50  0001 C CNN
-	1    1700 4600
-	0    1    1    0   
+F 0 "R40" H 2050 4000 50  0000 L CNN
+F 1 "75K" V 2000 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1930 4000 50  0001 C CNN
+F 3 "~" H 2000 4000 50  0001 C CNN
+	1    2000 4000
+	1    0    0    -1  
 $EndComp
-Text HLabel 1300 4200 0    50   Input ~ 0
+Text HLabel 1950 4400 0    50   Input ~ 0
 Vset
-Wire Wire Line
-	1400 4200 1300 4200
-Wire Wire Line
-	950  3800 2150 3800
-Wire Wire Line
-	2150 4100 2150 3800
-Wire Wire Line
-	2000 4300 2150 4300
 $Comp
 L Amplifier_Operational:LM358 U?
 U 3 1 61D7BAD6
-P 1050 4100
+P 1400 4700
 AR Path="/61BEC565/61BEC848/61D7BAD6" Ref="U?"  Part="3" 
 AR Path="/61BEC565/61BFB023/61D7BAD6" Ref="U?"  Part="3" 
 AR Path="/61BEC565/61BFCA72/61D7BAD6" Ref="U?"  Part="3" 
 AR Path="/61BEC565/61E10014/61D7BAD6" Ref="U?"  Part="3" 
 AR Path="/61BEC565/61E1083C/61D7BAD6" Ref="U?"  Part="3" 
 AR Path="/61BEC565/61D120A6/61D7BAD6" Ref="U21"  Part="3" 
-F 0 "U21" H 750 4150 50  0000 L CNN
-F 1 "LM358" H 650 4050 50  0000 L CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 1050 4100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1050 4100 50  0001 C CNN
-	3    1050 4100
+F 0 "U21" H 1100 4750 50  0000 L CNN
+F 1 "LM358" H 1000 4650 50  0000 L CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 1400 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1400 4700 50  0001 C CNN
+	3    1400 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Amplifier_Operational:LM358 U?
 U 2 1 61D7BAD0
-P 2450 4200
+P 2400 4300
 AR Path="/61BEC565/61BEC848/61D7BAD0" Ref="U?"  Part="2" 
 AR Path="/61BEC565/61BFB023/61D7BAD0" Ref="U?"  Part="2" 
 AR Path="/61BEC565/61BFCA72/61D7BAD0" Ref="U?"  Part="2" 
 AR Path="/61BEC565/61E10014/61D7BAD0" Ref="U?"  Part="2" 
 AR Path="/61BEC565/61E1083C/61D7BAD0" Ref="U?"  Part="2" 
 AR Path="/61BEC565/61D120A6/61D7BAD0" Ref="U21"  Part="2" 
-F 0 "U21" H 2450 4567 50  0000 C CNN
-F 1 "LM358" H 2450 4476 50  0000 C CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 2450 4200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2450 4200 50  0001 C CNN
-	2    2450 4200
+F 0 "U21" H 2400 4667 50  0000 C CNN
+F 1 "LM358" H 2400 4576 50  0000 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 2400 4300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2400 4300 50  0001 C CNN
+	2    2400 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Amplifier_Operational:LM358 U?
 U 1 1 61D7BACA
-P 1700 4300
+P 3700 2200
 AR Path="/61BEC565/61BEC848/61D7BACA" Ref="U?"  Part="1" 
 AR Path="/61BEC565/61BFB023/61D7BACA" Ref="U?"  Part="1" 
 AR Path="/61BEC565/61BFCA72/61D7BACA" Ref="U?"  Part="1" 
 AR Path="/61BEC565/61E10014/61D7BACA" Ref="U?"  Part="1" 
 AR Path="/61BEC565/61E1083C/61D7BACA" Ref="U?"  Part="1" 
 AR Path="/61BEC565/61D120A6/61D7BACA" Ref="U21"  Part="1" 
-F 0 "U21" H 1700 4667 50  0000 C CNN
-F 1 "LM358" H 1700 4576 50  0000 C CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 1700 4300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1700 4300 50  0001 C CNN
-	1    1700 4300
+F 0 "U21" H 3700 2567 50  0000 C CNN
+F 1 "LM358" H 3700 2476 50  0000 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 3700 2200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 3700 2200 50  0001 C CNN
+	1    3700 2200
 	1    0    0    -1  
 $EndComp
 Text Notes 4250 5250 0    50   ~ 0
@@ -683,13 +649,6 @@ Wire Wire Line
 	3200 2400 3200 2600
 Wire Wire Line
 	3200 1500 3200 1400
-Wire Wire Line
-	3200 1950 3200 2100
-Connection ~ 3200 1950
-Wire Wire Line
-	3200 1950 3450 1950
-Wire Wire Line
-	3200 1800 3200 1950
 $Comp
 L Device:R R?
 U 1 1 61E5DC22
@@ -724,7 +683,7 @@ F 3 "~" H 3200 2250 50  0001 C CNN
 	1    3200 2250
 	1    0    0    -1  
 $EndComp
-Text HLabel 3450 1950 2    50   Input ~ 0
+Text HLabel 4000 2200 2    50   Input ~ 0
 TELEM_VIN
 Wire Wire Line
 	3200 1400 4050 1400
@@ -745,9 +704,6 @@ Text Label 8350 1400 2    50   ~ 0
 VBOOST
 Text Label 600  3800 0    50   ~ 0
 VBOOST
-Wire Wire Line
-	600  3800 950  3800
-Connection ~ 950  3800
 Wire Notes Line
 	2750 5300 550  5300
 Wire Notes Line
@@ -1012,4 +968,54 @@ Wire Wire Line
 Connection ~ 1000 1850
 Wire Wire Line
 	1300 1850 3000 1850
+Wire Wire Line
+	2000 5000 2950 5000
+Wire Wire Line
+	2000 4150 2000 4200
+Wire Wire Line
+	2000 4200 2100 4200
+Connection ~ 2000 4200
+Wire Wire Line
+	2000 3850 2000 3800
+Connection ~ 2000 3800
+Wire Wire Line
+	2000 3800 2950 3800
+Wire Wire Line
+	2000 4200 2000 4650
+Wire Wire Line
+	2100 4400 1950 4400
+Wire Wire Line
+	2700 4300 3050 4300
+Wire Wire Line
+	3050 4300 3050 4200
+Wire Wire Line
+	3050 4200 3350 4200
+Wire Wire Line
+	3200 1800 3200 2100
+Wire Wire Line
+	3400 2100 3200 2100
+Connection ~ 3200 2100
+Wire Wire Line
+	3400 2300 3400 2500
+Wire Wire Line
+	3400 2500 4000 2500
+Wire Wire Line
+	4000 2500 4000 2200
+Wire Wire Line
+	600  3800 2000 3800
+Wire Wire Line
+	1300 5000 2000 5000
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 6219DE8C
+P 1300 4400
+F 0 "#PWR?" H 1300 4250 50  0001 C CNN
+F 1 "+3.3VA" H 1315 4573 50  0000 C CNN
+F 2 "" H 1300 4400 50  0001 C CNN
+F 3 "" H 1300 4400 50  0001 C CNN
+	1    1300 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4950 2000 5000
 $EndSCHEMATC
