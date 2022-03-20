@@ -1,15 +1,14 @@
 4mOhm shunts: https://www.mouser.com/ProductDetail/Bourns/CRF1206-FZ-R004ELF?qs=gZXFycFWdAN%2FT6jGuTa9mg%3D%3D
 10mOhm shunts: https://www.mouser.com/ProductDetail/Bourns/CFN1206-FZ-R010ELF?qs=iLbezkQI%252Bsgl3d6vPYbl2w%3D%3D https://www.mouser.com/ProductDetail/Bourns/CFN1206-FX-R010ELF?qs=gZXFycFWdAOqgEnFCcgqrQ%3D%3D
-15mOhm shunts: https://www.mouser.com/ProductDetail/Vishay-Dale/WSLP2010R0150FEA?qs=sGAEpiMZZMv0NwlthflBi1K0F1noGd87C9chHCWC2to%3D
 50mOhm shunts: https://www.mouser.com/ProductDetail/Bourns/CRA2512-FZ-R050ELF?qs=y%2FafN2TeCup4WcOFvohA0Q%3D%3D
 
 22uF Metal Frame MLCC: https://www.mouser.com/ProductDetail/Murata-Electronics/KCM55WR71J226MH01K?qs=TpyF2b7C1Q829k%2F%252BTQ3rqg%3D%3D
-47uF Metal Frame MLCC: https://www.mouser.com/ProductDetail/TDK/CKG45NX7S1C476M500JH?qs=JKNpNUTpikTDBKdo2g%2FJLw%3D%3D
+22uF Resin MLCC: https://www.mouser.com/ProductDetail/Murata-Electronics/GRJ32EC71E226KE11L?qs=rrS6PyfT74ew9mfwhH9Twg%3D%3D
 
-22uH Primary: https://www.mouser.com/ProductDetail/Bourns/SRP7028A-220M?qs=6oMev5NRZMEpuJrEYxE%2FaA%3D%3D
-22uH Alternate (Requires a footprint reassignment): https://www.mouser.com/ProductDetail/Vishay-Dale/IHLP2525CZER220M11?qs=sy7P%252B1cA09hqmhD2Kelr6g%3D%3D
+10uH: https://www.mouser.com/ProductDetail/Kyocera-AVX/LMLP07A7M100DTAS?qs=BgMWa3ErCfy790mwccrPYw%3D%3D
+10uH alternate: https://www.mouser.com/ProductDetail/ABRACON/ASPI-0630HI-100M-T15?qs=bWAYEm3xoCYvNdiREkchng%3D%3D
 
-47uH: https://www.mouser.com/ProductDetail/Bourns/SRR1260-470M?qs=uD%2FoUDWqfvTgmKMYAHWd1A%3D%3D
+3.3uH: https://www.mouser.com/ProductDetail/ABRACON/ASPI-0630LR-3R3M-T15?qs=bWAYEm3xoCb65F4PqHLU5A%3D%3D
+3.3uH alternate: https://www.mouser.com/ProductDetail/ABRACON/ASPI-0630HI-3R3M-T15?qs=bWAYEm3xoCYwUcwgROPtBA%3D%3D
 
-82uH: https://www.mouser.com/ProductDetail/Wurth-Elektronik/74435588200?qs=BXmE%252BJ0Y7xY%2FDYhqu%2FlrXg%3D%3D
-Alternate 68uH: https://www.mouser.com/ProductDetail/Wurth-Elektronik/74435586800?qs=BXmE%252BJ0Y7xZ8bh7sYsopHQ%3D%3D
+4.7uH: https://www.mouser.com/ProductDetail/ABRACON/ASPI-0630LR-4R7M-T15?qs=bWAYEm3xoCYVuRmkzS1c6A%3D%3D
