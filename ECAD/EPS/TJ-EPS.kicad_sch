@@ -6985,6 +6985,9 @@
     (path "/00000000-0000-0000-0000-000061bec565/3f3e5af9-b6d1-4725-9068-724c489d3608/00000000-0000-0000-0000-000061c24a1a"
       (reference "U56") (unit 1) (value "LT3652EMSE") (footprint "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm")
     )
+    (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-000061d120a6/9b0d8dde-97e3-41c8-9c3c-5d6de50af053"
+      (reference "U57") (unit 1) (value "MCP14A0902-E/SN") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+    )
     (path "/00000000-0000-0000-0000-000061dbcdff"
       (reference "Y1") (unit 1) (value "8MHz") (footprint "Crystal:Crystal_HC49-4H_Vertical")
     )
