@@ -5260,18 +5260,6 @@
     (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-000061ff7851"
       (reference "#PWR037") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-000061de3a96"
-      (reference "#PWR038") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-000061de3aae"
-      (reference "#PWR039") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-000061de3aa2"
-      (reference "#PWR040") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-000061de3aba"
-      (reference "#PWR041") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-000061f32966"
       (reference "#PWR042") (unit 1) (value "GND") (footprint "")
     )
@@ -6000,18 +5988,6 @@
     )
     (path "/00000000-0000-0000-0000-000061bbdb62"
       (reference "H2") (unit 1) (value "Stack Header 1") (footprint "footprints:PinSocket_2x26_P2.54mm_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-000061de3a90"
-      (reference "H3") (unit 1) (value "M2.5") (footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad")
-    )
-    (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-000061de3aa8"
-      (reference "H4") (unit 1) (value "M2.5") (footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad")
-    )
-    (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-000061de3a9c"
-      (reference "H5") (unit 1) (value "M2.5") (footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad")
-    )
-    (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-000061de3ab4"
-      (reference "H6") (unit 1) (value "M2.5") (footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad")
     )
     (path "/00000000-0000-0000-0000-000061fb2226"
       (reference "J1") (unit 1) (value "SWD/DEBUG") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
