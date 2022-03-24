@@ -5941,16 +5941,16 @@
       (reference "J5") (unit 1) (value "S2B") (footprint "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000061bec565/748a3d52-a670-47be-a3db-5add0cc690e5"
-      (reference "J6") (unit 1) (value "S2A") (footprint "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical")
+      (reference "J6") (unit 1) (value "S3A") (footprint "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000061bec565/67028b41-3ff7-4c3b-8d0f-fd8f5724f9f9"
-      (reference "J7") (unit 1) (value "S2B") (footprint "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical")
+      (reference "J7") (unit 1) (value "S3B") (footprint "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-0000635040b9"
-      (reference "J8") (unit 1) (value "S3A") (footprint "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical")
+      (reference "J8") (unit 1) (value "S4A") (footprint "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-0000635040bf"
-      (reference "J9") (unit 1) (value "S3B") (footprint "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical")
+      (reference "J9") (unit 1) (value "S4B") (footprint "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000061f77e37"
       (reference "JP1") (unit 1) (value "BOOT") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm")
