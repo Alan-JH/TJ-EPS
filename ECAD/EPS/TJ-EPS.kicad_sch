@@ -5997,17 +5997,8 @@
     (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-000061e1ded6"
       (reference "Q3") (unit 1) (value "IRF7458") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
-    (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-000061c4b7c5"
-      (reference "Q4") (unit 1) (value "IRF7458") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
-    (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-00006218260d"
-      (reference "Q5") (unit 1) (value "IRF7458") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
     (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-000061d120a6/00000000-0000-0000-0000-000061d5b732"
       (reference "Q6") (unit 1) (value "Si4186DY") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
-    (path "/00000000-0000-0000-0000-000061c9425d/00000000-0000-0000-0000-000061eca4de"
-      (reference "Q7") (unit 1) (value "IRF7458") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000061c9425d/00000000-0000-0000-0000-000061d8a638"
       (reference "Q8") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -6159,18 +6150,6 @@
     (path "/00000000-0000-0000-0000-000061dbce22"
       (reference "R9") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-000061c70ab7"
-      (reference "R10") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-000061c55d97"
-      (reference "R11") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-0000621825ff"
-      (reference "R12") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-000062182607"
-      (reference "R13") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
     (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-000061c37b40"
       (reference "R14") (unit 1) (value "220K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
@@ -6275,12 +6254,6 @@
     )
     (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-000061d120a6/00000000-0000-0000-0000-000061d16685"
       (reference "R48") (unit 1) (value "24R") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061c9425d/00000000-0000-0000-0000-000061eca4ca"
-      (reference "R49") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061c9425d/00000000-0000-0000-0000-000061eca4d8"
-      (reference "R50") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000061c9425d/c3f41c21-0ccf-42cb-857c-b87948831fb7"
       (reference "R51") (unit 1) (value "124K") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -6686,15 +6659,6 @@
     )
     (path "/00000000-0000-0000-0000-000061bec565/3f3e5af9-b6d1-4725-9068-724c489d3608/00000000-0000-0000-0000-000061dc7062"
       (reference "R185") (unit 1) (value "50m") (footprint "Resistor_SMD:R_2512_6332Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-000061c66266"
-      (reference "SW1") (unit 1) (value "INHIBIT 1") (footprint "Connector_Hirose:Hirose_DF13-02P-1.25DSA_1x02_P1.25mm_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-000061bec565/00000000-0000-0000-0000-0000621e79d7"
-      (reference "SW2") (unit 1) (value "INHIBIT 2") (footprint "Connector_Hirose:Hirose_DF13-02P-1.25DSA_1x02_P1.25mm_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-000061c9425d/00000000-0000-0000-0000-000061eca4d0"
-      (reference "SW3") (unit 1) (value "INHIBIT 3") (footprint "Connector_Hirose:Hirose_DF13-02P-1.25DSA_1x02_P1.25mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006225f853"
       (reference "TH1") (unit 1) (value "100K NTC") (footprint "Resistor_SMD:R_1206_3216Metric")
