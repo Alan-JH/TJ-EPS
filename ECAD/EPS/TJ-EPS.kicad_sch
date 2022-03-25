@@ -6319,13 +6319,13 @@
       (reference "R71") (unit 1) (value "3K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000061c9425d/00000000-0000-0000-0000-000062261350"
-      (reference "R72") (unit 1) (value "11K") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R72") (unit 1) (value "6K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000061c9425d/00000000-0000-0000-0000-00006226134a"
       (reference "R73") (unit 1) (value "4K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000061c9425d/00000000-0000-0000-0000-00006244a20f"
-      (reference "R74") (unit 1) (value "11K") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R74") (unit 1) (value "6K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000061c9425d/00000000-0000-0000-0000-00006244a209"
       (reference "R75") (unit 1) (value "4K") (footprint "Resistor_SMD:R_0805_2012Metric")
