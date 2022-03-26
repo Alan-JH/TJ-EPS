@@ -3417,7 +3417,7 @@
     (property "Reference" "U?" (id 0) (at 131.5594 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 131.5594 95.25 0)
+    (property "Value" "MCP3008" (id 1) (at 131.5594 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 127 105.41 0)
