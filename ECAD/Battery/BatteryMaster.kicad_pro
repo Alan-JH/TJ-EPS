@@ -441,6 +441,22 @@
     [
       "4e677390-a246-4ca0-954c-746e0870f88f",
       ""
+    ],
+    [
+      "92c2acfc-5f23-4a08-bda4-c69b711da6d1",
+      "Cell 1 Heater"
+    ],
+    [
+      "806549dc-f38a-4b87-a26d-23b096133683",
+      "Cell 2 Heater"
+    ],
+    [
+      "65e9d290-c9d2-4037-acb8-6cf6d99e93a8",
+      "Cell 3 Heater"
+    ],
+    [
+      "4a845ede-4258-46b7-b03d-a737b3f81034",
+      "Cell 4 Heater"
     ]
   ],
   "text_variables": {}
