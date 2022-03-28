@@ -4599,6 +4599,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d6c6f753-c439-4165-b721-656e8985e556)
   )
+  (text "Heater controls\nare PWM" (at 210.82 189.23 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid dacd71ca-de38-4abf-88e1-3b7ebb743624)
+  )
   (text "uC" (at 210.82 125.73 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e6e468d8-2bb7-49d5-a4d0-fde0f6bbe8c6)
@@ -7885,13 +7889,13 @@
     (path "/4a845ede-4258-46b7-b03d-a737b3f81034/93e2b194-78b4-4c72-b805-e35e3550b188"
       (reference "#PWR054") (unit 1) (value "GND") (footprint "")
     )
-    (path "/806549dc-f38a-4b87-a26d-23b096133683/4f94287d-7389-44cb-92a6-55ff5bcd03df"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
     (path "/92c2acfc-5f23-4a08-bda4-c69b711da6d1/4f94287d-7389-44cb-92a6-55ff5bcd03df"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/65e9d290-c9d2-4037-acb8-6cf6d99e93a8/4f94287d-7389-44cb-92a6-55ff5bcd03df"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/806549dc-f38a-4b87-a26d-23b096133683/4f94287d-7389-44cb-92a6-55ff5bcd03df"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/4a845ede-4258-46b7-b03d-a737b3f81034/4f94287d-7389-44cb-92a6-55ff5bcd03df"
@@ -7983,6 +7987,18 @@
     )
     (path "/4a845ede-4258-46b7-b03d-a737b3f81034/520536b8-173a-4330-a5d3-1ea2b3d01cc1"
       (reference "C25") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/65e9d290-c9d2-4037-acb8-6cf6d99e93a8/fe011508-efc2-4d41-85de-6cfb764e7639"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/4a845ede-4258-46b7-b03d-a737b3f81034/fe011508-efc2-4d41-85de-6cfb764e7639"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/92c2acfc-5f23-4a08-bda4-c69b711da6d1/fe011508-efc2-4d41-85de-6cfb764e7639"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/806549dc-f38a-4b87-a26d-23b096133683/fe011508-efc2-4d41-85de-6cfb764e7639"
+      (reference "C?") (unit 1) (value "C") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061c906db"
       (reference "F1") (unit 1) (value "6A") (footprint "Resistor_SMD:R_1206_3216Metric")
