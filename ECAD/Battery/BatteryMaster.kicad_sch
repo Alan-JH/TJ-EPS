@@ -6,7 +6,7 @@
 
   (title_block
     (title "TJ Custom EPS")
-    (rev "0.1")
+    (rev "2")
     (company "TJHSST Nanosatellite Club")
     (comment 1 "Battery Master Sheet")
     (comment 2 "Provides OCP, OVP, and charge balancing, as well as telemetry")
@@ -7885,16 +7885,16 @@
     (path "/4a845ede-4258-46b7-b03d-a737b3f81034/93e2b194-78b4-4c72-b805-e35e3550b188"
       (reference "#PWR054") (unit 1) (value "GND") (footprint "")
     )
-    (path "/4a845ede-4258-46b7-b03d-a737b3f81034/4f94287d-7389-44cb-92a6-55ff5bcd03df"
+    (path "/806549dc-f38a-4b87-a26d-23b096133683/4f94287d-7389-44cb-92a6-55ff5bcd03df"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/806549dc-f38a-4b87-a26d-23b096133683/4f94287d-7389-44cb-92a6-55ff5bcd03df"
+    (path "/92c2acfc-5f23-4a08-bda4-c69b711da6d1/4f94287d-7389-44cb-92a6-55ff5bcd03df"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/65e9d290-c9d2-4037-acb8-6cf6d99e93a8/4f94287d-7389-44cb-92a6-55ff5bcd03df"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/92c2acfc-5f23-4a08-bda4-c69b711da6d1/4f94287d-7389-44cb-92a6-55ff5bcd03df"
+    (path "/4a845ede-4258-46b7-b03d-a737b3f81034/4f94287d-7389-44cb-92a6-55ff5bcd03df"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061f47c03"

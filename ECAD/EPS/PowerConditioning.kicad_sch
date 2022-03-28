@@ -6,7 +6,7 @@
 
   (title_block
     (title "TJ Custom EPS")
-    (rev "0.1")
+    (rev "2")
     (company "TJHSST Nanosatellite Club")
     (comment 1 "Power Conditioning Master Sheet")
     (comment 2 "Uses buck converters to produce 3V3, 5V. Also provides a constant 3.3V VCC")

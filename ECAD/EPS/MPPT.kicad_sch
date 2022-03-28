@@ -6,7 +6,7 @@
 
   (title_block
     (title "TJ Custom EPS")
-    (rev "0.1")
+    (rev "2")
     (company "TJHSST Nanosatellite Club")
     (comment 1 "MPPT Tracking buck converter")
     (comment 2 "Reads current and voltage telemetry, and uses an LT3652 to track MPPT")

@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (rev "2")
+  )
+
   (lib_symbols
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
@@ -1206,7 +1210,7 @@
     (property "Reference" "#PWR?" (id 0) (at 137.16 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "" (id 1) (at 137.16 67.31 0))
+    (property "Value" "+3V3" (id 1) (at 137.16 67.31 0))
     (property "Footprint" "" (id 2) (at 137.16 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )

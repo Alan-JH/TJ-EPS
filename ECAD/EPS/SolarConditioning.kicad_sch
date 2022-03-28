@@ -6,7 +6,7 @@
 
   (title_block
     (title "TJ Custom EPS")
-    (rev "0.1")
+    (rev "2")
     (company "TJHSST Nanosatellite Club")
     (comment 1 "Solar Conditioning Master Sheet")
     (comment 2 "Conditions solar power using MPPT tracking buck converters")

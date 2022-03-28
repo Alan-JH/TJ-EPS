@@ -6,7 +6,7 @@
 
   (title_block
     (title "TJ Custom EPS")
-    (rev "0.1")
+    (rev "2")
     (company "TJHSST Nanosatellite Club")
     (comment 1 "Buck-Boost MPPT Converter")
     (comment 2 "Boosts voltage by a factor of two before feeding into an MPPT buck IC")
