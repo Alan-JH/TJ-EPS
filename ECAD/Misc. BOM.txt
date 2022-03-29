@@ -7,6 +7,7 @@
 
 10uH: https://www.mouser.com/ProductDetail/Kyocera-AVX/LMLP07A7M100DTAS?qs=BgMWa3ErCfy790mwccrPYw%3D%3D
 10uH alternate: https://www.mouser.com/ProductDetail/ABRACON/ASPI-0630HI-100M-T15?qs=bWAYEm3xoCYvNdiREkchng%3D%3D
+10uH for 1V regulator: https://www.mouser.com/ProductDetail/Laird-Performance-Materials/TYA4012100M-10?qs=sPbYRqrBIVlW0XFSn0Rfkg%3D%3D
 
 3.3uH: https://www.mouser.com/ProductDetail/ABRACON/ASPI-0630LR-3R3M-T15?qs=bWAYEm3xoCb65F4PqHLU5A%3D%3D
 3.3uH alternate: https://www.mouser.com/ProductDetail/ABRACON/ASPI-0630HI-3R3M-T15?qs=bWAYEm3xoCYwUcwgROPtBA%3D%3D
