@@ -845,7 +845,7 @@
   (symbol (lib_id "Device:C") (at 190.5 101.6 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 520536b8-173a-4330-a5d3-1ea2b3d01cc1)
-    (property "Reference" "C25" (id 0) (at 193.421 100.4316 0)
+    (property "Reference" "C24" (id 0) (at 193.421 100.4316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (id 1) (at 193.421 102.743 0)
