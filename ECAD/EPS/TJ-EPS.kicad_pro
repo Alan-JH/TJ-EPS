@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -443,22 +449,6 @@
       ""
     ],
     [
-      "00000000-0000-0000-0000-000061bec565",
-      "SolarConditioning"
-    ],
-    [
-      "00000000-0000-0000-0000-000061bec848",
-      "MPPT1"
-    ],
-    [
-      "00000000-0000-0000-0000-000061e10014",
-      "MPPT2"
-    ],
-    [
-      "00000000-0000-0000-0000-000061d120a6",
-      "MPPT4"
-    ],
-    [
       "00000000-0000-0000-0000-000061c9425d",
       "PowerConditioning"
     ],
@@ -513,10 +503,6 @@
     [
       "936d24e1-406b-4530-9f6c-cade57abb5a8",
       "SW6"
-    ],
-    [
-      "3f3e5af9-b6d1-4725-9068-724c489d3608",
-      "MPPT3"
     ]
   ],
   "text_variables": {}
