@@ -8628,6 +8628,18 @@
     (path "/4a845ede-4258-46b7-b03d-a737b3f81034/8d65618c-ded0-46c8-bc19-937388a5135f"
       (reference "R57") (unit 1) (value "270K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
+    (path "/92c2acfc-5f23-4a08-bda4-c69b711da6d1/7258a6be-99b3-4ed3-aa2e-a5915d2d9f8c"
+      (reference "R58") (unit 1) (value "10R") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/806549dc-f38a-4b87-a26d-23b096133683/7258a6be-99b3-4ed3-aa2e-a5915d2d9f8c"
+      (reference "R59") (unit 1) (value "10R") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/65e9d290-c9d2-4037-acb8-6cf6d99e93a8/7258a6be-99b3-4ed3-aa2e-a5915d2d9f8c"
+      (reference "R60") (unit 1) (value "10R") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/4a845ede-4258-46b7-b03d-a737b3f81034/7258a6be-99b3-4ed3-aa2e-a5915d2d9f8c"
+      (reference "R61") (unit 1) (value "10R") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
     (path "/71829815-c0ae-4b40-8db1-155dbba74349"
       (reference "SW1") (unit 1) (value "INHIBIT") (footprint "Connector_Hirose:Hirose_DF13-02P-1.25DSA_1x02_P1.25mm_Vertical")
     )
