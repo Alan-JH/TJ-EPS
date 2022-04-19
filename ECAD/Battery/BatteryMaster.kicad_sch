@@ -8152,7 +8152,7 @@
       (reference "R40") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/92c2acfc-5f23-4a08-bda4-c69b711da6d1/7258a6be-99b3-4ed3-aa2e-a5915d2d9f8c"
-      (reference "R41") (unit 1) (value "80R") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "R41") (unit 1) (value "80R") (footprint "Connector_PinSocket_1.27mm:PinSocket_1x02_P1.27mm_Vertical")
     )
     (path "/92c2acfc-5f23-4a08-bda4-c69b711da6d1/8d65618c-ded0-46c8-bc19-937388a5135f"
       (reference "R42") (unit 1) (value "270K") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -8173,7 +8173,7 @@
       (reference "R47") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/806549dc-f38a-4b87-a26d-23b096133683/7258a6be-99b3-4ed3-aa2e-a5915d2d9f8c"
-      (reference "R48") (unit 1) (value "80R") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "R48") (unit 1) (value "80R") (footprint "Connector_PinSocket_1.27mm:PinSocket_1x02_P1.27mm_Vertical")
     )
     (path "/806549dc-f38a-4b87-a26d-23b096133683/8d65618c-ded0-46c8-bc19-937388a5135f"
       (reference "R49") (unit 1) (value "270K") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -8194,7 +8194,7 @@
       (reference "R54") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/65e9d290-c9d2-4037-acb8-6cf6d99e93a8/7258a6be-99b3-4ed3-aa2e-a5915d2d9f8c"
-      (reference "R55") (unit 1) (value "80R") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "R55") (unit 1) (value "80R") (footprint "Connector_PinSocket_1.27mm:PinSocket_1x02_P1.27mm_Vertical")
     )
     (path "/65e9d290-c9d2-4037-acb8-6cf6d99e93a8/8d65618c-ded0-46c8-bc19-937388a5135f"
       (reference "R56") (unit 1) (value "270K") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -8215,7 +8215,7 @@
       (reference "R61") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/4a845ede-4258-46b7-b03d-a737b3f81034/7258a6be-99b3-4ed3-aa2e-a5915d2d9f8c"
-      (reference "R62") (unit 1) (value "80R") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "R62") (unit 1) (value "80R") (footprint "Connector_PinSocket_1.27mm:PinSocket_1x02_P1.27mm_Vertical")
     )
     (path "/4a845ede-4258-46b7-b03d-a737b3f81034/8d65618c-ded0-46c8-bc19-937388a5135f"
       (reference "R63") (unit 1) (value "270K") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -8236,16 +8236,16 @@
       (reference "SW5") (unit 1) (value "INHIBIT") (footprint "Connector_Hirose:Hirose_DF13-02P-1.25DSA_1x02_P1.25mm_Vertical")
     )
     (path "/92c2acfc-5f23-4a08-bda4-c69b711da6d1/2486d034-c139-44f6-95d9-d15266420386"
-      (reference "TH1") (unit 1) (value "100K NTC") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "TH1") (unit 1) (value "100K NTC") (footprint "Connector_PinSocket_1.27mm:PinSocket_1x02_P1.27mm_Vertical")
     )
     (path "/806549dc-f38a-4b87-a26d-23b096133683/2486d034-c139-44f6-95d9-d15266420386"
-      (reference "TH2") (unit 1) (value "100K NTC") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "TH2") (unit 1) (value "100K NTC") (footprint "Connector_PinSocket_1.27mm:PinSocket_1x02_P1.27mm_Vertical")
     )
     (path "/65e9d290-c9d2-4037-acb8-6cf6d99e93a8/2486d034-c139-44f6-95d9-d15266420386"
-      (reference "TH3") (unit 1) (value "100K NTC") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "TH3") (unit 1) (value "100K NTC") (footprint "Connector_PinSocket_1.27mm:PinSocket_1x02_P1.27mm_Vertical")
     )
     (path "/4a845ede-4258-46b7-b03d-a737b3f81034/2486d034-c139-44f6-95d9-d15266420386"
-      (reference "TH4") (unit 1) (value "100K NTC") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "TH4") (unit 1) (value "100K NTC") (footprint "Connector_PinSocket_1.27mm:PinSocket_1x02_P1.27mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006262f66b"
       (reference "U1") (unit 1) (value "LM1117-3.3") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
