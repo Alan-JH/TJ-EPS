@@ -5063,8 +5063,8 @@
     (path "/00000000-0000-0000-0000-000061bec848/00000000-0000-0000-0000-0000620b1a06"
       (reference "U11") (unit 1) (value "INA180A3") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
-    (path "/00000000-0000-0000-0000-000061bec848/71842248-20be-4a73-8117-eec39847c925"
-      (reference "U12") (unit 1) (value "LM321") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+    (path "/00000000-0000-0000-0000-000061bec848/b4d6d1b1-164b-4ba1-a0d0-1a8e832978a9"
+      (reference "U12") (unit 1) (value "TLV9361IDBVR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/00000000-0000-0000-0000-000061bec848/00000000-0000-0000-0000-000061c24a1a"
       (reference "U13") (unit 1) (value "LT3652EMSE") (footprint "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm")
@@ -5075,8 +5075,8 @@
     (path "/00000000-0000-0000-0000-000061e10014/00000000-0000-0000-0000-0000620b1a06"
       (reference "U15") (unit 1) (value "INA180A3") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
-    (path "/00000000-0000-0000-0000-000061e10014/71842248-20be-4a73-8117-eec39847c925"
-      (reference "U16") (unit 1) (value "LM321") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+    (path "/00000000-0000-0000-0000-000061e10014/b4d6d1b1-164b-4ba1-a0d0-1a8e832978a9"
+      (reference "U16") (unit 1) (value "TLV9361IDBVR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/00000000-0000-0000-0000-000061e10014/00000000-0000-0000-0000-000061c24a1a"
       (reference "U17") (unit 1) (value "LT3652EMSE") (footprint "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm")
@@ -5087,8 +5087,8 @@
     (path "/3f3e5af9-b6d1-4725-9068-724c489d3608/00000000-0000-0000-0000-0000620b1a06"
       (reference "U19") (unit 1) (value "INA180A3") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
-    (path "/3f3e5af9-b6d1-4725-9068-724c489d3608/71842248-20be-4a73-8117-eec39847c925"
-      (reference "U20") (unit 1) (value "LM321") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+    (path "/3f3e5af9-b6d1-4725-9068-724c489d3608/b4d6d1b1-164b-4ba1-a0d0-1a8e832978a9"
+      (reference "U20") (unit 1) (value "TLV9361IDBVR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/3f3e5af9-b6d1-4725-9068-724c489d3608/00000000-0000-0000-0000-000061c24a1a"
       (reference "U21") (unit 1) (value "LT3652EMSE") (footprint "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm")
@@ -5099,8 +5099,8 @@
     (path "/00000000-0000-0000-0000-000061d120a6/00000000-0000-0000-0000-0000620ec180"
       (reference "U23") (unit 1) (value "INA180A3") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
-    (path "/00000000-0000-0000-0000-000061d120a6/3c5b7bb6-ec62-4822-aa17-516f6ba3ea36"
-      (reference "U24") (unit 1) (value "LM321") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+    (path "/00000000-0000-0000-0000-000061d120a6/0150466f-ce29-4592-90c4-9b392099c1dd"
+      (reference "U24") (unit 1) (value "TLV9361IDBVR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/00000000-0000-0000-0000-000061d120a6/00000000-0000-0000-0000-000061d7bac3"
       (reference "U25") (unit 1) (value "LT3652EMSE") (footprint "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm")
