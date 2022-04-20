@@ -7537,10 +7537,10 @@
     (property "Reference" "U6" (id 0) (at 151.13 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 151.13 39.37 0)
+    (property "Value" "TLV9361IDBVR" (id 1) (at 151.13 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 142.24 46.99 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (id 2) (at 142.24 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa842.pdf" (id 3) (at 144.78 36.83 0)
@@ -7786,9 +7786,6 @@
     (path "/92c2acfc-5f23-4a08-bda4-c69b711da6d1/d63d48bb-8353-4f86-81fa-3af96f4dae35"
       (reference "#PWR041") (unit 1) (value "GND") (footprint "")
     )
-    (path "/92c2acfc-5f23-4a08-bda4-c69b711da6d1/5db4c5c3-9e46-42dd-9b64-72e55324398b"
-      (reference "#PWR042") (unit 1) (value "VDD") (footprint "")
-    )
     (path "/92c2acfc-5f23-4a08-bda4-c69b711da6d1/93e2b194-78b4-4c72-b805-e35e3550b188"
       (reference "#PWR043") (unit 1) (value "GND") (footprint "")
     )
@@ -7800,9 +7797,6 @@
     )
     (path "/806549dc-f38a-4b87-a26d-23b096133683/d63d48bb-8353-4f86-81fa-3af96f4dae35"
       (reference "#PWR046") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/806549dc-f38a-4b87-a26d-23b096133683/5db4c5c3-9e46-42dd-9b64-72e55324398b"
-      (reference "#PWR047") (unit 1) (value "VDD") (footprint "")
     )
     (path "/806549dc-f38a-4b87-a26d-23b096133683/93e2b194-78b4-4c72-b805-e35e3550b188"
       (reference "#PWR048") (unit 1) (value "GND") (footprint "")
@@ -7816,9 +7810,6 @@
     (path "/65e9d290-c9d2-4037-acb8-6cf6d99e93a8/d63d48bb-8353-4f86-81fa-3af96f4dae35"
       (reference "#PWR051") (unit 1) (value "GND") (footprint "")
     )
-    (path "/65e9d290-c9d2-4037-acb8-6cf6d99e93a8/5db4c5c3-9e46-42dd-9b64-72e55324398b"
-      (reference "#PWR052") (unit 1) (value "VDD") (footprint "")
-    )
     (path "/65e9d290-c9d2-4037-acb8-6cf6d99e93a8/93e2b194-78b4-4c72-b805-e35e3550b188"
       (reference "#PWR053") (unit 1) (value "GND") (footprint "")
     )
@@ -7831,11 +7822,20 @@
     (path "/4a845ede-4258-46b7-b03d-a737b3f81034/d63d48bb-8353-4f86-81fa-3af96f4dae35"
       (reference "#PWR056") (unit 1) (value "GND") (footprint "")
     )
-    (path "/4a845ede-4258-46b7-b03d-a737b3f81034/5db4c5c3-9e46-42dd-9b64-72e55324398b"
-      (reference "#PWR057") (unit 1) (value "VDD") (footprint "")
-    )
     (path "/4a845ede-4258-46b7-b03d-a737b3f81034/93e2b194-78b4-4c72-b805-e35e3550b188"
       (reference "#PWR058") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/806549dc-f38a-4b87-a26d-23b096133683/aee7a529-6ac6-4a80-9568-e26a40779fdc"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/65e9d290-c9d2-4037-acb8-6cf6d99e93a8/aee7a529-6ac6-4a80-9568-e26a40779fdc"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/92c2acfc-5f23-4a08-bda4-c69b711da6d1/aee7a529-6ac6-4a80-9568-e26a40779fdc"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4a845ede-4258-46b7-b03d-a737b3f81034/aee7a529-6ac6-4a80-9568-e26a40779fdc"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061f47c03"
       (reference "BT1") (unit 1) (value "18650") (footprint "footprints:18650-weld")
