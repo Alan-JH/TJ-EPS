@@ -3255,7 +3255,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061e1ded6)
     (property "Reference" "Q1" (id 0) (at 41.91 156.21 90))
-    (property "Value" "IRF7458" (id 1) (at 41.91 158.75 90))
+    (property "Value" "" (id 1) (at 41.91 158.75 90))
     (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 43.815 160.02 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
@@ -4890,7 +4890,7 @@
       (reference "MH4") (unit 1) (value "M2.5") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
     (path "/00000000-0000-0000-0000-000061e1ded6"
-      (reference "Q1") (unit 1) (value "IRF7458") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "Q1") (unit 1) (value "DMP3015LSSQ") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000061d120a6/00000000-0000-0000-0000-000061d5b732"
       (reference "Q2") (unit 1) (value "Si4186DY") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
