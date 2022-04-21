@@ -4696,22 +4696,6 @@
     (pin "2" (uuid 6fbfc13e-bc36-470e-bfd0-ab877073abc2))
   )
 
-  (symbol (lib_id "power:+3V3") (at 21.59 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-00006225f85a)
-    (property "Reference" "#PWR01" (id 0) (at 21.59 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3" (id 1) (at 21.971 102.2858 0))
-    (property "Footprint" "" (id 2) (at 21.59 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 21.59 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2935f9bd-3879-4920-add1-1a117668024f))
-  )
-
   (symbol (lib_id "power:GND") (at 21.59 121.92 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006225f863)
@@ -4958,6 +4942,22 @@
     )
   )
 
+  (symbol (lib_id "power:VDD") (at 21.59 106.68 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 1d1828e0-ef6a-4d62-86f7-04de80195c59)
+    (property "Reference" "#PWR?" (id 0) (at 21.59 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDD" (id 1) (at 21.971 102.2858 0))
+    (property "Footprint" "" (id 2) (at 21.59 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 21.59 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6002c174-819c-4b8a-8065-100bc3cf0e98))
+  )
+
   (symbol (lib_id "power:GND") (at 195.58 157.48 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 356a9630-39bb-47ff-a1d0-e00815aca421)
@@ -5164,9 +5164,6 @@
   )
 
   (symbol_instances
-    (path "/00000000-0000-0000-0000-00006225f85a"
-      (reference "#PWR01") (unit 1) (value "+3V3") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00006225f863"
       (reference "#PWR02") (unit 1) (value "GND") (footprint "")
     )
@@ -5508,6 +5505,9 @@
     )
     (path "/00000000-0000-0000-0000-000061c9425d/936d24e1-406b-4530-9f6c-cade57abb5a8/00000000-0000-0000-0000-000061fbf301"
       (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1d1828e0-ef6a-4d62-86f7-04de80195c59"
+      (reference "#PWR?") (unit 1) (value "VDD") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061eacf48"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
