@@ -160,7 +160,7 @@
   (net 83 "/SCK")
   (net 84 "TELEM_IBCROUT")
   (net 85 "/DAC1CS")
-  (net 86 "unconnected-(U4-Pad4)")
+  (net 86 "/RESET")
   (net 87 "/DAC2CS")
   (net 88 "/LDAC")
   (net 89 "unconnected-(U5-Pad4)")
@@ -205,7 +205,7 @@
 
   (footprint "Diode_SMD:D_SOD-123F" (layer "F.Cu")
     (tedit 587F7769) (tstamp 030f7528-01d8-4f5d-b375-396511a3f702)
-    (at 152.193 88.562)
+    (at 54.081 52.23)
     (descr "D_SOD-123F")
     (tags "D_SOD-123F")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -255,7 +255,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 067fb9a1-5278-4e90-ad48-93993d2ed931)
-    (at 122.498 99.722)
+    (at 24.386 63.39)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -312,7 +312,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 07e7e87d-9255-44b7-964c-2876bb9fc44d)
-    (at 155.728 92.812)
+    (at 57.616 56.48)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -354,7 +354,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 07ea9fe0-fccf-4161-ae79-4bb53994d273)
-    (at 202.058 79.212)
+    (at 103.946 42.88)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -396,7 +396,7 @@
 
   (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" (layer "F.Cu")
     (tedit 5A02F25C) (tstamp 0839ce8d-bc94-4a18-9387-0ce4b277e1aa)
-    (at 112.998 101.162)
+    (at 14.886 64.83)
     (descr "24-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SSOP 0.65")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -488,7 +488,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0c0e6b8f-cbf6-44d9-be38-4e8b1191ac1f)
-    (at 151.368 116.612)
+    (at 53.256 80.28)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -530,7 +530,7 @@
 
   (footprint "Diode_SMD:D_SOD-123F" (layer "F.Cu")
     (tedit 587F7769) (tstamp 0c3dbbcf-98e0-48d2-853d-b67234b32313)
-    (at 116.093 137.142)
+    (at 17.981 100.81)
     (descr "D_SOD-123F")
     (tags "D_SOD-123F")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -580,7 +580,7 @@
 
   (footprint "Resistor_SMD:R_2512_6332Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0ceef4c0-1081-4e21-b370-88a8d72ec333)
-    (at 201.928 103.352)
+    (at 103.816 67.02)
     (descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -622,7 +622,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 12fc5fae-2589-481a-9c5c-1325ed3bb3b8)
-    (at 191.898 80.012)
+    (at 93.786 43.68)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -664,7 +664,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 133e4738-5308-4c8f-a278-ff3a4b573a42)
-    (at 195.048 86.712)
+    (at 96.936 50.38)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -706,7 +706,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 14be568d-2e52-4aed-b81b-dddc75cbdd07)
-    (at 125.488 137.032)
+    (at 27.376 100.7)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -748,7 +748,7 @@
 
   (footprint "Capacitor_SMD:C_2220_5650Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 14c24f6d-c2bf-4b01-9d4b-7f0755e08445)
-    (at 121.078 120.492)
+    (at 22.966 84.16)
     (descr "Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -790,7 +790,7 @@
 
   (footprint "Package_SO:MSOP-8_3x3mm_P0.65mm" (layer "F.Cu")
     (tedit 5E509FDD) (tstamp 15f6edf6-ca99-4936-a366-b591ef4ffb27)
-    (at 138.728 94.322)
+    (at 40.616 57.99)
     (descr "MSOP, 8 Pin (https://www.jedec.org/system/files/docs/mo-187F.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "MSOP SO")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -847,7 +847,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 163cdeae-7841-4f2c-b738-e36b081d5e19)
-    (at 149.098 98.292)
+    (at 50.986 61.96)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -889,7 +889,7 @@
 
   (footprint "Diode_SMD:D_SMA" (layer "F.Cu")
     (tedit 586432E5) (tstamp 165068c6-cae0-4fb2-b201-2f3f8a0b28a0)
-    (at 146.298 82.212)
+    (at 48.186 45.88)
     (descr "Diode SMA (DO-214AC)")
     (tags "Diode SMA (DO-214AC)")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -938,7 +938,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 17540f0f-267d-4f0f-8f00-5539a89bd637)
-    (at 210.678 77.092)
+    (at 112.566 40.76)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -980,7 +980,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 1913ae2c-1bc2-48d9-914f-4c532d02ffb4)
-    (at 219.238 101.752)
+    (at 121.126 65.42)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -1022,7 +1022,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp 19564a71-ce37-42d2-a51c-a25445cf57c5)
-    (at 126.798 133.302)
+    (at 28.686 96.97)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -1073,7 +1073,7 @@
 
   (footprint "Diode_SMD:D_SOD-123F" (layer "F.Cu")
     (tedit 587F7769) (tstamp 1cd4cd25-b3d1-4eb2-9ee3-b812e12c968e)
-    (at 160.033 81.912)
+    (at 61.921 45.58)
     (descr "D_SOD-123F")
     (tags "D_SOD-123F")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -1123,7 +1123,7 @@
 
   (footprint "Diode_SMD:D_SOD-123F" (layer "F.Cu")
     (tedit 587F7769) (tstamp 21ca756f-3477-4ce7-b401-446af31305b1)
-    (at 169.033 74.962)
+    (at 70.921 38.63)
     (descr "D_SOD-123F")
     (tags "D_SOD-123F")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -1173,7 +1173,7 @@
 
   (footprint "Inductor_SMD:L_AVX_LMLP07A7" (layer "F.Cu")
     (tedit 61E2A484) (tstamp 22f315f8-0151-4d27-8242-3486735e4932)
-    (at 185.113 74.297)
+    (at 87.001 37.965)
     (descr "Inductor, AVX Kyocera, LMLP Series, style D, 6.6mmx7.3mm, 3.0mm height. (Script generated with StandardBox.py) (https://datasheets.avx.com/LMLPD.pdf)")
     (tags "Inductor LMLP")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -1220,7 +1220,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 2367e08a-8f8d-4bc0-b6ce-e2a4cddd902f)
-    (at 209.518 98.672)
+    (at 111.406 62.34)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -1262,7 +1262,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp 27fc8656-6226-4381-8e8c-fcbb6b9cbbc0)
-    (at 162.798 73.412)
+    (at 163.068 90.17)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -1288,7 +1288,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp 2904c703-ae82-4d76-85d3-cfc7aa518669)
-    (at 153.798 83.412)
+    (at 123.6472 115.9764)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -1314,7 +1314,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 2d0a1cd4-a5be-46cc-a28f-17278e9b94e9)
-    (at 184.718 113.632)
+    (at 86.606 77.3)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -1356,7 +1356,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 2d57ee89-a9fd-4528-970a-f239cc711ad1)
-    (at 136.798 118.322)
+    (at 38.686 81.99)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -1398,7 +1398,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 2ecadc66-69f8-45d0-bf37-af9bed077d19)
-    (at 190.108 119.282)
+    (at 91.996 82.95)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -1440,7 +1440,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp 2fab88e5-3684-4e86-847a-a61e40f2929d)
-    (at 179.588 117.702)
+    (at 81.476 81.37)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -1491,7 +1491,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 301727b6-248b-4eb4-8c37-cb369ee1a241)
-    (at 222.468 93.982)
+    (at 124.356 57.65)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -1533,7 +1533,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3154fe1e-b45f-4d3b-8bab-828e398110b6)
-    (at 146.958 120.102)
+    (at 48.846 83.77)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -1575,7 +1575,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 31f320f8-9fca-458c-80c9-a63045dda05e)
-    (at 209.718 74.362)
+    (at 111.606 38.03)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -1617,7 +1617,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 31f4dc6c-dde9-45e8-b29d-489d35e0f1d0)
-    (at 149.518 113.632)
+    (at 51.406 77.3)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -1659,7 +1659,7 @@
 
   (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 3493c959-87a4-4c52-b026-4808a6774531)
-    (at 111.948 90.412)
+    (at 13.836 54.08)
     (descr "SOIC, 16 Pin (JEDEC MS-012AC, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -1732,7 +1732,7 @@
 
   (footprint "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm" (layer "F.Cu")
     (tedit 5DC5FE75) (tstamp 351b096d-5254-458a-92e3-ec4c37dc4234)
-    (at 201.228 108.572)
+    (at 103.116 72.24)
     (descr "MSOP, 12 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/3652fe.pdf#page=24), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "MSOP SO")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -1803,7 +1803,7 @@
 
   (footprint "Diode_SMD:D_SOD-123F" (layer "F.Cu")
     (tedit 587F7769) (tstamp 372eb80c-116e-4b19-abae-92abb6d35e81)
-    (at 160.783 78.562)
+    (at 62.671 42.23)
     (descr "D_SOD-123F")
     (tags "D_SOD-123F")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -1853,7 +1853,7 @@
 
   (footprint "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical" (layer "F.Cu")
     (tedit 5D246D4C) (tstamp 378d878c-684c-4413-91f7-56517fc1da45)
-    (at 118.648 83.212)
+    (at 20.536 46.88)
     (descr "Hirose DF13 through hole, DF13-04P-1.25DSA, 4 Pins per row (https://www.hirose.com/product/en/products/DF13/DF13-2P-1.25DSA%2850%29/), generated with kicad-footprint-generator")
     (tags "connector Hirose DF13 vertical")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -1927,7 +1927,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 393f0e56-c2d5-4ea4-8463-50265bc94d2d)
-    (at 209.718 71.412)
+    (at 111.606 35.08)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -1969,7 +1969,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp 39527c7c-05aa-4994-8d55-39b3fd9e47ff)
-    (at 130.198 104.622)
+    (at 119.634 89.662)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -1995,7 +1995,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3a013e8f-5b12-499b-8d2d-0ad49966db1a)
-    (at 205.288 74.452)
+    (at 107.176 38.12)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -2037,7 +2037,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3d0ee88c-fab5-44ff-91c4-a21e663a09de)
-    (at 227.858 99.632)
+    (at 129.746 63.3)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -2079,7 +2079,7 @@
 
   (footprint "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical" (layer "F.Cu")
     (tedit 5D246D4C) (tstamp 3ff9be75-0570-418f-a5fc-6ed51d4eae5c)
-    (at 136.048 83.372)
+    (at 37.936 47.04)
     (descr "Hirose DF13 through hole, DF13-04P-1.25DSA, 4 Pins per row (https://www.hirose.com/product/en/products/DF13/DF13-2P-1.25DSA%2850%29/), generated with kicad-footprint-generator")
     (tags "connector Hirose DF13 vertical")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -2153,7 +2153,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp 455bb326-5646-4d14-ba77-60ba5f942a62)
-    (at 200.158 75.512)
+    (at 102.046 39.18)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -2204,7 +2204,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4736f749-4a0e-4a05-b1aa-d51f1c3fc23d)
-    (at 173.978 74.452)
+    (at 75.866 38.12)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -2246,7 +2246,7 @@
 
   (footprint "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical" (layer "F.Cu")
     (tedit 5D246D4C) (tstamp 47c2b278-ae5d-4e95-b5c8-9e4f00c4a0ec)
-    (at 118.648 88.662)
+    (at 20.536 52.33)
     (descr "Hirose DF13 through hole, DF13-04P-1.25DSA, 4 Pins per row (https://www.hirose.com/product/en/products/DF13/DF13-2P-1.25DSA%2850%29/), generated with kicad-footprint-generator")
     (tags "connector Hirose DF13 vertical")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -2320,7 +2320,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4829bee0-faa8-43f7-b2d7-8a6e5d1b3050)
-    (at 195.068 83.732)
+    (at 96.956 47.4)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -2362,7 +2362,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp 49e13fb6-9495-424e-bd9f-1ff5b065001b)
-    (at 217.338 98.052)
+    (at 119.226 61.72)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -2413,7 +2413,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4cfa277c-b6f4-4575-8b74-ea83242e8813)
-    (at 181.488 121.402)
+    (at 83.376 85.07)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -2455,7 +2455,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4d6acc38-20a2-49b8-8ec8-88bfa5c9826b)
-    (at 226.898 93.952)
+    (at 128.786 57.62)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -2497,7 +2497,7 @@
 
   (footprint "Diode_SMD:D_SMA" (layer "F.Cu")
     (tedit 586432E5) (tstamp 4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2)
-    (at 130.998 94.322)
+    (at 32.886 57.99)
     (descr "Diode SMA (DO-214AC)")
     (tags "Diode SMA (DO-214AC)")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -2546,7 +2546,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 5126ac84-dc56-4e60-b120-fd81ef65886b)
-    (at 222.468 96.992)
+    (at 124.356 60.66)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -2588,7 +2588,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp 5159b070-54aa-425c-a184-02e41b96e11d)
-    (at 141.653 51.589)
+    (at 43.541 15.257)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -2639,7 +2639,7 @@
 
   (footprint "Diode_SMD:D_SMA" (layer "F.Cu")
     (tedit 586432E5) (tstamp 52194c94-e7df-49ff-beb1-04a1b4f2344e)
-    (at 122.298 105.222)
+    (at 24.186 68.89)
     (descr "Diode SMA (DO-214AC)")
     (tags "Diode SMA (DO-214AC)")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -2688,7 +2688,7 @@
 
   (footprint "Diode_SMD:D_SOD-123F" (layer "F.Cu")
     (tedit 587F7769) (tstamp 5413e9f0-4b25-4379-9452-5ca9a4dfa90a)
-    (at 200.343 71.612)
+    (at 102.231 35.28)
     (descr "D_SOD-123F")
     (tags "D_SOD-123F")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -2738,7 +2738,7 @@
 
   (footprint "Diode_SMD:D_SMA" (layer "F.Cu")
     (tedit 586432E5) (tstamp 54cae88e-0c1e-4c17-9589-ea6ab2d12694)
-    (at 153.998 77.662)
+    (at 55.886 41.33)
     (descr "Diode SMA (DO-214AC)")
     (tags "Diode SMA (DO-214AC)")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -2787,7 +2787,7 @@
 
   (footprint "Inductor_SMD:L_AVX_LMLP07A7" (layer "F.Cu")
     (tedit 61E2A484) (tstamp 5e5cd445-0654-433f-a688-b9a23b9e5558)
-    (at 112.433 116.487)
+    (at 14.321 80.155)
     (descr "Inductor, AVX Kyocera, LMLP Series, style D, 6.6mmx7.3mm, 3.0mm height. (Script generated with StandardBox.py) (https://datasheets.avx.com/LMLPD.pdf)")
     (tags "Inductor LMLP")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -2834,7 +2834,7 @@
 
   (footprint "Diode_SMD:D_SOD-123F" (layer "F.Cu")
     (tedit 587F7769) (tstamp 5eb244d0-032b-4a57-a147-44faacc0e313)
-    (at 145.193 95.112)
+    (at 47.081 58.78)
     (descr "D_SOD-123F")
     (tags "D_SOD-123F")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -2884,7 +2884,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp 600a126b-a6d3-4e08-b413-ce35e3c2d92f)
-    (at 197.278 80.002)
+    (at 99.166 43.67)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -2935,7 +2935,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 61d63f1b-dbdf-4e18-9e78-d70eac21ae65)
-    (at 135.828 132.742)
+    (at 37.716 96.41)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -2977,7 +2977,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 6647797e-9035-4291-9495-e7c7119a3fd1)
-    (at 131.598 132.582)
+    (at 33.486 96.25)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -3019,7 +3019,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 68a9e0d6-2c5b-4b0d-80b6-468567de10b2)
-    (at 111.948 132.212)
+    (at 13.836 95.88)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -3076,7 +3076,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 68d5716c-39ed-4b45-ac19-32a5be0d9a55)
-    (at 216.638 109.252)
+    (at 118.526 72.92)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -3118,7 +3118,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp 69eb8847-3a16-4dc2-b290-73e92782f93c)
-    (at 142.178 118.902)
+    (at 44.066 82.57)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -3167,9 +3167,66 @@
     )
   )
 
+  (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" (layer "F.Cu")
+    (tedit 59FED5CC) (tstamp 6a56ab97-e1fa-4a5c-ba84-a41d88122150)
+    (at 88.436 13.721)
+    (descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
+    (tags "Through hole pin header THT 2x03 2.54mm double row")
+    (property "Sheetfile" "SolarConditioning.kicad_sch")
+    (property "Sheetname" "")
+    (path "/5aa1bf80-b5f3-4412-9101-4b142ad4832e")
+    (attr through_hole)
+    (fp_text reference "J10" (at 1.27 -2.33) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp da98c968-7d3e-4d5c-961b-ebb2c4c9c9a7)
+    )
+    (fp_text value "ICSP" (at 1.27 7.41) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 431f62b8-6547-4932-ad8d-7f82f9210d53)
+    )
+    (fp_text user "${REFERENCE}" (at 1.27 2.54 90) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 8fe46827-1ccb-4490-8393-5293de02aaea)
+    )
+    (fp_line (start 1.27 -1.33) (end 3.87 -1.33) (layer "F.SilkS") (width 0.12) (tstamp 23750a09-dfbf-46c6-ba5c-ef4ed0b0366a))
+    (fp_line (start -1.33 1.27) (end -1.33 6.41) (layer "F.SilkS") (width 0.12) (tstamp 29f0fc95-65e9-4ff1-8122-459d375f2287))
+    (fp_line (start -1.33 1.27) (end 1.27 1.27) (layer "F.SilkS") (width 0.12) (tstamp 39750fbf-348e-4fdd-b4bb-2fd4aef3a896))
+    (fp_line (start -1.33 0) (end -1.33 -1.33) (layer "F.SilkS") (width 0.12) (tstamp 47119466-4db4-43e7-8d6d-66b40cb94f3e))
+    (fp_line (start -1.33 6.41) (end 3.87 6.41) (layer "F.SilkS") (width 0.12) (tstamp 8a7330ab-8c42-45df-a6d2-3bf9ce6b28c5))
+    (fp_line (start 3.87 -1.33) (end 3.87 6.41) (layer "F.SilkS") (width 0.12) (tstamp c4b26cde-b149-4bd7-b260-2d7cca84d62a))
+    (fp_line (start 1.27 1.27) (end 1.27 -1.33) (layer "F.SilkS") (width 0.12) (tstamp c9038106-314d-4078-bd54-78b012724e03))
+    (fp_line (start -1.33 -1.33) (end 0 -1.33) (layer "F.SilkS") (width 0.12) (tstamp ed9eccc0-b345-4271-b7ce-b21777e0d225))
+    (fp_line (start 4.35 -1.8) (end -1.8 -1.8) (layer "F.CrtYd") (width 0.05) (tstamp 58860fd6-6ae0-4988-a555-f6b60d06c37a))
+    (fp_line (start 4.35 6.85) (end 4.35 -1.8) (layer "F.CrtYd") (width 0.05) (tstamp 96541fd1-e75e-41c2-85aa-7d1c4d37e9bf))
+    (fp_line (start -1.8 -1.8) (end -1.8 6.85) (layer "F.CrtYd") (width 0.05) (tstamp a8c7d96e-3909-4925-94d8-b2404e1418bc))
+    (fp_line (start -1.8 6.85) (end 4.35 6.85) (layer "F.CrtYd") (width 0.05) (tstamp b61160d4-b0b8-4486-a0ee-7fe82d2fb745))
+    (fp_line (start -1.27 0) (end 0 -1.27) (layer "F.Fab") (width 0.1) (tstamp 0a364506-7203-4fe6-95e6-73590ce1344c))
+    (fp_line (start 3.81 6.35) (end -1.27 6.35) (layer "F.Fab") (width 0.1) (tstamp 1b25b988-342d-4f5c-bc70-e4307620e401))
+    (fp_line (start 0 -1.27) (end 3.81 -1.27) (layer "F.Fab") (width 0.1) (tstamp 6afdda71-74ce-4ff0-8b7d-1b6398c92154))
+    (fp_line (start -1.27 6.35) (end -1.27 0) (layer "F.Fab") (width 0.1) (tstamp b06b7fb7-53f6-4d89-b46b-9418e53b1ff3))
+    (fp_line (start 3.81 -1.27) (end 3.81 6.35) (layer "F.Fab") (width 0.1) (tstamp c057ccd3-a579-46ca-8dc7-2fa44ee1aea9))
+    (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 82 "/MISO") (pinfunction "Pin_1") (pintype "passive") (tstamp 2caed723-377d-4b6e-b88c-d04e7bbd77d2))
+    (pad "2" thru_hole oval (at 2.54 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 1 "+3.3VA") (pinfunction "Pin_2") (pintype "passive") (tstamp 768641c3-92f6-4dc5-bbb8-d76f3ce97622))
+    (pad "3" thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 83 "/SCK") (pinfunction "Pin_3") (pintype "passive") (tstamp e9700930-db8d-4440-a2b8-b569410f8adf))
+    (pad "4" thru_hole oval (at 2.54 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 81 "/MOSI") (pinfunction "Pin_4") (pintype "passive") (tstamp 5fe2c94a-315e-4c85-951c-b38970aa9d55))
+    (pad "5" thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 86 "/RESET") (pinfunction "Pin_5") (pintype "passive") (tstamp aaa88d34-1579-4cd5-b3b2-a31756910edb))
+    (pad "6" thru_hole oval (at 2.54 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+      (net 2 "GND") (pinfunction "Pin_6") (pintype "passive") (tstamp db353442-a91d-45cc-baf5-2d4a5a5a2054))
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x03_P2.54mm_Vertical.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
   (footprint "Capacitor_SMD:C_2220_5650Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 6a8a1901-a3c7-470d-99d9-02146451972b)
-    (at 129.528 122.052)
+    (at 31.416 85.72)
     (descr "Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -3211,7 +3268,7 @@
 
   (footprint "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical" (layer "F.Cu")
     (tedit 5D246D4C) (tstamp 6b6fa031-d624-43d1-842e-f25c3d8a114c)
-    (at 127.348 83.372)
+    (at 29.236 47.04)
     (descr "Hirose DF13 through hole, DF13-04P-1.25DSA, 4 Pins per row (https://www.hirose.com/product/en/products/DF13/DF13-2P-1.25DSA%2850%29/), generated with kicad-footprint-generator")
     (tags "connector Hirose DF13 vertical")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -3285,7 +3342,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 6bbf0be5-d9e5-49d9-8801-7988d41b4239)
-    (at 120.523 51.689)
+    (at 22.411 15.357)
     (descr "Through hole straight pin header, 2x06, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x06 2.54mm double row")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -3354,7 +3411,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 6c55033c-55b9-4835-9ab8-f334f8a3ffed)
-    (at 150.138 95.092)
+    (at 52.026 58.76)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -3396,7 +3453,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 6cb58166-d5fb-414a-98d8-94eda5c527bb)
-    (at 226.898 96.902)
+    (at 128.786 60.57)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -3438,7 +3495,7 @@
 
   (footprint "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical" (layer "F.Cu")
     (tedit 5D246D4C) (tstamp 7075a498-5749-4f19-ba7d-9b8161486d1a)
-    (at 145.048 73.162)
+    (at 46.936 36.83)
     (descr "Hirose DF13 through hole, DF13-04P-1.25DSA, 4 Pins per row (https://www.hirose.com/product/en/products/DF13/DF13-2P-1.25DSA%2850%29/), generated with kicad-footprint-generator")
     (tags "connector Hirose DF13 vertical")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -3512,7 +3569,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 70b4eaa4-61ff-4379-b06d-623ca05164b1)
-    (at 189.148 116.552)
+    (at 91.036 80.22)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -3554,7 +3611,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 71c1b4b1-fe29-4ef4-89f5-de4386e105a9)
-    (at 159.498 85.092)
+    (at 61.386 48.76)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -3596,7 +3653,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp 74af2938-5aa5-43d4-bb52-2d07b4b7e88e)
-    (at 157.488 89.112)
+    (at 59.376 52.78)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -3647,7 +3704,7 @@
 
   (footprint "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm" (layer "F.Cu")
     (tedit 5DC5FE75) (tstamp 75b6e061-3edd-496d-8819-9872e3fcd769)
-    (at 128.948 128.302)
+    (at 30.836 91.97)
     (descr "MSOP, 12 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/3652fe.pdf#page=24), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "MSOP SO")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -3718,7 +3775,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 769ea560-2289-4ed4-9a90-b0dea97e737b)
-    (at 189.148 113.602)
+    (at 91.036 77.27)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -3760,7 +3817,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 77257261-5047-4726-8bb9-c51a3d9690d5)
-    (at 223.648 99.972)
+    (at 125.536 63.64)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -3802,7 +3859,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 77da69f1-4a7e-4daf-b100-27fb75871e8c)
-    (at 131.578 135.562)
+    (at 33.466 99.23)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -3844,7 +3901,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7a7c8fd8-e6cb-4215-acf6-72a01929c4aa)
-    (at 153.948 113.602)
+    (at 55.836 77.27)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -3886,7 +3943,7 @@
 
   (footprint "Capacitor_SMD:C_2220_5650Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7b7fe22f-5db7-4fb0-a6e2-91b9a8e5f484)
-    (at 121.078 127.442)
+    (at 22.966 91.11)
     (descr "Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -3928,7 +3985,7 @@
 
   (footprint "Diode_SMD:D_SOD-123F" (layer "F.Cu")
     (tedit 587F7769) (tstamp 7bafe9bc-eba9-4810-a855-8b4f34bb53ef)
-    (at 217.523 94.152)
+    (at 119.411 57.82)
     (descr "D_SOD-123F")
     (tags "D_SOD-123F")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -3978,7 +4035,7 @@
 
   (footprint "Diode_SMD:D_SMA" (layer "F.Cu")
     (tedit 586432E5) (tstamp 7da9f5c8-a062-40f4-88c6-61890bbc359f)
-    (at 145.948 77.662)
+    (at 47.836 41.33)
     (descr "Diode SMA (DO-214AC)")
     (tags "Diode SMA (DO-214AC)")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -4027,7 +4084,7 @@
 
   (footprint "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical" (layer "F.Cu")
     (tedit 5D246D4C) (tstamp 7e14a6ba-72c9-486f-8ebf-f83333348517)
-    (at 136.348 73.162)
+    (at 38.236 36.83)
     (descr "Hirose DF13 through hole, DF13-04P-1.25DSA, 4 Pins per row (https://www.hirose.com/product/en/products/DF13/DF13-2P-1.25DSA%2850%29/), generated with kicad-footprint-generator")
     (tags "connector Hirose DF13 vertical")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -4101,7 +4158,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7f0c1ea5-31ba-4e3c-b23d-dc37801fb19b)
-    (at 212.228 109.252)
+    (at 114.116 72.92)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -4143,7 +4200,7 @@
 
   (footprint "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm" (layer "F.Cu")
     (tedit 5DC5FE75) (tstamp 8076946b-39c8-4690-98a2-00aa57004f71)
-    (at 163.478 128.222)
+    (at 65.366 91.89)
     (descr "MSOP, 12 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/3652fe.pdf#page=24), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "MSOP SO")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -4214,7 +4271,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp 8080663a-b368-479b-b0c0-c970c95c620f)
-    (at 176.708 122.192)
+    (at 78.596 85.86)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -4265,7 +4322,7 @@
 
   (footprint "Diode_SMD:D_SMA" (layer "F.Cu")
     (tedit 586432E5) (tstamp 847e8d9f-68b8-458e-a56b-095489c111da)
-    (at 210.738 94.752)
+    (at 112.626 58.42)
     (descr "Diode SMA (DO-214AC)")
     (tags "Diode SMA (DO-214AC)")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -4314,7 +4371,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 84f23cc9-9d15-4bf2-9356-88729f7800a5)
-    (at 170.158 78.112)
+    (at 72.046 41.78)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -4356,7 +4413,7 @@
 
   (footprint "Diode_SMD:D_SOD-123F" (layer "F.Cu")
     (tedit 587F7769) (tstamp 86bb7e54-f037-47a0-b596-e108d6b4f269)
-    (at 169.033 71.612)
+    (at 70.921 35.28)
     (descr "D_SOD-123F")
     (tags "D_SOD-123F")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -4406,7 +4463,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 8764b520-89c4-4e8f-9e4f-12a445e1a616)
-    (at 140.238 128.622)
+    (at 42.126 92.29)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -4448,7 +4505,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 8967a184-9ee6-4ceb-8e38-09ca452dd23c)
-    (at 171.768 118.322)
+    (at 73.656 81.99)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -4490,7 +4547,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 899f4c1a-985b-472e-a9b0-465d356ef34c)
-    (at 178.928 125.892)
+    (at 80.816 89.56)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -4532,7 +4589,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 8a56a0e1-0b83-4459-b285-5106d6ccafbb)
-    (at 183.138 124.132)
+    (at 85.026 87.8)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -4574,7 +4631,7 @@
 
   (footprint "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical" (layer "F.Cu")
     (tedit 5D246D4C) (tstamp 8b798044-1ece-4731-8e5b-91c47e4f5d0a)
-    (at 120.748 94.272)
+    (at 22.636 57.94)
     (descr "Hirose DF13 through hole, DF13-04P-1.25DSA, 4 Pins per row (https://www.hirose.com/product/en/products/DF13/DF13-2P-1.25DSA%2850%29/), generated with kicad-footprint-generator")
     (tags "connector Hirose DF13 vertical")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -4648,7 +4705,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 8c1a53c3-eda8-4cf7-9683-1f61b02265f4)
-    (at 192.338 76.132)
+    (at 94.226 39.8)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -4690,7 +4747,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 8db28752-04fe-4bac-819e-f19842492596)
-    (at 178.888 128.902)
+    (at 80.776 92.57)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -4732,7 +4789,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 8e2a2f6b-8167-4ac5-b2a6-8fefc2e5007d)
-    (at 199.498 83.702)
+    (at 101.386 47.37)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -4774,7 +4831,7 @@
 
   (footprint "Diode_SMD:D_SMA" (layer "F.Cu")
     (tedit 586432E5) (tstamp 8e73e860-7df5-47ee-9d85-a51cffff4073)
-    (at 193.558 72.212)
+    (at 95.446 35.88)
     (descr "Diode SMA (DO-214AC)")
     (tags "Diode SMA (DO-214AC)")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -4823,7 +4880,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 90871ced-792e-45f5-b74e-584f9a150cb4)
-    (at 134.818 127.032)
+    (at 36.706 90.7)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -4865,7 +4922,7 @@
 
   (footprint "Diode_SMD:D_SMA" (layer "F.Cu")
     (tedit 586432E5) (tstamp 917603e2-441d-4888-a037-0b830871fafd)
-    (at 155.298 72.212)
+    (at 57.186 35.88)
     (descr "Diode SMA (DO-214AC)")
     (tags "Diode SMA (DO-214AC)")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -4914,7 +4971,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 91c9976e-33f3-4776-850e-36ee5d251977)
-    (at 171.328 122.202)
+    (at 73.216 85.87)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -4956,7 +5013,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 922bae2e-bcad-4760-a906-21dea416b5dc)
-    (at 216.678 106.242)
+    (at 118.566 69.91)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -4998,7 +5055,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 93b57547-14ef-426b-8dd7-720b4647ee08)
-    (at 199.458 86.712)
+    (at 101.346 50.38)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -5040,7 +5097,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp 9568fef9-3e05-4857-8fc1-d1b4ab530786)
-    (at 160.413 51.589)
+    (at 62.301 15.257)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -5091,7 +5148,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 95ef63d7-a7a2-4718-a404-714eb6412ee9)
-    (at 121.038 136.972)
+    (at 22.926 100.64)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -5133,7 +5190,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 99a76074-fcd3-4150-83c8-79f76bdad1c5)
-    (at 141.378 105.052)
+    (at 43.266 68.72)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -5175,7 +5232,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 9a17b82f-671a-43cc-889d-8f643334e78c)
-    (at 164.978 81.742)
+    (at 66.866 45.41)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -5217,7 +5274,7 @@
 
   (footprint "Package_TO_SOT_SMD:TSOT-23-6" (layer "F.Cu")
     (tedit 5F6F97DB) (tstamp 9a6294f5-83f2-423d-91c2-6cfd1df081e7)
-    (at 144.298 99.012)
+    (at 46.186 62.68)
     (descr "TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "TSOT TO_SOT_SMD")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -5270,7 +5327,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 9ab92207-1da7-4613-a632-d3972813f57b)
-    (at 146.958 117.152)
+    (at 48.846 80.82)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -5312,7 +5369,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 9aea78df-3dca-44b6-a4c7-387472e7d15c)
-    (at 209.078 102.552)
+    (at 110.966 66.22)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -5354,7 +5411,7 @@
 
   (footprint "Diode_SMD:D_SOD-123F" (layer "F.Cu")
     (tedit 587F7769) (tstamp 9e50feee-fd1e-48c9-aa44-dd6062da7f84)
-    (at 136.433 105.222)
+    (at 38.321 68.89)
     (descr "D_SOD-123F")
     (tags "D_SOD-123F")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -5404,7 +5461,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a560f403-c7e0-4d97-9b6c-c5351bebb237)
-    (at 220.888 104.482)
+    (at 122.776 68.15)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -5446,7 +5503,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp a7e4ce5c-98fb-48d0-9ff3-cdec8a457bcf)
-    (at 214.458 102.542)
+    (at 116.346 66.21)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -5497,7 +5554,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a80899eb-c281-402c-81c0-5d5b22336f45)
-    (at 143.658 125.552)
+    (at 45.546 89.22)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -5539,7 +5596,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp adfaccc9-bb80-495a-9038-d58935037d76)
-    (at 165.728 78.392)
+    (at 67.616 42.06)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -5581,7 +5638,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp aeef9f8f-2515-46d6-a613-4e8d98d0e468)
-    (at 174.498 125.922)
+    (at 76.386 89.59)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -5623,7 +5680,7 @@
 
   (footprint "Resistor_SMD:R_2512_6332Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp af4061e0-2fb3-421c-9efe-82e8563650d9)
-    (at 184.748 80.812)
+    (at 86.636 44.48)
     (descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -5665,7 +5722,7 @@
 
   (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" (layer "F.Cu")
     (tedit 5A02F25C) (tstamp afb1784a-238f-485e-8c91-a30ea453f9c5)
-    (at 120.148 74.962)
+    (at 22.036 38.63)
     (descr "24-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SSOP 0.65")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -5757,7 +5814,7 @@
 
   (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp b82916c0-2ec4-4e30-9450-9594adc24759)
-    (at 129.648 75.042)
+    (at 31.536 38.71)
     (descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -5796,7 +5853,7 @@
     (pad "3" smd roundrect (at -2.475 -1.27) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 85 "/DAC1CS") (pinfunction "XTAL2/PB1") (pintype "bidirectional") (tstamp b1074f14-d9b1-488c-9ce1-52a2bed8b998))
     (pad "4" smd roundrect (at -2.475 0) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 86 "unconnected-(U4-Pad4)") (pinfunction "~{RESET}/PB3") (pintype "bidirectional") (tstamp 81d72d8d-724d-4c93-8ab9-b3c57fbafb28))
+      (net 86 "/RESET") (pinfunction "~{RESET}/PB3") (pintype "bidirectional") (tstamp 81d72d8d-724d-4c93-8ab9-b3c57fbafb28))
     (pad "5" smd roundrect (at -2.475 1.27) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 87 "/DAC2CS") (pinfunction "PB2") (pintype "bidirectional") (tstamp c4c70c0e-f519-4592-adc2-f00b1054ec15))
     (pad "6" smd roundrect (at -2.475 2.54) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
@@ -5826,7 +5883,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ba54b977-6e85-4849-863a-8aba90c0983f)
-    (at 109.728 107.442)
+    (at 11.616 71.11)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -5868,7 +5925,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp be81409c-5f7f-4ba7-81b2-ab051815477c)
-    (at 151.033 51.589)
+    (at 52.921 15.257)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -5919,7 +5976,7 @@
 
   (footprint "Diode_SMD:D_SMA" (layer "F.Cu")
     (tedit 586432E5) (tstamp becc358e-ef6d-41ed-a412-61ca01ad5ed6)
-    (at 120.198 133.192)
+    (at 22.086 96.86)
     (descr "Diode SMA (DO-214AC)")
     (tags "Diode SMA (DO-214AC)")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -5968,7 +6025,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp c03374e9-87ea-401d-8ec8-f0596c74ecdf)
-    (at 141.108 122.602)
+    (at 42.996 86.27)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -6010,7 +6067,7 @@
 
   (footprint "Resistor_SMD:R_2512_6332Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp c2c03574-5377-4324-aee9-f32dc2ee76d8)
-    (at 164.178 123.002)
+    (at 66.066 86.67)
     (descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -6052,7 +6109,7 @@
 
   (footprint "Package_SO:MSOP-8_3x3mm_P0.65mm" (layer "F.Cu")
     (tedit 5E509FDD) (tstamp c2dc9cfd-c5ea-4d25-bc89-e7c48837663d)
-    (at 145.728 87.872)
+    (at 47.616 51.54)
     (descr "MSOP, 8 Pin (https://www.jedec.org/system/files/docs/mo-187F.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "MSOP SO")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -6109,7 +6166,7 @@
 
   (footprint "Inductor_SMD:L_AVX_LMLP07A7" (layer "F.Cu")
     (tedit 61E2A484) (tstamp c41835e2-2b20-4f99-a85d-b1859480e6e6)
-    (at 164.543 116.487)
+    (at 66.431 80.155)
     (descr "Inductor, AVX Kyocera, LMLP Series, style D, 6.6mmx7.3mm, 3.0mm height. (Script generated with StandardBox.py) (https://datasheets.avx.com/LMLPD.pdf)")
     (tags "Inductor LMLP")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -6156,7 +6213,7 @@
 
   (footprint "Inductor_SMD:L_AVX_LMLP07A7" (layer "F.Cu")
     (tedit 61E2A484) (tstamp c5c59683-c7c2-4b4e-928e-13e0f78a5fa5)
-    (at 202.293 96.837)
+    (at 104.181 60.505)
     (descr "Inductor, AVX Kyocera, LMLP Series, style D, 6.6mmx7.3mm, 3.0mm height. (Script generated with StandardBox.py) (https://datasheets.avx.com/LMLPD.pdf)")
     (tags "Inductor LMLP")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -6203,7 +6260,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp c6765903-bc36-44e7-9cb8-22f731f64003)
-    (at 174.478 128.902)
+    (at 76.366 92.57)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -6245,7 +6302,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp c7a234a1-ffa5-48e7-99f2-0165a3be0943)
-    (at 136.028 130.012)
+    (at 37.916 93.68)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -6287,7 +6344,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp c9af433b-c759-435f-b23f-8e61bde22221)
-    (at 203.708 81.942)
+    (at 105.596 45.61)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -6329,7 +6386,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp caa4298d-02d5-4f80-9b9d-47f1bd739f15)
-    (at 139.248 125.892)
+    (at 41.136 89.56)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -6371,7 +6428,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp cc268aca-4ea7-4c71-a771-346b177957a8)
-    (at 185.898 119.622)
+    (at 87.786 83.29)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -6413,7 +6470,7 @@
 
   (footprint "Resistor_SMD:R_2512_6332Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp cf0a08fc-a7e1-4e2e-b77b-d5d82ed08115)
-    (at 121.198 114.572)
+    (at 23.086 78.24)
     (descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -6455,7 +6512,7 @@
 
   (footprint "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm" (layer "F.Cu")
     (tedit 5DC5FE75) (tstamp d4154f69-21c9-4af5-91b2-b8dea156200e)
-    (at 184.048 86.032)
+    (at 85.936 49.7)
     (descr "MSOP, 12 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/3652fe.pdf#page=24), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "MSOP SO")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -6526,7 +6583,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp d4afa5e8-9757-447e-9a26-66d5df023d71)
-    (at 138.248 100.072)
+    (at 159.766 115.316)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -6552,7 +6609,7 @@
 
   (footprint "Diode_SMD:D_SMA" (layer "F.Cu")
     (tedit 586432E5) (tstamp d77aae80-2ebb-449c-8753-33e439daa878)
-    (at 172.988 114.402)
+    (at 74.876 78.07)
     (descr "Diode SMA (DO-214AC)")
     (tags "Diode SMA (DO-214AC)")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -6601,7 +6658,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp d7bfc8f5-b2ce-497c-9380-8c2afa187a14)
-    (at 110.528 137.082)
+    (at 12.416 100.75)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -6643,7 +6700,7 @@
 
   (footprint "Diode_SMD:D_SOD-123F" (layer "F.Cu")
     (tedit 587F7769) (tstamp d8abe8ec-485d-44a5-b5c3-6d01cfd7fd8c)
-    (at 179.773 113.802)
+    (at 81.661 77.47)
     (descr "D_SOD-123F")
     (tags "D_SOD-123F")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -6693,7 +6750,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp d926cf39-414a-4944-b6d1-f15d112b5842)
-    (at 145.238 91.792)
+    (at 47.126 55.46)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -6735,7 +6792,7 @@
 
   (footprint "Inductor_SMD:L_AVX_LMLP07A7" (layer "F.Cu")
     (tedit 61E2A484) (tstamp d9486185-1c1d-4547-bd7d-6cdded6e4187)
-    (at 112.433 124.917)
+    (at 14.321 88.585)
     (descr "Inductor, AVX Kyocera, LMLP Series, style D, 6.6mmx7.3mm, 3.0mm height. (Script generated with StandardBox.py) (https://datasheets.avx.com/LMLPD.pdf)")
     (tags "Inductor LMLP")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -6782,7 +6839,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp dbe6edc1-ee1c-41ad-b94e-6a468b80b874)
-    (at 205.288 71.442)
+    (at 107.176 35.11)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -6824,7 +6881,7 @@
 
   (footprint "Package_DFN_QFN:TDFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.4mm" (layer "F.Cu")
     (tedit 5EF42118) (tstamp dfdae403-bb08-48d4-b042-b5f0fa182e90)
-    (at 144.668 113.902)
+    (at 46.556 77.57)
     (descr "TDFN, 8 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6V66-Family-Data-Sheet-DS20006266A.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py")
     (tags "TDFN NoLead")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -6885,7 +6942,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp e12656ad-962f-4bd5-a35d-a45aa6b4e27e)
-    (at 173.978 71.442)
+    (at 75.866 35.11)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -6927,7 +6984,7 @@
 
   (footprint "Diode_SMD:D_SMA" (layer "F.Cu")
     (tedit 586432E5) (tstamp e671ffe9-4ebb-42bd-be8d-cda9a798e138)
-    (at 130.748 98.872)
+    (at 32.636 62.54)
     (descr "Diode SMA (DO-214AC)")
     (tags "Diode SMA (DO-214AC)")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -6976,7 +7033,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ea318c4c-2aac-4b16-8f77-376b163fde73)
-    (at 184.718 116.642)
+    (at 86.606 80.31)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -7018,7 +7075,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp eb15020f-39fa-457e-8bb2-2cd2948845ca)
-    (at 129.768 115.352)
+    (at 31.656 79.02)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -7075,7 +7132,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ec4fc551-9561-4ff0-a309-1fd93dc95354)
-    (at 206.468 77.432)
+    (at 108.356 41.1)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -7117,7 +7174,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp ef24b721-f909-4e18-b991-a8883877359f)
-    (at 169.793 51.589)
+    (at 71.681 15.257)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "MPPT.kicad_sch")
@@ -7168,7 +7225,7 @@
 
   (footprint "Diode_SMD:D_SOD-123F" (layer "F.Cu")
     (tedit 587F7769) (tstamp f23aaf25-de61-4f0e-9770-0b4e07746fe6)
-    (at 150.803 91.912)
+    (at 52.691 55.58)
     (descr "D_SOD-123F")
     (tags "D_SOD-123F")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -7218,7 +7275,7 @@
 
   (footprint "Diode_SMD:D_SMA" (layer "F.Cu")
     (tedit 586432E5) (tstamp f28095b2-5bdd-4916-8fd7-8ee2cde7e2ae)
-    (at 137.898 77.662)
+    (at 39.786 41.33)
     (descr "Diode SMA (DO-214AC)")
     (tags "Diode SMA (DO-214AC)")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -7267,7 +7324,7 @@
 
   (footprint "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical" (layer "F.Cu")
     (tedit 5D246D4C) (tstamp f3de2775-f0cf-4183-8569-58c2de09dee1)
-    (at 127.348 88.822)
+    (at 29.236 52.49)
     (descr "Hirose DF13 through hole, DF13-04P-1.25DSA, 4 Pins per row (https://www.hirose.com/product/en/products/DF13/DF13-2P-1.25DSA%2850%29/), generated with kicad-footprint-generator")
     (tags "connector Hirose DF13 vertical")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -7341,7 +7398,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp f603df29-ba7f-4366-8b24-7592d4086934)
-    (at 137.798 88.822)
+    (at 39.686 52.49)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "SolarConditioning.kicad_sch")
@@ -7396,9 +7453,59 @@
     )
   )
 
+  (footprint "Diode_SMD:D_SOD-123F" (layer "F.Cu")
+    (tedit 587F7769) (tstamp f7cd5e79-c8f9-4e9b-991c-a91934b795d2)
+    (at 96.071 13.071)
+    (descr "D_SOD-123F")
+    (tags "D_SOD-123F")
+    (property "Sheetfile" "SolarConditioning.kicad_sch")
+    (property "Sheetname" "")
+    (path "/9d8a1a98-caac-4a6c-b050-223399ba02d0")
+    (attr smd)
+    (fp_text reference "D26" (at -0.127 -1.905) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 28c42959-8e72-4709-83e0-fbb99eade23c)
+    )
+    (fp_text value "RB051MM-2Y" (at 0 2.1) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 83616a1b-53cb-4bc4-bfc7-a340c75ffaa4)
+    )
+    (fp_text user "${REFERENCE}" (at -0.127 -1.905) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 94b2d264-2d2c-4376-b127-a770616fcdbf)
+    )
+    (fp_line (start -2.2 -1) (end -2.2 1) (layer "F.SilkS") (width 0.12) (tstamp 14891ca4-c283-4a64-98dc-86c5d6e033a0))
+    (fp_line (start -2.2 -1) (end 1.65 -1) (layer "F.SilkS") (width 0.12) (tstamp 3493c959-87a4-4c52-b026-4808a6774531))
+    (fp_line (start -2.2 1) (end 1.65 1) (layer "F.SilkS") (width 0.12) (tstamp b3b1beb9-ce17-4882-bb4d-7e5a00c65d48))
+    (fp_line (start -2.2 -1.15) (end -2.2 1.15) (layer "F.CrtYd") (width 0.05) (tstamp 2efaba24-aee5-4bea-ae84-dbce9fb4b72e))
+    (fp_line (start 2.2 -1.15) (end 2.2 1.15) (layer "F.CrtYd") (width 0.05) (tstamp 362755ad-ea41-482e-bb23-627c6eb15a40))
+    (fp_line (start 2.2 1.15) (end -2.2 1.15) (layer "F.CrtYd") (width 0.05) (tstamp 6dd24007-4e31-4437-a050-fa6e699c9468))
+    (fp_line (start -2.2 -1.15) (end 2.2 -1.15) (layer "F.CrtYd") (width 0.05) (tstamp c4b1e7cf-3aa3-45c5-8585-741388413869))
+    (fp_line (start -0.35 0) (end 0.25 -0.4) (layer "F.Fab") (width 0.1) (tstamp 022a97fa-643b-4302-b44c-26a956146db7))
+    (fp_line (start -1.4 -0.9) (end 1.4 -0.9) (layer "F.Fab") (width 0.1) (tstamp 05c1c0ae-f846-4942-b9ca-9f0f8f62492d))
+    (fp_line (start 1.4 0.9) (end -1.4 0.9) (layer "F.Fab") (width 0.1) (tstamp 184b2fad-24f5-4073-ae78-9c4ec35fa867))
+    (fp_line (start 0.25 0.4) (end -0.35 0) (layer "F.Fab") (width 0.1) (tstamp 1d27c77d-c33f-442a-bd7b-7b44d10eb43c))
+    (fp_line (start -1.4 0.9) (end -1.4 -0.9) (layer "F.Fab") (width 0.1) (tstamp 4227d0f4-4162-4ece-9ec9-195feb76c6dd))
+    (fp_line (start 0.25 0) (end 0.75 0) (layer "F.Fab") (width 0.1) (tstamp 8a51259a-0b00-485b-ae12-40bbbcbb1fbf))
+    (fp_line (start -0.35 0) (end -0.35 0.55) (layer "F.Fab") (width 0.1) (tstamp a61b8793-ec96-4e3b-97b0-2185f1c8bd47))
+    (fp_line (start 1.4 -0.9) (end 1.4 0.9) (layer "F.Fab") (width 0.1) (tstamp a756a3d8-e7f6-433b-b40a-4f16e0acf771))
+    (fp_line (start -0.75 0) (end -0.35 0) (layer "F.Fab") (width 0.1) (tstamp e0e4f26b-9768-45ce-836e-303c9ffcd23d))
+    (fp_line (start -0.35 0) (end -0.35 -0.55) (layer "F.Fab") (width 0.1) (tstamp e196416c-d4d1-42d4-979d-990a370627ba))
+    (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer "F.Fab") (width 0.1) (tstamp edff7200-18c6-4e0c-99f9-a118fc24b63a))
+    (pad "1" smd rect (at -1.4 0) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 3 "/PANEL_OR") (pinfunction "K") (pintype "passive") (tstamp 4711680f-0033-4792-90b3-99dc2aa8a7cf))
+    (pad "2" smd rect (at 1.4 0) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "+3.3VA") (pinfunction "A") (pintype "passive") (tstamp 4da42412-11c8-43c1-a7e4-fee17c98b4ba))
+    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
   (footprint "Diode_SMD:D_SMA" (layer "F.Cu")
     (tedit 586432E5) (tstamp f940397b-29a5-4617-bd9c-f177a971b5e8)
-    (at 138.018 114.402)
+    (at 39.906 78.07)
     (descr "Diode SMA (DO-214AC)")
     (tags "Diode SMA (DO-214AC)")
     (property "Sheetfile" "Boost-BuckMPPT.kicad_sch")
@@ -7447,7 +7554,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp fc56b098-c3aa-474b-aac9-da58d4f42386)
-    (at 212.248 106.272)
+    (at 114.136 69.94)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "MPPT.kicad_sch")
