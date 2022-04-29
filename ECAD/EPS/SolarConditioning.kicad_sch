@@ -1237,7 +1237,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 22cb26b9-d501-4786-ab70-b7ac2868619c)
   )
-  (text "Add panel telemetry here if we implement" (at 250.19 77.47 90)
+  (text "Space for more telemetry\n" (at 250.19 77.47 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f7e088ac-4303-4b86-8dd4-af1e8640713a)
   )
