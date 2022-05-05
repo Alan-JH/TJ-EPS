@@ -3848,7 +3848,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 269.24 19.05 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061d688e3)
-    (property "Reference" "MH5" (id 0) (at 271.78 17.8054 0)
+    (property "Reference" "MH6" (id 0) (at 271.78 17.8054 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M3" (id 1) (at 271.78 20.1168 0)
@@ -3866,7 +3866,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 269.24 39.37 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061d6913b)
-    (property "Reference" "MH6" (id 0) (at 271.78 38.1254 0)
+    (property "Reference" "MH7" (id 0) (at 271.78 38.1254 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M3" (id 1) (at 271.78 40.4368 0)
@@ -3884,7 +3884,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 280.67 19.05 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061d6c69c)
-    (property "Reference" "MH7" (id 0) (at 283.21 17.8054 0)
+    (property "Reference" "MH8" (id 0) (at 283.21 17.8054 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M3" (id 1) (at 283.21 20.1168 0)
@@ -3902,7 +3902,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 280.67 39.37 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061d6e286)
-    (property "Reference" "MH8" (id 0) (at 283.21 38.1254 0)
+    (property "Reference" "MH9" (id 0) (at 283.21 38.1254 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M3" (id 1) (at 283.21 40.4368 0)
@@ -4931,8 +4931,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4446d97b-f3a0-4d5f-91b4-0a0525cfc7cb)
     (property "Reference" "J2" (id 0) (at 189.23 138.43 0))
-    (property "Value" "" (id 1) (at 189.23 140.97 0))
-    (property "Footprint" "" (id 2) (at 187.96 149.86 0)
+    (property "Value" "Solar Daughterboard Connector" (id 1) (at 189.23 140.97 0))
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" (id 2) (at 187.96 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 187.96 149.86 0)
@@ -4948,6 +4948,23 @@
     (pin "7" (uuid 2321fc06-8971-4c4e-bafe-8372f54e829b))
     (pin "8" (uuid 5f27c1af-0a7d-4dc7-9d5e-f471b4a60b68))
     (pin "9" (uuid 04a100b1-ee58-469f-9e98-03268b21b536))
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 153.67 162.56 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 6c8ff1e8-ea85-42ce-a076-682529c8b193)
+    (property "Reference" "MH5" (id 0) (at 156.21 161.2899 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2" (id 1) (at 156.21 163.8299 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (id 2) (at 153.67 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 153.67 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 142.24 142.24 0) (unit 1)
@@ -5698,17 +5715,20 @@
     (path "/d5451681-5e4e-4b01-aeec-1079aaa0b9b4"
       (reference "MH4") (unit 1) (value "M2") (footprint "MountingHole:MountingHole_2.2mm_M2")
     )
-    (path "/00000000-0000-0000-0000-000061d688e3"
-      (reference "MH5") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom")
+    (path "/6c8ff1e8-ea85-42ce-a076-682529c8b193"
+      (reference "MH5") (unit 1) (value "M2") (footprint "MountingHole:MountingHole_2.2mm_M2")
     )
-    (path "/00000000-0000-0000-0000-000061d6913b"
+    (path "/00000000-0000-0000-0000-000061d688e3"
       (reference "MH6") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom")
     )
-    (path "/00000000-0000-0000-0000-000061d6c69c"
+    (path "/00000000-0000-0000-0000-000061d6913b"
       (reference "MH7") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom")
     )
-    (path "/00000000-0000-0000-0000-000061d6e286"
+    (path "/00000000-0000-0000-0000-000061d6c69c"
       (reference "MH8") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom")
+    )
+    (path "/00000000-0000-0000-0000-000061d6e286"
+      (reference "MH9") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom")
     )
     (path "/00000000-0000-0000-0000-00006294b185"
       (reference "Q1") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
