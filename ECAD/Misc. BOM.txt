@@ -5,3 +5,5 @@
 3.3uH alternate: https://www.mouser.com/ProductDetail/ABRACON/ASPI-0630HI-3R3M-T15?qs=bWAYEm3xoCYwUcwgROPtBA%3D%3D
 
 4.7uH: https://www.mouser.com/ProductDetail/ABRACON/ASPI-0630LR-4R7M-T15?qs=bWAYEm3xoCYVuRmkzS1c6A%3D%3D
+
+33uH: https://www.mouser.com/ProductDetail/Coilcraft/XAL6060-333MEC?qs=lc2O%252BfHJPVZnUE%252BpAAaLKQ%3D%3D
