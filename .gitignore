@@ -29,4 +29,4 @@ fp-info-cache
 *.csv
 
 # Output files
-*/Out
+*/Out/*
